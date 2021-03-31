@@ -24,6 +24,7 @@ public class HomePage extends WebAPI {
     @FindBy (how = How.XPATH, using =errorMessageLocator ) public WebElement errorMessage;
     @FindBy (how = How.XPATH, using =customerNameLocator ) public WebElement customerName;
     @FindBy (how = How.XPATH, using =createYourAmazonAccountLocator ) public WebElement createYourAmazonAccount;
+    @FindBy (how = How.XPATH, using = searchBookLocator) public WebElement searchBook;
 
 
 
@@ -76,7 +77,10 @@ public class HomePage extends WebAPI {
         String actualText=errorMessage.getText();
         Assert.assertEquals("Product does not match",expectedText,actualText);
     }
-
+    public void bookClick() throws InterruptedException {
+        clickByXpath(searchBookLocator);
+        sleepFor(3);
+    }
     public void enterCustomerName( String name){
         customerName.sendKeys(name);
     }

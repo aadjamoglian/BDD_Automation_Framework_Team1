@@ -16,6 +16,7 @@ public class HomePageWebElement {
     public static final String customerNameLocator="//*[@id=\"ap_customer_name\"]";
     public static final String createYourAmazonAccountLocator="//*[@id=\"createAccountSubmit\"]";
     public static final String searchTextLocator="//*[@id=\"search\"]/span/div/span/h1/div/div[1]/div/div/span[3]";
+    public static final String searchBookLocator="//*[@id=\"nav-xshop\"]/a[6]";
 
 
 

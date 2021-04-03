@@ -12,11 +12,13 @@
         <module>Generic</module>
         <module>Amazon</module>
         <module>Cigna</module>
-        <module>CNN</module>
+        <module>ATT</module>
         <module>CapitalOne</module>
         <module>Delta</module>
         <module>progressive</module>
         <module>Hotels</module>
+        <module>ATT</module>
+        <module>ATT</module>
 
     </modules>
     <properties>

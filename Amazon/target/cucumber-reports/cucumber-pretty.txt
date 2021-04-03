@@ -1,0 +1,18 @@
+
+@smokeTest
+Scenario: Amazon searchBox functionality check with valid product # src/test/java/features/HomePage.feature:4
+  Given I am on amazon homePage                                   # stepDefinitions.HomePageStepDefinition.i_am_on_amazon_home_page()
+  And I enter "Hand Sanitizer" in searchBox                       # stepDefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click on search Button                                   # stepDefinitions.HomePageStepDefinition.i_click_on_search_button()
+  Then I should see "Hand Sanitizer" is properly appear           # stepDefinitions.HomePageStepDefinition.i_should_see_is_properly_appear(java.lang.String)
+  But I should not see "mobile" is appear                         # stepDefinitions.HomePageStepDefinition.i_should_not_see_is_appear(java.lang.String)
+  And I verify "Amazon.com : Hand Sanitizer" in product title     # stepDefinitions.HomePageStepDefinition.i_verify_in_product_title(java.lang.String)
+
+@smokeTest
+Scenario: Amazon searchBox functionality check with valid product # src/test/java/features/HomePage_Background.feature:9
+  Given I am on amazon homePage                                   # stepDefinitions.HomePageStepDefinition.i_am_on_amazon_home_page()
+  And I enter "Hand Sanitizer" in searchBox                       # stepDefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click on search Button                                   # stepDefinitions.HomePageStepDefinition.i_click_on_search_button()
+  Then I should see "Hand Sanitizer" is properly appear           # stepDefinitions.HomePageStepDefinition.i_should_see_is_properly_appear(java.lang.String)
+  But I should not see "mobile" is appear                         # stepDefinitions.HomePageStepDefinition.i_should_not_see_is_appear(java.lang.String)
+  And I verify "Amazon.com : Hand Sanitizer" in product title     # stepDefinitions.HomePageStepDefinition.i_verify_in_product_title(java.lang.String)

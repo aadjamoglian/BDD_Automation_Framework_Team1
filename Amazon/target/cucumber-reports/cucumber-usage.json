@@ -1,1 +1,134 @@
-[]
+[
+  {
+    "source": "I am on amazon homePage",
+    "steps": [
+      {
+        "name": "I am on amazon homePage",
+        "aggregatedDurations": {
+          "median": 3.97897975,
+          "average": 3.97897975
+        },
+        "durations": [
+          {
+            "duration": 4.310161,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Amazon/src/test/java/features/HomePage.feature:5"
+          },
+          {
+            "duration": 3.6477985,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Amazon/src/test/java/features/HomePage_Background.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in searchBox",
+    "steps": [
+      {
+        "name": "I enter \"Hand Sanitizer\" in searchBox",
+        "aggregatedDurations": {
+          "median": 0.24922045,
+          "average": 0.24922045
+        },
+        "durations": [
+          {
+            "duration": 0.2491946,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Amazon/src/test/java/features/HomePage.feature:6"
+          },
+          {
+            "duration": 0.2492463,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Amazon/src/test/java/features/HomePage_Background.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on search Button",
+    "steps": [
+      {
+        "name": "I click on search Button",
+        "aggregatedDurations": {
+          "median": 2.0454023,
+          "average": 2.0454023
+        },
+        "durations": [
+          {
+            "duration": 2.2124237,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Amazon/src/test/java/features/HomePage.feature:7"
+          },
+          {
+            "duration": 1.8783809,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Amazon/src/test/java/features/HomePage_Background.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see {string} is properly appear",
+    "steps": [
+      {
+        "name": "I should see \"Hand Sanitizer\" is properly appear",
+        "aggregatedDurations": {
+          "median": 4.1245E-4,
+          "average": 4.1245E-4
+        },
+        "durations": [
+          {
+            "duration": 8.249E-4,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Amazon/src/test/java/features/HomePage.feature:8"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Amazon/src/test/java/features/HomePage_Background.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should not see {string} is appear",
+    "steps": [
+      {
+        "name": "I should not see \"mobile\" is appear",
+        "aggregatedDurations": {
+          "median": 9.985E-4,
+          "average": 9.985E-4
+        },
+        "durations": [
+          {
+            "duration": 0.001997,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Amazon/src/test/java/features/HomePage.feature:9"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Amazon/src/test/java/features/HomePage_Background.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} in product title",
+    "steps": [
+      {
+        "name": "I verify \"Amazon.com : Hand Sanitizer\" in product title",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Amazon/src/test/java/features/HomePage.feature:10"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Amazon/src/test/java/features/HomePage_Background.feature:14"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="30" time="477.149">
+    <testcase classname="AT&amp;T business option on AT&amp;T header" name="Bundles link functionality under AT&amp;T business on header" time="31.619">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on Business.....................................................passed
+And I click on bundles......................................................passed
+And I enter "23517 Curie st" on the service address search box..............passed
+And I enter "48091" on the zip code field...................................passed
+When I click on check availability..........................................passed
+And I select internet speed 25..............................................passed
+And I select checkbox for heavy traffic on optional internet ehancement section.passed
+And I select AT&T phone for business under bundle options...................passed
+And I enter service user information........................................passed
+And I click on internet check box...........................................passed
+And I click on submit button................................................passed
+Then I should see your request has been submitted message...................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T business option on AT&amp;T header" name="AT&amp;T search box functionality check with valid product" time="14.638">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+Given I am on AT&T homepage.................................................passed
+And I enter "iphone 12" in search box.......................................passed
+When I click on search button...............................................passed
+Then I should see "Results for iphone 12 - AT&T Search" is appearing........passed
+And I verify "Results for iphone 12 - AT&T Search" in product title.........passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T business option on AT&amp;T header" name="AT&amp;T search box functionality check with valid product 2" time="17.281">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+Given I am on AT&T homepage.................................................passed
+And I enter "iphone 11" in search box.......................................passed
+When I click on search button...............................................passed
+Then I should see "Results for iphone 11 - AT&T Search" is appearing........passed
+And I verify "Results for iphone 11 - AT&T Search" in product title.........passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T business option on AT&amp;T header" name="AT&amp;T search box functionality check with valid product 3" time="14.568">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+Given I am on AT&T homepage.................................................passed
+And I enter "iphone X" in search box........................................passed
+When I click on search button...............................................passed
+Then I should see "Results for iphone X - AT&T Search" is appearing.........passed
+And I verify "Results for iphone X - AT&T Search" in product title..........passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T business option on AT&amp;T header" name="Internet link functionality under AT&amp;T business on header" time="30.186">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on Business.....................................................passed
+And I click on Internet.....................................................passed
+And I enter "23517 Curie st" on the service address search box..............passed
+And I enter "48091" on the zip code field...................................passed
+When I click on check availability..........................................passed
+And I click on  shop now....................................................passed
+Then I should be able to see all the Internet Deals.........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T business option on AT&amp;T header" name="Voice link functionality under AT&amp;T business on header" time="13.369">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on Business.....................................................passed
+And I click on voice........................................................passed
+And I enter "23517 Curie st" on the service address search box..............passed
+And I enter "48091" on the zip code field...................................passed
+When I click on check availability..........................................passed
+Then I should be able to see all voice deals................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T business option on AT&amp;T header" name="Bundles link functionality under AT&amp;T business on header" time="12.738">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on Business.....................................................passed
+And I click on bundles......................................................passed
+And I enter "23517 Curie st" on the service address search box..............passed
+And I enter "48091" on the zip code field...................................passed
+When I click on check availability..........................................passed
+Then I should be able to see all the bundles................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T business option on AT&amp;T header" name="AT&amp;T search box functionality check with valid product" time="10.041">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I enter "iphone 12" in search box.......................................passed
+When I click on search button...............................................passed
+Then I should see "iphone 12"" is appearing.................................passed
+And I verify "Results for iphone 12 - AT&T Search" in product title.........passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T business option on AT&amp;T header" name="Prepaid functionality on AT&amp;T header" time="13.053">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on  prepaid.....................................................passed
+And I click on prepaid plans................................................passed
+When I click on  shop now arrow.............................................passed
+Then I should see all the prepaid deals.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T business option on AT&amp;T header" name="TV functionality in AT&amp;T header" time="16.031">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on  TV..........................................................passed
+And I click on Channel Lineup...............................................passed
+When I enter the channel names on the channel search bar....................passed
+Then I should be able to see all the channel deals and shop now option......passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T business option on AT&amp;T header" name="Business tools functionality under business" time="10.763">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on Business.....................................................passed
+When I click on business tools..............................................passed
+Then I should be able to see the business tools page........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T business option on AT&amp;T header" name="Business TV functionality under business" time="15.659">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on Business.....................................................passed
+When I click on business TV.................................................passed
+And I click on Offices......................................................passed
+Then I should be able to see get free quote page............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T business option on AT&amp;T header" name="Enterprise business functionality under business" time="13.451">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on Business.....................................................passed
+When I click on enterprise business.........................................passed
+And I click on Mobility.....................................................passed
+Then I should see unlimited your way page...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T business option on AT&amp;T header" name="Internet &amp; networking  functionality under enterprise business" time="13.654">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on Business.....................................................passed
+And I click on enterprise business..........................................passed
+When I click on internet & networking.......................................passed
+And I click on complete your purchase.......................................passed
+Then I should see the business address form.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T business option on AT&amp;T header" name="Voice and collaboration  functionality under enterprise business" time="13.529">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on Business.....................................................passed
+And I click on enterprise business..........................................passed
+When I click on voice and collaboration.....................................passed
+Then I should see voice and collaboration page..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T business option on AT&amp;T header" name="Cyber security  functionality under enterprise business" time="12.537">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on Business.....................................................passed
+And I click on enterprise business..........................................passed
+When I click on cyber security..............................................passed
+Then I should see cyber security page.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T business option on AT&amp;T header" name="Content and Entertainment  functionality under enterprise business" time="12.498">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on Business.....................................................passed
+And I click on enterprise business..........................................passed
+When I click on Content and Entertainment...................................passed
+Then I should see Content and Entertainment  page...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T business option on AT&amp;T header" name="Digital capabilities  functionality under enterprise business" time="12.93">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on Business.....................................................passed
+And I click on enterprise business..........................................passed
+When I click on Digital capabilities........................................passed
+Then I should see Digital capabilities page.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T homepage header" name="Deals in AT&amp;T header" time="9.689">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on deals........................................................passed
+When I click on wireless....................................................passed
+Then I should be able to see all the wireless items.........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T homepage header" name="Wireless under Deals in AT&amp;T header" time="12.565">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on deals........................................................passed
+When I click on wireless....................................................passed
+And I click on explore wireless.............................................passed
+Then I should be able to see all the Explore wireless items.................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T homepage header" name="Low cost phones under phones &amp; devices" time="11.537">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on deals........................................................passed
+And I click on wireless.....................................................passed
+When I click on phones & devices............................................passed
+And I click on Low cost phone...............................................passed
+Then I should be able to see all the low cost phones........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T homepage header" name="compare devices under low cost phone and devices" time="12.242">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on deals........................................................passed
+And I click on wireless.....................................................passed
+And I click on phones & devices.............................................passed
+When I click on Low cost phone..............................................passed
+Then I should be able to compare devices....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T homepage header" name="Apple phones under phones &amp; devices" time="12.97">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on deals........................................................passed
+And I click on wireless.....................................................passed
+When I click on phones & devices............................................passed
+And I click on Apple........................................................passed
+Then I should be able to see all the Apple phones...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T homepage header" name="Samsung phones under phones &amp; devices" time="14.727">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on deals........................................................passed
+And I click on wireless.....................................................passed
+When I click on phones & devices............................................passed
+And I click on Samsung......................................................passed
+Then I should be able to see all the Samsung phones.........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T homepage header" name="Store pickup under phones &amp; devices" time="14.063">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on deals........................................................passed
+And I click on wireless.....................................................passed
+And I click on phones & devices.............................................passed
+When I  click on store pick-up..............................................passed
+Then I should be able to see all the available store pick=up items..........passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T homepage header" name="Phones &amp; devices and under deals" time="11.754">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on deals........................................................passed
+And I click on wireless.....................................................passed
+When I click on phones & devices............................................passed
+Then I should see all the phones and device deals...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T homepage header" name="Tablet and PC under phones &amp; devices" time="13.512">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on deals........................................................passed
+And I click on wireless.....................................................passed
+When I click on phones & devices............................................passed
+And I click on Tablet and PC................................................passed
+Then I should be able to see all the Tablets and pcs........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T homepage header" name="AT&amp;T &amp; prepaid under Phones &amp; devices" time="11.911">
+        <system-out>
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on deals........................................................passed
+And I click on wireless.....................................................passed
+When I click on phones & devices............................................passed
+And I click on AT&T & prepaid...............................................passed
+Then I should see all the AT&T & prepaid deals..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="AT&amp;T homepage header" name="Internet &amp; TV and under deals" time="46.337">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;partial link text&quot;,&quot;selector&quot;:&quot;Internet &amp; TV&quot;}&#10;  (Session info: chrome=89.0.4389.90)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 76817e08ebc051e16262076c0c0e7fc5&#10;*** Element info: {Using=partial link text, value=Internet &amp; TV}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on deals........................................................passed
+When I click on Internet & TV...............................................failed
+Then I should see all theInternet & TV deals................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Internet & TV"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 76817e08ebc051e16262076c0c0e7fc5
+*** Element info: {Using=partial link text, value=Internet & TV}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByPartialLinkText(RemoteWebDriver.java:388)
+	at org.openqa.selenium.By$ByPartialLinkText.findElement(By.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickOnLink(WebAPI.java:724)
+	at atthomepage.ATTHomepage.checkInternetAndTV(ATTHomepage.java:155)
+	at stepDefinitions.AttHomePageStepDefinitions.i_click_on_internet_tv(AttHomePageStepDefinitions.java:179)
+	at ✽.I click on Internet & TV(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:75)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="AT&amp;T homepage header" name="Accessories  under deals" time="26.351">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[normalize-space()='Accessories']&quot;}&#10;  (Session info: chrome=89.0.4389.90)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a04a91bc1f9c27f72cb5b83aa828e69a&#10;*** Element info: {Using=xpath, value=//a[normalize-space()='Accessories']}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am on AT&T homepage.................................................passed
+And I click on deals........................................................passed
+When I click on Accessories.................................................failed
+Then I should see all the accessories deals.................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Accessories']"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a04a91bc1f9c27f72cb5b83aa828e69a
+*** Element info: {Using=xpath, value=//a[normalize-space()='Accessories']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickByXpath1(WebAPI.java:624)
+	at atthomepage.ATTHomepage.checkAccessories(ATTHomepage.java:163)
+	at stepDefinitions.AttHomePageStepDefinitions.i_click_on_accessories(AttHomePageStepDefinitions.java:188)
+	at ✽.I click on Accessories(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:80)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

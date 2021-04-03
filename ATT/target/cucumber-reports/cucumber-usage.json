@@ -1,0 +1,1722 @@
+[
+  {
+    "source": "I am on AT\u0026T homepage",
+    "steps": [
+      {
+        "name": "I am on AT\u0026T homepage",
+        "aggregatedDurations": {
+          "median": 4.6152743,
+          "average": 4.71995469
+        },
+        "durations": [
+          {
+            "duration": 6.1350056,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:4"
+          },
+          {
+            "duration": 4.3920608,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:4"
+          },
+          {
+            "duration": 4.2495211,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:29"
+          },
+          {
+            "duration": 4.5621516,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:4"
+          },
+          {
+            "duration": 4.6814033,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:29"
+          },
+          {
+            "duration": 4.2219301,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:4"
+          },
+          {
+            "duration": 4.6566131,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:29"
+          },
+          {
+            "duration": 4.6607863,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:4"
+          },
+          {
+            "duration": 4.6525971,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:4"
+          },
+          {
+            "duration": 4.5707386,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:4"
+          },
+          {
+            "duration": 4.5841596,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:4"
+          },
+          {
+            "duration": 4.719522,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:4"
+          },
+          {
+            "duration": 4.137556,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:4"
+          },
+          {
+            "duration": 4.5329721,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:4"
+          },
+          {
+            "duration": 5.460211,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:4"
+          },
+          {
+            "duration": 4.7804691,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:4"
+          },
+          {
+            "duration": 4.4991697,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:4"
+          },
+          {
+            "duration": 5.1387754,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:4"
+          },
+          {
+            "duration": 4.6234936,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:4"
+          },
+          {
+            "duration": 4.6152743,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:4"
+          },
+          {
+            "duration": 4.5981254,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:4"
+          },
+          {
+            "duration": 4.749684,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:4"
+          },
+          {
+            "duration": 4.8752805,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:4"
+          },
+          {
+            "duration": 4.5590039,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:4"
+          },
+          {
+            "duration": 4.4989584,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:4"
+          },
+          {
+            "duration": 4.6005149,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:4"
+          },
+          {
+            "duration": 5.8012005,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:4"
+          },
+          {
+            "duration": 4.9987328,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:4"
+          },
+          {
+            "duration": 4.7232501,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:4"
+          },
+          {
+            "duration": 4.5875584,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:4"
+          },
+          {
+            "duration": 4.6106805,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:4"
+          },
+          {
+            "duration": 4.5117273,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:4"
+          },
+          {
+            "duration": 4.7693777,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Business",
+    "steps": [
+      {
+        "name": "I click on Business",
+        "aggregatedDurations": {
+          "median": 2.58881675,
+          "average": 2.560950983
+        },
+        "durations": [
+          {
+            "duration": 2.2322692,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:8"
+          },
+          {
+            "duration": 2.7560309,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:44"
+          },
+          {
+            "duration": 2.6568729,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:54"
+          },
+          {
+            "duration": 2.6302723,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:63"
+          },
+          {
+            "duration": 2.6198068,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:102"
+          },
+          {
+            "duration": 2.6213554,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:108"
+          },
+          {
+            "duration": 2.5578267,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:115"
+          },
+          {
+            "duration": 2.5574937,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:122"
+          },
+          {
+            "duration": 2.5562686,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:130"
+          },
+          {
+            "duration": 2.4215169,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:137"
+          },
+          {
+            "duration": 2.6396761,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:144"
+          },
+          {
+            "duration": 2.4820223,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:151"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on bundles",
+    "steps": [
+      {
+        "name": "I click on bundles",
+        "aggregatedDurations": {
+          "median": 2.9082595,
+          "average": 2.9082595
+        },
+        "durations": [
+          {
+            "duration": 2.9197783,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:9"
+          },
+          {
+            "duration": 2.8967407,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:64"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the service address search box",
+    "steps": [
+      {
+        "name": "I enter \"23517 Curie st\" on the service address search box",
+        "aggregatedDurations": {
+          "median": 1.3355205,
+          "average": 1.3376177
+        },
+        "durations": [
+          {
+            "duration": 1.2886282,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:10"
+          },
+          {
+            "duration": 1.3908016,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:46"
+          },
+          {
+            "duration": 1.3739264,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:56"
+          },
+          {
+            "duration": 1.2971146,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:65"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the zip code field",
+    "steps": [
+      {
+        "name": "I enter \"48091\" on the zip code field",
+        "aggregatedDurations": {
+          "median": 5.539E-4,
+          "average": 0.00125705
+        },
+        "durations": [
+          {
+            "duration": 0.0039204,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:11"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:47"
+          },
+          {
+            "duration": 6.09E-4,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:57"
+          },
+          {
+            "duration": 4.988E-4,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:66"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on check availability",
+    "steps": [
+      {
+        "name": "I click on check availability",
+        "aggregatedDurations": {
+          "median": 0.2438772,
+          "average": 0.288572775
+        },
+        "durations": [
+          {
+            "duration": 0.2395533,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:12"
+          },
+          {
+            "duration": 0.5037086,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:48"
+          },
+          {
+            "duration": 0.1628281,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:58"
+          },
+          {
+            "duration": 0.2482011,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:67"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select internet speed 25",
+    "steps": [
+      {
+        "name": "I select internet speed 25",
+        "aggregatedDurations": {
+          "median": 14.2469994,
+          "average": 14.2469994
+        },
+        "durations": [
+          {
+            "duration": 14.2469994,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select checkbox for heavy traffic on optional internet ehancement section",
+    "steps": [
+      {
+        "name": "I select checkbox for heavy traffic on optional internet ehancement section",
+        "aggregatedDurations": {
+          "median": 3.0267593,
+          "average": 3.0267593
+        },
+        "durations": [
+          {
+            "duration": 3.0267593,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select AT\u0026T phone for business under bundle options",
+    "steps": [
+      {
+        "name": "I select AT\u0026T phone for business under bundle options",
+        "aggregatedDurations": {
+          "median": 0.1456082,
+          "average": 0.1456082
+        },
+        "durations": [
+          {
+            "duration": 0.1456082,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter service user information",
+    "steps": [
+      {
+        "name": "I enter service user information",
+        "aggregatedDurations": {
+          "median": 0.0051757,
+          "average": 0.0051757
+        },
+        "durations": [
+          {
+            "duration": 0.0051757,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on internet check box",
+    "steps": [
+      {
+        "name": "I click on internet check box",
+        "aggregatedDurations": {
+          "median": 0.1847504,
+          "average": 0.1847504
+        },
+        "durations": [
+          {
+            "duration": 0.1847504,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on submit button",
+    "steps": [
+      {
+        "name": "I click on submit button",
+        "aggregatedDurations": {
+          "median": 0.1006184,
+          "average": 0.1006184
+        },
+        "durations": [
+          {
+            "duration": 0.1006184,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see your request has been submitted message",
+    "steps": [
+      {
+        "name": "I should see your request has been submitted message",
+        "aggregatedDurations": {
+          "median": 0.0173374,
+          "average": 0.0173374
+        },
+        "durations": [
+          {
+            "duration": 0.0173374,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} in search box.",
+    "steps": [
+      {
+        "name": "I enter \"iphone 12\" in search box.",
+        "aggregatedDurations": {
+          "median": 0.30186765,
+          "average": 0.30186765
+        },
+        "durations": [
+          {
+            "duration": 0.2816322,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:30"
+          },
+          {
+            "duration": 0.3221031,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:79"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"iphone 11\" in search box.",
+        "aggregatedDurations": {
+          "median": 0.2713133,
+          "average": 0.2713133
+        },
+        "durations": [
+          {
+            "duration": 0.2713133,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:30"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"iphone X\" in search box.",
+        "aggregatedDurations": {
+          "median": 0.3339588,
+          "average": 0.3339588
+        },
+        "durations": [
+          {
+            "duration": 0.3339588,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on search button",
+    "steps": [
+      {
+        "name": "I click on search button",
+        "aggregatedDurations": {
+          "median": 4.54281675,
+          "average": 4.892317975
+        },
+        "durations": [
+          {
+            "duration": 4.7406269,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:31"
+          },
+          {
+            "duration": 6.4381777,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:31"
+          },
+          {
+            "duration": 4.3450066,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:31"
+          },
+          {
+            "duration": 4.0454607,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:80"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see {string} is appearing",
+    "steps": [
+      {
+        "name": "I should see \"Results for iphone 12 - AT\u0026T Search\" is appearing",
+        "aggregatedDurations": {
+          "median": 0.0189481,
+          "average": 0.0189481
+        },
+        "durations": [
+          {
+            "duration": 0.0189481,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:32"
+          }
+        ]
+      },
+      {
+        "name": "I should see \"Results for iphone 11 - AT\u0026T Search\" is appearing",
+        "aggregatedDurations": {
+          "median": 0.1902887,
+          "average": 0.1902887
+        },
+        "durations": [
+          {
+            "duration": 0.1902887,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:32"
+          }
+        ]
+      },
+      {
+        "name": "I should see \"Results for iphone X - AT\u0026T Search\" is appearing",
+        "aggregatedDurations": {
+          "median": 0.0138521,
+          "average": 0.0138521
+        },
+        "durations": [
+          {
+            "duration": 0.0138521,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} in product title.",
+    "steps": [
+      {
+        "name": "I verify \"Results for iphone 12 - AT\u0026T Search\" in product title.",
+        "aggregatedDurations": {
+          "median": 0.0707184,
+          "average": 0.0707184
+        },
+        "durations": [
+          {
+            "duration": 0.0107251,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:33"
+          },
+          {
+            "duration": 0.1307117,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:82"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"Results for iphone 11 - AT\u0026T Search\" in product title.",
+        "aggregatedDurations": {
+          "median": 0.1281505,
+          "average": 0.1281505
+        },
+        "durations": [
+          {
+            "duration": 0.1281505,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:33"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"Results for iphone X - AT\u0026T Search\" in product title.",
+        "aggregatedDurations": {
+          "median": 0.0045683,
+          "average": 0.0045683
+        },
+        "durations": [
+          {
+            "duration": 0.0045683,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Internet",
+    "steps": [
+      {
+        "name": "I click on Internet",
+        "aggregatedDurations": {
+          "median": 4.2602333,
+          "average": 4.2602333
+        },
+        "durations": [
+          {
+            "duration": 4.2602333,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on  shop now",
+    "steps": [
+      {
+        "name": "I click on  shop now",
+        "aggregatedDurations": {
+          "median": 15.4201487,
+          "average": 15.4201487
+        },
+        "durations": [
+          {
+            "duration": 15.4201487,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:49"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see all the Internet Deals",
+    "steps": [
+      {
+        "name": "I should be able to see all the Internet Deals",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on voice",
+    "steps": [
+      {
+        "name": "I click on voice",
+        "aggregatedDurations": {
+          "median": 3.1848047,
+          "average": 3.1848047
+        },
+        "durations": [
+          {
+            "duration": 3.1848047,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:55"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see all voice deals",
+    "steps": [
+      {
+        "name": "I should be able to see all voice deals",
+        "aggregatedDurations": {
+          "median": 0.0189027,
+          "average": 0.0189027
+        },
+        "durations": [
+          {
+            "duration": 0.0189027,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:59"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see all the bundles",
+    "steps": [
+      {
+        "name": "I should be able to see all the bundles",
+        "aggregatedDurations": {
+          "median": 0.0217987,
+          "average": 0.0217987
+        },
+        "durations": [
+          {
+            "duration": 0.0217987,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:68"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see {string}\" is appearing",
+    "steps": [
+      {
+        "name": "I should see \"iphone 12\"\" is appearing",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:81"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on  prepaid",
+    "steps": [
+      {
+        "name": "I click on  prepaid",
+        "aggregatedDurations": {
+          "median": 2.8805747,
+          "average": 2.8805747
+        },
+        "durations": [
+          {
+            "duration": 2.8805747,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:87"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on prepaid plans",
+    "steps": [
+      {
+        "name": "I click on prepaid plans",
+        "aggregatedDurations": {
+          "median": 2.1322755,
+          "average": 2.1322755
+        },
+        "durations": [
+          {
+            "duration": 2.1322755,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:88"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on  shop now arrow",
+    "steps": [
+      {
+        "name": "I click on  shop now arrow",
+        "aggregatedDurations": {
+          "median": 2.3051179,
+          "average": 2.3051179
+        },
+        "durations": [
+          {
+            "duration": 2.3051179,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:89"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see all the prepaid deals",
+    "steps": [
+      {
+        "name": "I should see all the prepaid deals",
+        "aggregatedDurations": {
+          "median": 0.0156305,
+          "average": 0.0156305
+        },
+        "durations": [
+          {
+            "duration": 0.0156305,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:90"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on  TV",
+    "steps": [
+      {
+        "name": "I click on  TV",
+        "aggregatedDurations": {
+          "median": 4.6283251,
+          "average": 4.6283251
+        },
+        "durations": [
+          {
+            "duration": 4.6283251,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:95"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Channel Lineup",
+    "steps": [
+      {
+        "name": "I click on Channel Lineup",
+        "aggregatedDurations": {
+          "median": 2.7000582,
+          "average": 2.7000582
+        },
+        "durations": [
+          {
+            "duration": 2.7000582,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:96"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter the channel names on the channel search bar",
+    "steps": [
+      {
+        "name": "I enter the channel names on the channel search bar",
+        "aggregatedDurations": {
+          "median": 3.4876885,
+          "average": 3.4876885
+        },
+        "durations": [
+          {
+            "duration": 3.4876885,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:97"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see all the channel deals and shop now option",
+    "steps": [
+      {
+        "name": "I should be able to see all the channel deals and shop now option",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:98"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on business tools",
+    "steps": [
+      {
+        "name": "I click on business tools",
+        "aggregatedDurations": {
+          "median": 2.5825567,
+          "average": 2.5825567
+        },
+        "durations": [
+          {
+            "duration": 2.5825567,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:103"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see the business tools page",
+    "steps": [
+      {
+        "name": "I should be able to see the business tools page",
+        "aggregatedDurations": {
+          "median": 0.0140325,
+          "average": 0.0140325
+        },
+        "durations": [
+          {
+            "duration": 0.0140325,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:104"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on business TV",
+    "steps": [
+      {
+        "name": "I click on business TV",
+        "aggregatedDurations": {
+          "median": 5.0630537,
+          "average": 5.0630537
+        },
+        "durations": [
+          {
+            "duration": 5.0630537,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:109"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Offices",
+    "steps": [
+      {
+        "name": "I click on Offices",
+        "aggregatedDurations": {
+          "median": 1.3751908,
+          "average": 1.3751908
+        },
+        "durations": [
+          {
+            "duration": 1.3751908,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:110"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see get free quote page",
+    "steps": [
+      {
+        "name": "I should be able to see get free quote page",
+        "aggregatedDurations": {
+          "median": 0.0033494,
+          "average": 0.0033494
+        },
+        "durations": [
+          {
+            "duration": 0.0033494,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:111"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on enterprise business",
+    "steps": [
+      {
+        "name": "I click on enterprise business",
+        "aggregatedDurations": {
+          "median": 2.8750471,
+          "average": 2.8954687
+        },
+        "durations": [
+          {
+            "duration": 3.0311727,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:116"
+          },
+          {
+            "duration": 2.846502,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:123"
+          },
+          {
+            "duration": 2.9772572,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:131"
+          },
+          {
+            "duration": 2.8669464,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:138"
+          },
+          {
+            "duration": 2.7677861,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:145"
+          },
+          {
+            "duration": 2.8831478,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:152"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Mobility",
+    "steps": [
+      {
+        "name": "I click on Mobility",
+        "aggregatedDurations": {
+          "median": 1.9166092,
+          "average": 1.9166092
+        },
+        "durations": [
+          {
+            "duration": 1.9166092,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:117"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see unlimited your way page",
+    "steps": [
+      {
+        "name": "I should see unlimited your way page",
+        "aggregatedDurations": {
+          "median": 0.0200955,
+          "average": 0.0200955
+        },
+        "durations": [
+          {
+            "duration": 0.0200955,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:118"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on internet \u0026 networking",
+    "steps": [
+      {
+        "name": "I click on internet \u0026 networking",
+        "aggregatedDurations": {
+          "median": 1.9244547,
+          "average": 1.9244547
+        },
+        "durations": [
+          {
+            "duration": 1.9244547,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:124"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on complete your purchase",
+    "steps": [
+      {
+        "name": "I click on complete your purchase",
+        "aggregatedDurations": {
+          "median": 0.2084617,
+          "average": 0.2084617
+        },
+        "durations": [
+          {
+            "duration": 0.2084617,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:125"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see the business address form",
+    "steps": [
+      {
+        "name": "I should see the business address form",
+        "aggregatedDurations": {
+          "median": 0.5918968,
+          "average": 0.5918968
+        },
+        "durations": [
+          {
+            "duration": 0.5918968,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:126"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on voice and collaboration",
+    "steps": [
+      {
+        "name": "I click on voice and collaboration",
+        "aggregatedDurations": {
+          "median": 1.7842703,
+          "average": 1.7842703
+        },
+        "durations": [
+          {
+            "duration": 1.7842703,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:132"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see voice and collaboration page",
+    "steps": [
+      {
+        "name": "I should see voice and collaboration page",
+        "aggregatedDurations": {
+          "median": 0.0315763,
+          "average": 0.0315763
+        },
+        "durations": [
+          {
+            "duration": 0.0315763,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:133"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on cyber security",
+    "steps": [
+      {
+        "name": "I click on cyber security",
+        "aggregatedDurations": {
+          "median": 1.5540258,
+          "average": 1.5540258
+        },
+        "durations": [
+          {
+            "duration": 1.5540258,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:139"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see cyber security page",
+    "steps": [
+      {
+        "name": "I should see cyber security page",
+        "aggregatedDurations": {
+          "median": 0.0055923,
+          "average": 0.0055923
+        },
+        "durations": [
+          {
+            "duration": 0.0055923,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:140"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Content and Entertainment",
+    "steps": [
+      {
+        "name": "I click on Content and Entertainment",
+        "aggregatedDurations": {
+          "median": 1.447984,
+          "average": 1.447984
+        },
+        "durations": [
+          {
+            "duration": 1.447984,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:146"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see Content and Entertainment  page",
+    "steps": [
+      {
+        "name": "I should see Content and Entertainment  page",
+        "aggregatedDurations": {
+          "median": 0.0094402,
+          "average": 0.0094402
+        },
+        "durations": [
+          {
+            "duration": 0.0094402,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:147"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Digital capabilities",
+    "steps": [
+      {
+        "name": "I click on Digital capabilities",
+        "aggregatedDurations": {
+          "median": 1.8027328,
+          "average": 1.8027328
+        },
+        "durations": [
+          {
+            "duration": 1.8027328,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:153"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see Digital capabilities page",
+    "steps": [
+      {
+        "name": "I should see Digital capabilities page",
+        "aggregatedDurations": {
+          "median": 0.0179671,
+          "average": 0.0179671
+        },
+        "durations": [
+          {
+            "duration": 0.0179671,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Business.feature:154"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on deals",
+    "steps": [
+      {
+        "name": "I click on deals",
+        "aggregatedDurations": {
+          "median": 0.05553135,
+          "average": 0.061075425
+        },
+        "durations": [
+          {
+            "duration": 0.0521939,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:5"
+          },
+          {
+            "duration": 0.0677647,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:5"
+          },
+          {
+            "duration": 0.0480384,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:5"
+          },
+          {
+            "duration": 0.0572973,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:5"
+          },
+          {
+            "duration": 0.0648775,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:5"
+          },
+          {
+            "duration": 0.049204,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:5"
+          },
+          {
+            "duration": 0.0609294,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:5"
+          },
+          {
+            "duration": 0.0940754,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:5"
+          },
+          {
+            "duration": 0.045687,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:5"
+          },
+          {
+            "duration": 0.0537654,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:5"
+          },
+          {
+            "duration": 0.0890657,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:5"
+          },
+          {
+            "duration": 0.0500064,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on wireless",
+    "steps": [
+      {
+        "name": "I click on wireless",
+        "aggregatedDurations": {
+          "median": 3.3099233,
+          "average": 3.3430259
+        },
+        "durations": [
+          {
+            "duration": 3.7713822,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:9"
+          },
+          {
+            "duration": 3.3070093,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:14"
+          },
+          {
+            "duration": 3.1239772,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:20"
+          },
+          {
+            "duration": 3.5572847,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:27"
+          },
+          {
+            "duration": 3.5227927,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:34"
+          },
+          {
+            "duration": 3.1891524,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:41"
+          },
+          {
+            "duration": 3.5976712,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:48"
+          },
+          {
+            "duration": 2.9878468,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:55"
+          },
+          {
+            "duration": 3.0603052,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:61"
+          },
+          {
+            "duration": 3.3128373,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:68"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see all the wireless items",
+    "steps": [
+      {
+        "name": "I should be able to see all the wireless items",
+        "aggregatedDurations": {
+          "median": 0.0462792,
+          "average": 0.0462792
+        },
+        "durations": [
+          {
+            "duration": 0.0462792,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on explore wireless",
+    "steps": [
+      {
+        "name": "I click on explore wireless",
+        "aggregatedDurations": {
+          "median": 3.2283506,
+          "average": 3.2283506
+        },
+        "durations": [
+          {
+            "duration": 3.2283506,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see all the Explore wireless items",
+    "steps": [
+      {
+        "name": "I should be able to see all the Explore wireless items",
+        "aggregatedDurations": {
+          "median": 0.0086812,
+          "average": 0.0086812
+        },
+        "durations": [
+          {
+            "duration": 0.0086812,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on phones \u0026 devices",
+    "steps": [
+      {
+        "name": "I click on phones \u0026 devices",
+        "aggregatedDurations": {
+          "median": 2.7230123,
+          "average": 2.751394037
+        },
+        "durations": [
+          {
+            "duration": 2.8188465,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:21"
+          },
+          {
+            "duration": 2.7781529,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:28"
+          },
+          {
+            "duration": 2.2910899,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:35"
+          },
+          {
+            "duration": 3.1083197,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:42"
+          },
+          {
+            "duration": 2.6678717,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:49"
+          },
+          {
+            "duration": 2.5829832,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:56"
+          },
+          {
+            "duration": 3.3335803,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:62"
+          },
+          {
+            "duration": 2.4303081,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:69"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Low cost phone",
+    "steps": [
+      {
+        "name": "I click on Low cost phone",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:22"
+          },
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see all the low cost phones",
+    "steps": [
+      {
+        "name": "I should be able to see all the low cost phones",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to compare devices",
+    "steps": [
+      {
+        "name": "I should be able to compare devices",
+        "aggregatedDurations": {
+          "median": 0.0290387,
+          "average": 0.0290387
+        },
+        "durations": [
+          {
+            "duration": 0.0290387,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Apple",
+    "steps": [
+      {
+        "name": "I click on Apple",
+        "aggregatedDurations": {
+          "median": 1.139328,
+          "average": 1.139328
+        },
+        "durations": [
+          {
+            "duration": 1.139328,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see all the Apple phones",
+    "steps": [
+      {
+        "name": "I should be able to see all the Apple phones",
+        "aggregatedDurations": {
+          "median": 0.2905459,
+          "average": 0.2905459
+        },
+        "durations": [
+          {
+            "duration": 0.2905459,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Samsung",
+    "steps": [
+      {
+        "name": "I click on Samsung",
+        "aggregatedDurations": {
+          "median": 1.1432918,
+          "average": 1.1432918
+        },
+        "durations": [
+          {
+            "duration": 1.1432918,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:43"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see all the Samsung phones",
+    "steps": [
+      {
+        "name": "I should be able to see all the Samsung phones",
+        "aggregatedDurations": {
+          "median": 0.4163555,
+          "average": 0.4163555
+        },
+        "durations": [
+          {
+            "duration": 0.4163555,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I  click on store pick-up",
+    "steps": [
+      {
+        "name": "I  click on store pick-up",
+        "aggregatedDurations": {
+          "median": 1.2063117,
+          "average": 1.2063117
+        },
+        "durations": [
+          {
+            "duration": 1.2063117,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see all the available store pick\u003dup items.",
+    "steps": [
+      {
+        "name": "I should be able to see all the available store pick\u003dup items.",
+        "aggregatedDurations": {
+          "median": 0.4920237,
+          "average": 0.4920237
+        },
+        "durations": [
+          {
+            "duration": 0.4920237,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see all the phones and device deals",
+    "steps": [
+      {
+        "name": "I should see all the phones and device deals",
+        "aggregatedDurations": {
+          "median": 0.2480781,
+          "average": 0.2480781
+        },
+        "durations": [
+          {
+            "duration": 0.2480781,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:57"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Tablet and PC",
+    "steps": [
+      {
+        "name": "I click on Tablet and PC",
+        "aggregatedDurations": {
+          "median": 1.2916849,
+          "average": 1.2916849
+        },
+        "durations": [
+          {
+            "duration": 1.2916849,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:63"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see all the Tablets and pcs",
+    "steps": [
+      {
+        "name": "I should be able to see all the Tablets and pcs",
+        "aggregatedDurations": {
+          "median": 0.1413434,
+          "average": 0.1413434
+        },
+        "durations": [
+          {
+            "duration": 0.1413434,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:64"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on AT\u0026T \u0026 prepaid",
+    "steps": [
+      {
+        "name": "I click on AT\u0026T \u0026 prepaid",
+        "aggregatedDurations": {
+          "median": 0.3783086,
+          "average": 0.3783086
+        },
+        "durations": [
+          {
+            "duration": 0.3783086,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:70"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see all the AT\u0026T \u0026 prepaid deals",
+    "steps": [
+      {
+        "name": "I should see all the AT\u0026T \u0026 prepaid deals",
+        "aggregatedDurations": {
+          "median": 0.056865,
+          "average": 0.056865
+        },
+        "durations": [
+          {
+            "duration": 0.056865,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:71"
+          }
+        ]
+      }
+    ]
+  }
+]

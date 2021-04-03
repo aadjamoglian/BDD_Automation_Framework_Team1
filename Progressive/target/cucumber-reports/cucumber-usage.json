@@ -1,0 +1,1994 @@
+[
+  {
+    "source": "I am on progressive homepage",
+    "steps": [
+      {
+        "name": "I am on progressive homepage",
+        "aggregatedDurations": {
+          "median": 3.92116715,
+          "average": 3.91880567
+        },
+        "durations": [
+          {
+            "duration": 4.3325721,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 3.8079113,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 3.9755106,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 4.1638146,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 3.6998881,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 3.8610864,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 3.7972618,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 3.826502,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 3.5100502,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 3.5036608,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 4.2196536,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 3.9239708,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 3.8659114,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 3.7070016,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 4.1080202,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 3.9183635,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 3.7942111,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 4.1396861,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 3.9390467,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 4.1730987,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 4.0706191,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 4.1339211,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 3.8060875,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 4.0305825,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 4.0343694,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 3.4435696,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 4.23006,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 3.6891311,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 3.7151015,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          },
+          {
+            "duration": 4.1435067,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Explore Products",
+    "steps": [
+      {
+        "name": "I click on Explore Products",
+        "aggregatedDurations": {
+          "median": 0.14049445,
+          "average": 0.14320178
+        },
+        "durations": [
+          {
+            "duration": 0.1432224,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1411315,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1383607,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1273653,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1863627,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.129283,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1395174,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1354501,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1559628,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1511815,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1450849,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1388993,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1554349,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1398574,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.133643,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1342978,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1343662,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1435972,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1540471,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1552377,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1574238,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1436686,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1210861,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1572359,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1319689,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1651809,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1354616,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1336468,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.142905,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          },
+          {
+            "duration": 0.1251729,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I mouse hoover on auto",
+    "steps": [
+      {
+        "name": "I mouse hoover on auto",
+        "aggregatedDurations": {
+          "median": 1.57063035,
+          "average": 1.57063035
+        },
+        "durations": [
+          {
+            "duration": 1.5192155,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:9"
+          },
+          {
+            "duration": 1.6220452,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:83"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the zipcode search bar",
+    "steps": [
+      {
+        "name": "I enter \"48091\" on the zipcode search bar",
+        "aggregatedDurations": {
+          "median": 0.1057724,
+          "average": 0.120262177
+        },
+        "durations": [
+          {
+            "duration": 0.1765243,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:10"
+          },
+          {
+            "duration": 0.1406024,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:44"
+          },
+          {
+            "duration": 0.1760108,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:84"
+          },
+          {
+            "duration": 0.0876164,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:152"
+          },
+          {
+            "duration": 0.0938442,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:198"
+          },
+          {
+            "duration": 0.1057724,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:205"
+          },
+          {
+            "duration": 0.1063901,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:212"
+          },
+          {
+            "duration": 0.0949954,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:219"
+          },
+          {
+            "duration": 0.1006036,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:233"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on homeowners",
+    "steps": [
+      {
+        "name": "I click on homeowners",
+        "aggregatedDurations": {
+          "median": 1.1559985,
+          "average": 1.1559985
+        },
+        "durations": [
+          {
+            "duration": 1.1559985,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the homeowners insurance zipcode search box",
+    "steps": [
+      {
+        "name": "I enter \"48091\" on the homeowners insurance zipcode search box",
+        "aggregatedDurations": {
+          "median": 0.1610976,
+          "average": 0.1610976
+        },
+        "durations": [
+          {
+            "duration": 0.1610976,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on get homeowners insurance quote",
+    "steps": [
+      {
+        "name": "I click on get homeowners insurance quote",
+        "aggregatedDurations": {
+          "median": 5.1427521,
+          "average": 5.1427521
+        },
+        "durations": [
+          {
+            "duration": 5.1427521,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the address search box",
+    "steps": [
+      {
+        "name": "I enter \"23817 Curie St\" on the address search box",
+        "aggregatedDurations": {
+          "median": 4.25121,
+          "average": 4.25121
+        },
+        "durations": [
+          {
+            "duration": 4.25121,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Let\u0027s go button",
+    "steps": [
+      {
+        "name": "I click on Let\u0027s go button",
+        "aggregatedDurations": {
+          "median": 0.1086208,
+          "average": 0.1086208
+        },
+        "durations": [
+          {
+            "duration": 0.1086208,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter the homeowners information",
+    "steps": [
+      {
+        "name": "I enter the homeowners information",
+        "aggregatedDurations": {
+          "median": 0.0029859,
+          "average": 0.0029859
+        },
+        "durations": [
+          {
+            "duration": 0.0029859,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select NO for do you have progressive auto insurance",
+    "steps": [
+      {
+        "name": "I select NO for do you have progressive auto insurance",
+        "aggregatedDurations": {
+          "median": 12.0671638,
+          "average": 12.0671638
+        },
+        "durations": [
+          {
+            "duration": 12.0671638,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select April20th from the homeowners insurance calender",
+    "steps": [
+      {
+        "name": "I select April20th from the homeowners insurance calender",
+        "aggregatedDurations": {
+          "median": 0.421946,
+          "average": 0.421946
+        },
+        "durations": [
+          {
+            "duration": 0.421946,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on next",
+    "steps": [
+      {
+        "name": "I click on next",
+        "aggregatedDurations": {
+          "median": 5.1468855,
+          "average": 5.1468855
+        },
+        "durations": [
+          {
+            "duration": 5.1468855,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see Home basics page for additional home information",
+    "steps": [
+      {
+        "name": "I should be able to see Home basics page for additional home information",
+        "aggregatedDurations": {
+          "median": 0.012237,
+          "average": 0.012237
+        },
+        "durations": [
+          {
+            "duration": 0.012237,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on motorcycle",
+    "steps": [
+      {
+        "name": "I click on motorcycle",
+        "aggregatedDurations": {
+          "median": 0.9970866,
+          "average": 0.9970866
+        },
+        "durations": [
+          {
+            "duration": 0.9970866,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:43"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Get a quote",
+    "steps": [
+      {
+        "name": "I click on Get a quote",
+        "aggregatedDurations": {
+          "median": 0.1115912,
+          "average": 0.113439014
+        },
+        "durations": [
+          {
+            "duration": 0.1314854,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:45"
+          },
+          {
+            "duration": 0.1043481,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:153"
+          },
+          {
+            "duration": 0.1141958,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:199"
+          },
+          {
+            "duration": 0.1115912,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:213"
+          },
+          {
+            "duration": 0.1171515,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:220"
+          },
+          {
+            "duration": 0.109299,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:234"
+          },
+          {
+            "duration": 0.1060021,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:241"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter driver information",
+    "steps": [
+      {
+        "name": "I enter driver information",
+        "aggregatedDurations": {
+          "median": 0.0019988,
+          "average": 0.0019988
+        },
+        "durations": [
+          {
+            "duration": 0.0019988,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on start my quote",
+    "steps": [
+      {
+        "name": "I click on start my quote",
+        "aggregatedDurations": {
+          "median": 3.6634578,
+          "average": 3.6634578
+        },
+        "durations": [
+          {
+            "duration": 3.6634578,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:53"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see my motorbike model page",
+    "steps": [
+      {
+        "name": "I should be able to see my motorbike model page",
+        "aggregatedDurations": {
+          "median": 0.0107667,
+          "average": 0.0107667
+        },
+        "durations": [
+          {
+            "duration": 0.0107667,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:54"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on dental",
+    "steps": [
+      {
+        "name": "I click on dental",
+        "aggregatedDurations": {
+          "median": 1.0369826,
+          "average": 1.0369826
+        },
+        "durations": [
+          {
+            "duration": 1.0369826,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:58"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the dental insurance search box",
+    "steps": [
+      {
+        "name": "I enter \"48091\" on the dental insurance search box",
+        "aggregatedDurations": {
+          "median": 3.1215283,
+          "average": 3.1215283
+        },
+        "durations": [
+          {
+            "duration": 3.1215283,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:59"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on get  quote",
+    "steps": [
+      {
+        "name": "I click on get  quote",
+        "aggregatedDurations": {
+          "median": 0.1323162,
+          "average": 0.1323162
+        },
+        "durations": [
+          {
+            "duration": 0.1323162,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:60"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the find plans zipcode search box",
+    "steps": [
+      {
+        "name": "I enter \"48091\" on the find plans zipcode search box",
+        "aggregatedDurations": {
+          "median": 2.7737804,
+          "average": 2.7737804
+        },
+        "durations": [
+          {
+            "duration": 2.7737804,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:61"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select Female for gender",
+    "steps": [
+      {
+        "name": "I select Female for gender",
+        "aggregatedDurations": {
+          "median": 3.1254798,
+          "average": 3.1254798
+        },
+        "durations": [
+          {
+            "duration": 3.1254798,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:62"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the date of birth web edit field",
+    "steps": [
+      {
+        "name": "I enter \"12/21/2000\" on the date of birth web edit field",
+        "aggregatedDurations": {
+          "median": 0.165135,
+          "average": 0.165135
+        },
+        "durations": [
+          {
+            "duration": 0.165135,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:63"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select April 20th from the coverage starting calender",
+    "steps": [
+      {
+        "name": "I select April 20th from the coverage starting calender",
+        "aggregatedDurations": {
+          "median": 0.1614638,
+          "average": 0.1614638
+        },
+        "durations": [
+          {
+            "duration": 0.1614638,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:64"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on find plans",
+    "steps": [
+      {
+        "name": "I click on find plans",
+        "aggregatedDurations": {
+          "median": 3.8390355,
+          "average": 3.8390355
+        },
+        "durations": [
+          {
+            "duration": 3.8390355,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:65"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see all the available plans",
+    "steps": [
+      {
+        "name": "I should be able to see all the available plans",
+        "aggregatedDurations": {
+          "median": 0.0078528,
+          "average": 0.0078528
+        },
+        "durations": [
+          {
+            "duration": 0.0078528,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:66"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on general liability",
+    "steps": [
+      {
+        "name": "I click on general liability",
+        "aggregatedDurations": {
+          "median": 0.7220665,
+          "average": 0.7220665
+        },
+        "durations": [
+          {
+            "duration": 0.7220665,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:70"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on zipcode search bar",
+    "steps": [
+      {
+        "name": "I enter \"48091\" on zipcode search bar",
+        "aggregatedDurations": {
+          "median": 1.4434189,
+          "average": 1.43478325
+        },
+        "durations": [
+          {
+            "duration": 1.5043303,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:71"
+          },
+          {
+            "duration": 1.522929,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:159"
+          },
+          {
+            "duration": 1.3302727,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:166"
+          },
+          {
+            "duration": 1.3643297,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:175"
+          },
+          {
+            "duration": 1.4311678,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:184"
+          },
+          {
+            "duration": 1.45567,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:191"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Get  quote",
+    "steps": [
+      {
+        "name": "I click Get  quote",
+        "aggregatedDurations": {
+          "median": 0.1184688,
+          "average": 0.119053833
+        },
+        "durations": [
+          {
+            "duration": 0.1057202,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:72"
+          },
+          {
+            "duration": 0.122438,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:160"
+          },
+          {
+            "duration": 0.1313203,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:167"
+          },
+          {
+            "duration": 0.1140373,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:176"
+          },
+          {
+            "duration": 0.1263076,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:185"
+          },
+          {
+            "duration": 0.1144996,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:192"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select general liability",
+    "steps": [
+      {
+        "name": "I select general liability",
+        "aggregatedDurations": {
+          "median": 9.1250653,
+          "average": 9.1250653
+        },
+        "durations": [
+          {
+            "duration": 9.1250653,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:73"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on continue",
+    "steps": [
+      {
+        "name": "I click on continue",
+        "aggregatedDurations": {
+          "median": 0.0669502,
+          "average": 0.0667939
+        },
+        "durations": [
+          {
+            "duration": 0.0576242,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:74"
+          },
+          {
+            "duration": 0.0758073,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:169"
+          },
+          {
+            "duration": 0.0669502,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:178"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on claims",
+    "steps": [
+      {
+        "name": "I click on claims",
+        "aggregatedDurations": {
+          "median": 0.1182718,
+          "average": 0.122292325
+        },
+        "durations": [
+          {
+            "duration": 0.11711,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:90"
+          },
+          {
+            "duration": 0.1176891,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:97"
+          },
+          {
+            "duration": 0.1355157,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:103"
+          },
+          {
+            "duration": 0.1188545,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:110"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on claims overview",
+    "steps": [
+      {
+        "name": "I click on claims overview",
+        "aggregatedDurations": {
+          "median": 1.3731751,
+          "average": 1.3731751
+        },
+        "durations": [
+          {
+            "duration": 1.3731751,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:91"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on report and view a claim",
+    "steps": [
+      {
+        "name": "I click on report and view a claim",
+        "aggregatedDurations": {
+          "median": 0.21325,
+          "average": 0.21325
+        },
+        "durations": [
+          {
+            "duration": 0.21325,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:92"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see the login page",
+    "steps": [
+      {
+        "name": "I should be able to see the login page",
+        "aggregatedDurations": {
+          "median": 0.0109858,
+          "average": 0.0109858
+        },
+        "durations": [
+          {
+            "duration": 0.0109858,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:93"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Auto process claims",
+    "steps": [
+      {
+        "name": "I click on Auto process claims",
+        "aggregatedDurations": {
+          "median": 1.6231712,
+          "average": 1.6231712
+        },
+        "durations": [
+          {
+            "duration": 1.6231712,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:98"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see the auto claims page",
+    "steps": [
+      {
+        "name": "I should be able to see the auto claims page",
+        "aggregatedDurations": {
+          "median": 0.0280021,
+          "average": 0.0280021
+        },
+        "durations": [
+          {
+            "duration": 0.0280021,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:99"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on roadside assistance",
+    "steps": [
+      {
+        "name": "I click on roadside assistance",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:104"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on file a claim through progressive app",
+    "steps": [
+      {
+        "name": "I click on file a claim through progressive app",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:105"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should take me to the download page",
+    "steps": [
+      {
+        "name": "I should take me to the download page",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:106"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Catastrophe",
+    "steps": [
+      {
+        "name": "I click on Catastrophe",
+        "aggregatedDurations": {
+          "median": 1.52347,
+          "average": 1.52347
+        },
+        "durations": [
+          {
+            "duration": 1.52347,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:111"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on login",
+    "steps": [
+      {
+        "name": "I click on login",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:112"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should take me to the login page",
+    "steps": [
+      {
+        "name": "I should take me to the login page",
+        "aggregatedDurations": {
+          "median": 0.0111402,
+          "average": 0.0111402
+        },
+        "durations": [
+          {
+            "duration": 0.0111402,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:113"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on about us",
+    "steps": [
+      {
+        "name": "I click on about us",
+        "aggregatedDurations": {
+          "median": 0.12039,
+          "average": 0.12751626
+        },
+        "durations": [
+          {
+            "duration": 0.1054945,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:118"
+          },
+          {
+            "duration": 0.1476319,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:124"
+          },
+          {
+            "duration": 0.1536204,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:130"
+          },
+          {
+            "duration": 0.1104445,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:137"
+          },
+          {
+            "duration": 0.12039,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:145"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on corporate responsibility",
+    "steps": [
+      {
+        "name": "I click on corporate responsibility",
+        "aggregatedDurations": {
+          "median": 1.2468236,
+          "average": 1.2468236
+        },
+        "durations": [
+          {
+            "duration": 1.2468236,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:119"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see the corporate responsibility page",
+    "steps": [
+      {
+        "name": "I should be able to see the corporate responsibility page",
+        "aggregatedDurations": {
+          "median": 0.0403122,
+          "average": 0.0403122
+        },
+        "durations": [
+          {
+            "duration": 0.0403122,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:120"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Investors",
+    "steps": [
+      {
+        "name": "I click on Investors",
+        "aggregatedDurations": {
+          "median": 1.494959,
+          "average": 1.494959
+        },
+        "durations": [
+          {
+            "duration": 1.494959,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:125"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see all the messages from the investors",
+    "steps": [
+      {
+        "name": "I should be able to see all the messages from the investors",
+        "aggregatedDurations": {
+          "median": 0.0050005,
+          "average": 0.0050005
+        },
+        "durations": [
+          {
+            "duration": 0.0050005,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:126"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on career",
+    "steps": [
+      {
+        "name": "I click on career",
+        "aggregatedDurations": {
+          "median": 1.5096814,
+          "average": 1.5096814
+        },
+        "durations": [
+          {
+            "duration": 1.5096814,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:131"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Find a Career",
+    "steps": [
+      {
+        "name": "I click on Find a Career",
+        "aggregatedDurations": {
+          "median": 2.014238,
+          "average": 2.014238
+        },
+        "durations": [
+          {
+            "duration": 2.014238,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:132"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see all the job openings",
+    "steps": [
+      {
+        "name": "I should be able to see all the job openings",
+        "aggregatedDurations": {
+          "median": 0.0140007,
+          "average": 0.0140007
+        },
+        "durations": [
+          {
+            "duration": 0.0140007,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:133"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Local agent",
+    "steps": [
+      {
+        "name": "I click on Local agent",
+        "aggregatedDurations": {
+          "median": 1.4427257,
+          "average": 1.4427257
+        },
+        "durations": [
+          {
+            "duration": 1.4427257,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:138"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the zip code search box",
+    "steps": [
+      {
+        "name": "I enter \"48091\" on the zip code search box",
+        "aggregatedDurations": {
+          "median": 0.1109043,
+          "average": 0.1109043
+        },
+        "durations": [
+          {
+            "duration": 0.1109043,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:139"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on newsroom",
+    "steps": [
+      {
+        "name": "I click on newsroom",
+        "aggregatedDurations": {
+          "median": 2.5219315,
+          "average": 2.5219315
+        },
+        "durations": [
+          {
+            "duration": 2.5219315,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:146"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "It should navigate me to the newsroom page",
+    "steps": [
+      {
+        "name": "It should navigate me to the newsroom page",
+        "aggregatedDurations": {
+          "median": 0.0048659,
+          "average": 0.0048659
+        },
+        "durations": [
+          {
+            "duration": 0.0048659,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:147"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on mobile homes",
+    "steps": [
+      {
+        "name": "I click on mobile homes",
+        "aggregatedDurations": {
+          "median": 1.0235699,
+          "average": 1.0235699
+        },
+        "durations": [
+          {
+            "duration": 1.0235699,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:151"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see the start my quote forms",
+    "steps": [
+      {
+        "name": "I should be able to see the start my quote forms",
+        "aggregatedDurations": {
+          "median": 0.0010049,
+          "average": 0.0010049
+        },
+        "durations": [
+          {
+            "duration": 0.0010049,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:154"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on commercial Auto",
+    "steps": [
+      {
+        "name": "I click on commercial Auto",
+        "aggregatedDurations": {
+          "median": 0.7193524,
+          "average": 0.7193524
+        },
+        "durations": [
+          {
+            "duration": 0.7193524,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:158"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see All the commercial Auto Lists",
+    "steps": [
+      {
+        "name": "I should be able to see All the commercial Auto Lists",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:161"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on workers compensation",
+    "steps": [
+      {
+        "name": "I click on workers compensation",
+        "aggregatedDurations": {
+          "median": 0.60866,
+          "average": 0.60866
+        },
+        "durations": [
+          {
+            "duration": 0.60866,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:165"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select workers compensation",
+    "steps": [
+      {
+        "name": "I select workers compensation",
+        "aggregatedDurations": {
+          "median": 9.1824706,
+          "average": 9.1824706
+        },
+        "durations": [
+          {
+            "duration": 9.1824706,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:168"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see what do you do homepage",
+    "steps": [
+      {
+        "name": "I should be able to see what do you do homepage",
+        "aggregatedDurations": {
+          "median": 0.00524155,
+          "average": 0.00524155
+        },
+        "durations": [
+          {
+            "duration": 0.0044944,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:170"
+          },
+          {
+            "duration": 0.0059887,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:179"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on professional liability",
+    "steps": [
+      {
+        "name": "I click on professional liability",
+        "aggregatedDurations": {
+          "median": 0.6587484,
+          "average": 0.6587484
+        },
+        "durations": [
+          {
+            "duration": 0.6587484,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:174"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select professional liability",
+    "steps": [
+      {
+        "name": "I select professional liability",
+        "aggregatedDurations": {
+          "median": 10.5361252,
+          "average": 10.5361252
+        },
+        "durations": [
+          {
+            "duration": 10.5361252,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:177"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on business owners policy",
+    "steps": [
+      {
+        "name": "I click on business owners policy",
+        "aggregatedDurations": {
+          "median": 0.6381007,
+          "average": 0.6381007
+        },
+        "durations": [
+          {
+            "duration": 0.6381007,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:183"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to get started page",
+    "steps": [
+      {
+        "name": "I should be able to get started page",
+        "aggregatedDurations": {
+          "median": 0.0064349,
+          "average": 0.0064349
+        },
+        "durations": [
+          {
+            "duration": 0.0064349,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:186"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on business insurance",
+    "steps": [
+      {
+        "name": "I click on business insurance",
+        "aggregatedDurations": {
+          "median": 0.7362252,
+          "average": 0.7362252
+        },
+        "durations": [
+          {
+            "duration": 0.7362252,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:190"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see get started page",
+    "steps": [
+      {
+        "name": "I should be able to see get started page",
+        "aggregatedDurations": {
+          "median": 0.004927,
+          "average": 0.004927
+        },
+        "durations": [
+          {
+            "duration": 0.004927,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:193"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on snowmobile",
+    "steps": [
+      {
+        "name": "I click on snowmobile",
+        "aggregatedDurations": {
+          "median": 1.5789652,
+          "average": 1.5789652
+        },
+        "durations": [
+          {
+            "duration": 1.5789652,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:197"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see the drivers information form",
+    "steps": [
+      {
+        "name": "I should be able to see the drivers information form",
+        "aggregatedDurations": {
+          "median": 0.0041784,
+          "average": 0.0041784
+        },
+        "durations": [
+          {
+            "duration": 0.0041784,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:200"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Boat",
+    "steps": [
+      {
+        "name": "I click on Boat",
+        "aggregatedDurations": {
+          "median": 1.7249508,
+          "average": 1.7249508
+        },
+        "durations": [
+          {
+            "duration": 1.7249508,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:204"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Classic car",
+    "steps": [
+      {
+        "name": "I click on Classic car",
+        "aggregatedDurations": {
+          "median": 1.614262,
+          "average": 1.614262
+        },
+        "durations": [
+          {
+            "duration": 1.614262,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:211"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see the driver info form",
+    "steps": [
+      {
+        "name": "I should be able to see the driver info form",
+        "aggregatedDurations": {
+          "median": 0.0041568,
+          "average": 0.0041568
+        },
+        "durations": [
+          {
+            "duration": 0.0041568,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:214"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Golf car",
+    "steps": [
+      {
+        "name": "I click on Golf car",
+        "aggregatedDurations": {
+          "median": 1.4930685,
+          "average": 1.4930685
+        },
+        "durations": [
+          {
+            "duration": 1.4930685,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:218"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see  driver info form",
+    "steps": [
+      {
+        "name": "I should be able to see  driver info form",
+        "aggregatedDurations": {
+          "median": 0.0095015,
+          "average": 0.0095015
+        },
+        "durations": [
+          {
+            "duration": 0.0095015,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:221"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Segway",
+    "steps": [
+      {
+        "name": "I click on Segway",
+        "aggregatedDurations": {
+          "median": 1.5754758,
+          "average": 1.5754758
+        },
+        "durations": [
+          {
+            "duration": 1.5754758,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:232"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see drivers info form",
+    "steps": [
+      {
+        "name": "I should be able to see drivers info form",
+        "aggregatedDurations": {
+          "median": 0.004008,
+          "average": 0.004008
+        },
+        "durations": [
+          {
+            "duration": 0.004008,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:235"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Auto and property",
+    "steps": [
+      {
+        "name": "I click on Auto and property",
+        "aggregatedDurations": {
+          "median": 1.5530339,
+          "average": 1.5530339
+        },
+        "durations": [
+          {
+            "duration": 1.5530339,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:239"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the  bundle zipcode search bar",
+    "steps": [
+      {
+        "name": "I enter \"48091\" on the  bundle zipcode search bar",
+        "aggregatedDurations": {
+          "median": 0.1001073,
+          "average": 0.1001073
+        },
+        "durations": [
+          {
+            "duration": 0.1001073,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:240"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see drivers inf. form",
+    "steps": [
+      {
+        "name": "I should be able to see drivers inf. form",
+        "aggregatedDurations": {
+          "median": 0.0039992,
+          "average": 0.0039992
+        },
+        "durations": [
+          {
+            "duration": 0.0039992,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:242"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on home security",
+    "steps": [
+      {
+        "name": "I click on home security",
+        "aggregatedDurations": {
+          "median": 1.569594,
+          "average": 1.569594
+        },
+        "durations": [
+          {
+            "duration": 1.569594,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:246"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on buy online",
+    "steps": [
+      {
+        "name": "I click on buy online",
+        "aggregatedDurations": {
+          "median": 0.1047209,
+          "average": 0.1047209
+        },
+        "durations": [
+          {
+            "duration": 0.1047209,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:247"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on house",
+    "steps": [
+      {
+        "name": "I click on house",
+        "aggregatedDurations": {
+          "median": 3.6370349,
+          "average": 3.6370349
+        },
+        "durations": [
+          {
+            "duration": 3.6370349,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:248"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on small",
+    "steps": [
+      {
+        "name": "I click on small",
+        "aggregatedDurations": {
+          "median": 0.4488206,
+          "average": 0.4488206
+        },
+        "durations": [
+          {
+            "duration": 0.4488206,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:249"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on two doors",
+    "steps": [
+      {
+        "name": "I click on two doors",
+        "aggregatedDurations": {
+          "median": 0.8136259,
+          "average": 0.8136259
+        },
+        "durations": [
+          {
+            "duration": 0.8136259,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:250"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see submit email page",
+    "steps": [
+      {
+        "name": "I should be able to see submit email page",
+        "aggregatedDurations": {
+          "median": 0.0069774,
+          "average": 0.0069774
+        },
+        "durations": [
+          {
+            "duration": 0.0069774,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:251"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on PWC",
+    "steps": [
+      {
+        "name": "I click on PWC",
+        "aggregatedDurations": {
+          "median": 1.4665426,
+          "average": 1.4665426
+        },
+        "durations": [
+          {
+            "duration": 1.4665426,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:255"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the PWC insurance zipcode search bar",
+    "steps": [
+      {
+        "name": "I enter \"48091\" on the PWC insurance zipcode search bar",
+        "aggregatedDurations": {
+          "median": 0.125837,
+          "average": 0.125837
+        },
+        "durations": [
+          {
+            "duration": 0.125837,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:256"
+          }
+        ]
+      }
+    ]
+  }
+]

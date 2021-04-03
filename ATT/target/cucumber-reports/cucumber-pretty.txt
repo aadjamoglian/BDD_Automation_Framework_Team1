@@ -1,0 +1,346 @@
+
+@smokeTest
+Scenario: Bundles link functionality under AT&T business on header                # src/test/java/features/Business.feature:7
+  Given I am on AT&T homepage                                                     # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on Business                                                         # stepDefinitions.AttHomePageStepDefinitions.i_click_on_business()
+  And I click on bundles                                                          # stepDefinitions.AttHomePageStepDefinitions.i_click_on_bundles()
+  And I enter "23517 Curie st" on the service address search box                  # stepDefinitions.AttHomePageStepDefinitions.i_enter_on_the_service_address_search_box(java.lang.String)
+  And I enter "48091" on the zip code field                                       # stepDefinitions.AttHomePageStepDefinitions.i_enter_on_the_zip_code_field(java.lang.String)
+  When I click on check availability                                              # stepDefinitions.AttHomePageStepDefinitions.i_click_on_check_availability()
+  And I select internet speed 25                                                  # stepDefinitions.AttHomePageStepDefinitions.i_select_internet_speed25()
+  And I select checkbox for heavy traffic on optional internet ehancement section # stepDefinitions.AttHomePageStepDefinitions.i_select_checkbox_for_heavy_traffic_on_optional_internet_ehancement_section()
+  And I select AT&T phone for business under bundle options                       # stepDefinitions.AttHomePageStepDefinitions.i_select_at_t_phone_for_business_under_bundle_options()
+  And I enter service user information                                            # stepDefinitions.AttHomePageStepDefinitions.i_enter_service_user_information(java.util.List<java.util.List<java.lang.String>>)
+  And I click on internet check box                                               # stepDefinitions.AttHomePageStepDefinitions.i_click_on_internet_check_box()
+  And I click on submit button                                                    # stepDefinitions.AttHomePageStepDefinitions.i_click_on_submit_button()
+  Then I should see your request has been submitted message                       # stepDefinitions.AttHomePageStepDefinitions.i_should_see_your_request_has_been_submitted_message()
+
+@smokeTest
+Scenario Outline: AT&T search box functionality check with valid product # src/test/java/features/Business.feature:37
+  Given I am on AT&T homepage                                            # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  Given I am on AT&T homepage                                            # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I enter "iphone 12" in search box.                                 # stepDefinitions.AttHomePageStepDefinitions.i_enter_in_search_box(java.lang.String)
+  When I click on search button                                          # stepDefinitions.AttHomePageStepDefinitions.i_click_on_search_button()
+  Then I should see "Results for iphone 12 - AT&T Search" is appearing   # stepDefinitions.AttHomePageStepDefinitions.i_should_see_is_appearing1(java.lang.String)
+  And I verify "Results for iphone 12 - AT&T Search" in product title.   # stepDefinitions.AttHomePageStepDefinitions.i_verify_in_product_title(java.lang.String)
+
+@smokeTest
+Scenario Outline: AT&T search box functionality check with valid product # src/test/java/features/Business.feature:38
+  Given I am on AT&T homepage                                            # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  Given I am on AT&T homepage                                            # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I enter "iphone 11" in search box.                                 # stepDefinitions.AttHomePageStepDefinitions.i_enter_in_search_box(java.lang.String)
+  When I click on search button                                          # stepDefinitions.AttHomePageStepDefinitions.i_click_on_search_button()
+  Then I should see "Results for iphone 11 - AT&T Search" is appearing   # stepDefinitions.AttHomePageStepDefinitions.i_should_see_is_appearing1(java.lang.String)
+  And I verify "Results for iphone 11 - AT&T Search" in product title.   # stepDefinitions.AttHomePageStepDefinitions.i_verify_in_product_title(java.lang.String)
+
+@smokeTest
+Scenario Outline: AT&T search box functionality check with valid product # src/test/java/features/Business.feature:39
+  Given I am on AT&T homepage                                            # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  Given I am on AT&T homepage                                            # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I enter "iphone X" in search box.                                  # stepDefinitions.AttHomePageStepDefinitions.i_enter_in_search_box(java.lang.String)
+  When I click on search button                                          # stepDefinitions.AttHomePageStepDefinitions.i_click_on_search_button()
+  Then I should see "Results for iphone X - AT&T Search" is appearing    # stepDefinitions.AttHomePageStepDefinitions.i_should_see_is_appearing1(java.lang.String)
+  And I verify "Results for iphone X - AT&T Search" in product title.    # stepDefinitions.AttHomePageStepDefinitions.i_verify_in_product_title(java.lang.String)
+
+@smokeTest
+Scenario: Internet link functionality under AT&T business on header # src/test/java/features/Business.feature:43
+  Given I am on AT&T homepage                                       # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on Business                                           # stepDefinitions.AttHomePageStepDefinitions.i_click_on_business()
+  And I click on Internet                                           # stepDefinitions.AttHomePageStepDefinitions.i_click_on_internet()
+  And I enter "23517 Curie st" on the service address search box    # stepDefinitions.AttHomePageStepDefinitions.i_enter_on_the_service_address_search_box(java.lang.String)
+  And I enter "48091" on the zip code field                         # stepDefinitions.AttHomePageStepDefinitions.i_enter_on_the_zip_code_field(java.lang.String)
+  When I click on check availability                                # stepDefinitions.AttHomePageStepDefinitions.i_click_on_check_availability()
+  And I click on  shop now                                          # stepDefinitions.AttHomePageStepDefinitions.i_click_on_$_shop_now()
+  Then I should be able to see all the Internet Deals               # stepDefinitions.AttHomePageStepDefinitions.i_should_be_able_to_see_all_the_internet_deals()
+
+@smokeTest
+Scenario: Voice link functionality under AT&T business on header # src/test/java/features/Business.feature:53
+  Given I am on AT&T homepage                                    # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on Business                                        # stepDefinitions.AttHomePageStepDefinitions.i_click_on_business()
+  And I click on voice                                           # stepDefinitions.AttHomePageStepDefinitions.i_click_on_voice()
+  And I enter "23517 Curie st" on the service address search box # stepDefinitions.AttHomePageStepDefinitions.i_enter_on_the_service_address_search_box(java.lang.String)
+  And I enter "48091" on the zip code field                      # stepDefinitions.AttHomePageStepDefinitions.i_enter_on_the_zip_code_field(java.lang.String)
+  When I click on check availability                             # stepDefinitions.AttHomePageStepDefinitions.i_click_on_check_availability()
+  Then I should be able to see all voice deals                   # stepDefinitions.AttHomePageStepDefinitions.i_should_be_able_to_see_all_voice_deals()
+
+@smokeTest
+Scenario: Bundles link functionality under AT&T business on header # src/test/java/features/Business.feature:62
+  Given I am on AT&T homepage                                      # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on Business                                          # stepDefinitions.AttHomePageStepDefinitions.i_click_on_business()
+  And I click on bundles                                           # stepDefinitions.AttHomePageStepDefinitions.i_click_on_bundles()
+  And I enter "23517 Curie st" on the service address search box   # stepDefinitions.AttHomePageStepDefinitions.i_enter_on_the_service_address_search_box(java.lang.String)
+  And I enter "48091" on the zip code field                        # stepDefinitions.AttHomePageStepDefinitions.i_enter_on_the_zip_code_field(java.lang.String)
+  When I click on check availability                               # stepDefinitions.AttHomePageStepDefinitions.i_click_on_check_availability()
+  Then I should be able to see all the bundles                     # stepDefinitions.AttHomePageStepDefinitions.i_should_be_able_to_see_all_the_bundles()
+
+@smokeTest
+Scenario: AT&T search box functionality check with valid product       # src/test/java/features/Business.feature:78
+  Given I am on AT&T homepage                                          # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I enter "iphone 12" in search box.                               # stepDefinitions.AttHomePageStepDefinitions.i_enter_in_search_box(java.lang.String)
+  When I click on search button                                        # stepDefinitions.AttHomePageStepDefinitions.i_click_on_search_button()
+  Then I should see "iphone 12"" is appearing                          # stepDefinitions.AttHomePageStepDefinitions.i_should_see_is_appearing(java.lang.String)
+  And I verify "Results for iphone 12 - AT&T Search" in product title. # stepDefinitions.AttHomePageStepDefinitions.i_verify_in_product_title(java.lang.String)
+
+@smokeTest
+Scenario: Prepaid functionality on AT&T header # src/test/java/features/Business.feature:86
+  Given I am on AT&T homepage                  # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on  prepaid                      # stepDefinitions.AttHomePageStepDefinitions.i_click_on_prepaid()
+  And I click on prepaid plans                 # stepDefinitions.AttHomePageStepDefinitions.i_click_on_prepaid_plans()
+  When I click on  shop now arrow              # stepDefinitions.AttHomePageStepDefinitions.i_click_on_shop_now_arrow()
+  Then I should see all the prepaid deals      # stepDefinitions.AttHomePageStepDefinitions.i_should_see_all_the_prepaid_deals()
+
+@smokeTest
+Scenario: TV functionality in AT&T header                                # src/test/java/features/Business.feature:94
+  Given I am on AT&T homepage                                            # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on  TV                                                     # stepDefinitions.AttHomePageStepDefinitions.i_click_on_tv()
+  And I click on Channel Lineup                                          # stepDefinitions.AttHomePageStepDefinitions.i_click_on_channel_lineup()
+  When I enter the channel names on the channel search bar               # stepDefinitions.AttHomePageStepDefinitions.i_enter_the_channel_names_on_the_channel_search_bar()
+  Then I should be able to see all the channel deals and shop now option # stepDefinitions.AttHomePageStepDefinitions.i_should_be_able_to_see_all_the_channel_deals_and_shop_now_option()
+
+@smokeTest
+Scenario: Business tools functionality under business  # src/test/java/features/Business.feature:101
+  Given I am on AT&T homepage                          # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on Business                              # stepDefinitions.AttHomePageStepDefinitions.i_click_on_business()
+  When I click on business tools                       # stepDefinitions.AttHomePageStepDefinitions.i_click_on_business_tools()
+  Then I should be able to see the business tools page # stepDefinitions.AttHomePageStepDefinitions.i_should_be_able_to_see_the_business_tools_page()
+
+@smokeTest
+Scenario: Business TV functionality under business # src/test/java/features/Business.feature:107
+  Given I am on AT&T homepage                      # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on Business                          # stepDefinitions.AttHomePageStepDefinitions.i_click_on_business()
+  When I click on business TV                      # stepDefinitions.AttHomePageStepDefinitions.i_click_on_business_tv()
+  And I click on Offices                           # stepDefinitions.AttHomePageStepDefinitions.i_click_on_offices()
+  Then I should be able to see get free quote page # stepDefinitions.AttHomePageStepDefinitions.i_should_be_able_to_see_get_free_quote_page()
+
+@smokeTest
+Scenario: Enterprise business functionality under business # src/test/java/features/Business.feature:114
+  Given I am on AT&T homepage                              # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on Business                                  # stepDefinitions.AttHomePageStepDefinitions.i_click_on_business()
+  When I click on enterprise business                      # stepDefinitions.AttHomePageStepDefinitions.i_click_on_enterprise_business()
+  And I click on Mobility                                  # stepDefinitions.AttHomePageStepDefinitions.i_click_on_mobility()
+  Then I should see unlimited your way page                # stepDefinitions.AttHomePageStepDefinitions.i_should_see_unlimited_your_way_page()
+
+@smokeTest
+Scenario: Internet & networking  functionality under enterprise business # src/test/java/features/Business.feature:121
+  Given I am on AT&T homepage                                            # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on Business                                                # stepDefinitions.AttHomePageStepDefinitions.i_click_on_business()
+  And I click on enterprise business                                     # stepDefinitions.AttHomePageStepDefinitions.i_click_on_enterprise_business()
+  When I click on internet & networking                                  # stepDefinitions.AttHomePageStepDefinitions.i_click_on_internet_networking()
+  And I click on complete your purchase                                  # stepDefinitions.AttHomePageStepDefinitions.i_click_on_complete_your_purchase()
+  Then I should see the business address form                            # stepDefinitions.AttHomePageStepDefinitions.i_should_see_the_business_address_form()
+
+@smokeTest
+Scenario: Voice and collaboration  functionality under enterprise business # src/test/java/features/Business.feature:129
+  Given I am on AT&T homepage                                              # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on Business                                                  # stepDefinitions.AttHomePageStepDefinitions.i_click_on_business()
+  And I click on enterprise business                                       # stepDefinitions.AttHomePageStepDefinitions.i_click_on_enterprise_business()
+  When I click on voice and collaboration                                  # stepDefinitions.AttHomePageStepDefinitions.i_click_on_voice_and_collaboration()
+  Then I should see voice and collaboration page                           # stepDefinitions.AttHomePageStepDefinitions.i_should_see_voice_and_collaboration_page()
+
+@smokeTest
+Scenario: Cyber security  functionality under enterprise business # src/test/java/features/Business.feature:136
+  Given I am on AT&T homepage                                     # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on Business                                         # stepDefinitions.AttHomePageStepDefinitions.i_click_on_business()
+  And I click on enterprise business                              # stepDefinitions.AttHomePageStepDefinitions.i_click_on_enterprise_business()
+  When I click on cyber security                                  # stepDefinitions.AttHomePageStepDefinitions.i_click_on_cyber_security()
+  Then I should see cyber security page                           # stepDefinitions.AttHomePageStepDefinitions.i_should_see_cyber_security_page()
+
+@smokeTest
+Scenario: Content and Entertainment  functionality under enterprise business # src/test/java/features/Business.feature:143
+  Given I am on AT&T homepage                                                # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on Business                                                    # stepDefinitions.AttHomePageStepDefinitions.i_click_on_business()
+  And I click on enterprise business                                         # stepDefinitions.AttHomePageStepDefinitions.i_click_on_enterprise_business()
+  When I click on Content and Entertainment                                  # stepDefinitions.AttHomePageStepDefinitions.i_click_on_content_and_entertainment()
+  Then I should see Content and Entertainment  page                          # stepDefinitions.AttHomePageStepDefinitions.i_should_see_content_and_entertainment_page()
+
+@smokeTest
+Scenario: Digital capabilities  functionality under enterprise business # src/test/java/features/Business.feature:150
+  Given I am on AT&T homepage                                           # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on Business                                               # stepDefinitions.AttHomePageStepDefinitions.i_click_on_business()
+  And I click on enterprise business                                    # stepDefinitions.AttHomePageStepDefinitions.i_click_on_enterprise_business()
+  When I click on Digital capabilities                                  # stepDefinitions.AttHomePageStepDefinitions.i_click_on_digital_capabilities()
+  Then I should see Digital capabilities page                           # stepDefinitions.AttHomePageStepDefinitions.i_should_see_digital_capabilities_page()
+
+@smokeTest
+Scenario: Deals in AT&T header                        # src/test/java/features/Deals.feature:8
+  Given I am on AT&T homepage                         # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on deals                                # stepDefinitions.AttHomePageStepDefinitions.i_click_on_deals()
+  When I click on wireless                            # stepDefinitions.AttHomePageStepDefinitions.i_click_on_wireless()
+  Then I should be able to see all the wireless items # stepDefinitions.AttHomePageStepDefinitions.i_should_be_able_to_see_all_the_wireless_items()
+
+@smokeTest
+Scenario: Wireless under Deals in AT&T header                 # src/test/java/features/Deals.feature:13
+  Given I am on AT&T homepage                                 # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on deals                                        # stepDefinitions.AttHomePageStepDefinitions.i_click_on_deals()
+  When I click on wireless                                    # stepDefinitions.AttHomePageStepDefinitions.i_click_on_wireless()
+  And I click on explore wireless                             # stepDefinitions.AttHomePageStepDefinitions.i_click_on_explore_wireless()
+  Then I should be able to see all the Explore wireless items # stepDefinitions.AttHomePageStepDefinitions.i_should_be_able_to_see_all_the_explore_wireless_items()
+
+@smokeTest
+Scenario: Low cost phones under phones & devices       # src/test/java/features/Deals.feature:19
+  Given I am on AT&T homepage                          # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on deals                                 # stepDefinitions.AttHomePageStepDefinitions.i_click_on_deals()
+  And I click on wireless                              # stepDefinitions.AttHomePageStepDefinitions.i_click_on_wireless()
+  When I click on phones & devices                     # stepDefinitions.AttHomePageStepDefinitions.i_click_on_phones_devices()
+  And I click on Low cost phone                        # stepDefinitions.AttHomePageStepDefinitions.i_click_on_low_cost_phone()
+  Then I should be able to see all the low cost phones # stepDefinitions.AttHomePageStepDefinitions.i_should_be_able_to_see_all_the_low_cost_phones()
+
+@smokeTest
+Scenario: compare devices under low cost phone and devices # src/test/java/features/Deals.feature:26
+  Given I am on AT&T homepage                              # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on deals                                     # stepDefinitions.AttHomePageStepDefinitions.i_click_on_deals()
+  And I click on wireless                                  # stepDefinitions.AttHomePageStepDefinitions.i_click_on_wireless()
+  And I click on phones & devices                          # stepDefinitions.AttHomePageStepDefinitions.i_click_on_phones_devices()
+  When I click on Low cost phone                           # stepDefinitions.AttHomePageStepDefinitions.i_click_on_low_cost_phone()
+  Then I should be able to compare devices                 # stepDefinitions.AttHomePageStepDefinitions.i_should_be_able_to_compare_devices()
+
+@smokeTest
+Scenario: Apple phones under phones & devices       # src/test/java/features/Deals.feature:33
+  Given I am on AT&T homepage                       # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on deals                              # stepDefinitions.AttHomePageStepDefinitions.i_click_on_deals()
+  And I click on wireless                           # stepDefinitions.AttHomePageStepDefinitions.i_click_on_wireless()
+  When I click on phones & devices                  # stepDefinitions.AttHomePageStepDefinitions.i_click_on_phones_devices()
+  And I click on Apple                              # stepDefinitions.AttHomePageStepDefinitions.i_click_on_apple()
+  Then I should be able to see all the Apple phones # stepDefinitions.AttHomePageStepDefinitions.i_should_be_able_to_see_all_the_apple_phones()
+
+@smokeTest
+Scenario: Samsung phones under phones & devices       # src/test/java/features/Deals.feature:40
+  Given I am on AT&T homepage                         # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on deals                                # stepDefinitions.AttHomePageStepDefinitions.i_click_on_deals()
+  And I click on wireless                             # stepDefinitions.AttHomePageStepDefinitions.i_click_on_wireless()
+  When I click on phones & devices                    # stepDefinitions.AttHomePageStepDefinitions.i_click_on_phones_devices()
+  And I click on Samsung                              # stepDefinitions.AttHomePageStepDefinitions.i_click_on_samsung()
+  Then I should be able to see all the Samsung phones # stepDefinitions.AttHomePageStepDefinitions.i_should_be_able_to_see_all_the_samsung_phones()
+
+@smokeTest
+Scenario: Store pickup under phones & devices                         # src/test/java/features/Deals.feature:47
+  Given I am on AT&T homepage                                         # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on deals                                                # stepDefinitions.AttHomePageStepDefinitions.i_click_on_deals()
+  And I click on wireless                                             # stepDefinitions.AttHomePageStepDefinitions.i_click_on_wireless()
+  And I click on phones & devices                                     # stepDefinitions.AttHomePageStepDefinitions.i_click_on_phones_devices()
+  When I  click on store pick-up                                      # stepDefinitions.AttHomePageStepDefinitions.i_click_on_store_pick_up()
+  Then I should be able to see all the available store pick=up items. # stepDefinitions.AttHomePageStepDefinitions.i_should_be_able_to_see_all_the_available_store_pick_up_items()
+
+@smokeTest
+Scenario: Phones & devices and under deals          # src/test/java/features/Deals.feature:54
+  Given I am on AT&T homepage                       # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on deals                              # stepDefinitions.AttHomePageStepDefinitions.i_click_on_deals()
+  And I click on wireless                           # stepDefinitions.AttHomePageStepDefinitions.i_click_on_wireless()
+  When I click on phones & devices                  # stepDefinitions.AttHomePageStepDefinitions.i_click_on_phones_devices()
+  Then I should see all the phones and device deals # stepDefinitions.AttHomePageStepDefinitions.i_should_see_all_the_phones_and_device_deals()
+
+@smokeTest
+Scenario: Tablet and PC under phones & devices         # src/test/java/features/Deals.feature:60
+  Given I am on AT&T homepage                          # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on deals                                 # stepDefinitions.AttHomePageStepDefinitions.i_click_on_deals()
+  And I click on wireless                              # stepDefinitions.AttHomePageStepDefinitions.i_click_on_wireless()
+  When I click on phones & devices                     # stepDefinitions.AttHomePageStepDefinitions.i_click_on_phones_devices()
+  And I click on Tablet and PC                         # stepDefinitions.AttHomePageStepDefinitions.i_click_on_tablet_and_pc()
+  Then I should be able to see all the Tablets and pcs # stepDefinitions.AttHomePageStepDefinitions.i_should_be_able_to_see_all_the_tablets_and_pcs()
+
+@smokeTest
+Scenario: AT&T & prepaid under Phones & devices  # src/test/java/features/Deals.feature:67
+  Given I am on AT&T homepage                    # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on deals                           # stepDefinitions.AttHomePageStepDefinitions.i_click_on_deals()
+  And I click on wireless                        # stepDefinitions.AttHomePageStepDefinitions.i_click_on_wireless()
+  When I click on phones & devices               # stepDefinitions.AttHomePageStepDefinitions.i_click_on_phones_devices()
+  And I click on AT&T & prepaid                  # stepDefinitions.AttHomePageStepDefinitions.i_click_on_at_t_prepaid()
+  Then I should see all the AT&T & prepaid deals # stepDefinitions.AttHomePageStepDefinitions.i_should_see_all_the_at_t_prepaid_deals()
+
+@smokeTest
+Scenario: Internet & TV and under deals        # src/test/java/features/Deals.feature:74
+  Given I am on AT&T homepage                  # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on deals                         # stepDefinitions.AttHomePageStepDefinitions.i_click_on_deals()
+  When I click on Internet & TV                # stepDefinitions.AttHomePageStepDefinitions.i_click_on_internet_tv()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"partial link text","selector":"Internet & TV"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53300}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 76817e08ebc051e16262076c0c0e7fc5
+*** Element info: {Using=partial link text, value=Internet & TV}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByPartialLinkText(RemoteWebDriver.java:388)
+	at org.openqa.selenium.By$ByPartialLinkText.findElement(By.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickOnLink(WebAPI.java:724)
+	at atthomepage.ATTHomepage.checkInternetAndTV(ATTHomepage.java:155)
+	at stepDefinitions.AttHomePageStepDefinitions.i_click_on_internet_tv(AttHomePageStepDefinitions.java:179)
+	at ✽.I click on Internet & TV(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:75)
+
+
+    Embedding demo1 [image/png 220490 bytes]
+
+  Then I should see all theInternet & TV deals # stepDefinitions.AttHomePageStepDefinitions.i_should_see_all_the_internet_tv_deals()
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepDefinitions.AttHomePageStepDefinitions.tearDown(AttHomePageStepDefinitions.java:28)
+
+
+@smokeTest
+Scenario: Accessories  under deals            # src/test/java/features/Deals.feature:79
+  Given I am on AT&T homepage                 # stepDefinitions.AttHomePageStepDefinitions.i_am_on_at_t_homepage()
+  And I click on deals                        # stepDefinitions.AttHomePageStepDefinitions.i_click_on_deals()
+  When I click on Accessories                 # stepDefinitions.AttHomePageStepDefinitions.i_click_on_accessories()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[normalize-space()='Accessories']"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53407}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a04a91bc1f9c27f72cb5b83aa828e69a
+*** Element info: {Using=xpath, value=//a[normalize-space()='Accessories']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickByXpath1(WebAPI.java:624)
+	at atthomepage.ATTHomepage.checkAccessories(ATTHomepage.java:163)
+	at stepDefinitions.AttHomePageStepDefinitions.i_click_on_accessories(AttHomePageStepDefinitions.java:188)
+	at ✽.I click on Accessories(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/ATT/src/test/java/features/Deals.feature:80)
+
+
+    Embedding demo1 [image/png 220490 bytes]
+
+  Then I should see all the accessories deals # stepDefinitions.AttHomePageStepDefinitions.i_should_see_all_the_accessories_deals()
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepDefinitions.AttHomePageStepDefinitions.tearDown(AttHomePageStepDefinitions.java:28)
+

@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="7" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="30" time="310.969">
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Auto insurance functionality in progressive sub-header" time="8.808">
+        <failure message="element click intercepted: Element &lt;input type=&quot;submit&quot; id=&quot;qsButton_mma&quot; name=&quot;qsButton&quot; value=&quot;Get a quote&quot;&gt; is not clickable at point (1028, 242). Other element would receive the click: &lt;div class=&quot;acsAbandonButton acsModalBackdrop&quot; data-isbackdrop=&quot;true&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=89.0.4389.90)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51414}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6c6bfa53f3ddaf067577ea55c98f7bbd" type="org.openqa.selenium.ElementClickInterceptedException">
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I mouse hoover on auto..................................................passed
+And I enter "48091" on the zipcode search bar...............................passed
+And I click on Get  quotes..................................................failed
+And I enter driver information..............................................skipped
+When I click on start my quote..............................................skipped
+Then I should be able to select my car model................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" id="qsButton_mma" name="qsButton" value="Get a quote"> is not clickable at point (1028, 242). Other element would receive the click: <div class="acsAbandonButton acsModalBackdrop" data-isbackdrop="true">...</div>
+  (Session info: chrome=89.0.4389.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51414}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6c6bfa53f3ddaf067577ea55c98f7bbd
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at common.WebAPI.clickByXpath(WebAPI.java:321)
+	at homepage.ProgressiveHomePage.checkGetQuoteButton(ProgressiveHomePage.java:55)
+	at stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_get_quotes(ProgressiveHomePageTestDefinitions.java:69)
+	at ✽.I click on Get  quotes(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:11)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Homeowners insurance under explore products" time="33.225">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on homeowners...................................................passed
+And I enter "48091" on the homeowners insurance zipcode search box..........passed
+And I click on get homeowners insurance quote...............................passed
+And I enter "23817 Curie St" on the address search box......................passed
+And I click on Let's go button..............................................passed
+And I enter the homeowners information......................................passed
+And I select NO for do you have progressive auto insurance..................passed
+And I select April20th from the homeowners insurance calender...............passed
+When I click on next........................................................passed
+Then I should be able to see Home basics page for additional home information.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Motorcycle insurance functionality under explore products" time="9.866">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on motorcycle...................................................passed
+And I enter "48091" on the zipcode search bar...............................passed
+And I click on Get a quote..................................................passed
+And I enter driver information..............................................passed
+When I click on start my quote..............................................passed
+Then I should be able to see my motorbike model page........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Dental insurance functionality under personal explore products" time="19.447">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on dental.......................................................passed
+And I enter "48091" on the dental insurance search box......................passed
+And I click on get  quote...................................................passed
+And I enter "48091" on the find plans zipcode search box....................passed
+And I select Female for gender..............................................passed
+And I enter "12/21/2000" on the date of birth web edit field................passed
+And I select April 20th from the coverage starting calender.................passed
+When I click on find plans..................................................passed
+Then I should be able to see all the available plans........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="General  Liability functionality under explore products" time="40.613">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;searchbtn&quot;]&quot;}&#10;  (Session info: chrome=89.0.4389.90)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51775}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 976a7bf6fc929b4c1da51e27a1ca4c0c&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;searchbtn&quot;]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on general liability............................................passed
+And I enter "48091" on zipcode search bar...................................passed
+When I click Get  quote.....................................................passed
+And I select general liability..............................................passed
+And I click on continue.....................................................passed
+And I enter "teacher" on the what do you do search box......................failed
+And I select Teacher........................................................skipped
+And click on continue.......................................................skipped
+Then I should be able to see business info form.............................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="searchbtn"]"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51775}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 976a7bf6fc929b4c1da51e27a1ca4c0c
+*** Element info: {Using=xpath, value=//*[@id="searchbtn"]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickByXpath(WebAPI.java:321)
+	at homepage.ProgressiveHomePage.checkWhatDoYouDoSearchBox(ProgressiveHomePage.java:296)
+	at stepDefinitions.ProgressiveHomePageTestDefinitions.i_enter_on_the_what_do_you_do_search_box(ProgressiveHomePageTestDefinitions.java:391)
+	at ✽.I enter "teacher" on the what do you do search box(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:75)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Explore products functionality in progressive sub-header" time="8.101">
+        <failure message="element click intercepted: Element &lt;input type=&quot;submit&quot; id=&quot;qsButton_mma&quot; name=&quot;qsButton&quot; value=&quot;Get a quote&quot;&gt; is not clickable at point (1028, 242). Other element would receive the click: &lt;div class=&quot;acsAbandonButton acsModalBackdrop&quot; data-isbackdrop=&quot;true&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=89.0.4389.90)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 9544b7863837a8a6d93913464088c320" type="org.openqa.selenium.ElementClickInterceptedException">
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I mouse hoover on auto..................................................passed
+And I enter "48091" on the zipcode search bar...............................passed
+When I click on Get a quote.................................................failed
+Then I should be able to see the start my quote form........................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" id="qsButton_mma" name="qsButton" value="Get a quote"> is not clickable at point (1028, 242). Other element would receive the click: <div class="acsAbandonButton acsModalBackdrop" data-isbackdrop="true">...</div>
+  (Session info: chrome=89.0.4389.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9544b7863837a8a6d93913464088c320
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at common.WebAPI.clickByXpath(WebAPI.java:321)
+	at homepage.ProgressiveHomePage.checkGetQuoteButton(ProgressiveHomePage.java:55)
+	at stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_get_a_quote(ProgressiveHomePageTestDefinitions.java:64)
+	at ✽.I click on Get a quote(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:85)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="claims link functionality under explore products" time="6.405">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on claims.......................................................passed
+And I click on claims overview..............................................passed
+When I click on report and view a claim.....................................passed
+Then I should be able to see the login page.................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Auto process claims link functionality under claims" time="6.47">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on claims.......................................................passed
+When I click on Auto process claims.........................................passed
+Then I should be able to see the auto claims page...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Roadside assistance functionality under claims" time="4.52">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on claims.......................................................passed
+When I click on roadside assistance.........................................passed
+And I click on file a claim through progressive app.........................passed
+Then I should take me to the download page..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Catastrophe claim functionality under claims" time="6.515">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on claims.......................................................passed
+When I click on Catastrophe.................................................passed
+And I click on login........................................................passed
+Then I should take me to the login page.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="About us  functionality under explore products" time="6.504">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on about us.....................................................passed
+When I click on corporate responsibility....................................passed
+Then I should be able to see the corporate responsibility page..............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Investors link  functionality under about us" time="6.42">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on about us.....................................................passed
+When I click on Investors...................................................passed
+Then I should be able to see all the messages from the investors............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Career link  functionality under about us" time="8.5">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on about us.....................................................passed
+And I click on career.......................................................passed
+When I click on Find a Career...............................................passed
+Then I should be able to see all the job openings...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Local Agent  functionality under about us" time="7.857">
+        <failure message="element click intercepted: Element &lt;button type=&quot;submit&quot; id=&quot;findAgentButton&quot;&gt;...&lt;/button&gt; is not clickable at point (849, 250). Other element would receive the click: &lt;h1 id=&quot;fsrHeading&quot;&gt;...&lt;/h1&gt;&#10;  (Session info: chrome=89.0.4389.90)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 1af1e24d0a4f041cf09a717ad8d8b8c2" type="org.openqa.selenium.ElementClickInterceptedException">
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on about us.....................................................passed
+And I click on Local agent..................................................passed
+And I enter "48091" on the zip code search box..............................passed
+When I click on find an agent...............................................failed
+Then I should be able to see all the local agents lists.....................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="submit" id="findAgentButton">...</button> is not clickable at point (849, 250). Other element would receive the click: <h1 id="fsrHeading">...</h1>
+  (Session info: chrome=89.0.4389.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1af1e24d0a4f041cf09a717ad8d8b8c2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at common.WebAPI.clickByXpath(WebAPI.java:321)
+	at homepage.ProgressiveHomePage.checkFindAnAgentButton(ProgressiveHomePage.java:147)
+	at stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_find_an_agent(ProgressiveHomePageTestDefinitions.java:203)
+	at ✽.I click on find an agent(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:140)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Newsroom link  functionality under about us" time="7.682">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on about us.....................................................passed
+When I click on newsroom....................................................passed
+Then It should navigate me to the newsroom page.............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Mobile home functionality under explore products" time="6.019">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on mobile homes.................................................passed
+And I enter "48091" on the zipcode search bar...............................passed
+When I click on Get a quote.................................................passed
+Then I should be able to see the start my quote forms.......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Commercial Auto functionality under explore products" time="7.05">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on commercial Auto..............................................passed
+And I enter "48091" on zipcode search bar...................................passed
+When I click Get  quote.....................................................passed
+Then I should be able to see All the commercial Auto Lists..................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Workers compensation functionality under explore products" time="16.392">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on workers compensation.........................................passed
+And I enter "48091" on zipcode search bar...................................passed
+When I click Get  quote.....................................................passed
+And I select workers compensation...........................................passed
+And I click on continue.....................................................passed
+Then I should be able to see what do you do homepage........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Professional Liability functionality under explore products" time="17.62">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on professional liability.......................................passed
+And I enter "48091" on zipcode search bar...................................passed
+When I click Get  quote.....................................................passed
+And I select professional liability.........................................passed
+And I click on continue.....................................................passed
+Then I should be able to see what do you do homepage........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Business Owner's policy functionality under explore products" time="7.303">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on business owners policy.......................................passed
+And I enter "48091" on zipcode search bar...................................passed
+When I click Get  quote.....................................................passed
+Then I should be able to get started page...................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Business insurance policy functionality under explore products" time="7.272">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on business insurance...........................................passed
+And I enter "48091" on zipcode search bar...................................passed
+When I click Get  quote.....................................................passed
+Then I should be able to see get started page...............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Snowmobile insurance functionality under explore products" time="6.815">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on snowmobile...................................................passed
+And I enter "48091" on the zipcode search bar...............................passed
+When I click on Get a quote.................................................passed
+Then I should be able to see the drivers information form...................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Boat insurance functionality under explore products" time="7.999">
+        <failure message="element click intercepted: Element &lt;input type=&quot;submit&quot; id=&quot;qsButton_mma&quot; name=&quot;qsButton&quot; value=&quot;Get a quote&quot;&gt; is not clickable at point (849, 242). Other element would receive the click: &lt;h1 id=&quot;fsrHeading&quot;&gt;...&lt;/h1&gt;&#10;  (Session info: chrome=89.0.4389.90)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52949}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 555ddae69ea4ba629f4fd43e13548b6c" type="org.openqa.selenium.ElementClickInterceptedException">
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on Boat.........................................................passed
+And I enter "48091" on the zipcode search bar...............................passed
+When I click on Get a quote.................................................failed
+Then I should be able to see the driver information form....................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" id="qsButton_mma" name="qsButton" value="Get a quote"> is not clickable at point (849, 242). Other element would receive the click: <h1 id="fsrHeading">...</h1>
+  (Session info: chrome=89.0.4389.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52949}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 555ddae69ea4ba629f4fd43e13548b6c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at common.WebAPI.clickByXpath(WebAPI.java:321)
+	at homepage.ProgressiveHomePage.checkGetQuoteButton(ProgressiveHomePage.java:55)
+	at stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_get_a_quote(ProgressiveHomePageTestDefinitions.java:64)
+	at ✽.I click on Get a quote(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:206)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Classic Car functionality under explore products" time="6.855">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on Classic car..................................................passed
+And I enter "48091" on the zipcode search bar...............................passed
+When I click on Get a quote.................................................passed
+Then I should be able to see the driver info form...........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Golf Car functionality under explore products" time="6.649">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on Golf car.....................................................passed
+And I enter "48091" on the zipcode search bar...............................passed
+When I click on Get a quote.................................................passed
+Then I should be able to see  driver info form..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Trailer functionality under explore products" time="7.007">
+        <failure message="element click intercepted: Element &lt;a href=&quot;#l&quot; aria-haspopup=&quot;dialog&quot; data-qs-product=&quot;RV&quot; data-tracking-label=&quot;rvtrailer_section&quot;&gt;...&lt;/a&gt; is not clickable at point (506, 426). Other element would receive the click: &lt;div class=&quot;teasers&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=89.0.4389.90)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: bba19238b1274007efed483e00f39a03" type="org.openqa.selenium.ElementClickInterceptedException">
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on Trailer......................................................failed
+And I enter "48091" on the zipcode search bar...............................skipped
+When I click on Get a quote.................................................skipped
+Then I should be able to see all the Trailer lists..........................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#l" aria-haspopup="dialog" data-qs-product="RV" data-tracking-label="rvtrailer_section">...</a> is not clickable at point (506, 426). Other element would receive the click: <div class="teasers">...</div>
+  (Session info: chrome=89.0.4389.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bba19238b1274007efed483e00f39a03
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at common.WebAPI.clickOnLink(WebAPI.java:724)
+	at homepage.ProgressiveHomePage.checkTrailerLink(ProgressiveHomePage.java:360)
+	at stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_trailer(ProgressiveHomePageTestDefinitions.java:461)
+	at ✽.I click on Trailer(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:225)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Segway link functionality under explore products" time="6.867">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on Segway.......................................................passed
+And I enter "48091" on the zipcode search bar...............................passed
+When I click on Get a quote.................................................passed
+Then I should be able to see drivers info form..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Auto and property link functionality under explore products" time="6.319">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on Auto and property............................................passed
+And I enter "48091" on the  bundle zipcode search bar.......................passed
+When I click on Get a quote.................................................passed
+Then I should be able to see drivers inf. form..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="Home Security functionality under explore products" time="11.256">
+        <system-out>
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on home security................................................passed
+When I click on buy online..................................................passed
+And I click on house........................................................passed
+And I click on small........................................................passed
+And I click on two doors....................................................passed
+Then I should be able to see submit email page..............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Explore Products functionality on progressive homepage header" name="PWC link functionality under explore products" time="8.01">
+        <failure message="element click intercepted: Element &lt;input type=&quot;submit&quot; id=&quot;qsButton&quot; name=&quot;qsButton&quot; value=&quot;Get a quote&quot;&gt; is not clickable at point (758, 308). Other element would receive the click: &lt;p id=&quot;fsrDescription&quot;&gt;...&lt;/p&gt;&#10;  (Session info: chrome=89.0.4389.90)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53431}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 8e1c52945fc5dc458e3d6593e427a3b6" type="org.openqa.selenium.ElementClickInterceptedException">
+            <![CDATA[Given I am on progressive homepage..........................................passed
+And I click on Explore Products.............................................passed
+And I click on PWC..........................................................passed
+And I enter "48091" on the PWC insurance zipcode search bar.................passed
+When I click on Get a quotes................................................failed
+Then I should be able to see drivers info forms.............................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" id="qsButton" name="qsButton" value="Get a quote"> is not clickable at point (758, 308). Other element would receive the click: <p id="fsrDescription">...</p>
+  (Session info: chrome=89.0.4389.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53431}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8e1c52945fc5dc458e3d6593e427a3b6
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at common.WebAPI.clickByXpath(WebAPI.java:321)
+	at homepage.ProgressiveHomePage.pwcGetQuotes(ProgressiveHomePage.java:423)
+	at stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_get_a_quotes(ProgressiveHomePageTestDefinitions.java:530)
+	at ✽.I click on Get a quotes(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:257)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

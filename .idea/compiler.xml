@@ -9,7 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Hotels" />
         <module name="Progressive" />
-        <module name="CNN" />
+        <module name="ATT" />
         <module name="Cigna" />
         <module name="Delta" />
         <module name="Generic" />

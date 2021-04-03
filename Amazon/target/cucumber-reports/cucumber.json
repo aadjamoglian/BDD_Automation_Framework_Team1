@@ -1,1 +1,636 @@
-[]
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-01T01:12:25.813Z",
+        "line": 4,
+        "name": "Amazon searchBox functionality check with valid product",
+        "description": "",
+        "id": "searchbox-functionality-check;amazon-searchbox-functionality-check-with-valid-product",
+        "after": [
+          {
+            "result": {
+              "duration": 925039300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4310161000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 26527000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 3542200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am on amazon homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_am_on_amazon_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 7356900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 249194600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1534900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 2059900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I enter \"Hand Sanitizer\" in searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hand Sanitizer\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 2025000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2212423700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 976500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I click on search Button",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_click_on_search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1163900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 824900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1019300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1218200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I should see \"Hand Sanitizer\" is properly appear",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hand Sanitizer\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinition.i_should_see_is_properly_appear(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1997000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1015000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1002000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I should not see \"mobile\" is appear",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mobile\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinition.i_should_not_see_is_appear(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1114400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1098900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I verify \"Amazon.com : Hand Sanitizer\" in product title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amazon.com : Hand Sanitizer\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinition.i_verify_in_product_title(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 992800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "SearchBox Functionality check",
+    "description": "",
+    "id": "searchbox-functionality-check",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomePage.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3647798500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I am on amazon homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_am_on_amazon_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-01T01:12:33.732Z",
+        "line": 9,
+        "name": "Amazon searchBox functionality check with valid product",
+        "description": "",
+        "id": "amazon-homepage-header;amazon-searchbox-functionality-check-with-valid-product",
+        "after": [
+          {
+            "result": {
+              "duration": 842486900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 249246300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 908400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 2187300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I enter \"Hand Sanitizer\" in searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hand Sanitizer\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1878380900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1319600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "I click on search Button",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinition.i_click_on_search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 958400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "I should see \"Hand Sanitizer\" is properly appear",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hand Sanitizer\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinition.i_should_see_is_properly_appear(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I should not see \"mobile\" is appear",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mobile\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinition.i_should_not_see_is_appear(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I verify \"Amazon.com : Hand Sanitizer\" in product title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Amazon.com : Hand Sanitizer\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinition.i_verify_in_product_title(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1001100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon HomePage Header",
+    "description": "",
+    "id": "amazon-homepage-header",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomePage_Background.feature",
+    "tags": []
+  }
+]

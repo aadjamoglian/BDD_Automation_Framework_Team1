@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="3" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="12" time="88.192">
+    <testcase classname="Progressive HomePage Header" name="Progressive searchBox functionality check" time="10.247">
+        <system-out>
+            <![CDATA[Given I am on progressive homePage..........................................passed
+And I click on Explore Products.............................................passed
+And I click ATV UTV.........................................................passed
+Then I verify "Low-cost ATV Insurance from the #1 Motorcycle Insurer | Progressive" in product title.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Progressive HomePage Header" name="Progressive Claims menu functionality check" time="11.873">
+        <failure message="element click intercepted: Element &lt;a itemprop=&quot;url&quot; href=&quot;https://account.apps.progressive.com/access/login?fd=AuthKeyClaimService&amp;amp;cntgrp=A&quot; id=&quot;claims_link&quot; data-trackevent-name=&quot;olsclaims&quot; data-trackevent-sdata1=&quot;ols claims login&quot; data-tracking-label=&quot;login&quot; data-personalization-eventid=&quot;Login-Claims&quot; data-monetate-event=&quot;LoginLink&quot;&gt;...&lt;/a&gt; is not clickable at point (639, 268). Other element would receive the click: &lt;p id=&quot;fsrDescription&quot;&gt;...&lt;/p&gt;&#10;  (Session info: chrome=89.0.4389.114)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:57239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 7733586a944a2fb8329f1795f48b0d88" type="org.openqa.selenium.ElementClickInterceptedException">
+            <![CDATA[Given I am on progressive homePage..........................................passed
+And I click on Claims Menu..................................................passed
+And I click Claims Overview.................................................passed
+When I click on Report Button...............................................failed
+Then I verify "Progressive Online Servicing" in product title...............skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a itemprop="url" href="https://account.apps.progressive.com/access/login?fd=AuthKeyClaimService&amp;cntgrp=A" id="claims_link" data-trackevent-name="olsclaims" data-trackevent-sdata1="ols claims login" data-tracking-label="login" data-personalization-eventid="Login-Claims" data-monetate-event="LoginLink">...</a> is not clickable at point (639, 268). Other element would receive the click: <p id="fsrDescription">...</p>
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:57239}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7733586a944a2fb8329f1795f48b0d88
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at common.WebAPI.clickByXpath(WebAPI.java:321)
+	at homepage.HomePage.claimsLink(HomePage.java:142)
+	at stepDefinitions.HomePageStepDefinition.iClickOnReportButton(HomePageStepDefinition.java:175)
+	at ✽.I click on Report Button(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:18)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Progressive HomePage Header" name="Progressive About Us menu functionality check" time="9.523">
+        <system-out>
+            <![CDATA[Given I am on progressive homePage..........................................passed
+And I click on About Us Menu................................................passed
+And I click Local Agents....................................................passed
+Then I verify "Insurance Agents And Brokers in California | Progressive Agent" in product title.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Progressive HomePage Header" name="Progressive Answers menu functionality check" time="9.769">
+        <system-out>
+            <![CDATA[Given I am on progressive homePage..........................................passed
+And I click on Answers Menu.................................................passed
+And I click Car insurance deductibles explained.............................passed
+Then I verify "How Do Car Insurance Deductibles Work? | Progressive" in product title.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Progressive HomePage Header" name="Progressive Answers menu functionality check 2" time="10.02">
+        <system-out>
+            <![CDATA[Given I am on progressive homePage..........................................passed
+And I click on Answers Menu.................................................passed
+And I click Car insurance deductibles explained.............................passed
+Then I verify "How Do Car Insurance Deductibles Work? | Progressive" in product title.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Progressive HomePage Header" name="Progressive Auto Popular Box functionality check" time="5.635">
+        <system-out>
+            <![CDATA[Given I am on progressive homePage..........................................passed
+And I click on Auto Popular Box.............................................passed
+Then I verify "Top-Rated Insurance Company for Auto & More | Progressive" in product title.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Progressive HomePage Header" name="Progressive Bundle Save functionality check" time="5.632">
+        <system-out>
+            <![CDATA[Given I am on progressive homePage..........................................passed
+And I click on Bundle Save..................................................passed
+Then I verify "Top-Rated Insurance Company for Auto & More | Progressive" in product title.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Progressive HomePage Header" name="Progressive Property functionality check" time="5.442">
+        <system-out>
+            <![CDATA[Given I am on progressive homePage..........................................passed
+And I click on Property.....................................................passed
+Then I verify "Top-Rated Insurance Company for Auto & More | Progressive" in product title.passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Progressive HomePage Header" name="Progressive Login click check" time="5.718">
+        <system-out>
+            <![CDATA[Given I am on progressive homePage..........................................passed
+And I click on Login........................................................passed
+Then I verify "Progressive Online Servicing" in product title...............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Progressive HomePage Header" name="Progressive Find an agent check" time="3.86">
+        <failure message="element click intercepted: Element is not clickable at point (751, 629)&#10;  (Session info: chrome=89.0.4389.114)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:57964}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f3cc2e6a4f245c32ad76035624f8312d" type="org.openqa.selenium.ElementClickInterceptedException">
+            <![CDATA[Given I am on progressive homePage..........................................passed
+And I click on Find an agent................................................failed
+Then I verify "Benefits of a Local Insurance Agent | Progressive Agent" in product title.skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (751, 629)
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:57964}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f3cc2e6a4f245c32ad76035624f8312d
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at common.WebAPI.clickByXpath(WebAPI.java:321)
+	at homepage.HomePage.findAnAgent(HomePage.java:103)
+	at stepDefinitions.HomePageStepDefinition.iClickOnFindAnAgent(HomePageStepDefinition.java:140)
+	at ✽.I click on Find an agent(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:66)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Progressive HomePage Header" name="Progressive 1-833-860-1305, Call Us Link check" time="5.968">
+        <system-out>
+            <![CDATA[Given I am on progressive homePage..........................................passed
+And I click on Call Us Link.................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Progressive HomePage Header" name="Progressive Auto Insurance Link check" time="4.108">
+        <failure message="element click intercepted: Element is not clickable at point (364, 841)&#10;  (Session info: chrome=89.0.4389.114)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:58111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 5bd31aa109ce2ce0898457b2fa962ad2" type="org.openqa.selenium.ElementClickInterceptedException">
+            <![CDATA[Given I am on progressive homePage..........................................passed
+And I click on Auto Insurance Link..........................................failed
+Then I verify "Car Insurance: Free Auto Insurance Quotes | Progressive" in product title.skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (364, 841)
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:58111}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5bd31aa109ce2ce0898457b2fa962ad2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at common.WebAPI.clickByXpath(WebAPI.java:321)
+	at homepage.HomePage.autoInsuranceLink(HomePage.java:194)
+	at stepDefinitions.HomePageStepDefinition.iClickOnAutoInsuranceLink(HomePageStepDefinition.java:226)
+	at ✽.I click on Auto Insurance Link(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:76)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

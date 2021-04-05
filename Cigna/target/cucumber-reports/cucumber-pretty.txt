@@ -1,0 +1,433 @@
+
+@smokeTest
+Scenario: Cigna searchBox functionality check with valid product                 # src/test/java/features/HomePage.feature:3
+  Given I am on Cigna homePage                                                   # stepDefinitions.HomePageStepDefinition.i_am_on_cigna_home_page()
+  And I enter "Diabetic" in searchBox                                            # stepDefinitions.HomePageStepDefinition.i_enter_diabetic_in_search_box(java.lang.String)
+  When I click on search button                                                  # stepDefinitions.HomePageStepDefinition.i_click_on_search_button()
+  Then I should see Diabetic is properly appearing                               # stepDefinitions.HomePageStepDefinition.i_should_see_diabetic_is_properly_appearing()
+  But I should not see mobile is appeared                                        # stepDefinitions.HomePageStepDefinition.i_should_not_see_mobile_is_appeared()
+  And I verify Cigna Official Site | Global Health Service Company in page title # stepDefinitions.HomePageStepDefinition.i_verify_cigna_official_site_global_health_service_company_in_page_title(java.lang.String)
+      io.cucumber.core.exception.CucumberException: Step [I verify Cigna Official Site | Global Health Service Company in page title] is defined with 1 parameters at 'stepDefinitions.HomePageStepDefinition.i_verify_cigna_official_site_global_health_service_company_in_page_title(java.lang.String)'.
+However, the gherkin step has 0 arguments.
+Step text: I verify Cigna Official Site | Global Health Service Company in page title
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)
+
+
+    Embedding demo1 [image/png 121609 bytes]
+
+
+@smokeTest
+Scenario: Company Profile check                                             # src/test/java/features/HomePage_Header_AboutUs.feature:8
+  Given I am on Cigna homePage                                              # stepDefinitions.HomePageStepDefinition.i_am_on_cigna_home_page()
+  And I hover on About Us                                                   # stepDefinitions.HomePageStepDefinition.iHoverOnAboutUs()
+  And I click on Company Profile                                            # stepDefinitions.HomePageStepDefinition.iClickOnCompanyProfile()
+  When I click Leadership Team                                              # stepDefinitions.HomePageStepDefinition.iClickLeadershipTeam()
+  And I verify "Cigna Executives and Management Team | Cigna" in page title # stepDefinitions.HomePageStepDefinition.iVerifyInPageTitle(java.lang.String)
+
+@smokeTest
+Scenario: Newsroom check                                            # src/test/java/features/HomePage_Header_AboutUs.feature:14
+  Given I am on Cigna homePage                                      # stepDefinitions.HomePageStepDefinition.i_am_on_cigna_home_page()
+  And I hover on About Us                                           # stepDefinitions.HomePageStepDefinition.iHoverOnAboutUs()
+  And I click on Newsroom                                           # stepDefinitions.HomePageStepDefinition.iClickOnNewsroom()
+  When I click Studies and Reports                                  # stepDefinitions.HomePageStepDefinition.iClickStudiesAndReports()
+  And I verify "Studies and Reports | Cigna Newsroom" in page title # stepDefinitions.HomePageStepDefinition.iVerifyInPageTitle(java.lang.String)
+
+@smokeTest
+Scenario: Corporate Responsibility check                                               # src/test/java/features/HomePage_Header_AboutUs.feature:20
+  Given I am on Cigna homePage                                                         # stepDefinitions.HomePageStepDefinition.i_am_on_cigna_home_page()
+      org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:50543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f5eff74e65f545c956f45227ea35104
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at common.WebAPI.setUp(WebAPI.java:149)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinition.i_am_on_cigna_home_page(HomePageStepDefinition.java:42)
+	at ✽.I am on Cigna homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Cigna/src/test/java/features/HomePage_Header_AboutUs.feature:4)
+
+      org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:50543}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8f5eff74e65f545c956f45227ea35104
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepDefinitions.HomePageStepDefinition.tearDown(HomePageStepDefinition.java:29)
+
+  And I hover on About Us                                                              # stepDefinitions.HomePageStepDefinition.iHoverOnAboutUs()
+  And I click on Corporate Responsibility                                              # stepDefinitions.HomePageStepDefinition.iClickOnCorporateResponsibility()
+  When I click Cigna in the Community                                                  # stepDefinitions.HomePageStepDefinition.iClickCignaInTheCommunity()
+  And I verify "Cigna in the Community | Cigna Corporate Responsibility" in page title # stepDefinitions.HomePageStepDefinition.iVerifyInPageTitle(java.lang.String)
+
+@smokeTest
+Scenario: Supplier Community check                       # src/test/java/features/HomePage_Header_AboutUs.feature:26
+  Given I am on Cigna homePage                           # stepDefinitions.HomePageStepDefinition.i_am_on_cigna_home_page()
+      org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:50570}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01f352bf2b374a71c6ddb9f8c7fbf232
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at common.WebAPI.setUp(WebAPI.java:149)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinition.i_am_on_cigna_home_page(HomePageStepDefinition.java:42)
+	at ✽.I am on Cigna homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Cigna/src/test/java/features/HomePage_Header_AboutUs.feature:4)
+
+      org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:50570}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 01f352bf2b374a71c6ddb9f8c7fbf232
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepDefinitions.HomePageStepDefinition.tearDown(HomePageStepDefinition.java:29)
+
+  And I hover on About Us                                # stepDefinitions.HomePageStepDefinition.iHoverOnAboutUs()
+  And I click on Supplier Community                      # stepDefinitions.HomePageStepDefinition.iClickOnSupplierCommunity()
+  When I click Ariba                                     # stepDefinitions.HomePageStepDefinition.iClickAriba()
+  And I verify "Ariba Information | Cigna" in page title # stepDefinitions.HomePageStepDefinition.iVerifyInPageTitle(java.lang.String)
+
+@smokeTest
+Scenario: Plans and Services check                   # src/test/java/features/HomePage_Header_EmployersBrokers.feature:8
+  Given I am on Cigna homePage                       # stepDefinitions.HomePageStepDefinition.i_am_on_cigna_home_page()
+  And I hover on Employers and Brokers               # stepDefinitions.HomePageStepDefinition.iHoverOnEmployersAndBrokers()
+  And I click on Plans and Services                  # stepDefinitions.HomePageStepDefinition.iClickOnPlansAndServices()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//ul[@id='employers-brokers-tab']//button[@class='nav-link btn-link active']"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:50603}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b500cdbabc4d3be2297c9b06989f958
+*** Element info: {Using=xpath, value=//ul[@id='employers-brokers-tab']//button[@class='nav-link btn-link active']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickByXpath(WebAPI.java:321)
+	at homepage.HomePage.plansAndServices(HomePage.java:123)
+	at stepDefinitions.HomePageStepDefinition.iClickOnPlansAndServices(HomePageStepDefinition.java:189)
+	at ✽.I click on Plans and Services(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Cigna/src/test/java/features/HomePage_Header_EmployersBrokers.feature:9)
+
+
+    Embedding demo1 [image/png 13113 bytes]
+
+  When I click Medical                               # stepDefinitions.HomePageStepDefinition.iClickMedical()
+  And I verify "Medical Plans | Cigna" in page title # stepDefinitions.HomePageStepDefinition.iVerifyInPageTitle(java.lang.String)
+
+@smokeTest
+Scenario: Who We Serve check                                                              # src/test/java/features/HomePage_Header_EmployersBrokers.feature:14
+  Given I am on Cigna homePage                                                            # stepDefinitions.HomePageStepDefinition.i_am_on_cigna_home_page()
+  And I hover on Employers and Brokers                                                    # stepDefinitions.HomePageStepDefinition.iHoverOnEmployersAndBrokers()
+  And I click on Who We Serve                                                             # stepDefinitions.HomePageStepDefinition.iClickOnWhoWeServe()
+  When I click Small Employers (51-499)                                                   # stepDefinitions.HomePageStepDefinition.iClickSmallEmployers(int,int)
+  And I verify "Health Insurance Plans for Small Business (51-499) | Cigna" in page title # stepDefinitions.HomePageStepDefinition.iVerifyInPageTitle(java.lang.String)
+
+@smokeTest
+Scenario: Why Signa check                        # src/test/java/features/HomePage_Header_EmployersBrokers.feature:20
+  Given I am on Cigna homePage                   # stepDefinitions.HomePageStepDefinition.i_am_on_cigna_home_page()
+      org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:50831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80a559efab1227d4b664702096639461
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at common.WebAPI.setUp(WebAPI.java:149)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinition.i_am_on_cigna_home_page(HomePageStepDefinition.java:42)
+	at ✽.I am on Cigna homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Cigna/src/test/java/features/HomePage_Header_EmployersBrokers.feature:4)
+
+      org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:50831}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 80a559efab1227d4b664702096639461
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepDefinitions.HomePageStepDefinition.tearDown(HomePageStepDefinition.java:29)
+
+  And I hover on Employers and Brokers           # stepDefinitions.HomePageStepDefinition.iHoverOnEmployersAndBrokers()
+  And I click on Why Signa                       # stepDefinitions.HomePageStepDefinition.iClickOnWhySigna()
+  When I click Why Cigna Overview                # stepDefinitions.HomePageStepDefinition.iClickWhyCignaOverview()
+  And I verify "Why Cigna | Cigna" in page title # stepDefinitions.HomePageStepDefinition.iVerifyInPageTitle(java.lang.String)
+
+@smokeTest
+Scenario: Industry Insights check                                              # src/test/java/features/HomePage_Header_EmployersBrokers.feature:26
+  Given I am on Cigna homePage                                                 # stepDefinitions.HomePageStepDefinition.i_am_on_cigna_home_page()
+      org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:50885}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b7d92efdddafa42540d49965506e9534
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at common.WebAPI.setUp(WebAPI.java:149)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinition.i_am_on_cigna_home_page(HomePageStepDefinition.java:42)
+	at ✽.I am on Cigna homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Cigna/src/test/java/features/HomePage_Header_EmployersBrokers.feature:4)
+
+      org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:50885}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b7d92efdddafa42540d49965506e9534
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepDefinitions.HomePageStepDefinition.tearDown(HomePageStepDefinition.java:29)
+
+  And I hover on Employers and Brokers                                         # stepDefinitions.HomePageStepDefinition.iHoverOnEmployersAndBrokers()
+  And I click on Industry Insights                                             # stepDefinitions.HomePageStepDefinition.iClickOnIndustryInsights()
+  When I click Workplace Wellness                                              # stepDefinitions.HomePageStepDefinition.iClickWorkplaceWellness()
+  And I verify "Workplace Wellness Information and News | Cigna" in page title # stepDefinitions.HomePageStepDefinition.iVerifyInPageTitle(java.lang.String)
+
+@smokeTest
+Scenario: Become a Broker check                                            # src/test/java/features/HomePage_Header_EmployersBrokers.feature:32
+  Given I am on Cigna homePage                                             # stepDefinitions.HomePageStepDefinition.i_am_on_cigna_home_page()
+      org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:50923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db01d1f8b58d6780c4247cda1558dfe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at common.WebAPI.setUp(WebAPI.java:149)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinition.i_am_on_cigna_home_page(HomePageStepDefinition.java:42)
+	at ✽.I am on Cigna homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Cigna/src/test/java/features/HomePage_Header_EmployersBrokers.feature:4)
+
+      org.openqa.selenium.NoSuchWindowException: no such window: window was already closed
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:50923}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3db01d1f8b58d6780c4247cda1558dfe
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepDefinitions.HomePageStepDefinition.tearDown(HomePageStepDefinition.java:29)
+
+  And I hover on Employers and Brokers                                     # stepDefinitions.HomePageStepDefinition.iHoverOnEmployersAndBrokers()
+  And I click on Become a Broker                                           # stepDefinitions.HomePageStepDefinition.iClickOnBecomeABroker()
+  When I click Become a Broker Overview                                    # stepDefinitions.HomePageStepDefinition.iClickBecomeABrokerOverview()
+  And I verify "Become a Cigna Broker or Consultant | Cigna" in page title # stepDefinitions.HomePageStepDefinition.iVerifyInPageTitle(java.lang.String)
+
+@smokeTest
+Scenario: Credentialing check                                              # src/test/java/features/HomePage_Header_HealthCareProviders.feature:8
+  Given I am on Cigna homePage                                             # stepDefinitions.HomePageStepDefinition.i_am_on_cigna_home_page()
+  And I hover on Health Care Providers                                     # stepDefinitions.HomePageStepDefinition.iHoverOnHealthCareProviders()
+  And I click on Credentialing                                             # stepDefinitions.HomePageStepDefinition.iClickOnCredentialing()
+  When I click Medical Credentialing                                       # stepDefinitions.HomePageStepDefinition.iClickMedicalCredentialing()
+  And I verify "Cigna Medical Network Credentialing | Cigna" in page title # stepDefinitions.HomePageStepDefinition.iVerifyInPageTitle(java.lang.String)
+
+@smokeTest
+Scenario: Coverage and Claims check                          # src/test/java/features/HomePage_Header_HealthCareProviders.feature:14
+  Given I am on Cigna homePage                               # stepDefinitions.HomePageStepDefinition.i_am_on_cigna_home_page()
+  And I hover on Health Care Providers                       # stepDefinitions.HomePageStepDefinition.iHoverOnHealthCareProviders()
+  And I click on Coverage and Claims                         # stepDefinitions.HomePageStepDefinition.iClickOnCoverageAndClaims()
+  When I click Claims                                        # stepDefinitions.HomePageStepDefinition.iClickClaims()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"//a[.='Claims']"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:51077}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ee3b2a82c47b6a4243c61faed2c8b33
+*** Element info: {Using=link text, value=//a[.='Claims']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickByLinkText(WebAPI.java:640)
+	at homepage.HomePage.claims(HomePage.java:179)
+	at stepDefinitions.HomePageStepDefinition.iClickClaims(HomePageStepDefinition.java:259)
+	at ✽.I click Claims(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Cigna/src/test/java/features/HomePage_Header_HealthCareProviders.feature:16)
+
+
+    Embedding demo1 [image/png 401255 bytes]
+
+  And I verify "How to Submit a Claim | Cigna" in page title # stepDefinitions.HomePageStepDefinition.iVerifyInPageTitle(java.lang.String)
+
+@smokeTest
+Scenario: Pharmacy check                                    # src/test/java/features/HomePage_Header_HealthCareProviders.feature:20
+  Given I am on Cigna homePage                              # stepDefinitions.HomePageStepDefinition.i_am_on_cigna_home_page()
+  And I hover on Health Care Providers                      # stepDefinitions.HomePageStepDefinition.iHoverOnHealthCareProviders()

@@ -17,6 +17,8 @@
         <module>Delta</module>
         <module>gov.healthcare</module>
         <module>Hotels</module>
+        <module>Progressive</module>
+        <module>Att</module>
 
     </modules>
     <properties>

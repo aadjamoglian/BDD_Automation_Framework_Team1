@@ -119,13 +119,13 @@ public class WebAPI {
 
     // Browser Setup
     public static WebDriver driver = null;
-    public static String browserStack_userName = "demo579";
-    public static String browserStack_accessKey = "s8gx9NYyS3zW9kLcbmcH";
+    public static String browserStack_userName = "abunabi1";
+    public static String browserStack_accessKey = "gpLeTq2didxV4TpzFV3E";
     public static String sauceLabs_userName = "";
     public static String sauceLabs_accessKey = "";
 
     public void openBrowser(String url) throws IOException {
-        setUp(false,"browserStack","windows","10","chrome","89",url);
+        setUp(false,"browserStack","OS X","Big Sure","chrome","89",url);
     }
 
 
@@ -152,7 +152,7 @@ public class WebAPI {
     public WebDriver getLocalDriver(String OS, String browserName) {
         if (browserName.equalsIgnoreCase("chrome")) {
             if (OS.equalsIgnoreCase("OS X")) {
-                System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/mac/chromedriver");
+                System.setProperty("webdriver.chrome.driver", "/Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Generic/BrowserDriver/mac/chromedriver");
             } else if (OS.equalsIgnoreCase("windows")) {
                 System.setProperty("webdriver.chrome.driver", "../Generic/BrowserDriver/windows/chromedriver.exe");
             }
@@ -448,7 +448,7 @@ public class WebAPI {
         try {
             WebElement element = driver.findElement(By.xpath(locator));
             Actions action = new Actions(driver);
-            Actions hover = action.moveToElement(element);
+            action.moveToElement(element).build().perform();
         } catch (Exception ex) {
             System.out.println("First attempt has been done, This is second try");
             WebElement element = driver.findElement(By.xpath(locator));
@@ -757,6 +757,12 @@ public class WebAPI {
     public String getCurrentUrl() {
         String url = driver.getCurrentUrl();
         return url;
+    }
+
+    public void scrollToBottom() {
+        JavascriptExecutor executor = (JavascriptExecutor) driver;
+        executor.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+
     }
 
 

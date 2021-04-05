@@ -1,0 +1,62 @@
+
+@smokeTest
+Scenario: Amazon searchBox functionality check with valid product # src/test/java/features/HomePage.feature:4
+  Given I am on amazon homePage                                   # stepDefinitions.HomePageStepDefinition.i_am_on_amazon_home_page()
+      java.lang.IllegalStateException: The driver is not executable: /Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Amazon/../Generic/BrowserDriver/windows/chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at common.WebAPI.getLocalDriver(WebAPI.java:159)
+	at common.WebAPI.setUp(WebAPI.java:143)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinition.i_am_on_amazon_home_page(HomePageStepDefinition.java:42)
+	at ✽.I am on amazon homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Amazon/src/test/java/features/HomePage.feature:5)
+
+      java.lang.NullPointerException
+	at stepDefinitions.HomePageStepDefinition.tearDown(HomePageStepDefinition.java:24)
+
+  And I enter "Hand Sanitizer" in searchBox                       # stepDefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click on search Button                                   # stepDefinitions.HomePageStepDefinition.i_click_on_search_button()
+  Then I should see "Hand Sanitizer" is properly appear           # stepDefinitions.HomePageStepDefinition.i_should_see_is_properly_appear(java.lang.String)
+  But I should not see "mobile" is appear                         # stepDefinitions.HomePageStepDefinition.i_should_not_see_is_appear(java.lang.String)
+  And I verify "Amazon.com : Hand Sanitizer" in product title     # stepDefinitions.HomePageStepDefinition.i_verify_in_product_title(java.lang.String)
+      java.lang.NullPointerException
+	at common.WebAPI.cleanUp(WebAPI.java:209)
+	at stepDefinitions.HomePageStepDefinition.closeBrowser(HomePageStepDefinition.java:36)
+
+
+@smokeTest
+Scenario: Amazon searchBox functionality check with valid product # src/test/java/features/HomePage_Background.feature:9
+  Given I am on amazon homePage                                   # stepDefinitions.HomePageStepDefinition.i_am_on_amazon_home_page()
+      java.lang.IllegalStateException: The driver is not executable: /Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Amazon/../Generic/BrowserDriver/windows/chromedriver.exe
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+	at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)
+	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at common.WebAPI.getLocalDriver(WebAPI.java:159)
+	at common.WebAPI.setUp(WebAPI.java:143)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinition.i_am_on_amazon_home_page(HomePageStepDefinition.java:42)
+	at ✽.I am on amazon homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Amazon/src/test/java/features/HomePage_Background.feature:6)
+
+      java.lang.NullPointerException
+	at stepDefinitions.HomePageStepDefinition.tearDown(HomePageStepDefinition.java:24)
+
+  And I enter "Hand Sanitizer" in searchBox                       # stepDefinitions.HomePageStepDefinition.i_enter_in_search_box(java.lang.String)
+  When I click on search Button                                   # stepDefinitions.HomePageStepDefinition.i_click_on_search_button()
+  Then I should see "Hand Sanitizer" is properly appear           # stepDefinitions.HomePageStepDefinition.i_should_see_is_properly_appear(java.lang.String)
+  But I should not see "mobile" is appear                         # stepDefinitions.HomePageStepDefinition.i_should_not_see_is_appear(java.lang.String)
+  And I verify "Amazon.com : Hand Sanitizer" in product title     # stepDefinitions.HomePageStepDefinition.i_verify_in_product_title(java.lang.String)
+      java.lang.NullPointerException
+	at common.WebAPI.cleanUp(WebAPI.java:209)
+	at stepDefinitions.HomePageStepDefinition.closeBrowser(HomePageStepDefinition.java:36)
+

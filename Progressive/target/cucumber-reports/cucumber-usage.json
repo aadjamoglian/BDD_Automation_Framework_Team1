@@ -1,0 +1,388 @@
+[
+  {
+    "source": "I am on progressive homePage",
+    "steps": [
+      {
+        "name": "I am on progressive homePage",
+        "aggregatedDurations": {
+          "median": 2.509806,
+          "average": 2.612966833
+        },
+        "durations": [
+          {
+            "duration": 3.106608,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:6"
+          },
+          {
+            "duration": 3.189719,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:6"
+          },
+          {
+            "duration": 2.557566,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:6"
+          },
+          {
+            "duration": 2.377602,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:6"
+          },
+          {
+            "duration": 2.721047,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:6"
+          },
+          {
+            "duration": 2.462046,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:6"
+          },
+          {
+            "duration": 2.451021,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:6"
+          },
+          {
+            "duration": 2.279247,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:6"
+          },
+          {
+            "duration": 2.452989,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:6"
+          },
+          {
+            "duration": 2.348388,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:6"
+          },
+          {
+            "duration": 2.825329,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:6"
+          },
+          {
+            "duration": 2.58404,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Explore Products",
+    "steps": [
+      {
+        "name": "I click on Explore Products",
+        "aggregatedDurations": {
+          "median": 3.075598,
+          "average": 3.075598
+        },
+        "durations": [
+          {
+            "duration": 3.075598,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click ATV UTV",
+    "steps": [
+      {
+        "name": "I click ATV UTV",
+        "aggregatedDurations": {
+          "median": 3.878414,
+          "average": 3.878414
+        },
+        "durations": [
+          {
+            "duration": 3.878414,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} in product title",
+    "steps": [
+      {
+        "name": "I verify \"Low-cost ATV Insurance from the #1 Motorcycle Insurer | Progressive\" in product title",
+        "aggregatedDurations": {
+          "median": 7.18E-4,
+          "average": 7.18E-4
+        },
+        "durations": [
+          {
+            "duration": 7.18E-4,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:12"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"Insurance Agents And Brokers in California | Progressive Agent\" in product title",
+        "aggregatedDurations": {
+          "median": 1.66E-4,
+          "average": 1.66E-4
+        },
+        "durations": [
+          {
+            "duration": 1.66E-4,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:29"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"How Do Car Insurance Deductibles Work? | Progressive\" in product title",
+        "aggregatedDurations": {
+          "median": 2.06E-4,
+          "average": 2.06E-4
+        },
+        "durations": [
+          {
+            "duration": 1.49E-4,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:35"
+          },
+          {
+            "duration": 2.63E-4,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:42"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"Top-Rated Insurance Company for Auto \u0026 More | Progressive\" in product title",
+        "aggregatedDurations": {
+          "median": 1.37E-4,
+          "average": 1.41E-4
+        },
+        "durations": [
+          {
+            "duration": 1.56E-4,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:47"
+          },
+          {
+            "duration": 1.3E-4,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:52"
+          },
+          {
+            "duration": 1.37E-4,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:57"
+          }
+        ]
+      },
+      {
+        "name": "I verify \"Progressive Online Servicing\" in product title",
+        "aggregatedDurations": {
+          "median": 1.55E-4,
+          "average": 1.55E-4
+        },
+        "durations": [
+          {
+            "duration": 1.55E-4,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:62"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Claims Menu",
+    "steps": [
+      {
+        "name": "I click on Claims Menu",
+        "aggregatedDurations": {
+          "median": 3.071203,
+          "average": 3.071203
+        },
+        "durations": [
+          {
+            "duration": 3.071203,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Claims Overview",
+    "steps": [
+      {
+        "name": "I click Claims Overview",
+        "aggregatedDurations": {
+          "median": 3.821118,
+          "average": 3.821118
+        },
+        "durations": [
+          {
+            "duration": 3.821118,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on About Us Menu",
+    "steps": [
+      {
+        "name": "I click on About Us Menu",
+        "aggregatedDurations": {
+          "median": 3.070426,
+          "average": 3.070426
+        },
+        "durations": [
+          {
+            "duration": 3.070426,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Local Agents",
+    "steps": [
+      {
+        "name": "I click Local Agents",
+        "aggregatedDurations": {
+          "median": 3.799787,
+          "average": 3.799787
+        },
+        "durations": [
+          {
+            "duration": 3.799787,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Answers Menu",
+    "steps": [
+      {
+        "name": "I click on Answers Menu",
+        "aggregatedDurations": {
+          "median": 3.073573,
+          "average": 3.073573
+        },
+        "durations": [
+          {
+            "duration": 3.070869,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:33"
+          },
+          {
+            "duration": 3.076277,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Car insurance deductibles explained",
+    "steps": [
+      {
+        "name": "I click Car insurance deductibles explained",
+        "aggregatedDurations": {
+          "median": 4.1668505,
+          "average": 4.1668505
+        },
+        "durations": [
+          {
+            "duration": 4.213404,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:34"
+          },
+          {
+            "duration": 4.120297,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Auto Popular Box",
+    "steps": [
+      {
+        "name": "I click on Auto Popular Box",
+        "aggregatedDurations": {
+          "median": 3.084253,
+          "average": 3.084253
+        },
+        "durations": [
+          {
+            "duration": 3.084253,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Bundle Save",
+    "steps": [
+      {
+        "name": "I click on Bundle Save",
+        "aggregatedDurations": {
+          "median": 3.085695,
+          "average": 3.085695
+        },
+        "durations": [
+          {
+            "duration": 3.085695,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Property",
+    "steps": [
+      {
+        "name": "I click on Property",
+        "aggregatedDurations": {
+          "median": 3.075476,
+          "average": 3.075476
+        },
+        "durations": [
+          {
+            "duration": 3.075476,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:56"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Login",
+    "steps": [
+      {
+        "name": "I click on Login",
+        "aggregatedDurations": {
+          "median": 3.162579,
+          "average": 3.162579
+        },
+        "durations": [
+          {
+            "duration": 3.162579,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:61"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Call Us Link",
+    "steps": [
+      {
+        "name": "I click on Call Us Link",
+        "aggregatedDurations": {
+          "median": 3.053893,
+          "average": 3.053893
+        },
+        "durations": [
+          {
+            "duration": 3.053893,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/HomePage_Background.feature:71"
+          }
+        ]
+      }
+    ]
+  }
+]

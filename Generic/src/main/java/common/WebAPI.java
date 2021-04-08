@@ -2,6 +2,7 @@ package common;
 
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.LogStatus;
+import databases.User;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.*;
@@ -27,6 +28,10 @@ import java.io.StringWriter;
 import java.lang.reflect.Method;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
@@ -35,6 +40,8 @@ import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
+
+import static databases.ConnectToSqlDB.connectToSqlDatabase;
 
 public class WebAPI {
     // Config class :
@@ -203,7 +210,7 @@ public class WebAPI {
         return driver;
     }
 
-//    @AfterMethod(alwaysRun = true)
+    //    @AfterMethod(alwaysRun = true)
     public void cleanUp() {
         //driver.close();
         driver.quit();
@@ -489,9 +496,9 @@ public class WebAPI {
     }
 
     //Synchronization
-    public void waitUntilClickAble(By locator) {
+    public void waitUntilClickAble(String locator) {
         WebDriverWait wait = new WebDriverWait(driver, 10);
-        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(locator)));
     }
 
     public void waitUntilVisible(By locator) {
@@ -506,6 +513,13 @@ public class WebAPI {
 
     public void upLoadFile(String locator, String path) {
         driver.findElement(By.cssSelector(locator)).sendKeys(path);
+        /* path example to upload a file/image
+           path= "C:\\Users\\rrt\\Pictures\\ds1.png";
+         */
+    }
+
+    public void upLoadFile1(String locator, String path) {
+        driver.findElement(By.xpath(locator)).sendKeys(path);
         /* path example to upload a file/image
            path= "C:\\Users\\rrt\\Pictures\\ds1.png";
          */
@@ -563,7 +577,7 @@ public class WebAPI {
         //Step:2-->Iterate linksList: exclude all links/images which does not have any href attribute
         List<WebElement> activeLinks = new ArrayList<WebElement>();
         for (int i = 0; i < linksList.size(); i++) {
-           // System.out.println(linksList.get(i).getAttribute("href"));
+            // System.out.println(linksList.get(i).getAttribute("href"));
             if (linksList.get(i).getAttribute("href") != null && (!linksList.get(i).getAttribute("href").contains("javascript") && (!linksList.get(i).getAttribute("href").contains("mailto")))) {
                 activeLinks.add(linksList.get(i));
             }
@@ -759,5 +773,28 @@ public class WebAPI {
         return url;
     }
 
+    public void dropDown(String locator){
+        WebElement ddown= driver.findElement(By.xpath(locator));
+        Select select= new Select(ddown);
+        select.selectByIndex(2);
+    }
+
+    public static List<User> readUserProfileFromSqlTable()throws IOException, SQLException, ClassNotFoundException {
+        List<User> list = new ArrayList<>();
+        User user = null;
+
+        Connection conn = connectToSqlDatabase();
+        String query = "SELECT * tvchannel";
+        // create the java statement
+        Statement st = conn.createStatement();
+        // execute the query, and get a java resultset
+        ResultSet rs = st.executeQuery(query);
+        // iterate through the java resultset
+
+        return list;
+    }
+    public void scrollDown(){
+        ((JavascriptExecutor)driver).executeScript("scroll(0,400)");
+    }
 
 }

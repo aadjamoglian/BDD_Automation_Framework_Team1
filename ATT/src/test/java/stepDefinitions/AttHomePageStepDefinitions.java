@@ -261,7 +261,8 @@ public class AttHomePageStepDefinitions extends WebAPI {
     }
 
     @When("I enter service user information")
-    public void i_enter_service_user_information(List<List<String>> dataTable) {
+    public void i_enter_service_user_information(List<List<String>> dataTable) throws InterruptedException {
+        sleepFor(5);
         Map<String, String> mapTable=tableDictionaryConverter(dataTable);
         System.out.println(mapTable.get("Service address"));
         System.out.println(mapTable.get("Business name"));

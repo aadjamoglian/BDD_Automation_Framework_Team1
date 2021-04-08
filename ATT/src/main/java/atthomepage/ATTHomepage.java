@@ -151,8 +151,8 @@ public class ATTHomepage extends WebAPI {
     }
 
     public void checkInternetAndTV(){
-        //clickByCss(internetAndTVLocator);
-        clickOnLink("Internet & TV");
+        clickByXpath1(internetAndTVLocator);
+        //clickOnLink("Internet & TV");
     }
     public void verifyInternetAndTVproducts(){
         String actualText="AT&T Internet & TV Deals - New & Existing Customer Offers";
@@ -160,7 +160,8 @@ public class ATTHomepage extends WebAPI {
         Assert.assertEquals(actualText,expectedText,"Link is not working as expected");
     }
     public void checkAccessories(){
-        clickByXpath1(accessoriesLocator);
+        //clickByXpath1(accessoriesLocator);
+        clickOnLink("Accessories");
     }
     public void verifyAccessories(){
         String actualText="Cases";

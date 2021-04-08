@@ -1,0 +1,2707 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3784399300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 38855400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on hotel.com homepage",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_am_on_hotel_com_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 875704900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1831900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I click on gift cards",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_gift_cards()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[@id\u003d\u0027main-content\u0027]/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]\"}\n  (Session info: chrome\u003d89.0.4389.114)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-BQP1HFR\u0027, ip: \u0027192.168.190.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\farha\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61055}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: d392dd5896a34b501b0c58ffbb91b76f\n*** Element info: {Using\u003dxpath, value\u003d//body/div[@id\u003d\u0027main-content\u0027]/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.clickByXpath(WebAPI.java:328)\r\n\tat hotels.comhomepage.HotelsHomePage.checkBuyNow(HotelsHomePage.java:162)\r\n\tat stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_buy_now(HotelsHomePageTestDefinitions.java:231)\r\n\tat ✽.I click on buy now(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:6)\r\n",
+              "duration": 25250534700,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1013600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on buy now",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_buy_now()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T03:30:14.272Z",
+        "line": 9,
+        "name": "Mailing gift card functionality under gift card",
+        "description": "",
+        "id": "gift-card-functionality-on-hotel-header;mailing-gift-card-functionality-under-gift-card",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1351000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I click on a friend",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_a_friend()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000600,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "I enter \"Alisha Amira\" on the friends name search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alisha Amira\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_enter_on_the_friends_name_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "I enter \"Farhana Chowdhury\" on my name search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Farhana Chowdhury\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_enter_on_my_name_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I click on pick a gift card",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_pick_a_gift_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "I click on send a  physical gift card",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_send_a_physical_gift_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "I click on how much",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_how_much()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1055200,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": "I click on Fifty for amount",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_fifty_for_amount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000100,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I click on add a message",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_add_a_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999700,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I click on where it is going",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_where_it_is_going()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I enter the receiver\u0027s mailing information",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_enter_the_receiver_s_mailing_information(java.util.List\u003cjava.util.List\u003cjava.lang.String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Full name",
+                  "Alisha Amira"
+                ]
+              },
+              {
+                "cells": [
+                  "Street Address",
+                  "23517 Curie st"
+                ]
+              },
+              {
+                "cells": [
+                  "City",
+                  "Warren"
+                ]
+              },
+              {
+                "cells": [
+                  "Postal code",
+                  "48091"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I click on shipping",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_shipping()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 999300,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I should see checkout page",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_should_see_checkout_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3328758500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on hotel.com homepage",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_am_on_hotel_com_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1132054700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1012000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I click on gift cards",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_gift_cards()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[@id\u003d\u0027main-content\u0027]/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]\"}\n  (Session info: chrome\u003d89.0.4389.114)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-BQP1HFR\u0027, ip: \u0027192.168.190.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\farha\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61275}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e3c1c1586ead80a5e5d0b353b59f7bfe\n*** Element info: {Using\u003dxpath, value\u003d//body/div[@id\u003d\u0027main-content\u0027]/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.clickByXpath(WebAPI.java:328)\r\n\tat hotels.comhomepage.HotelsHomePage.checkBuyNow(HotelsHomePage.java:162)\r\n\tat stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_buy_now(HotelsHomePageTestDefinitions.java:231)\r\n\tat ✽.I click on buy now(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:6)\r\n",
+              "duration": 25076117600,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1047300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on buy now",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_buy_now()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T03:30:44.432Z",
+        "line": 28,
+        "name": "Gift card purchase functionality under gift card",
+        "description": "",
+        "id": "gift-card-functionality-on-hotel-header;gift-card-purchase-functionality-under-gift-card",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "I click on for me",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_for_me()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "I click on pick a gift card",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_pick_a_gift_card()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999800,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 31,
+            "name": "I click on send a digital card",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_send_a_digital_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 207300,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 32,
+            "name": "I click on how much",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_how_much()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000500,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 33,
+            "name": "I click on Fifty for amount",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_fifty_for_amount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 34,
+            "name": "I click on add to cart",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 35,
+            "name": "I should see review your card page",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_should_see_review_your_card_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3587815300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on hotel.com homepage",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_am_on_hotel_com_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1233549400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 501300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I click on gift cards",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_gift_cards()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body/div[@id\u003d\u0027main-content\u0027]/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]\"}\n  (Session info: chrome\u003d89.0.4389.114)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-BQP1HFR\u0027, ip: \u0027192.168.190.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\farha\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b3da9d5bc56d20102bc3790cb0e59a05\n*** Element info: {Using\u003dxpath, value\u003d//body/div[@id\u003d\u0027main-content\u0027]/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.clickByXpath(WebAPI.java:328)\r\n\tat hotels.comhomepage.HotelsHomePage.checkBuyNow(HotelsHomePage.java:162)\r\n\tat stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_buy_now(HotelsHomePageTestDefinitions.java:231)\r\n\tat ✽.I click on buy now(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:6)\r\n",
+              "duration": 25122964400,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2363500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on buy now",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_buy_now()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T03:31:14.020Z",
+        "line": 38,
+        "name": "Personalized gift card functionality under gift card",
+        "description": "",
+        "id": "gift-card-functionality-on-hotel-header;personalized-gift-card-functionality-under-gift-card",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 39,
+            "name": "I click on for me",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_for_me()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 40,
+            "name": "I click on pick a gift card",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_pick_a_gift_card()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 41,
+            "name": "I click on send a digital card",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_send_a_digital_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 42,
+            "name": "I click on upload your own photo",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_upload_your_own_photo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 43,
+            "name": "I check the box for terms and conditions",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_check_the_box_for_terms_and_conditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 44,
+            "name": "I click on choose photo",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_choose_photo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000800,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 45,
+            "name": "I click on choose a local file",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_choose_a_local_file()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 46,
+            "name": "I click on done",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_done()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5089610300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 607400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on hotel.com homepage",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_am_on_hotel_com_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1484718000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I click on gift cards",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_gift_cards()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7750339900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2398100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on buy now",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_buy_now()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T03:31:44.005Z",
+        "line": 53,
+        "name": "Friend Gift card functionality under gift card",
+        "description": "",
+        "id": "gift-card-functionality-on-hotel-header;friend-gift-card-functionality-under-gift-card",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 70348200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 638200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 54,
+            "name": "I click on a friend",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_a_friend()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 274644200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1007000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 55,
+            "name": "I enter \"Alisha Amira\" on the friends name search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alisha Amira\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_enter_on_the_friends_name_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 316112600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 56,
+            "name": "I enter \"Farhana Chowdhury\" on my name search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Farhana Chowdhury\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_enter_on_my_name_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149115400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1006000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 57,
+            "name": "I click on pick a gift card",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_pick_a_gift_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 168812600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 58,
+            "name": "I click on send a digital card",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_send_a_digital_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 258723000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1544000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 59,
+            "name": "I click on how much",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_how_much()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110637900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 932900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 60,
+            "name": "I click on Fifty for amount",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_fifty_for_amount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172455900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 61,
+            "name": "I click on add a message",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_add_a_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 382372800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 62,
+            "name": "I click on where it is going",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_where_it_is_going()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 447843800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 63,
+            "name": "I enter \"Alisha@gmail.com\" on the email web edit field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alisha@gmail.com\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_enter_on_the_email_web_edit_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 243958400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 989000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 64,
+            "name": "I click on add to cart",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_add_to_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 133337100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 499800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 65,
+            "name": "I should see review your card page",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_should_see_review_your_card_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3791968100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "I am on hotel.com homepage",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_am_on_hotel_com_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1203085300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I click on gift cards",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_gift_cards()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7078619300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 499900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on buy now",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_buy_now()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T03:32:01.111Z",
+        "line": 68,
+        "name": "Mailing gift card functionality under gift card",
+        "description": "",
+        "id": "gift-card-functionality-on-hotel-header;mailing-gift-card-functionality-under-gift-card",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3502066500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 69,
+            "name": "I am on hotel.com homepage",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_am_on_hotel_com_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1134265800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1100500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 70,
+            "name": "I click on gift cards",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_gift_cards()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6924529100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 71,
+            "name": "I click on buy now",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_buy_now()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73848300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 72,
+            "name": "I click on a friend",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_a_friend()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 272267900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 73,
+            "name": "I enter \"Alisha Amira\" on the friends name search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alisha Amira\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_enter_on_the_friends_name_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 294956000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 74,
+            "name": "I enter \"Farhana Chowdhury\" on my name search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Farhana Chowdhury\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_enter_on_my_name_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143267200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1043600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 75,
+            "name": "I click on pick a gift card",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_pick_a_gift_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134648300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1004600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 76,
+            "name": "I click on send a  physical gift card",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_send_a_physical_gift_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 151763500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 77,
+            "name": "I click on how much",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_how_much()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84336500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 78,
+            "name": "I click on Fifty for amount",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_fifty_for_amount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127352900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 79,
+            "name": "I click on add a message",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_add_a_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 255946200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 80,
+            "name": "I click on where it is going",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_where_it_is_going()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4080000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 652000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 81,
+            "name": "I enter the receiver\u0027s mailing information",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_enter_the_receiver_s_mailing_information(java.util.List\u003cjava.util.List\u003cjava.lang.String\u003e\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Full name",
+                  "Alisha Amira"
+                ]
+              },
+              {
+                "cells": [
+                  "Street Address",
+                  "23517 Curie st"
+                ]
+              },
+              {
+                "cells": [
+                  "City",
+                  "Warren"
+                ]
+              },
+              {
+                "cells": [
+                  "Postal code",
+                  "48091"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109237600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 86,
+            "name": "I click on shipping",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_shipping()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 87,
+            "name": "I should see checkout page",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_should_see_checkout_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Gift card functionality on Hotel header",
+    "description": "",
+    "id": "gift-card-functionality-on-hotel-header",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/GiftCard.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-08T03:32:26.436Z",
+        "line": 4,
+        "name": "Hotel Deals finder on Hotels.com header",
+        "description": "",
+        "id": "hotels.com-header-functionality;hotel-deals-finder-on-hotels.com-header",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3740899800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am on hotel.com homepage",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_am_on_hotel_com_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1228796900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1324400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on deals",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_deals()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4285797500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I enter \"Miami\" on the search Bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Miami\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_enter_on_the_search_bar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//body[1]/div[8]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[5]/td[2]/a[1]\"}\n  (Session info: chrome\u003d89.0.4389.114)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-BQP1HFR\u0027, ip: \u0027192.168.190.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\farha\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a4b7e21d4b04eb5cb6458c96e11ef099\n*** Element info: {Using\u003dxpath, value\u003d//body[1]/div[8]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[5]/td[2]/a[1]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat common.WebAPI.getTextByXpath(WebAPI.java:414)\r\n\tat hotels.comhomepage.HotelsHomePage.checkInCalender(HotelsHomePage.java:41)\r\n\tat stepDefinitions.HotelsHomePageTestDefinitions.i_select_april_20th_for_check_in_date(HotelsHomePageTestDefinitions.java:64)\r\n\tat ✽.I select April 20th for check in date(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Header.feature:8)\r\n",
+              "duration": 20034716500,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1004700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I select April 20th for check in date",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_select_april_20th_for_check_in_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I select April 25th for checkout date",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_select_april_25th_for_checkout_date()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T03:32:55.759Z",
+        "line": 16,
+        "name": "Flight packages functionality on hotels header",
+        "description": "",
+        "id": "hotels.com-header-functionality;flight-packages-functionality-on-hotels-header",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3272551600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": "I am on hotel.com homepage",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_am_on_hotel_com_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1023632700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 995500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "I click Packages \u0026 Flights",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_packages_flights()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 522600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 500000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "I click on flight \u0026 Hotel",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_flight_hotel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id\u003d\u0027package-origin-hp-package\u0027]\"}\n  (Session info: chrome\u003d89.0.4389.114)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-BQP1HFR\u0027, ip: \u0027192.168.190.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\farha\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: eb9e08bd4f2eae7aaecca7656d184c4b\n*** Element info: {Using\u003dxpath, value\u003d//input[@id\u003d\u0027package-origin-hp-package\u0027]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy24.sendKeys(Unknown Source)\r\n\tat hotels.comhomepage.HotelsHomePage.checkFlyingFrom(HotelsHomePage.java:80)\r\n\tat stepDefinitions.HotelsHomePageTestDefinitions.i_enter_on_the_flying_from_search_box(HotelsHomePageTestDefinitions.java:121)\r\n\tat ✽.I enter \"Detroit\" on the flying from search box(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Header.feature:20)\r\n",
+              "duration": 20048010400,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 20,
+            "name": "I enter \"Detroit\" on the flying from search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Detroit\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_enter_on_the_flying_from_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 21,
+            "name": "I enter \"Miami\" on destination search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Miami\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_enter_on_destination_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": "I select april 20th from the destination calender",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_select_april_20th_from_the_destination_calender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "I select april 23rd from the returning Calender",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_select_april_23rd_from_the_returning_calender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996600,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I click on search button",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_search_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I should be able to see all the available flights",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_should_be_able_to_see_all_the_available_flights()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T03:33:20.131Z",
+        "line": 28,
+        "name": "Car rentals functionality on hotels header",
+        "description": "",
+        "id": "hotels.com-header-functionality;car-rentals-functionality-on-hotels-header",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3848803800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "I am on hotel.com homepage",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_am_on_hotel_com_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2460472900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 580200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "I click on car rentals",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_car_rentals()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5300828500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1005500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 31,
+            "name": "I enter \"Miami\" on the rental car search bar",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Miami\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_enter_on_the_rental_car_search_bar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 211180900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 32,
+            "name": "I click on pickup calender",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_pickup_calender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 196292000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 501700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 33,
+            "name": "I select April 20th from the pickup calender",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_select_april_20th_from_the_pickup_calender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134447500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 569700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 34,
+            "name": "I click on drop-off calender",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_drop_off_calender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120496500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 35,
+            "name": "I select April 21st from the drop-off calender",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_select_april_21st_from_the_drop_off_calender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1007800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 36,
+            "name": "I click on search",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 37,
+            "name": "I should be able to see all the available cars for pickup",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_should_be_able_to_see_all_the_available_cars_for_pickup()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Hotels.com header Functionality",
+    "description": "",
+    "id": "hotels.com-header-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Header.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-08T03:33:32.431Z",
+        "line": 4,
+        "name": "Join membership functionality under Rewards",
+        "description": "",
+        "id": "hotel.com-reward-functionality;join-membership-functionality-under-rewards",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3320467400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am on hotel.com homepage",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_am_on_hotel_com_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element \u003ca href\u003d\"/hotel-rewards-pillar/hotelscomrewards.html?intlid\u003dHOME+%3A%3A+header_main_section\" id\u003d\"hdr-rewards\" rel\u003d\"nofollow\"\u003e...\u003c/a\u003e is not clickable at point (963, 139). Other element would receive the click: \u003cdiv class\u003d\"signin-signup-notification-container notApplicable show\"\u003e...\u003c/div\u003e\n  (Session info: chrome\u003d89.0.4389.114)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-BQP1HFR\u0027, ip: \u0027192.168.190.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\\Users\\farha\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63173}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 14094706353d31f8ea8f2b031bc0bbcf\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)\r\n\tat org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)\r\n\tat common.WebAPI.clickOnLink(WebAPI.java:738)\r\n\tat hotels.comhomepage.HotelsHomePage.checkRewards(HotelsHomePage.java:251)\r\n\tat stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_hotels_com_rewards(HotelsHomePageTestDefinitions.java:371)\r\n\tat ✽.I click on Hotels.com Rewards(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Rewards.feature:6)\r\n",
+              "duration": 3124598000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on Hotels.com Rewards",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_hotels_com_rewards()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I click on join now",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_join_now()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I should see create account page",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_should_see_create_account_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Hotel.com Reward Functionality",
+    "description": "",
+    "id": "hotel.com-reward-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Rewards.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-08T03:33:38.900Z",
+        "line": 4,
+        "name": "Things to do search box functionality test",
+        "description": "",
+        "id": "things-to-do-functionality-on-hotel-header;things-to-do-search-box-functionality-test",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4071665600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am on hotel.com homepage",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_am_on_hotel_com_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1576335200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on things to do",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_things_to_do()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7418223000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I enter \"Miami\" on things to do search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Miami\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_enter_on_things_to_do_search_box(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5278436400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 336800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I click on From Calender",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_from_calender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224890600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2009700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I select april 23rd from the  Calender",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_select_april_23rd_from_the_calender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I click on To calender",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_to_calender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 348626600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1053600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "I select April 24th from the calender",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_select_april_24th_from_the_calender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147007900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": "I click on Search",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_Search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4542200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 990500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HotelsHomePageTestDefinitions.getInit()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": "I should be able to see all the things to do in Miami",
+            "match": {
+              "location": "stepDefinitions.HotelsHomePageTestDefinitions.i_should_be_able_to_see_all_the_things_to_do_in_miami()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Things to do functionality on Hotel header",
+    "description": "",
+    "id": "things-to-do-functionality-on-hotel-header",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/ThingsToDo.feature",
+    "tags": []
+  }
+]

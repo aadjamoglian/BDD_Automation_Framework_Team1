@@ -1,0 +1,804 @@
+[
+  {
+    "source": "I am on hotel.com homepage",
+    "steps": [
+      {
+        "name": "I am on hotel.com homepage",
+        "aggregatedDurations": {
+          "median": 3.7408998,
+          "average": 3.758091472
+        },
+        "durations": [
+          {
+            "duration": 3.7843993,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:4"
+          },
+          {
+            "duration": 3.3287585,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:4"
+          },
+          {
+            "duration": 3.5878153,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:4"
+          },
+          {
+            "duration": 5.0896103,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:4"
+          },
+          {
+            "duration": 3.7919681,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:4"
+          },
+          {
+            "duration": 3.5020665,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:69"
+          },
+          {
+            "duration": 3.7408998,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Header.feature:5"
+          },
+          {
+            "duration": 3.2725516,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Header.feature:17"
+          },
+          {
+            "duration": 3.8488038,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Header.feature:29"
+          },
+          {
+            "duration": 3.3204674,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Rewards.feature:5"
+          },
+          {
+            "duration": 4.0716656,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/ThingsToDo.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on gift cards",
+    "steps": [
+      {
+        "name": "I click on gift cards",
+        "aggregatedDurations": {
+          "median": 1.16867555,
+          "average": 1.177229683
+        },
+        "durations": [
+          {
+            "duration": 0.8757049,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:5"
+          },
+          {
+            "duration": 1.1320547,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:5"
+          },
+          {
+            "duration": 1.2335494,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:5"
+          },
+          {
+            "duration": 1.484718,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:5"
+          },
+          {
+            "duration": 1.2030853,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:5"
+          },
+          {
+            "duration": 1.1342658,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:70"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on buy now",
+    "steps": [
+      {
+        "name": "I click on buy now",
+        "aggregatedDurations": {
+          "median": 7.0786193,
+          "average": 7.251162766
+        },
+        "durations": [
+          {
+            "duration": 7.7503399,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:6"
+          },
+          {
+            "duration": 7.0786193,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:6"
+          },
+          {
+            "duration": 6.9245291,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:71"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on a friend",
+    "steps": [
+      {
+        "name": "I click on a friend",
+        "aggregatedDurations": {
+          "median": 0.07209825,
+          "average": 0.07209825
+        },
+        "durations": [
+          {
+            "duration": 0.0703482,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:54"
+          },
+          {
+            "duration": 0.0738483,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:72"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the friends name search box",
+    "steps": [
+      {
+        "name": "I enter \"Alisha Amira\" on the friends name search box",
+        "aggregatedDurations": {
+          "median": 0.27345605,
+          "average": 0.27345605
+        },
+        "durations": [
+          {
+            "duration": 0.2746442,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:55"
+          },
+          {
+            "duration": 0.2722679,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:73"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on my name search box",
+    "steps": [
+      {
+        "name": "I enter \"Farhana Chowdhury\" on my name search box",
+        "aggregatedDurations": {
+          "median": 0.3055343,
+          "average": 0.3055343
+        },
+        "durations": [
+          {
+            "duration": 0.3161126,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:56"
+          },
+          {
+            "duration": 0.294956,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:74"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on pick a gift card",
+    "steps": [
+      {
+        "name": "I click on pick a gift card",
+        "aggregatedDurations": {
+          "median": 0.1461913,
+          "average": 0.1461913
+        },
+        "durations": [
+          {
+            "duration": 0.1491154,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:57"
+          },
+          {
+            "duration": 0.1432672,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:75"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on send a digital card",
+    "steps": [
+      {
+        "name": "I click on send a digital card",
+        "aggregatedDurations": {
+          "median": 0.1688126,
+          "average": 0.1688126
+        },
+        "durations": [
+          {
+            "duration": 0.1688126,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:58"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on how much",
+    "steps": [
+      {
+        "name": "I click on how much",
+        "aggregatedDurations": {
+          "median": 0.20524325,
+          "average": 0.20524325
+        },
+        "durations": [
+          {
+            "duration": 0.258723,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:59"
+          },
+          {
+            "duration": 0.1517635,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:77"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Fifty for amount",
+    "steps": [
+      {
+        "name": "I click on Fifty for amount",
+        "aggregatedDurations": {
+          "median": 0.0974872,
+          "average": 0.0974872
+        },
+        "durations": [
+          {
+            "duration": 0.1106379,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:60"
+          },
+          {
+            "duration": 0.0843365,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:78"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on add a message",
+    "steps": [
+      {
+        "name": "I click on add a message",
+        "aggregatedDurations": {
+          "median": 0.1499044,
+          "average": 0.1499044
+        },
+        "durations": [
+          {
+            "duration": 0.1724559,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:61"
+          },
+          {
+            "duration": 0.1273529,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:79"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on where it is going",
+    "steps": [
+      {
+        "name": "I click on where it is going",
+        "aggregatedDurations": {
+          "median": 0.3191595,
+          "average": 0.3191595
+        },
+        "durations": [
+          {
+            "duration": 0.3823728,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:62"
+          },
+          {
+            "duration": 0.2559462,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:80"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the email web edit field",
+    "steps": [
+      {
+        "name": "I enter \"Alisha@gmail.com\" on the email web edit field",
+        "aggregatedDurations": {
+          "median": 0.4478438,
+          "average": 0.4478438
+        },
+        "durations": [
+          {
+            "duration": 0.4478438,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:63"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on add to cart",
+    "steps": [
+      {
+        "name": "I click on add to cart",
+        "aggregatedDurations": {
+          "median": 0.2439584,
+          "average": 0.2439584
+        },
+        "durations": [
+          {
+            "duration": 0.2439584,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:64"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see review your card page",
+    "steps": [
+      {
+        "name": "I should see review your card page",
+        "aggregatedDurations": {
+          "median": 0.1333371,
+          "average": 0.1333371
+        },
+        "durations": [
+          {
+            "duration": 0.1333371,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:65"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on send a  physical gift card",
+    "steps": [
+      {
+        "name": "I click on send a  physical gift card",
+        "aggregatedDurations": {
+          "median": 0.1346483,
+          "average": 0.1346483
+        },
+        "durations": [
+          {
+            "duration": 0.1346483,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:76"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter the receiver\u0027s mailing information",
+    "steps": [
+      {
+        "name": "I enter the receiver\u0027s mailing information",
+        "aggregatedDurations": {
+          "median": 0.00408,
+          "average": 0.00408
+        },
+        "durations": [
+          {
+            "duration": 0.00408,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:81"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on shipping",
+    "steps": [
+      {
+        "name": "I click on shipping",
+        "aggregatedDurations": {
+          "median": 0.1092376,
+          "average": 0.1092376
+        },
+        "durations": [
+          {
+            "duration": 0.1092376,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:86"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see checkout page",
+    "steps": [
+      {
+        "name": "I should see checkout page",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:87"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on deals",
+    "steps": [
+      {
+        "name": "I click on deals",
+        "aggregatedDurations": {
+          "median": 1.2287969,
+          "average": 1.2287969
+        },
+        "durations": [
+          {
+            "duration": 1.2287969,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Header.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the search Bar",
+    "steps": [
+      {
+        "name": "I enter \"Miami\" on the search Bar",
+        "aggregatedDurations": {
+          "median": 4.2857975,
+          "average": 4.2857975
+        },
+        "durations": [
+          {
+            "duration": 4.2857975,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Header.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Packages \u0026 Flights",
+    "steps": [
+      {
+        "name": "I click Packages \u0026 Flights",
+        "aggregatedDurations": {
+          "median": 1.0236327,
+          "average": 1.0236327
+        },
+        "durations": [
+          {
+            "duration": 1.0236327,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Header.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on flight \u0026 Hotel",
+    "steps": [
+      {
+        "name": "I click on flight \u0026 Hotel",
+        "aggregatedDurations": {
+          "median": 5.226E-4,
+          "average": 5.226E-4
+        },
+        "durations": [
+          {
+            "duration": 5.226E-4,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Header.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on car rentals",
+    "steps": [
+      {
+        "name": "I click on car rentals",
+        "aggregatedDurations": {
+          "median": 2.4604729,
+          "average": 2.4604729
+        },
+        "durations": [
+          {
+            "duration": 2.4604729,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Header.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the rental car search bar",
+    "steps": [
+      {
+        "name": "I enter \"Miami\" on the rental car search bar",
+        "aggregatedDurations": {
+          "median": 5.3008285,
+          "average": 5.3008285
+        },
+        "durations": [
+          {
+            "duration": 5.3008285,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Header.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on pickup calender",
+    "steps": [
+      {
+        "name": "I click on pickup calender",
+        "aggregatedDurations": {
+          "median": 0.2111809,
+          "average": 0.2111809
+        },
+        "durations": [
+          {
+            "duration": 0.2111809,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Header.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select April 20th from the pickup calender",
+    "steps": [
+      {
+        "name": "I select April 20th from the pickup calender",
+        "aggregatedDurations": {
+          "median": 0.196292,
+          "average": 0.196292
+        },
+        "durations": [
+          {
+            "duration": 0.196292,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Header.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on drop-off calender",
+    "steps": [
+      {
+        "name": "I click on drop-off calender",
+        "aggregatedDurations": {
+          "median": 0.1344475,
+          "average": 0.1344475
+        },
+        "durations": [
+          {
+            "duration": 0.1344475,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Header.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select April 21st from the drop-off calender",
+    "steps": [
+      {
+        "name": "I select April 21st from the drop-off calender",
+        "aggregatedDurations": {
+          "median": 0.1204965,
+          "average": 0.1204965
+        },
+        "durations": [
+          {
+            "duration": 0.1204965,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Header.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on search",
+    "steps": [
+      {
+        "name": "I click on search",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Header.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see all the available cars for pickup",
+    "steps": [
+      {
+        "name": "I should be able to see all the available cars for pickup",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Header.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on things to do",
+    "steps": [
+      {
+        "name": "I click on things to do",
+        "aggregatedDurations": {
+          "median": 1.5763352,
+          "average": 1.5763352
+        },
+        "durations": [
+          {
+            "duration": 1.5763352,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/ThingsToDo.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on things to do search box",
+    "steps": [
+      {
+        "name": "I enter \"Miami\" on things to do search box",
+        "aggregatedDurations": {
+          "median": 7.418223,
+          "average": 7.418223
+        },
+        "durations": [
+          {
+            "duration": 7.418223,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/ThingsToDo.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on From Calender",
+    "steps": [
+      {
+        "name": "I click on From Calender",
+        "aggregatedDurations": {
+          "median": 5.2784364,
+          "average": 5.2784364
+        },
+        "durations": [
+          {
+            "duration": 5.2784364,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/ThingsToDo.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select april 23rd from the  Calender",
+    "steps": [
+      {
+        "name": "I select april 23rd from the  Calender",
+        "aggregatedDurations": {
+          "median": 0.2248906,
+          "average": 0.2248906
+        },
+        "durations": [
+          {
+            "duration": 0.2248906,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/ThingsToDo.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on To calender",
+    "steps": [
+      {
+        "name": "I click on To calender",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/ThingsToDo.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select April 24th from the calender",
+    "steps": [
+      {
+        "name": "I select April 24th from the calender",
+        "aggregatedDurations": {
+          "median": 0.3486266,
+          "average": 0.3486266
+        },
+        "durations": [
+          {
+            "duration": 0.3486266,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/ThingsToDo.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Search",
+    "steps": [
+      {
+        "name": "I click on Search",
+        "aggregatedDurations": {
+          "median": 0.1470079,
+          "average": 0.1470079
+        },
+        "durations": [
+          {
+            "duration": 0.1470079,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/ThingsToDo.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see all the things to do in Miami",
+    "steps": [
+      {
+        "name": "I should be able to see all the things to do in Miami",
+        "aggregatedDurations": {
+          "median": 0.0045422,
+          "average": 0.0045422
+        },
+        "durations": [
+          {
+            "duration": 0.0045422,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/ThingsToDo.feature:13"
+          }
+        ]
+      }
+    ]
+  }
+]

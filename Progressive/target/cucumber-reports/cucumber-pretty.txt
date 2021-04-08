@@ -6,36 +6,9 @@ Scenario: Auto insurance functionality in progressive sub-header # src/test/java
   And I mouse hoover on auto                                     # stepDefinitions.ProgressiveHomePageTestDefinitions.i_mouse_hoover_on_auto()
   And I enter "48091" on the zipcode search bar                  # stepDefinitions.ProgressiveHomePageTestDefinitions.i_enter_on_the_zipcode_search_bar(java.lang.String)
   And I click on Get  quotes                                     # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_get_quotes()
-      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" id="qsButton_mma" name="qsButton" value="Get a quote"> is not clickable at point (1028, 242). Other element would receive the click: <div class="acsAbandonButton acsModalBackdrop" data-isbackdrop="true">...</div>
-  (Session info: chrome=89.0.4389.90)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51414}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 6c6bfa53f3ddaf067577ea55c98f7bbd
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at common.WebAPI.clickByXpath(WebAPI.java:321)
-	at homepage.ProgressiveHomePage.checkGetQuoteButton(ProgressiveHomePage.java:55)
-	at stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_get_quotes(ProgressiveHomePageTestDefinitions.java:69)
-	at ✽.I click on Get  quotes(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:11)
-
   And I enter driver information                                 # stepDefinitions.ProgressiveHomePageTestDefinitions.i_enter_driver_information(io.cucumber.datatable.DataTable)
   When I click on start my quote                                 # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_start_my_quote()
   Then I should be able to select my car model                   # stepDefinitions.ProgressiveHomePageTestDefinitions.i_should_be_able_to_select_my_car_model()
-
-    Embedding Demo1 [image/png 280348 bytes]
-
 
 @smokeTest
 Scenario: Homeowners insurance under explore products                           # src/test/java/features/ExploreProducts.feature:24
@@ -48,9 +21,40 @@ Scenario: Homeowners insurance under explore products                           
   And I click on Let's go button                                                # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_let_s_go_button()
   And I enter the homeowners information                                        # stepDefinitions.ProgressiveHomePageTestDefinitions.i_enter_the_homeowners_information(java.util.List<java.util.List<java.lang.String>>)
   And I select NO for do you have progressive auto insurance                    # stepDefinitions.ProgressiveHomePageTestDefinitions.i_select_no_for_do_you_have_progressive_auto_insurance()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body/app-root[1]/interview[1]/block-ui[1]/div[1]/div[1]/content[1]/div[1]/div[1]/control[6]/div[1]/fieldset[1]/div[1]/radio[1]/div[1]/radio-button[2]/label[1]/span[1]"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63712}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a1e31a0664504d8499d4a1bb02c915c
+*** Element info: {Using=xpath, value=//body/app-root[1]/interview[1]/block-ui[1]/div[1]/div[1]/content[1]/div[1]/div[1]/control[6]/div[1]/fieldset[1]/div[1]/radio[1]/div[1]/radio-button[2]/label[1]/span[1]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickByXpath(WebAPI.java:328)
+	at homepage.ProgressiveHomePage.checkNoRadioButton(ProgressiveHomePage.java:222)
+	at stepDefinitions.ProgressiveHomePageTestDefinitions.i_select_no_for_do_you_have_progressive_auto_insurance(ProgressiveHomePageTestDefinitions.java:302)
+	at ✽.I select NO for do you have progressive auto insurance(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:35)
+
   And I select April20th from the homeowners insurance calender                 # stepDefinitions.ProgressiveHomePageTestDefinitions.i_select_april20th_from_the_homeowners_insurance_calender()
   When I click on next                                                          # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_next()
   Then I should be able to see Home basics page for additional home information # stepDefinitions.ProgressiveHomePageTestDefinitions.i_should_be_able_to_see_home_basics_page_for_additional_home_information()
+
+    Embedding Demo1 [image/png 31672 bytes]
+
 
 @smokeTest
 Scenario: Motorcycle insurance functionality under explore products # src/test/java/features/ExploreProducts.feature:42
@@ -69,6 +73,35 @@ Scenario: Dental insurance functionality under personal explore products # src/t
   And I click on Explore Products                                        # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_explore_products()
   And I click on dental                                                  # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_dental()
   And I enter "48091" on the dental insurance search box                 # stepDefinitions.ProgressiveHomePageTestDefinitions.i_enter_on_the_dental_insurance_search_box(java.lang.String)
+      org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63864}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 0955ab3f5ead3ddc4388ad098a4dcc52
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy24.sendKeys(Unknown Source)
+	at homepage.ProgressiveHomePage.checkDentalInsuranceSearchBox(ProgressiveHomePage.java:173)
+	at stepDefinitions.ProgressiveHomePageTestDefinitions.i_enter_on_the_dental_insurance_search_box(ProgressiveHomePageTestDefinitions.java:226)
+	at ✽.I enter "48091" on the dental insurance search box(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:59)
+
   And I click on get  quote                                              # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_get_quote()
   And I enter "48091" on the find plans zipcode search box               # stepDefinitions.ProgressiveHomePageTestDefinitions.i_enter_on_the_find_plans_zipcode_search_box(java.lang.String)
   And I select Female for gender                                         # stepDefinitions.ProgressiveHomePageTestDefinitions.i_select_female_for_gender()
@@ -76,6 +109,9 @@ Scenario: Dental insurance functionality under personal explore products # src/t
   And I select April 20th from the coverage starting calender            # stepDefinitions.ProgressiveHomePageTestDefinitions.i_select_from_the_coverage_starting_calender()
   When I click on find plans                                             # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_find_plans()
   Then I should be able to see all the available plans                   # stepDefinitions.ProgressiveHomePageTestDefinitions.i_should_be_able_to_see_all_the_available_plans()
+
+    Embedding Demo1 [image/png 306818 bytes]
+
 
 @smokeTest
 Scenario: General  Liability functionality under explore products # src/test/java/features/ExploreProducts.feature:69
@@ -88,13 +124,13 @@ Scenario: General  Liability functionality under explore products # src/test/jav
   And I click on continue                                         # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_continue()
   And I enter "teacher" on the what do you do search box          # stepDefinitions.ProgressiveHomePageTestDefinitions.i_enter_on_the_what_do_you_do_search_box(java.lang.String)
       org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="searchbtn"]"}
-  (Session info: chrome=89.0.4389.90)
+  (Session info: chrome=89.0.4389.114)
 For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51775}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 976a7bf6fc929b4c1da51e27a1ca4c0c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51376}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a734dcb6498dba787bf65efc1392c5ad
 *** Element info: {Using=xpath, value=//*[@id="searchbtn"]}
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -110,8 +146,8 @@ Session ID: 976a7bf6fc929b4c1da51e27a1ca4c0c
 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
 	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at common.WebAPI.clickByXpath(WebAPI.java:321)
-	at homepage.ProgressiveHomePage.checkWhatDoYouDoSearchBox(ProgressiveHomePage.java:296)
+	at common.WebAPI.clickByXpath(WebAPI.java:328)
+	at homepage.ProgressiveHomePage.checkWhatDoYouDoSearchBox(ProgressiveHomePage.java:301)
 	at stepDefinitions.ProgressiveHomePageTestDefinitions.i_enter_on_the_what_do_you_do_search_box(ProgressiveHomePageTestDefinitions.java:391)
 	at ✽.I enter "teacher" on the what do you do search box(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:75)
 
@@ -129,34 +165,7 @@ Scenario: Explore products functionality in progressive sub-header # src/test/ja
   And I mouse hoover on auto                                       # stepDefinitions.ProgressiveHomePageTestDefinitions.i_mouse_hoover_on_auto()
   And I enter "48091" on the zipcode search bar                    # stepDefinitions.ProgressiveHomePageTestDefinitions.i_enter_on_the_zipcode_search_bar(java.lang.String)
   When I click on Get a quote                                      # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_get_a_quote()
-      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" id="qsButton_mma" name="qsButton" value="Get a quote"> is not clickable at point (1028, 242). Other element would receive the click: <div class="acsAbandonButton acsModalBackdrop" data-isbackdrop="true">...</div>
-  (Session info: chrome=89.0.4389.90)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51875}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 9544b7863837a8a6d93913464088c320
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at common.WebAPI.clickByXpath(WebAPI.java:321)
-	at homepage.ProgressiveHomePage.checkGetQuoteButton(ProgressiveHomePage.java:55)
-	at stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_get_a_quote(ProgressiveHomePageTestDefinitions.java:64)
-	at ✽.I click on Get a quote(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:85)
-
   Then I should be able to see the start my quote form             # stepDefinitions.ProgressiveHomePageTestDefinitions.i_should_be_able_to_see_the_start_my_quote_form()
-
-    Embedding Demo1 [image/png 278357 bytes]
-
 
 @smokeTest
 Scenario: claims link functionality under explore products # src/test/java/features/ExploreProducts.feature:89
@@ -225,14 +234,13 @@ Scenario: Local Agent  functionality under about us       # src/test/java/featur
   And I click on about us                                 # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_about_us()
   And I click on Local agent                              # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_local_agent()
   And I enter "48091" on the zip code search box          # stepDefinitions.ProgressiveHomePageTestDefinitions.i_enter_on_the_zip_code_search_box(java.lang.String)
-  When I click on find an agent                           # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_find_an_agent()
-      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button type="submit" id="findAgentButton">...</button> is not clickable at point (849, 250). Other element would receive the click: <h1 id="fsrHeading">...</h1>
-  (Session info: chrome=89.0.4389.90)
+      org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=89.0.4389.114)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52355}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 1af1e24d0a4f041cf09a717ad8d8b8c2
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:51915}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 549d87c205c96194408b3145a6a3aa27
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -244,15 +252,21 @@ Session ID: 1af1e24d0a4f041cf09a717ad8d8b8c2
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at common.WebAPI.clickByXpath(WebAPI.java:321)
-	at homepage.ProgressiveHomePage.checkFindAnAgentButton(ProgressiveHomePage.java:147)
-	at stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_find_an_agent(ProgressiveHomePageTestDefinitions.java:203)
-	at ✽.I click on find an agent(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:140)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy24.sendKeys(Unknown Source)
+	at homepage.ProgressiveHomePage.checkLocalAgentZipcode(ProgressiveHomePage.java:149)
+	at stepDefinitions.ProgressiveHomePageTestDefinitions.i_enter_on_the_zip_code_search_box(ProgressiveHomePageTestDefinitions.java:199)
+	at ✽.I enter "48091" on the zip code search box(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:139)
 
+  When I click on find an agent                           # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_find_an_agent()
   Then I should be able to see all the local agents lists # stepDefinitions.ProgressiveHomePageTestDefinitions.i_should_be_able_to_see_all_the_local_agents_lists()
 
-    Embedding Demo1 [image/png 355810 bytes]
+    Embedding Demo1 [image/png 349904 bytes]
 
 
 @smokeTest
@@ -337,34 +351,7 @@ Scenario: Boat insurance functionality under explore products # src/test/java/fe
   And I click on Boat                                         # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_boat()
   And I enter "48091" on the zipcode search bar               # stepDefinitions.ProgressiveHomePageTestDefinitions.i_enter_on_the_zipcode_search_bar(java.lang.String)
   When I click on Get a quote                                 # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_get_a_quote()
-      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" id="qsButton_mma" name="qsButton" value="Get a quote"> is not clickable at point (849, 242). Other element would receive the click: <h1 id="fsrHeading">...</h1>
-  (Session info: chrome=89.0.4389.90)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52949}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 555ddae69ea4ba629f4fd43e13548b6c
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at common.WebAPI.clickByXpath(WebAPI.java:321)
-	at homepage.ProgressiveHomePage.checkGetQuoteButton(ProgressiveHomePage.java:55)
-	at stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_get_a_quote(ProgressiveHomePageTestDefinitions.java:64)
-	at ✽.I click on Get a quote(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:206)
-
   Then I should be able to see the driver information form    # stepDefinitions.ProgressiveHomePageTestDefinitions.i_should_be_able_to_see_the_driver_information_form()
-
-    Embedding Demo1 [image/png 343529 bytes]
-
 
 @smokeTest
 Scenario: Classic Car functionality under explore products # src/test/java/features/ExploreProducts.feature:210
@@ -382,20 +369,13 @@ Scenario: Golf Car functionality under explore products # src/test/java/features
   And I click on Golf car                               # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_golf_car()
   And I enter "48091" on the zipcode search bar         # stepDefinitions.ProgressiveHomePageTestDefinitions.i_enter_on_the_zipcode_search_bar(java.lang.String)
   When I click on Get a quote                           # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_get_a_quote()
-  Then I should be able to see  driver info form        # stepDefinitions.ProgressiveHomePageTestDefinitions.i_should_be_able_to_see_driver_info_form()
-
-@smokeTest
-Scenario: Trailer functionality under explore products # src/test/java/features/ExploreProducts.feature:224
-  Given I am on progressive homepage                   # stepDefinitions.ProgressiveHomePageTestDefinitions.i_am_on_progressive_homepage()
-  And I click on Explore Products                      # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_explore_products()
-  And I click on Trailer                               # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_trailer()
-      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="#l" aria-haspopup="dialog" data-qs-product="RV" data-tracking-label="rvtrailer_section">...</a> is not clickable at point (506, 426). Other element would receive the click: <div class="teasers">...</div>
-  (Session info: chrome=89.0.4389.90)
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" id="qsButton_mma" name="qsButton" value="Get a quote"> is not clickable at point (849, 242). Other element would receive the click: <h1 id="fsrHeading">...</h1>
+  (Session info: chrome=89.0.4389.114)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53119}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: bba19238b1274007efed483e00f39a03
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6986ae350870306cf14cde52f6c6dbcc
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -408,17 +388,24 @@ Session ID: bba19238b1274007efed483e00f39a03
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at common.WebAPI.clickOnLink(WebAPI.java:724)
-	at homepage.ProgressiveHomePage.checkTrailerLink(ProgressiveHomePage.java:360)
-	at stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_trailer(ProgressiveHomePageTestDefinitions.java:461)
-	at ✽.I click on Trailer(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:225)
+	at common.WebAPI.clickByXpath(WebAPI.java:328)
+	at homepage.ProgressiveHomePage.checkGetQuoteButton(ProgressiveHomePage.java:55)
+	at stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_get_a_quote(ProgressiveHomePageTestDefinitions.java:64)
+	at ✽.I click on Get a quote(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:220)
 
+  Then I should be able to see  driver info form        # stepDefinitions.ProgressiveHomePageTestDefinitions.i_should_be_able_to_see_driver_info_form()
+
+    Embedding Demo1 [image/png 418884 bytes]
+
+
+@smokeTest
+Scenario: Trailer functionality under explore products # src/test/java/features/ExploreProducts.feature:224
+  Given I am on progressive homepage                   # stepDefinitions.ProgressiveHomePageTestDefinitions.i_am_on_progressive_homepage()
+  And I click on Explore Products                      # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_explore_products()
+  And I click on Trailer                               # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_trailer()
   And I enter "48091" on the zipcode search bar        # stepDefinitions.ProgressiveHomePageTestDefinitions.i_enter_on_the_zipcode_search_bar(java.lang.String)
   When I click on Get a quote                          # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_get_a_quote()
   Then I should be able to see all the Trailer lists   # stepDefinitions.ProgressiveHomePageTestDefinitions.i_should_be_able_to_see_all_the_trailer_lists()
-
-    Embedding Demo1 [image/png 101255 bytes]
-
 
 @smokeTest
 Scenario: Segway link functionality under explore products # src/test/java/features/ExploreProducts.feature:231
@@ -456,31 +443,4 @@ Scenario: PWC link functionality under explore products       # src/test/java/fe
   And I click on PWC                                          # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_pwc()
   And I enter "48091" on the PWC insurance zipcode search bar # stepDefinitions.ProgressiveHomePageTestDefinitions.i_enter_on_the_pwc_insurance_zipcode_search_bar(java.lang.String)
   When I click on Get a quotes                                # stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_get_a_quotes()
-      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input type="submit" id="qsButton" name="qsButton" value="Get a quote"> is not clickable at point (758, 308). Other element would receive the click: <p id="fsrDescription">...</p>
-  (Session info: chrome=89.0.4389.90)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:53431}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 8e1c52945fc5dc458e3d6593e427a3b6
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-	at common.WebAPI.clickByXpath(WebAPI.java:321)
-	at homepage.ProgressiveHomePage.pwcGetQuotes(ProgressiveHomePage.java:423)
-	at stepDefinitions.ProgressiveHomePageTestDefinitions.i_click_on_get_a_quotes(ProgressiveHomePageTestDefinitions.java:530)
-	at ✽.I click on Get a quotes(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:257)
-
   Then I should be able to see drivers info forms             # stepDefinitions.ProgressiveHomePageTestDefinitions.i_should_be_able_to_see_drivers_info_forms()
-
-    Embedding Demo1 [image/png 67865 bytes]
-

@@ -1,0 +1,193 @@
+
+@smokeTest
+Scenario: One way flight functionality  on Delta header    # src/test/java/features/DeltaHomePage.feature:7
+  Given I am on Delta HomePage                             # stepDefinitions.DetaHomePageStepDefinitions.i_am_on_delta_home_page()
+  And I click on book                                      # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_book()
+  And I click on From                                      # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_from()
+  And I enter "Miami" on the from box                      # stepDefinitions.DetaHomePageStepDefinitions.i_enter_on_the_from_box(java.lang.String)
+  And I click on TO                                        # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_to()
+  And I enter "Los angeles" on the To box                  # stepDefinitions.DetaHomePageStepDefinitions.i_enter_on_the_to_box(java.lang.String)
+  And I select one way from the drop down                  # stepDefinitions.DetaHomePageStepDefinitions.i_select_one_way_from_the_drop_down()
+  And I select April 30th from  the depart-return calender # stepDefinitions.DetaHomePageStepDefinitions.i_select_April_30th_from_the_depart_return_calender()
+  And I select "1 passenger" from the drop down            # stepDefinitions.DetaHomePageStepDefinitions.i_select_from_the_drop_down(java.lang.String)
+  When I click on the proceed arrow                        # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_the_proceed_arrow()
+  Then I should be able to see all the available flights   # stepDefinitions.DetaHomePageStepDefinitions.i_should_be_able_to_see_all_the_available_flights()
+
+@smokeTest
+Scenario: Round trip flight functionality on Delta header          # src/test/java/features/DeltaHomePage.feature:21
+  Given I am on Delta HomePage                                     # stepDefinitions.DetaHomePageStepDefinitions.i_am_on_delta_home_page()
+  And I click on book                                              # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_book()
+  And I click on From                                              # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_from()
+  And I enter "Detroit" on the from box                            # stepDefinitions.DetaHomePageStepDefinitions.i_enter_on_the_from_box(java.lang.String)
+  And I click on TO                                                # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_to()
+  And I enter "JFK" on the To box                                  # stepDefinitions.DetaHomePageStepDefinitions.i_enter_on_the_to_box(java.lang.String)
+  And I click on depart calender                                   # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_depart_calender()
+  And I select April 20th from  the depart calender                # stepDefinitions.DetaHomePageStepDefinitions.i_select_april_20th_from_the_depart_calender()
+  And I select April 23rd from  the return calender                # stepDefinitions.DetaHomePageStepDefinitions.i_select_april_23rd_from_the_return_calender()
+  And I click on done                                              # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_done()
+  When I click on the proceed arrow                                # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_the_proceed_arrow()
+  Then I should be able to see all the available flights and times # stepDefinitions.DetaHomePageStepDefinitions.i_should_be_able_to_see_all_the_available_flights_and_times()
+
+@smokeTest
+Scenario: Vacation deal functionality on Delta homepage # src/test/java/features/DeltaHomePage.feature:35
+  Given I am on Delta HomePage                          # stepDefinitions.DetaHomePageStepDefinitions.i_am_on_delta_home_page()
+  And I click on vacation deals                         # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_vacation_deals()
+  And I click on origin                                 # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_origin()
+  And I enter "Laguardia" on the origin search box      # stepDefinitions.DetaHomePageStepDefinitions.i_enter_on_the_origin_search_box(java.lang.String)
+  And I click on destination                            # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_destination()
+  And I enter "Las Vegas" on the destination search box # stepDefinitions.DetaHomePageStepDefinitions.i_enter_on_the_destination_search_box(java.lang.String)
+  And I click on Depart calender                        # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_Depart_calender()
+  And I select April 25th from the depart calender      # stepDefinitions.DetaHomePageStepDefinitions.i_select_April_25th_from_the_depart_calender()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="departureDateSection"]/div/div/div/div[1]/div[2]/ngb-datepicker/div[2]/div[1]/ngb-datepicker-month-view/div[5]/div[7]/div"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 653c71d0fbd8402442218c5015901fef
+*** Element info: {Using=xpath, value=//*[@id="departureDateSection"]/div/div/div/div[1]/div[2]/ngb-datepicker/div[2]/div[1]/ngb-datepicker-month-view/div[5]/div[7]/div}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickByXpath1(WebAPI.java:638)
+	at deltahomepage.DeltaHomePage.checkDealsDepartDate(DeltaHomePage.java:232)
+	at stepDefinitions.DetaHomePageStepDefinitions.i_select_April_25th_from_the_depart_calender(DetaHomePageStepDefinitions.java:298)
+	at ✽.I select April 25th from the depart calender(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:42)
+
+
+    Embedding demo1 [image/png 91402 bytes]
+
+  And I click on return calender                        # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_return_calender()
+  And I select April 28th from the return calender      # stepDefinitions.DetaHomePageStepDefinitions.i_select_from_the_return_calender()
+  When I click on search button                         # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_search_button()
+      org.openqa.selenium.NoSuchSessionException: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:125)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at stepDefinitions.DetaHomePageStepDefinitions.tearDown(DetaHomePageStepDefinitions.java:28)
+
+
+@smokeTest
+Scenario: Baggage functionality under travel info # src/test/java/features/TravelInfo.feature:7
+  Given I am on Delta HomePage                    # stepDefinitions.DetaHomePageStepDefinitions.i_am_on_delta_home_page()
+  And I click travel info                         # stepDefinitions.DetaHomePageStepDefinitions.i_click_travel_info()
+  And I click on baggage                          # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_baggage()
+  When I click on checked baggage fees            # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_checked_baggage_fees()
+  Then I should be able to see the baggage prices # stepDefinitions.DetaHomePageStepDefinitions.i_should_be_able_to_see_the_baggage_prices()
+
+@smokeTest
+Scenario: Carry-on-baggage functionality under travel info    # src/test/java/features/TravelInfo.feature:14
+  Given I am on Delta HomePage                                # stepDefinitions.DetaHomePageStepDefinitions.i_am_on_delta_home_page()
+  And I click travel info                                     # stepDefinitions.DetaHomePageStepDefinitions.i_click_travel_info()
+  And I click on baggage                                      # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_baggage()
+  When I click on carry on baggage                            # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_carry_on_baggage()
+  Then I should be able to see the carry on baggage info page # stepDefinitions.DetaHomePageStepDefinitions.i_should_be_able_to_see_the_carry_on_baggage_info_page()
+
+@smokeTest
+Scenario: Track checked baggage functionality under travel info # src/test/java/features/TravelInfo.feature:21
+  Given I am on Delta HomePage                                  # stepDefinitions.DetaHomePageStepDefinitions.i_am_on_delta_home_page()
+  And I click travel info                                       # stepDefinitions.DetaHomePageStepDefinitions.i_click_travel_info()
+  And I click on baggage                                        # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_baggage()
+  When I click on track checked baggage                         # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_track_checked_baggage()
+  And I click on Twenty minute bag guarantee                    # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_Twenty_minute_bag_guarantee()
+  Then I should see bags on time form                           # stepDefinitions.DetaHomePageStepDefinitions.i_should_see_bags_on_time_form()
+
+@smokeTest
+Scenario: Special item functionality under travel info # src/test/java/features/TravelInfo.feature:29
+  Given I am on Delta HomePage                         # stepDefinitions.DetaHomePageStepDefinitions.i_am_on_delta_home_page()
+  And I click travel info                              # stepDefinitions.DetaHomePageStepDefinitions.i_click_travel_info()
+  And I click on baggage                               # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_baggage()
+  When I click on special item                         # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_special_item()
+  Then I should be able to see special item info page  # stepDefinitions.DetaHomePageStepDefinitions.i_should_be_able_to_see_special_item_info_page()
+
+@smokeTest
+Scenario: Excess and overweight baggage functionality under travel info # src/test/java/features/TravelInfo.feature:36
+  Given I am on Delta HomePage                                          # stepDefinitions.DetaHomePageStepDefinitions.i_am_on_delta_home_page()
+  And I click travel info                                               # stepDefinitions.DetaHomePageStepDefinitions.i_click_travel_info()
+  And I click on baggage                                                # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_baggage()
+  When I click on excess and overweight baggage                         # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_excess_and_overweight_baggage()
+  And I click on excess baggage guidelines                              # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_excess_baggage_guidelines()
+  Then I should be able to see excess baggage guideline info page       # stepDefinitions.DetaHomePageStepDefinitions.i_should_be_able_to_see_excess_baggage_guideline_info_page()
+
+@smokeTest
+Scenario: Prohibited and restricted item functionality under travel info     # src/test/java/features/TravelInfo.feature:44
+  Given I am on Delta HomePage                                               # stepDefinitions.DetaHomePageStepDefinitions.i_am_on_delta_home_page()
+  And I click travel info                                                    # stepDefinitions.DetaHomePageStepDefinitions.i_click_travel_info()
+  And I click on baggage                                                     # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_baggage()
+  When I click on prohibited and restricted items                            # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_prohibited_and_restricted_items()
+  And I click on Tobacco, E-Cigarettes or Marijuana                          # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_tobacco_e_cigarettes_or_marijuana()
+  Then I should see travel guidelines for Tobacco, E-Cigarettes or Marijuana # stepDefinitions.DetaHomePageStepDefinitions.i_should_see_travel_guidelines_for_tobacco_e_cigarettes_or_marijuana()
+
+@smokeTest
+Scenario: Delayed, Lost or Damaged bags functionality under travel info # src/test/java/features/TravelInfo.feature:52
+  Given I am on Delta HomePage                                          # stepDefinitions.DetaHomePageStepDefinitions.i_am_on_delta_home_page()
+  And I click travel info                                               # stepDefinitions.DetaHomePageStepDefinitions.i_click_travel_info()
+  And I click on baggage                                                # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_baggage()
+  When I click on Delayed, Lost or Damaged bags                         # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_delayed_lost_or_damaged_bags()
+  And I click on submit a claim link                                    # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_submit_a_claim_link()
+  Then I should be able to see baggage claim form                       # stepDefinitions.DetaHomePageStepDefinitions.i_should_be_able_to_see_baggage_claim_form()
+
+@smokeTest
+Scenario: Embargoes & Limitations functionality under travel info # src/test/java/features/TravelInfo.feature:60
+  Given I am on Delta HomePage                                    # stepDefinitions.DetaHomePageStepDefinitions.i_am_on_delta_home_page()
+  And I click travel info                                         # stepDefinitions.DetaHomePageStepDefinitions.i_click_travel_info()
+  And I click on baggage                                          # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_baggage()
+  When I click on Embargoes & Limitations                         # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_embargoes_limitations()
+  Then I should be able to see Embargoes & Limitations info page  # stepDefinitions.DetaHomePageStepDefinitions.i_should_be_able_to_see_embargoes_limitations_info_page()
+
+@smokeTest
+Scenario: Travel changes functionality under travel info # src/test/java/features/TravelInfo.feature:67
+  Given I am on Delta HomePage                           # stepDefinitions.DetaHomePageStepDefinitions.i_am_on_delta_home_page()
+  And I click travel info                                # stepDefinitions.DetaHomePageStepDefinitions.i_click_travel_info()
+  And I click on baggage                                 # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_baggage()
+  When I click on travel changes                         # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_travel_changes()
+  Then I should be able to see travel changes fee page   # stepDefinitions.DetaHomePageStepDefinitions.i_should_be_able_to_see_travel_changes_fee_page()
+
+@smokeTest
+Scenario: Travel services functionality under travel info # src/test/java/features/TravelInfo.feature:74
+  Given I am on Delta HomePage                            # stepDefinitions.DetaHomePageStepDefinitions.i_am_on_delta_home_page()
+  And I click travel info                                 # stepDefinitions.DetaHomePageStepDefinitions.i_click_travel_info()
+  And I click on baggage                                  # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_baggage()
+  When I click on travel services                         # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_travel_services()
+  Then I should be able to see travel services info page  # stepDefinitions.DetaHomePageStepDefinitions.i_should_be_able_to_see_travel_services_info_page()
+
+@smokeTest
+Scenario: First checked bag free link functionality under travel info # src/test/java/features/TravelInfo.feature:81
+  Given I am on Delta HomePage                                        # stepDefinitions.DetaHomePageStepDefinitions.i_am_on_delta_home_page()
+  And I click travel info                                             # stepDefinitions.DetaHomePageStepDefinitions.i_click_travel_info()
+  And I click on baggage                                              # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_baggage()
+  When I click on First checked bag free link                         # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_first_checked_bag_free_link()
+  Then I should be able to see First checked bag frees info page      # stepDefinitions.DetaHomePageStepDefinitions.i_should_be_able_to_see_first_checked_bag_frees_info_page()
+
+@smokeTest
+Scenario: First class flight functionality under travel info # src/test/java/features/TravelInfo.feature:88
+  Given I am on Delta HomePage                               # stepDefinitions.DetaHomePageStepDefinitions.i_am_on_delta_home_page()
+  And I click travel info                                    # stepDefinitions.DetaHomePageStepDefinitions.i_click_travel_info()
+  And I click on first class flight                          # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_first_class_flight()
+  When I click on book now                                   # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_book_now()
+  Then I should see all the available first class flight     # stepDefinitions.DetaHomePageStepDefinitions.i_should_see_all_the_available_first_class_flight()
+
+@smokeTest
+Scenario: Delta one flight functionality under travel info # src/test/java/features/TravelInfo.feature:95
+  Given I am on Delta HomePage                             # stepDefinitions.DetaHomePageStepDefinitions.i_am_on_delta_home_page()
+  And I click travel info                                  # stepDefinitions.DetaHomePageStepDefinitions.i_click_travel_info()
+  And I click on Delta one                                 # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_delta_one()
+  When I click on Delta one book now                       # stepDefinitions.DetaHomePageStepDefinitions.i_click_on_delta_one_book_now()
+  Then I should see the flight booking page                # stepDefinitions.DetaHomePageStepDefinitions.i_should_see_the_flight_booking_page()

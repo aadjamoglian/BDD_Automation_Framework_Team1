@@ -1,0 +1,1200 @@
+[
+  {
+    "source": "I am on Delta HomePage",
+    "steps": [
+      {
+        "name": "I am on Delta HomePage",
+        "aggregatedDurations": {
+          "median": 5.3960508,
+          "average": 5.434815718
+        },
+        "durations": [
+          {
+            "duration": 5.8839062,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:4"
+          },
+          {
+            "duration": 4.9221354,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:4"
+          },
+          {
+            "duration": 5.1492573,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:4"
+          },
+          {
+            "duration": 5.4500709,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:4"
+          },
+          {
+            "duration": 4.839709,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:4"
+          },
+          {
+            "duration": 5.613857,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:4"
+          },
+          {
+            "duration": 5.1174797,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:4"
+          },
+          {
+            "duration": 5.3766254,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:4"
+          },
+          {
+            "duration": 5.3972227,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:4"
+          },
+          {
+            "duration": 5.1584274,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:4"
+          },
+          {
+            "duration": 5.5602569,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:4"
+          },
+          {
+            "duration": 5.7920976,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:4"
+          },
+          {
+            "duration": 5.7907803,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:4"
+          },
+          {
+            "duration": 5.3948789,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:4"
+          },
+          {
+            "duration": 6.3194029,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:4"
+          },
+          {
+            "duration": 5.1909439,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on book",
+    "steps": [
+      {
+        "name": "I click on book",
+        "aggregatedDurations": {
+          "median": 0.5983558,
+          "average": 0.5983558
+        },
+        "durations": [
+          {
+            "duration": 0.662692,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:8"
+          },
+          {
+            "duration": 0.5340196,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on From",
+    "steps": [
+      {
+        "name": "I click on From",
+        "aggregatedDurations": {
+          "median": 4.37633765,
+          "average": 4.37633765
+        },
+        "durations": [
+          {
+            "duration": 4.3388836,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:9"
+          },
+          {
+            "duration": 4.4137917,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the from box",
+    "steps": [
+      {
+        "name": "I enter \"Miami\" on the from box",
+        "aggregatedDurations": {
+          "median": 0.3364635,
+          "average": 0.3364635
+        },
+        "durations": [
+          {
+            "duration": 0.3364635,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:10"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Detroit\" on the from box",
+        "aggregatedDurations": {
+          "median": 0.4053017,
+          "average": 0.4053017
+        },
+        "durations": [
+          {
+            "duration": 0.4053017,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on TO",
+    "steps": [
+      {
+        "name": "I click on TO",
+        "aggregatedDurations": {
+          "median": 0.3046936,
+          "average": 0.3046936
+        },
+        "durations": [
+          {
+            "duration": 0.2964932,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:11"
+          },
+          {
+            "duration": 0.312894,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the To box",
+    "steps": [
+      {
+        "name": "I enter \"Los angeles\" on the To box",
+        "aggregatedDurations": {
+          "median": 3.4155965,
+          "average": 3.4155965
+        },
+        "durations": [
+          {
+            "duration": 3.4155965,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:12"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"JFK\" on the To box",
+        "aggregatedDurations": {
+          "median": 3.3026315,
+          "average": 3.3026315
+        },
+        "durations": [
+          {
+            "duration": 3.3026315,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select one way from the drop down",
+    "steps": [
+      {
+        "name": "I select one way from the drop down",
+        "aggregatedDurations": {
+          "median": 0.4157404,
+          "average": 0.4157404
+        },
+        "durations": [
+          {
+            "duration": 0.4157404,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select April 30th from  the depart-return calender",
+    "steps": [
+      {
+        "name": "I select April 30th from  the depart-return calender",
+        "aggregatedDurations": {
+          "median": 0.0010212,
+          "average": 0.0010212
+        },
+        "durations": [
+          {
+            "duration": 0.0010212,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select {string} from the drop down",
+    "steps": [
+      {
+        "name": "I select \"1 passenger\" from the drop down",
+        "aggregatedDurations": {
+          "median": 0.3690112,
+          "average": 0.3690112
+        },
+        "durations": [
+          {
+            "duration": 0.3690112,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on the proceed arrow",
+    "steps": [
+      {
+        "name": "I click on the proceed arrow",
+        "aggregatedDurations": {
+          "median": 0.1797396,
+          "average": 0.1797396
+        },
+        "durations": [
+          {
+            "duration": 0.1921996,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:16"
+          },
+          {
+            "duration": 0.1672796,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see all the available flights",
+    "steps": [
+      {
+        "name": "I should be able to see all the available flights",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on depart calender",
+    "steps": [
+      {
+        "name": "I click on depart calender",
+        "aggregatedDurations": {
+          "median": 3.2035875,
+          "average": 3.2035875
+        },
+        "durations": [
+          {
+            "duration": 3.2035875,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select April 20th from  the depart calender",
+    "steps": [
+      {
+        "name": "I select April 20th from  the depart calender",
+        "aggregatedDurations": {
+          "median": 0.1995102,
+          "average": 0.1995102
+        },
+        "durations": [
+          {
+            "duration": 0.1995102,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select April 23rd from  the return calender",
+    "steps": [
+      {
+        "name": "I select April 23rd from  the return calender",
+        "aggregatedDurations": {
+          "median": 0.176989,
+          "average": 0.176989
+        },
+        "durations": [
+          {
+            "duration": 0.176989,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on done",
+    "steps": [
+      {
+        "name": "I click on done",
+        "aggregatedDurations": {
+          "median": 0.1545434,
+          "average": 0.1545434
+        },
+        "durations": [
+          {
+            "duration": 0.1545434,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see all the available flights and times",
+    "steps": [
+      {
+        "name": "I should be able to see all the available flights and times",
+        "aggregatedDurations": {
+          "median": 0.0069964,
+          "average": 0.0069964
+        },
+        "durations": [
+          {
+            "duration": 0.0069964,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on vacation deals",
+    "steps": [
+      {
+        "name": "I click on vacation deals",
+        "aggregatedDurations": {
+          "median": 10.6026872,
+          "average": 10.6026872
+        },
+        "durations": [
+          {
+            "duration": 10.6026872,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on origin",
+    "steps": [
+      {
+        "name": "I click on origin",
+        "aggregatedDurations": {
+          "median": 0.5021078,
+          "average": 0.5021078
+        },
+        "durations": [
+          {
+            "duration": 0.5021078,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the origin search box",
+    "steps": [
+      {
+        "name": "I enter \"Laguardia\" on the origin search box",
+        "aggregatedDurations": {
+          "median": 0.7352534,
+          "average": 0.7352534
+        },
+        "durations": [
+          {
+            "duration": 0.7352534,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on destination",
+    "steps": [
+      {
+        "name": "I click on destination",
+        "aggregatedDurations": {
+          "median": 0.3444944,
+          "average": 0.3444944
+        },
+        "durations": [
+          {
+            "duration": 0.3444944,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the destination search box",
+    "steps": [
+      {
+        "name": "I enter \"Las Vegas\" on the destination search box",
+        "aggregatedDurations": {
+          "median": 0.7751772,
+          "average": 0.7751772
+        },
+        "durations": [
+          {
+            "duration": 0.7751772,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Depart calender",
+    "steps": [
+      {
+        "name": "I click on Depart calender",
+        "aggregatedDurations": {
+          "median": 0.1217912,
+          "average": 0.1217912
+        },
+        "durations": [
+          {
+            "duration": 0.1217912,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click travel info",
+    "steps": [
+      {
+        "name": "I click travel info",
+        "aggregatedDurations": {
+          "median": 0.5723992,
+          "average": 0.580612092
+        },
+        "durations": [
+          {
+            "duration": 0.6409303,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:8"
+          },
+          {
+            "duration": 0.496333,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:15"
+          },
+          {
+            "duration": 0.4605583,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:22"
+          },
+          {
+            "duration": 0.5798225,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:30"
+          },
+          {
+            "duration": 0.633702,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:37"
+          },
+          {
+            "duration": 0.6362034,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:45"
+          },
+          {
+            "duration": 0.5723992,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:53"
+          },
+          {
+            "duration": 0.5229841,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:61"
+          },
+          {
+            "duration": 0.6340869,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:68"
+          },
+          {
+            "duration": 0.5458174,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:75"
+          },
+          {
+            "duration": 0.4948582,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:82"
+          },
+          {
+            "duration": 0.5186011,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:89"
+          },
+          {
+            "duration": 0.8116608,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:96"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on baggage",
+    "steps": [
+      {
+        "name": "I click on baggage",
+        "aggregatedDurations": {
+          "median": 3.4805998,
+          "average": 3.544956227
+        },
+        "durations": [
+          {
+            "duration": 3.1661841,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:9"
+          },
+          {
+            "duration": 3.6603735,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:16"
+          },
+          {
+            "duration": 3.8136674,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:23"
+          },
+          {
+            "duration": 3.8182823,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:31"
+          },
+          {
+            "duration": 3.4377569,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:38"
+          },
+          {
+            "duration": 3.4805998,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:46"
+          },
+          {
+            "duration": 3.206202,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:54"
+          },
+          {
+            "duration": 3.3180048,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:62"
+          },
+          {
+            "duration": 4.1590812,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:69"
+          },
+          {
+            "duration": 3.5218236,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:76"
+          },
+          {
+            "duration": 3.4125429,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:83"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on checked baggage fees",
+    "steps": [
+      {
+        "name": "I click on checked baggage fees",
+        "aggregatedDurations": {
+          "median": 0.4963284,
+          "average": 0.4963284
+        },
+        "durations": [
+          {
+            "duration": 0.4963284,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see the baggage prices",
+    "steps": [
+      {
+        "name": "I should be able to see the baggage prices",
+        "aggregatedDurations": {
+          "median": 0.0571033,
+          "average": 0.0571033
+        },
+        "durations": [
+          {
+            "duration": 0.0571033,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on carry on baggage",
+    "steps": [
+      {
+        "name": "I click on carry on baggage",
+        "aggregatedDurations": {
+          "median": 3.329778,
+          "average": 3.329778
+        },
+        "durations": [
+          {
+            "duration": 3.329778,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see the carry on baggage info page",
+    "steps": [
+      {
+        "name": "I should be able to see the carry on baggage info page",
+        "aggregatedDurations": {
+          "median": 0.0079954,
+          "average": 0.0079954
+        },
+        "durations": [
+          {
+            "duration": 0.0079954,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on track checked baggage",
+    "steps": [
+      {
+        "name": "I click on track checked baggage",
+        "aggregatedDurations": {
+          "median": 3.1143333,
+          "average": 3.1143333
+        },
+        "durations": [
+          {
+            "duration": 3.1143333,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Twenty minute bag guarantee",
+    "steps": [
+      {
+        "name": "I click on Twenty minute bag guarantee",
+        "aggregatedDurations": {
+          "median": 3.3105782,
+          "average": 3.3105782
+        },
+        "durations": [
+          {
+            "duration": 3.3105782,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see bags on time form",
+    "steps": [
+      {
+        "name": "I should see bags on time form",
+        "aggregatedDurations": {
+          "median": 0.0145987,
+          "average": 0.0145987
+        },
+        "durations": [
+          {
+            "duration": 0.0145987,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on special item",
+    "steps": [
+      {
+        "name": "I click on special item",
+        "aggregatedDurations": {
+          "median": 3.1204624,
+          "average": 3.1204624
+        },
+        "durations": [
+          {
+            "duration": 3.1204624,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see special item info page",
+    "steps": [
+      {
+        "name": "I should be able to see special item info page",
+        "aggregatedDurations": {
+          "median": 0.006004,
+          "average": 0.006004
+        },
+        "durations": [
+          {
+            "duration": 0.006004,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on excess and overweight baggage",
+    "steps": [
+      {
+        "name": "I click on excess and overweight baggage",
+        "aggregatedDurations": {
+          "median": 3.818553,
+          "average": 3.818553
+        },
+        "durations": [
+          {
+            "duration": 3.818553,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on excess baggage guidelines",
+    "steps": [
+      {
+        "name": "I click on excess baggage guidelines",
+        "aggregatedDurations": {
+          "median": 0.4208664,
+          "average": 0.4208664
+        },
+        "durations": [
+          {
+            "duration": 0.4208664,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see excess baggage guideline info page",
+    "steps": [
+      {
+        "name": "I should be able to see excess baggage guideline info page",
+        "aggregatedDurations": {
+          "median": 0.0657681,
+          "average": 0.0657681
+        },
+        "durations": [
+          {
+            "duration": 0.0657681,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on prohibited and restricted items",
+    "steps": [
+      {
+        "name": "I click on prohibited and restricted items",
+        "aggregatedDurations": {
+          "median": 2.9000296,
+          "average": 2.9000296
+        },
+        "durations": [
+          {
+            "duration": 2.9000296,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:47"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Tobacco, E-Cigarettes or Marijuana",
+    "steps": [
+      {
+        "name": "I click on Tobacco, E-Cigarettes or Marijuana",
+        "aggregatedDurations": {
+          "median": 2.3813979,
+          "average": 2.3813979
+        },
+        "durations": [
+          {
+            "duration": 2.3813979,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:48"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see travel guidelines for Tobacco, E-Cigarettes or Marijuana",
+    "steps": [
+      {
+        "name": "I should see travel guidelines for Tobacco, E-Cigarettes or Marijuana",
+        "aggregatedDurations": {
+          "median": 0.005685,
+          "average": 0.005685
+        },
+        "durations": [
+          {
+            "duration": 0.005685,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:49"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Delayed, Lost or Damaged bags",
+    "steps": [
+      {
+        "name": "I click on Delayed, Lost or Damaged bags",
+        "aggregatedDurations": {
+          "median": 3.4308271,
+          "average": 3.4308271
+        },
+        "durations": [
+          {
+            "duration": 3.4308271,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:55"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on submit a claim link",
+    "steps": [
+      {
+        "name": "I click on submit a claim link",
+        "aggregatedDurations": {
+          "median": 3.2059594,
+          "average": 3.2059594
+        },
+        "durations": [
+          {
+            "duration": 3.2059594,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:56"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see baggage claim form",
+    "steps": [
+      {
+        "name": "I should be able to see baggage claim form",
+        "aggregatedDurations": {
+          "median": 0.0058869,
+          "average": 0.0058869
+        },
+        "durations": [
+          {
+            "duration": 0.0058869,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:57"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Embargoes \u0026 Limitations",
+    "steps": [
+      {
+        "name": "I click on Embargoes \u0026 Limitations",
+        "aggregatedDurations": {
+          "median": 2.9980497,
+          "average": 2.9980497
+        },
+        "durations": [
+          {
+            "duration": 2.9980497,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:63"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see Embargoes \u0026 Limitations info page",
+    "steps": [
+      {
+        "name": "I should be able to see Embargoes \u0026 Limitations info page",
+        "aggregatedDurations": {
+          "median": 0.0079994,
+          "average": 0.0079994
+        },
+        "durations": [
+          {
+            "duration": 0.0079994,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:64"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on travel changes",
+    "steps": [
+      {
+        "name": "I click on travel changes",
+        "aggregatedDurations": {
+          "median": 0.514833,
+          "average": 0.514833
+        },
+        "durations": [
+          {
+            "duration": 0.514833,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:70"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see travel changes fee page",
+    "steps": [
+      {
+        "name": "I should be able to see travel changes fee page",
+        "aggregatedDurations": {
+          "median": 0.0638011,
+          "average": 0.0638011
+        },
+        "durations": [
+          {
+            "duration": 0.0638011,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:71"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on travel services",
+    "steps": [
+      {
+        "name": "I click on travel services",
+        "aggregatedDurations": {
+          "median": 0.642252,
+          "average": 0.642252
+        },
+        "durations": [
+          {
+            "duration": 0.642252,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:77"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see travel services info page",
+    "steps": [
+      {
+        "name": "I should be able to see travel services info page",
+        "aggregatedDurations": {
+          "median": 0.0217365,
+          "average": 0.0217365
+        },
+        "durations": [
+          {
+            "duration": 0.0217365,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:78"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on First checked bag free link",
+    "steps": [
+      {
+        "name": "I click on First checked bag free link",
+        "aggregatedDurations": {
+          "median": 3.2016796,
+          "average": 3.2016796
+        },
+        "durations": [
+          {
+            "duration": 3.2016796,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:84"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see First checked bag frees info page",
+    "steps": [
+      {
+        "name": "I should be able to see First checked bag frees info page",
+        "aggregatedDurations": {
+          "median": 0.007675,
+          "average": 0.007675
+        },
+        "durations": [
+          {
+            "duration": 0.007675,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:85"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on first class flight",
+    "steps": [
+      {
+        "name": "I click on first class flight",
+        "aggregatedDurations": {
+          "median": 3.9983852,
+          "average": 3.9983852
+        },
+        "durations": [
+          {
+            "duration": 3.9983852,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:90"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on book now",
+    "steps": [
+      {
+        "name": "I click on book now",
+        "aggregatedDurations": {
+          "median": 3.3754995,
+          "average": 3.3754995
+        },
+        "durations": [
+          {
+            "duration": 3.3754995,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:91"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see all the available first class flight",
+    "steps": [
+      {
+        "name": "I should see all the available first class flight",
+        "aggregatedDurations": {
+          "median": 0.0467041,
+          "average": 0.0467041
+        },
+        "durations": [
+          {
+            "duration": 0.0467041,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:92"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Delta one",
+    "steps": [
+      {
+        "name": "I click on Delta one",
+        "aggregatedDurations": {
+          "median": 3.3220291,
+          "average": 3.3220291
+        },
+        "durations": [
+          {
+            "duration": 3.3220291,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:97"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Delta one book now",
+    "steps": [
+      {
+        "name": "I click on Delta one book now",
+        "aggregatedDurations": {
+          "median": 3.5780257,
+          "average": 3.5780257
+        },
+        "durations": [
+          {
+            "duration": 3.5780257,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:98"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see the flight booking page",
+    "steps": [
+      {
+        "name": "I should see the flight booking page",
+        "aggregatedDurations": {
+          "median": 0.0050012,
+          "average": 0.0050012
+        },
+        "durations": [
+          {
+            "duration": 0.0050012,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelInfo.feature:99"
+          }
+        ]
+      }
+    ]
+  }
+]

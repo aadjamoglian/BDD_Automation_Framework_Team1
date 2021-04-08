@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="16" time="260.401">
+    <testcase classname="Delta Homepage Functionality" name="One way flight functionality  on Delta header" time="16.92">
+        <system-out>
+            <![CDATA[Given I am on Delta HomePage................................................passed
+And I click on book.........................................................passed
+And I click on From.........................................................passed
+And I enter "Miami" on the from box.........................................passed
+And I click on TO...........................................................passed
+And I enter "Los angeles" on the To box.....................................passed
+And I select one way from the drop down.....................................passed
+And I select April 30th from  the depart-return calender....................passed
+And I select "1 passenger" from the drop down...............................passed
+When I click on the proceed arrow...........................................passed
+Then I should be able to see all the available flights......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta Homepage Functionality" name="Round trip flight functionality on Delta header" time="18.596">
+        <system-out>
+            <![CDATA[Given I am on Delta HomePage................................................passed
+And I click on book.........................................................passed
+And I click on From.........................................................passed
+And I enter "Detroit" on the from box.......................................passed
+And I click on TO...........................................................passed
+And I enter "JFK" on the To box.............................................passed
+And I click on depart calender..............................................passed
+And I select April 20th from  the depart calender...........................passed
+And I select April 23rd from  the return calender...........................passed
+And I click on done.........................................................passed
+When I click on the proceed arrow...........................................passed
+Then I should be able to see all the available flights and times............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta Homepage Functionality" name="Vacation deal functionality on Delta homepage" time="44.505">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@id=&quot;departureDateSection&quot;]/div/div/div/div[1]/div[2]/ngb-datepicker/div[2]/div[1]/ngb-datepicker-month-view/div[5]/div[7]/div&quot;}&#10;  (Session info: chrome=89.0.4389.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 653c71d0fbd8402442218c5015901fef&#10;*** Element info: {Using=xpath, value=//*[@id=&quot;departureDateSection&quot;]/div/div/div/div[1]/div[2]/ngb-datepicker/div[2]/div[1]/ngb-datepicker-month-view/div[5]/div[7]/div}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am on Delta HomePage................................................passed
+And I click on vacation deals...............................................passed
+And I click on origin.......................................................passed
+And I enter "Laguardia" on the origin search box............................passed
+And I click on destination..................................................passed
+And I enter "Las Vegas" on the destination search box.......................passed
+And I click on Depart calender..............................................passed
+And I select April 25th from the depart calender............................failed
+And I click on return calender..............................................skipped
+And I select April 28th from the return calender............................skipped
+When I click on search button...............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@id="departureDateSection"]/div/div/div/div[1]/div[2]/ngb-datepicker/div[2]/div[1]/ngb-datepicker-month-view/div[5]/div[7]/div"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49896}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 653c71d0fbd8402442218c5015901fef
+*** Element info: {Using=xpath, value=//*[@id="departureDateSection"]/div/div/div/div[1]/div[2]/ngb-datepicker/div[2]/div[1]/ngb-datepicker-month-view/div[5]/div[7]/div}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickByXpath1(WebAPI.java:638)
+	at deltahomepage.DeltaHomePage.checkDealsDepartDate(DeltaHomePage.java:232)
+	at stepDefinitions.DetaHomePageStepDefinitions.i_select_April_25th_from_the_depart_calender(DetaHomePageStepDefinitions.java:298)
+	at ✽.I select April 25th from the depart calender(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:42)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Travel info functionality on Delta header" name="Baggage functionality under travel info" time="10.64">
+        <system-out>
+            <![CDATA[Given I am on Delta HomePage................................................passed
+And I click travel info.....................................................passed
+And I click on baggage......................................................passed
+When I click on checked baggage fees........................................passed
+Then I should be able to see the baggage prices.............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Travel info functionality on Delta header" name="Carry-on-baggage functionality under travel info" time="13.161">
+        <system-out>
+            <![CDATA[Given I am on Delta HomePage................................................passed
+And I click travel info.....................................................passed
+And I click on baggage......................................................passed
+When I click on carry on baggage............................................passed
+Then I should be able to see the carry on baggage info page.................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Travel info functionality on Delta header" name="Track checked baggage functionality under travel info" time="17.182">
+        <system-out>
+            <![CDATA[Given I am on Delta HomePage................................................passed
+And I click travel info.....................................................passed
+And I click on baggage......................................................passed
+When I click on track checked baggage.......................................passed
+And I click on Twenty minute bag guarantee..................................passed
+Then I should see bags on time form.........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Travel info functionality on Delta header" name="Special item functionality under travel info" time="13.476">
+        <system-out>
+            <![CDATA[Given I am on Delta HomePage................................................passed
+And I click travel info.....................................................passed
+And I click on baggage......................................................passed
+When I click on special item................................................passed
+Then I should be able to see special item info page.........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Travel info functionality on Delta header" name="Excess and overweight baggage functionality under travel info" time="14.616">
+        <system-out>
+            <![CDATA[Given I am on Delta HomePage................................................passed
+And I click travel info.....................................................passed
+And I click on baggage......................................................passed
+When I click on excess and overweight baggage...............................passed
+And I click on excess baggage guidelines....................................passed
+Then I should be able to see excess baggage guideline info page.............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Travel info functionality on Delta header" name="Prohibited and restricted item functionality under travel info" time="15.633">
+        <system-out>
+            <![CDATA[Given I am on Delta HomePage................................................passed
+And I click travel info.....................................................passed
+And I click on baggage......................................................passed
+When I click on prohibited and restricted items.............................passed
+And I click on Tobacco, E-Cigarettes or Marijuana...........................passed
+Then I should see travel guidelines for Tobacco, E-Cigarettes or Marijuana..passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Travel info functionality on Delta header" name="Delayed, Lost or Damaged bags functionality under travel info" time="16.39">
+        <system-out>
+            <![CDATA[Given I am on Delta HomePage................................................passed
+And I click travel info.....................................................passed
+And I click on baggage......................................................passed
+When I click on Delayed, Lost or Damaged bags...............................passed
+And I click on submit a claim link..........................................passed
+Then I should be able to see baggage claim form.............................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Travel info functionality on Delta header" name="Embargoes &amp; Limitations functionality under travel info" time="13.223">
+        <system-out>
+            <![CDATA[Given I am on Delta HomePage................................................passed
+And I click travel info.....................................................passed
+And I click on baggage......................................................passed
+When I click on Embargoes & Limitations.....................................passed
+Then I should be able to see Embargoes & Limitations info page..............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Travel info functionality on Delta header" name="Travel changes functionality under travel info" time="12.006">
+        <system-out>
+            <![CDATA[Given I am on Delta HomePage................................................passed
+And I click travel info.....................................................passed
+And I click on baggage......................................................passed
+When I click on travel changes..............................................passed
+Then I should be able to see travel changes fee page........................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Travel info functionality on Delta header" name="Travel services functionality under travel info" time="11.337">
+        <system-out>
+            <![CDATA[Given I am on Delta HomePage................................................passed
+And I click travel info.....................................................passed
+And I click on baggage......................................................passed
+When I click on travel services.............................................passed
+Then I should be able to see travel services info page......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Travel info functionality on Delta header" name="First checked bag free link functionality under travel info" time="13.356">
+        <system-out>
+            <![CDATA[Given I am on Delta HomePage................................................passed
+And I click travel info.....................................................passed
+And I click on baggage......................................................passed
+When I click on First checked bag free link.................................passed
+Then I should be able to see First checked bag frees info page..............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Travel info functionality on Delta header" name="First class flight functionality under travel info" time="15.095">
+        <system-out>
+            <![CDATA[Given I am on Delta HomePage................................................passed
+And I click travel info.....................................................passed
+And I click on first class flight...........................................passed
+When I click on book now....................................................passed
+Then I should see all the available first class flight......................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Travel info functionality on Delta header" name="Delta one flight functionality under travel info" time="13.732">
+        <system-out>
+            <![CDATA[Given I am on Delta HomePage................................................passed
+And I click travel info.....................................................passed
+And I click on Delta one....................................................passed
+When I click on Delta one book now..........................................passed
+Then I should see the flight booking page...................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

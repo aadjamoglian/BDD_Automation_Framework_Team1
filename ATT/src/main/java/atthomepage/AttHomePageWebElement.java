@@ -23,8 +23,8 @@ public class AttHomePageWebElement {
     public static final String tabletAndPcLocator="//*[@id=\"Categories-2\"]";
     public static final String smartWatchesLocator="//*[@id=\"Categories-3\"]";
     public static final String attAndPrepaidLocator="//*[@id=\"Categories-1\"]";
-    public static final String internetAndTVLocator="a[aria-label='Internet & TV']";
-    public static final String accessoriesLocator="//a[normalize-space()='Accessories']";
+    public static final String internetAndTVLocator="//a[contains(text(),'Internet & TV')]";
+    public static final String accessoriesLocator="//a[contains(text(),'Accessories')]";
     public static final String casesLocator="//*[@id=\"Categories-2\"]";
     public static final String addressSearchBoxLocator="//*[@id=\"CheckAvailability\"]/section/div[1]/app-check-availability/div[2]/form/div/div[1]/div/input";
     public static final String addressZipcodeLocator="//input[@class='big zip-input ng-tns-c86-0 ng-pristine ng-invalid err-input ng-touched']";

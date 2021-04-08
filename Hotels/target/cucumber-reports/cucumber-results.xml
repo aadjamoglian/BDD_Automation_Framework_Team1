@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="6" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="224.172">
+    <testcase classname="Gift card functionality on Hotel header" name="Mailing gift card functionality under gift card" time="30.104">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div[@id='main-content']/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]&quot;}&#10;  (Session info: chrome=89.0.4389.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61055}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: d392dd5896a34b501b0c58ffbb91b76f&#10;*** Element info: {Using=xpath, value=//body/div[@id='main-content']/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am on hotel.com homepage............................................passed
+And I click on gift cards...................................................passed
+And I click on buy now......................................................failed
+And I click on a friend.....................................................skipped
+And I enter "Alisha Amira" on the friends name search box...................skipped
+And I enter "Farhana Chowdhury" on my name search box.......................skipped
+And I click on pick a gift card.............................................skipped
+And I click on send a  physical gift card...................................skipped
+And I click on how much.....................................................skipped
+And I click on Fifty for amount.............................................skipped
+And I click on add a message................................................skipped
+And I click on where it is going............................................skipped
+And I enter the receiver's mailing information..............................skipped
+When I click on shipping....................................................skipped
+Then I should see checkout page.............................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body/div[@id='main-content']/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61055}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d392dd5896a34b501b0c58ffbb91b76f
+*** Element info: {Using=xpath, value=//body/div[@id='main-content']/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickByXpath(WebAPI.java:328)
+	at hotels.comhomepage.HotelsHomePage.checkBuyNow(HotelsHomePage.java:162)
+	at stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_buy_now(HotelsHomePageTestDefinitions.java:231)
+	at ✽.I click on buy now(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Gift card functionality on Hotel header" name="Gift card purchase functionality under gift card" time="29.56">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div[@id='main-content']/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]&quot;}&#10;  (Session info: chrome=89.0.4389.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61275}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e3c1c1586ead80a5e5d0b353b59f7bfe&#10;*** Element info: {Using=xpath, value=//body/div[@id='main-content']/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am on hotel.com homepage............................................passed
+And I click on gift cards...................................................passed
+And I click on buy now......................................................failed
+And I click on for me.......................................................skipped
+When I click on pick a gift card............................................skipped
+And I click on send a digital card..........................................skipped
+And I click on how much.....................................................skipped
+And I click on Fifty for amount.............................................skipped
+And I click on add to cart..................................................skipped
+Then I should see review your card page.....................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body/div[@id='main-content']/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61275}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e3c1c1586ead80a5e5d0b353b59f7bfe
+*** Element info: {Using=xpath, value=//body/div[@id='main-content']/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickByXpath(WebAPI.java:328)
+	at hotels.comhomepage.HotelsHomePage.checkBuyNow(HotelsHomePage.java:162)
+	at stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_buy_now(HotelsHomePageTestDefinitions.java:231)
+	at ✽.I click on buy now(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Gift card functionality on Hotel header" name="Personalized gift card functionality under gift card" time="29.963">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body/div[@id='main-content']/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]&quot;}&#10;  (Session info: chrome=89.0.4389.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b3da9d5bc56d20102bc3790cb0e59a05&#10;*** Element info: {Using=xpath, value=//body/div[@id='main-content']/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am on hotel.com homepage............................................passed
+And I click on gift cards...................................................passed
+And I click on buy now......................................................failed
+And I click on for me.......................................................skipped
+When I click on pick a gift card............................................skipped
+And I click on send a digital card..........................................skipped
+And I click on upload your own photo........................................skipped
+And I check the box for terms and conditions................................skipped
+And I click on choose photo.................................................skipped
+And I click on choose a local file..........................................skipped
+And I click on done.........................................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body/div[@id='main-content']/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61375}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b3da9d5bc56d20102bc3790cb0e59a05
+*** Element info: {Using=xpath, value=//body/div[@id='main-content']/main[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickByXpath(WebAPI.java:328)
+	at hotels.comhomepage.HotelsHomePage.checkBuyNow(HotelsHomePage.java:162)
+	at stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_buy_now(HotelsHomePageTestDefinitions.java:231)
+	at ✽.I click on buy now(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/GiftCard.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Gift card functionality on Hotel header" name="Friend Gift card functionality under gift card" time="17.084">
+        <system-out>
+            <![CDATA[Given I am on hotel.com homepage............................................passed
+And I click on gift cards...................................................passed
+And I click on buy now......................................................passed
+And I click on a friend.....................................................passed
+And I enter "Alisha Amira" on the friends name search box...................passed
+And I enter "Farhana Chowdhury" on my name search box.......................passed
+And I click on pick a gift card.............................................passed
+And I click on send a digital card..........................................passed
+And I click on how much.....................................................passed
+And I click on Fifty for amount.............................................passed
+And I click on add a message................................................passed
+And I click on where it is going............................................passed
+And I enter "Alisha@gmail.com" on the email web edit field..................passed
+When I click on add to cart.................................................passed
+Then I should see review your card page.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Gift card functionality on Hotel header" name="Mailing gift card functionality under gift card" time="25.308">
+        <system-out>
+            <![CDATA[Given I am on hotel.com homepage............................................passed
+And I click on gift cards...................................................passed
+And I click on buy now......................................................passed
+Given I am on hotel.com homepage............................................passed
+And I click on gift cards...................................................passed
+And I click on buy now......................................................passed
+And I click on a friend.....................................................passed
+And I enter "Alisha Amira" on the friends name search box...................passed
+And I enter "Farhana Chowdhury" on my name search box.......................passed
+And I click on pick a gift card.............................................passed
+And I click on send a  physical gift card...................................passed
+And I click on how much.....................................................passed
+And I click on Fifty for amount.............................................passed
+And I click on add a message................................................passed
+And I click on where it is going............................................passed
+And I enter the receiver's mailing information..............................passed
+When I click on shipping....................................................passed
+Then I should see checkout page.............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Hotels.com header Functionality" name="Hotel Deals finder on Hotels.com header" time="29.303">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//body[1]/div[8]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[5]/td[2]/a[1]&quot;}&#10;  (Session info: chrome=89.0.4389.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a4b7e21d4b04eb5cb6458c96e11ef099&#10;*** Element info: {Using=xpath, value=//body[1]/div[8]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[5]/td[2]/a[1]}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am on hotel.com homepage............................................passed
+And I click on deals........................................................passed
+And I enter "Miami" on the search Bar.......................................passed
+And I select April 20th for check in date...................................failed
+And I select April 25th for checkout date...................................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//body[1]/div[8]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[5]/td[2]/a[1]"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62308}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a4b7e21d4b04eb5cb6458c96e11ef099
+*** Element info: {Using=xpath, value=//body[1]/div[8]/div[2]/div[1]/div[2]/table[1]/tbody[1]/tr[5]/td[2]/a[1]}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.getTextByXpath(WebAPI.java:414)
+	at hotels.comhomepage.HotelsHomePage.checkInCalender(HotelsHomePage.java:41)
+	at stepDefinitions.HotelsHomePageTestDefinitions.i_select_april_20th_for_check_in_date(HotelsHomePageTestDefinitions.java:64)
+	at ✽.I select April 20th for check in date(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Header.feature:8)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Hotels.com header Functionality" name="Flight packages functionality on hotels header" time="24.356">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id='package-origin-hp-package']&quot;}&#10;  (Session info: chrome=89.0.4389.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: eb9e08bd4f2eae7aaecca7656d184c4b&#10;*** Element info: {Using=xpath, value=//input[@id='package-origin-hp-package']}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am on hotel.com homepage............................................passed
+And I click Packages & Flights..............................................passed
+And I click on flight & Hotel...............................................passed
+And I enter "Detroit" on the flying from search box.........................failed
+And I enter "Miami" on destination search box...............................skipped
+And I select april 20th from the destination calender.......................skipped
+And I select april 23rd from the returning Calender.........................skipped
+When I click on search button...............................................skipped
+Then I should be able to see all the available flights......................skipped
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='package-origin-hp-package']"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62606}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: eb9e08bd4f2eae7aaecca7656d184c4b
+*** Element info: {Using=xpath, value=//input[@id='package-origin-hp-package']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy24.sendKeys(Unknown Source)
+	at hotels.comhomepage.HotelsHomePage.checkFlyingFrom(HotelsHomePage.java:80)
+	at stepDefinitions.HotelsHomePageTestDefinitions.i_enter_on_the_flying_from_search_box(HotelsHomePageTestDefinitions.java:121)
+	at ✽.I enter "Detroit" on the flying from search box(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Header.feature:20)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Hotels.com header Functionality" name="Car rentals functionality on hotels header" time="12.283">
+        <system-out>
+            <![CDATA[Given I am on hotel.com homepage............................................passed
+And I click on car rentals..................................................passed
+And I enter "Miami" on the rental car search bar............................passed
+And I click on pickup calender..............................................passed
+And I select April 20th from the pickup calender............................passed
+And I click on drop-off calender............................................passed
+And I select April 21st from the drop-off calender..........................passed
+When I click on search......................................................passed
+Then I should be able to see all the available cars for pickup..............passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Hotel.com Reward Functionality" name="Join membership functionality under Rewards" time="6.455">
+        <failure message="element click intercepted: Element &lt;a href=&quot;/hotel-rewards-pillar/hotelscomrewards.html?intlid=HOME+%3A%3A+header_main_section&quot; id=&quot;hdr-rewards&quot; rel=&quot;nofollow&quot;&gt;...&lt;/a&gt; is not clickable at point (963, 139). Other element would receive the click: &lt;div class=&quot;signin-signup-notification-container notApplicable show&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=89.0.4389.114)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63173}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 14094706353d31f8ea8f2b031bc0bbcf" type="org.openqa.selenium.ElementClickInterceptedException">
+            <![CDATA[Given I am on hotel.com homepage............................................passed
+And I click on Hotels.com Rewards...........................................failed
+When I click on join now....................................................skipped
+Then I should see create account page.......................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a href="/hotel-rewards-pillar/hotelscomrewards.html?intlid=HOME+%3A%3A+header_main_section" id="hdr-rewards" rel="nofollow">...</a> is not clickable at point (963, 139). Other element would receive the click: <div class="signin-signup-notification-container notApplicable show">...</div>
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BQP1HFR', ip: '192.168.190.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\farha\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63173}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 14094706353d31f8ea8f2b031bc0bbcf
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at common.WebAPI.clickOnLink(WebAPI.java:738)
+	at hotels.comhomepage.HotelsHomePage.checkRewards(HotelsHomePage.java:251)
+	at stepDefinitions.HotelsHomePageTestDefinitions.i_click_on_hotels_com_rewards(HotelsHomePageTestDefinitions.java:371)
+	at ✽.I click on Hotels.com Rewards(file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/Rewards.feature:6)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Things to do functionality on Hotel header" name="Things to do search box functionality test" time="19.084">
+        <system-out>
+            <![CDATA[Given I am on hotel.com homepage............................................passed
+And I click on things to do.................................................passed
+And I enter "Miami" on things to do search box..............................passed
+And I click on From Calender................................................passed
+And I select april 23rd from the  Calender..................................passed
+And I click on To calender..................................................passed
+And I select April 24th from the calender...................................passed
+When I click on Search......................................................passed
+Then I should be able to see all the things to do in Miami..................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

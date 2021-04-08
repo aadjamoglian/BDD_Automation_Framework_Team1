@@ -54,6 +54,11 @@ public class ProgressiveHomePage extends WebAPI {
     public void checkGetQuoteButton(){
         clickByXpath(getQuoteLocator);
     }
+
+    public void checkSeqWayGetQuoteButton(){
+        clickByXpath(segwayGetQuoteLocator);
+    }
+
     public void verifystartmyQuoteForm(){
         String actualText="Car Insurance: Free Auto Insurance Quotes | Progressive";
         String expectedText=driver.getTitle();
@@ -335,7 +340,7 @@ public class ProgressiveHomePage extends WebAPI {
         clickOnLink("Boat");
     }
     public void verifyBoatDriverInfo(){
-        String actualText="Snowmobile Insurance: Get a Quote Online | Progressive";
+        String actualText="Boat Insurance: Get a Quote Online | Progressive";
         String expectedText=driver.getTitle();
         Assert.assertEquals(actualText,expectedText,"Link is not working");
     }

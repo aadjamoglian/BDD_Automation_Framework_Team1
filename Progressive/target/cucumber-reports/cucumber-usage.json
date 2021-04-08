@@ -5,128 +5,128 @@
       {
         "name": "I am on progressive homepage",
         "aggregatedDurations": {
-          "median": 3.92116715,
-          "average": 3.91880567
+          "median": 3.6688744,
+          "average": 3.70199074
         },
         "durations": [
           {
-            "duration": 4.3325721,
+            "duration": 4.2081043,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 3.8079113,
+            "duration": 3.9600078,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 3.9755106,
+            "duration": 3.7524675,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 4.1638146,
+            "duration": 3.9561361,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 3.6998881,
+            "duration": 3.6780708,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 3.8610864,
+            "duration": 3.4925923,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 3.7972618,
+            "duration": 3.5261491,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 3.826502,
+            "duration": 3.6149474,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 3.5100502,
+            "duration": 3.604328,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 3.5036608,
+            "duration": 3.8636177,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 4.2196536,
+            "duration": 3.5982768,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 3.9239708,
+            "duration": 3.7497417,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 3.8659114,
+            "duration": 3.7687737,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 3.7070016,
+            "duration": 3.5158831,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 4.1080202,
+            "duration": 3.7982024,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 3.9183635,
+            "duration": 3.7191217,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 3.7942111,
+            "duration": 3.5428037,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 4.1396861,
+            "duration": 3.591142,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 3.9390467,
+            "duration": 3.6201306,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 4.1730987,
+            "duration": 3.709455,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 4.0706191,
+            "duration": 3.6218454,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 4.1339211,
+            "duration": 3.7105279,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 3.8060875,
+            "duration": 3.5905542,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 4.0305825,
+            "duration": 3.5851631,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 4.0343694,
+            "duration": 3.5885556,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 3.4435696,
+            "duration": 3.6488565,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 4.23006,
+            "duration": 3.6757186,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 3.6891311,
+            "duration": 3.9319581,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 3.7151015,
+            "duration": 3.7745609,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           },
           {
-            "duration": 4.1435067,
+            "duration": 3.6620302,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:4"
           }
         ]
@@ -139,128 +139,128 @@
       {
         "name": "I click on Explore Products",
         "aggregatedDurations": {
-          "median": 0.14049445,
-          "average": 0.14320178
+          "median": 0.13864395,
+          "average": 0.13897024
         },
         "durations": [
           {
-            "duration": 0.1432224,
+            "duration": 0.162302,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1411315,
+            "duration": 0.1294817,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1383607,
+            "duration": 0.1368247,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1273653,
+            "duration": 0.1301428,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1863627,
+            "duration": 0.1286128,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.129283,
+            "duration": 0.1462278,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1395174,
+            "duration": 0.1409781,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1354501,
+            "duration": 0.1378928,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1559628,
+            "duration": 0.138334,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1511815,
+            "duration": 0.143178,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1450849,
+            "duration": 0.1196117,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1388993,
+            "duration": 0.1434745,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1554349,
+            "duration": 0.1431382,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1398574,
+            "duration": 0.1339579,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.133643,
+            "duration": 0.1480771,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1342978,
+            "duration": 0.1196381,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1343662,
+            "duration": 0.1509655,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1435972,
+            "duration": 0.1358627,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1540471,
+            "duration": 0.1405242,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1552377,
+            "duration": 0.1225017,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1574238,
+            "duration": 0.1384571,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1436686,
+            "duration": 0.1429163,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1210861,
+            "duration": 0.1369906,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1572359,
+            "duration": 0.1489914,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1319689,
+            "duration": 0.1372619,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1651809,
+            "duration": 0.1485222,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1354616,
+            "duration": 0.145805,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1336468,
+            "duration": 0.1326013,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.142905,
+            "duration": 0.1470043,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           },
           {
-            "duration": 0.1251729,
+            "duration": 0.1388308,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:5"
           }
         ]
@@ -273,16 +273,16 @@
       {
         "name": "I mouse hoover on auto",
         "aggregatedDurations": {
-          "median": 1.57063035,
-          "average": 1.57063035
+          "median": 1.36791375,
+          "average": 1.36791375
         },
         "durations": [
           {
-            "duration": 1.5192155,
+            "duration": 1.4267059,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:9"
           },
           {
-            "duration": 1.6220452,
+            "duration": 1.3091216,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:83"
           }
         ]
@@ -295,44 +295,48 @@
       {
         "name": "I enter \"48091\" on the zipcode search bar",
         "aggregatedDurations": {
-          "median": 0.1057724,
-          "average": 0.120262177
+          "median": 0.1069731,
+          "average": 0.11768938
         },
         "durations": [
           {
-            "duration": 0.1765243,
+            "duration": 0.2200935,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:10"
           },
           {
-            "duration": 0.1406024,
+            "duration": 0.0950476,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:44"
           },
           {
-            "duration": 0.1760108,
+            "duration": 0.150488,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:84"
           },
           {
-            "duration": 0.0876164,
+            "duration": 0.1030079,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:152"
           },
           {
-            "duration": 0.0938442,
+            "duration": 0.1113548,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:198"
           },
           {
-            "duration": 0.1057724,
+            "duration": 0.1116821,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:205"
           },
           {
-            "duration": 0.1063901,
+            "duration": 0.0921051,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:212"
           },
           {
-            "duration": 0.0949954,
+            "duration": 0.1109383,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:219"
           },
           {
-            "duration": 0.1006036,
+            "duration": 0.0958098,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:226"
+          },
+          {
+            "duration": 0.0863667,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:233"
           }
         ]
@@ -340,240 +344,18 @@
     ]
   },
   {
-    "source": "I click on homeowners",
+    "source": "I click on Get  quotes",
     "steps": [
       {
-        "name": "I click on homeowners",
+        "name": "I click on Get  quotes",
         "aggregatedDurations": {
-          "median": 1.1559985,
-          "average": 1.1559985
+          "median": 0.1950929,
+          "average": 0.1950929
         },
         "durations": [
           {
-            "duration": 1.1559985,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:25"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I enter {string} on the homeowners insurance zipcode search box",
-    "steps": [
-      {
-        "name": "I enter \"48091\" on the homeowners insurance zipcode search box",
-        "aggregatedDurations": {
-          "median": 0.1610976,
-          "average": 0.1610976
-        },
-        "durations": [
-          {
-            "duration": 0.1610976,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:26"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I click on get homeowners insurance quote",
-    "steps": [
-      {
-        "name": "I click on get homeowners insurance quote",
-        "aggregatedDurations": {
-          "median": 5.1427521,
-          "average": 5.1427521
-        },
-        "durations": [
-          {
-            "duration": 5.1427521,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:27"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I enter {string} on the address search box",
-    "steps": [
-      {
-        "name": "I enter \"23817 Curie St\" on the address search box",
-        "aggregatedDurations": {
-          "median": 4.25121,
-          "average": 4.25121
-        },
-        "durations": [
-          {
-            "duration": 4.25121,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:28"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I click on Let\u0027s go button",
-    "steps": [
-      {
-        "name": "I click on Let\u0027s go button",
-        "aggregatedDurations": {
-          "median": 0.1086208,
-          "average": 0.1086208
-        },
-        "durations": [
-          {
-            "duration": 0.1086208,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:29"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I enter the homeowners information",
-    "steps": [
-      {
-        "name": "I enter the homeowners information",
-        "aggregatedDurations": {
-          "median": 0.0029859,
-          "average": 0.0029859
-        },
-        "durations": [
-          {
-            "duration": 0.0029859,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:30"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I select NO for do you have progressive auto insurance",
-    "steps": [
-      {
-        "name": "I select NO for do you have progressive auto insurance",
-        "aggregatedDurations": {
-          "median": 12.0671638,
-          "average": 12.0671638
-        },
-        "durations": [
-          {
-            "duration": 12.0671638,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:35"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I select April20th from the homeowners insurance calender",
-    "steps": [
-      {
-        "name": "I select April20th from the homeowners insurance calender",
-        "aggregatedDurations": {
-          "median": 0.421946,
-          "average": 0.421946
-        },
-        "durations": [
-          {
-            "duration": 0.421946,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:36"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I click on next",
-    "steps": [
-      {
-        "name": "I click on next",
-        "aggregatedDurations": {
-          "median": 5.1468855,
-          "average": 5.1468855
-        },
-        "durations": [
-          {
-            "duration": 5.1468855,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:37"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I should be able to see Home basics page for additional home information",
-    "steps": [
-      {
-        "name": "I should be able to see Home basics page for additional home information",
-        "aggregatedDurations": {
-          "median": 0.012237,
-          "average": 0.012237
-        },
-        "durations": [
-          {
-            "duration": 0.012237,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:38"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I click on motorcycle",
-    "steps": [
-      {
-        "name": "I click on motorcycle",
-        "aggregatedDurations": {
-          "median": 0.9970866,
-          "average": 0.9970866
-        },
-        "durations": [
-          {
-            "duration": 0.9970866,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:43"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I click on Get a quote",
-    "steps": [
-      {
-        "name": "I click on Get a quote",
-        "aggregatedDurations": {
-          "median": 0.1115912,
-          "average": 0.113439014
-        },
-        "durations": [
-          {
-            "duration": 0.1314854,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:45"
-          },
-          {
-            "duration": 0.1043481,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:153"
-          },
-          {
-            "duration": 0.1141958,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:199"
-          },
-          {
-            "duration": 0.1115912,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:213"
-          },
-          {
-            "duration": 0.1171515,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:220"
-          },
-          {
-            "duration": 0.109299,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:234"
-          },
-          {
-            "duration": 0.1060021,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:241"
+            "duration": 0.1950929,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:11"
           }
         ]
       }
@@ -585,12 +367,16 @@
       {
         "name": "I enter driver information",
         "aggregatedDurations": {
-          "median": 0.0019988,
-          "average": 0.0019988
+          "median": 0.00234385,
+          "average": 0.00234385
         },
         "durations": [
           {
-            "duration": 0.0019988,
+            "duration": 0.0046877,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:12"
+          },
+          {
+            "duration": 0.0,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:46"
           }
         ]
@@ -603,13 +389,211 @@
       {
         "name": "I click on start my quote",
         "aggregatedDurations": {
-          "median": 3.6634578,
-          "average": 3.6634578
+          "median": 3.2484481,
+          "average": 3.2484481
         },
         "durations": [
           {
-            "duration": 3.6634578,
+            "duration": 3.2922389,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:19"
+          },
+          {
+            "duration": 3.2046573,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:53"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to select my car model",
+    "steps": [
+      {
+        "name": "I should be able to select my car model",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on homeowners",
+    "steps": [
+      {
+        "name": "I click on homeowners",
+        "aggregatedDurations": {
+          "median": 1.0909136,
+          "average": 1.0909136
+        },
+        "durations": [
+          {
+            "duration": 1.0909136,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the homeowners insurance zipcode search box",
+    "steps": [
+      {
+        "name": "I enter \"48091\" on the homeowners insurance zipcode search box",
+        "aggregatedDurations": {
+          "median": 0.1588916,
+          "average": 0.1588916
+        },
+        "durations": [
+          {
+            "duration": 0.1588916,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on get homeowners insurance quote",
+    "steps": [
+      {
+        "name": "I click on get homeowners insurance quote",
+        "aggregatedDurations": {
+          "median": 5.1488491,
+          "average": 5.1488491
+        },
+        "durations": [
+          {
+            "duration": 5.1488491,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the address search box",
+    "steps": [
+      {
+        "name": "I enter \"23817 Curie St\" on the address search box",
+        "aggregatedDurations": {
+          "median": 4.2451438,
+          "average": 4.2451438
+        },
+        "durations": [
+          {
+            "duration": 4.2451438,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Let\u0027s go button",
+    "steps": [
+      {
+        "name": "I click on Let\u0027s go button",
+        "aggregatedDurations": {
+          "median": 0.114977,
+          "average": 0.114977
+        },
+        "durations": [
+          {
+            "duration": 0.114977,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter the homeowners information",
+    "steps": [
+      {
+        "name": "I enter the homeowners information",
+        "aggregatedDurations": {
+          "median": 0.0012357,
+          "average": 0.0012357
+        },
+        "durations": [
+          {
+            "duration": 0.0012357,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on motorcycle",
+    "steps": [
+      {
+        "name": "I click on motorcycle",
+        "aggregatedDurations": {
+          "median": 1.0970221,
+          "average": 1.0970221
+        },
+        "durations": [
+          {
+            "duration": 1.0970221,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:43"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Get a quote",
+    "steps": [
+      {
+        "name": "I click on Get a quote",
+        "aggregatedDurations": {
+          "median": 0.1360106,
+          "average": 0.134153555
+        },
+        "durations": [
+          {
+            "duration": 0.1537853,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:45"
+          },
+          {
+            "duration": 0.1577459,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:85"
+          },
+          {
+            "duration": 0.1306424,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:153"
+          },
+          {
+            "duration": 0.138241,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:199"
+          },
+          {
+            "duration": 0.1360106,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:206"
+          },
+          {
+            "duration": 0.1117686,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:213"
+          },
+          {
+            "duration": 0.1497985,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:227"
+          },
+          {
+            "duration": 0.1060434,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:234"
+          },
+          {
+            "duration": 0.1233463,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:241"
           }
         ]
       }
@@ -621,12 +605,12 @@
       {
         "name": "I should be able to see my motorbike model page",
         "aggregatedDurations": {
-          "median": 0.0107667,
-          "average": 0.0107667
+          "median": 0.007509,
+          "average": 0.007509
         },
         "durations": [
           {
-            "duration": 0.0107667,
+            "duration": 0.007509,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:54"
           }
         ]
@@ -639,157 +623,13 @@
       {
         "name": "I click on dental",
         "aggregatedDurations": {
-          "median": 1.0369826,
-          "average": 1.0369826
+          "median": 1.0403106,
+          "average": 1.0403106
         },
         "durations": [
           {
-            "duration": 1.0369826,
+            "duration": 1.0403106,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:58"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I enter {string} on the dental insurance search box",
-    "steps": [
-      {
-        "name": "I enter \"48091\" on the dental insurance search box",
-        "aggregatedDurations": {
-          "median": 3.1215283,
-          "average": 3.1215283
-        },
-        "durations": [
-          {
-            "duration": 3.1215283,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:59"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I click on get  quote",
-    "steps": [
-      {
-        "name": "I click on get  quote",
-        "aggregatedDurations": {
-          "median": 0.1323162,
-          "average": 0.1323162
-        },
-        "durations": [
-          {
-            "duration": 0.1323162,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:60"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I enter {string} on the find plans zipcode search box",
-    "steps": [
-      {
-        "name": "I enter \"48091\" on the find plans zipcode search box",
-        "aggregatedDurations": {
-          "median": 2.7737804,
-          "average": 2.7737804
-        },
-        "durations": [
-          {
-            "duration": 2.7737804,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:61"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I select Female for gender",
-    "steps": [
-      {
-        "name": "I select Female for gender",
-        "aggregatedDurations": {
-          "median": 3.1254798,
-          "average": 3.1254798
-        },
-        "durations": [
-          {
-            "duration": 3.1254798,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:62"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I enter {string} on the date of birth web edit field",
-    "steps": [
-      {
-        "name": "I enter \"12/21/2000\" on the date of birth web edit field",
-        "aggregatedDurations": {
-          "median": 0.165135,
-          "average": 0.165135
-        },
-        "durations": [
-          {
-            "duration": 0.165135,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:63"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I select April 20th from the coverage starting calender",
-    "steps": [
-      {
-        "name": "I select April 20th from the coverage starting calender",
-        "aggregatedDurations": {
-          "median": 0.1614638,
-          "average": 0.1614638
-        },
-        "durations": [
-          {
-            "duration": 0.1614638,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:64"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I click on find plans",
-    "steps": [
-      {
-        "name": "I click on find plans",
-        "aggregatedDurations": {
-          "median": 3.8390355,
-          "average": 3.8390355
-        },
-        "durations": [
-          {
-            "duration": 3.8390355,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:65"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I should be able to see all the available plans",
-    "steps": [
-      {
-        "name": "I should be able to see all the available plans",
-        "aggregatedDurations": {
-          "median": 0.0078528,
-          "average": 0.0078528
-        },
-        "durations": [
-          {
-            "duration": 0.0078528,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:66"
           }
         ]
       }
@@ -801,12 +641,12 @@
       {
         "name": "I click on general liability",
         "aggregatedDurations": {
-          "median": 0.7220665,
-          "average": 0.7220665
+          "median": 0.7575035,
+          "average": 0.7575035
         },
         "durations": [
           {
-            "duration": 0.7220665,
+            "duration": 0.7575035,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:70"
           }
         ]
@@ -819,32 +659,32 @@
       {
         "name": "I enter \"48091\" on zipcode search bar",
         "aggregatedDurations": {
-          "median": 1.4434189,
-          "average": 1.43478325
+          "median": 1.35390235,
+          "average": 1.3674225
         },
         "durations": [
           {
-            "duration": 1.5043303,
+            "duration": 1.3442381,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:71"
           },
           {
-            "duration": 1.522929,
+            "duration": 1.5187039,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:159"
           },
           {
-            "duration": 1.3302727,
+            "duration": 1.2896425,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:166"
           },
           {
-            "duration": 1.3643297,
+            "duration": 1.2828478,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:175"
           },
           {
-            "duration": 1.4311678,
+            "duration": 1.4055361,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:184"
           },
           {
-            "duration": 1.45567,
+            "duration": 1.3635666,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:191"
           }
         ]
@@ -857,32 +697,32 @@
       {
         "name": "I click Get  quote",
         "aggregatedDurations": {
-          "median": 0.1184688,
-          "average": 0.119053833
+          "median": 0.11474885,
+          "average": 0.122557983
         },
         "durations": [
           {
-            "duration": 0.1057202,
+            "duration": 0.1145588,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:72"
           },
           {
-            "duration": 0.122438,
+            "duration": 0.1516012,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:160"
           },
           {
-            "duration": 0.1313203,
+            "duration": 0.1149389,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:167"
           },
           {
-            "duration": 0.1140373,
+            "duration": 0.1136308,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:176"
           },
           {
-            "duration": 0.1263076,
+            "duration": 0.1116888,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:185"
           },
           {
-            "duration": 0.1144996,
+            "duration": 0.1289294,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:192"
           }
         ]
@@ -895,12 +735,12 @@
       {
         "name": "I select general liability",
         "aggregatedDurations": {
-          "median": 9.1250653,
-          "average": 9.1250653
+          "median": 7.9126638,
+          "average": 7.9126638
         },
         "durations": [
           {
-            "duration": 9.1250653,
+            "duration": 7.9126638,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:73"
           }
         ]
@@ -913,21 +753,39 @@
       {
         "name": "I click on continue",
         "aggregatedDurations": {
-          "median": 0.0669502,
-          "average": 0.0667939
+          "median": 0.0532393,
+          "average": 0.061062633
         },
         "durations": [
           {
-            "duration": 0.0576242,
+            "duration": 0.0532393,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:74"
           },
           {
-            "duration": 0.0758073,
+            "duration": 0.0482246,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:169"
           },
           {
-            "duration": 0.0669502,
+            "duration": 0.081724,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:178"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see the start my quote form",
+    "steps": [
+      {
+        "name": "I should be able to see the start my quote form",
+        "aggregatedDurations": {
+          "median": 0.0122892,
+          "average": 0.0122892
+        },
+        "durations": [
+          {
+            "duration": 0.0122892,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:86"
           }
         ]
       }
@@ -939,24 +797,24 @@
       {
         "name": "I click on claims",
         "aggregatedDurations": {
-          "median": 0.1182718,
-          "average": 0.122292325
+          "median": 0.1484977,
+          "average": 0.1480378
         },
         "durations": [
           {
-            "duration": 0.11711,
+            "duration": 0.1529573,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:90"
           },
           {
-            "duration": 0.1176891,
+            "duration": 0.1377583,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:97"
           },
           {
-            "duration": 0.1355157,
+            "duration": 0.1573975,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:103"
           },
           {
-            "duration": 0.1188545,
+            "duration": 0.1440381,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:110"
           }
         ]
@@ -969,12 +827,12 @@
       {
         "name": "I click on claims overview",
         "aggregatedDurations": {
-          "median": 1.3731751,
-          "average": 1.3731751
+          "median": 1.2121366,
+          "average": 1.2121366
         },
         "durations": [
           {
-            "duration": 1.3731751,
+            "duration": 1.2121366,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:91"
           }
         ]
@@ -987,12 +845,12 @@
       {
         "name": "I click on report and view a claim",
         "aggregatedDurations": {
-          "median": 0.21325,
-          "average": 0.21325
+          "median": 0.2210401,
+          "average": 0.2210401
         },
         "durations": [
           {
-            "duration": 0.21325,
+            "duration": 0.2210401,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:92"
           }
         ]
@@ -1005,12 +863,12 @@
       {
         "name": "I should be able to see the login page",
         "aggregatedDurations": {
-          "median": 0.0109858,
-          "average": 0.0109858
+          "median": 0.0107986,
+          "average": 0.0107986
         },
         "durations": [
           {
-            "duration": 0.0109858,
+            "duration": 0.0107986,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:93"
           }
         ]
@@ -1023,12 +881,12 @@
       {
         "name": "I click on Auto process claims",
         "aggregatedDurations": {
-          "median": 1.6231712,
-          "average": 1.6231712
+          "median": 1.6460466,
+          "average": 1.6460466
         },
         "durations": [
           {
-            "duration": 1.6231712,
+            "duration": 1.6460466,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:98"
           }
         ]
@@ -1041,12 +899,12 @@
       {
         "name": "I should be able to see the auto claims page",
         "aggregatedDurations": {
-          "median": 0.0280021,
-          "average": 0.0280021
+          "median": 0.0264907,
+          "average": 0.0264907
         },
         "durations": [
           {
-            "duration": 0.0280021,
+            "duration": 0.0264907,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:99"
           }
         ]
@@ -1059,12 +917,12 @@
       {
         "name": "I click on roadside assistance",
         "aggregatedDurations": {
-          "median": 0.0,
-          "average": 0.0
+          "median": 0.0010012,
+          "average": 0.0010012
         },
         "durations": [
           {
-            "duration": 0.0,
+            "duration": 0.0010012,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:104"
           }
         ]
@@ -1095,12 +953,12 @@
       {
         "name": "I should take me to the download page",
         "aggregatedDurations": {
-          "median": 0.0,
-          "average": 0.0
+          "median": 4.996E-4,
+          "average": 4.996E-4
         },
         "durations": [
           {
-            "duration": 0.0,
+            "duration": 4.996E-4,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:106"
           }
         ]
@@ -1113,12 +971,12 @@
       {
         "name": "I click on Catastrophe",
         "aggregatedDurations": {
-          "median": 1.52347,
-          "average": 1.52347
+          "median": 1.4628161,
+          "average": 1.4628161
         },
         "durations": [
           {
-            "duration": 1.52347,
+            "duration": 1.4628161,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:111"
           }
         ]
@@ -1149,12 +1007,12 @@
       {
         "name": "I should take me to the login page",
         "aggregatedDurations": {
-          "median": 0.0111402,
-          "average": 0.0111402
+          "median": 0.0260899,
+          "average": 0.0260899
         },
         "durations": [
           {
-            "duration": 0.0111402,
+            "duration": 0.0260899,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:113"
           }
         ]
@@ -1167,28 +1025,28 @@
       {
         "name": "I click on about us",
         "aggregatedDurations": {
-          "median": 0.12039,
-          "average": 0.12751626
+          "median": 0.1362578,
+          "average": 0.14131868
         },
         "durations": [
           {
-            "duration": 0.1054945,
+            "duration": 0.1234674,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:118"
           },
           {
-            "duration": 0.1476319,
+            "duration": 0.1362578,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:124"
           },
           {
-            "duration": 0.1536204,
+            "duration": 0.1273508,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:130"
           },
           {
-            "duration": 0.1104445,
+            "duration": 0.1687015,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:137"
           },
           {
-            "duration": 0.12039,
+            "duration": 0.1508159,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:145"
           }
         ]
@@ -1201,12 +1059,12 @@
       {
         "name": "I click on corporate responsibility",
         "aggregatedDurations": {
-          "median": 1.2468236,
-          "average": 1.2468236
+          "median": 1.246235,
+          "average": 1.246235
         },
         "durations": [
           {
-            "duration": 1.2468236,
+            "duration": 1.246235,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:119"
           }
         ]
@@ -1219,12 +1077,12 @@
       {
         "name": "I should be able to see the corporate responsibility page",
         "aggregatedDurations": {
-          "median": 0.0403122,
-          "average": 0.0403122
+          "median": 0.0138837,
+          "average": 0.0138837
         },
         "durations": [
           {
-            "duration": 0.0403122,
+            "duration": 0.0138837,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:120"
           }
         ]
@@ -1237,12 +1095,12 @@
       {
         "name": "I click on Investors",
         "aggregatedDurations": {
-          "median": 1.494959,
-          "average": 1.494959
+          "median": 1.4978783,
+          "average": 1.4978783
         },
         "durations": [
           {
-            "duration": 1.494959,
+            "duration": 1.4978783,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:125"
           }
         ]
@@ -1255,12 +1113,12 @@
       {
         "name": "I should be able to see all the messages from the investors",
         "aggregatedDurations": {
-          "median": 0.0050005,
-          "average": 0.0050005
+          "median": 0.0053148,
+          "average": 0.0053148
         },
         "durations": [
           {
-            "duration": 0.0050005,
+            "duration": 0.0053148,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:126"
           }
         ]
@@ -1273,12 +1131,12 @@
       {
         "name": "I click on career",
         "aggregatedDurations": {
-          "median": 1.5096814,
-          "average": 1.5096814
+          "median": 1.423719,
+          "average": 1.423719
         },
         "durations": [
           {
-            "duration": 1.5096814,
+            "duration": 1.423719,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:131"
           }
         ]
@@ -1291,12 +1149,12 @@
       {
         "name": "I click on Find a Career",
         "aggregatedDurations": {
-          "median": 2.014238,
-          "average": 2.014238
+          "median": 1.9654269,
+          "average": 1.9654269
         },
         "durations": [
           {
-            "duration": 2.014238,
+            "duration": 1.9654269,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:132"
           }
         ]
@@ -1309,12 +1167,12 @@
       {
         "name": "I should be able to see all the job openings",
         "aggregatedDurations": {
-          "median": 0.0140007,
-          "average": 0.0140007
+          "median": 0.0170143,
+          "average": 0.0170143
         },
         "durations": [
           {
-            "duration": 0.0140007,
+            "duration": 0.0170143,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:133"
           }
         ]
@@ -1327,31 +1185,13 @@
       {
         "name": "I click on Local agent",
         "aggregatedDurations": {
-          "median": 1.4427257,
-          "average": 1.4427257
+          "median": 1.2657174,
+          "average": 1.2657174
         },
         "durations": [
           {
-            "duration": 1.4427257,
+            "duration": 1.2657174,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:138"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "I enter {string} on the zip code search box",
-    "steps": [
-      {
-        "name": "I enter \"48091\" on the zip code search box",
-        "aggregatedDurations": {
-          "median": 0.1109043,
-          "average": 0.1109043
-        },
-        "durations": [
-          {
-            "duration": 0.1109043,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:139"
           }
         ]
       }
@@ -1363,12 +1203,12 @@
       {
         "name": "I click on newsroom",
         "aggregatedDurations": {
-          "median": 2.5219315,
-          "average": 2.5219315
+          "median": 2.0680892,
+          "average": 2.0680892
         },
         "durations": [
           {
-            "duration": 2.5219315,
+            "duration": 2.0680892,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:146"
           }
         ]
@@ -1381,12 +1221,12 @@
       {
         "name": "It should navigate me to the newsroom page",
         "aggregatedDurations": {
-          "median": 0.0048659,
-          "average": 0.0048659
+          "median": 0.0070042,
+          "average": 0.0070042
         },
         "durations": [
           {
-            "duration": 0.0048659,
+            "duration": 0.0070042,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:147"
           }
         ]
@@ -1399,12 +1239,12 @@
       {
         "name": "I click on mobile homes",
         "aggregatedDurations": {
-          "median": 1.0235699,
-          "average": 1.0235699
+          "median": 0.9549933,
+          "average": 0.9549933
         },
         "durations": [
           {
-            "duration": 1.0235699,
+            "duration": 0.9549933,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:151"
           }
         ]
@@ -1417,12 +1257,12 @@
       {
         "name": "I should be able to see the start my quote forms",
         "aggregatedDurations": {
-          "median": 0.0010049,
-          "average": 0.0010049
+          "median": 0.0,
+          "average": 0.0
         },
         "durations": [
           {
-            "duration": 0.0010049,
+            "duration": 0.0,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:154"
           }
         ]
@@ -1435,12 +1275,12 @@
       {
         "name": "I click on commercial Auto",
         "aggregatedDurations": {
-          "median": 0.7193524,
-          "average": 0.7193524
+          "median": 0.6240676,
+          "average": 0.6240676
         },
         "durations": [
           {
-            "duration": 0.7193524,
+            "duration": 0.6240676,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:158"
           }
         ]
@@ -1471,12 +1311,12 @@
       {
         "name": "I click on workers compensation",
         "aggregatedDurations": {
-          "median": 0.60866,
-          "average": 0.60866
+          "median": 0.7120736,
+          "average": 0.7120736
         },
         "durations": [
           {
-            "duration": 0.60866,
+            "duration": 0.7120736,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:165"
           }
         ]
@@ -1489,12 +1329,12 @@
       {
         "name": "I select workers compensation",
         "aggregatedDurations": {
-          "median": 9.1824706,
-          "average": 9.1824706
+          "median": 7.8951171,
+          "average": 7.8951171
         },
         "durations": [
           {
-            "duration": 9.1824706,
+            "duration": 7.8951171,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:168"
           }
         ]
@@ -1507,16 +1347,16 @@
       {
         "name": "I should be able to see what do you do homepage",
         "aggregatedDurations": {
-          "median": 0.00524155,
-          "average": 0.00524155
+          "median": 0.0046637,
+          "average": 0.0046637
         },
         "durations": [
           {
-            "duration": 0.0044944,
+            "duration": 0.0043275,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:170"
           },
           {
-            "duration": 0.0059887,
+            "duration": 0.0049999,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:179"
           }
         ]
@@ -1529,12 +1369,12 @@
       {
         "name": "I click on professional liability",
         "aggregatedDurations": {
-          "median": 0.6587484,
-          "average": 0.6587484
+          "median": 0.7051561,
+          "average": 0.7051561
         },
         "durations": [
           {
-            "duration": 0.6587484,
+            "duration": 0.7051561,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:174"
           }
         ]
@@ -1547,12 +1387,12 @@
       {
         "name": "I select professional liability",
         "aggregatedDurations": {
-          "median": 10.5361252,
-          "average": 10.5361252
+          "median": 8.5464704,
+          "average": 8.5464704
         },
         "durations": [
           {
-            "duration": 10.5361252,
+            "duration": 8.5464704,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:177"
           }
         ]
@@ -1565,12 +1405,12 @@
       {
         "name": "I click on business owners policy",
         "aggregatedDurations": {
-          "median": 0.6381007,
-          "average": 0.6381007
+          "median": 0.6157205,
+          "average": 0.6157205
         },
         "durations": [
           {
-            "duration": 0.6381007,
+            "duration": 0.6157205,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:183"
           }
         ]
@@ -1583,12 +1423,12 @@
       {
         "name": "I should be able to get started page",
         "aggregatedDurations": {
-          "median": 0.0064349,
-          "average": 0.0064349
+          "median": 0.0050022,
+          "average": 0.0050022
         },
         "durations": [
           {
-            "duration": 0.0064349,
+            "duration": 0.0050022,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:186"
           }
         ]
@@ -1601,12 +1441,12 @@
       {
         "name": "I click on business insurance",
         "aggregatedDurations": {
-          "median": 0.7362252,
-          "average": 0.7362252
+          "median": 0.6545171,
+          "average": 0.6545171
         },
         "durations": [
           {
-            "duration": 0.7362252,
+            "duration": 0.6545171,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:190"
           }
         ]
@@ -1619,12 +1459,12 @@
       {
         "name": "I should be able to see get started page",
         "aggregatedDurations": {
-          "median": 0.004927,
-          "average": 0.004927
+          "median": 0.0054108,
+          "average": 0.0054108
         },
         "durations": [
           {
-            "duration": 0.004927,
+            "duration": 0.0054108,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:193"
           }
         ]
@@ -1637,12 +1477,12 @@
       {
         "name": "I click on snowmobile",
         "aggregatedDurations": {
-          "median": 1.5789652,
-          "average": 1.5789652
+          "median": 1.6668863,
+          "average": 1.6668863
         },
         "durations": [
           {
-            "duration": 1.5789652,
+            "duration": 1.6668863,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:197"
           }
         ]
@@ -1655,12 +1495,12 @@
       {
         "name": "I should be able to see the drivers information form",
         "aggregatedDurations": {
-          "median": 0.0041784,
-          "average": 0.0041784
+          "median": 0.0049992,
+          "average": 0.0049992
         },
         "durations": [
           {
-            "duration": 0.0041784,
+            "duration": 0.0049992,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:200"
           }
         ]
@@ -1673,13 +1513,31 @@
       {
         "name": "I click on Boat",
         "aggregatedDurations": {
-          "median": 1.7249508,
-          "average": 1.7249508
+          "median": 1.726732,
+          "average": 1.726732
         },
         "durations": [
           {
-            "duration": 1.7249508,
+            "duration": 1.726732,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:204"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see the driver information form",
+    "steps": [
+      {
+        "name": "I should be able to see the driver information form",
+        "aggregatedDurations": {
+          "median": 0.0174133,
+          "average": 0.0174133
+        },
+        "durations": [
+          {
+            "duration": 0.0174133,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:207"
           }
         ]
       }
@@ -1691,12 +1549,12 @@
       {
         "name": "I click on Classic car",
         "aggregatedDurations": {
-          "median": 1.614262,
-          "average": 1.614262
+          "median": 1.5717761,
+          "average": 1.5717761
         },
         "durations": [
           {
-            "duration": 1.614262,
+            "duration": 1.5717761,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:211"
           }
         ]
@@ -1709,12 +1567,12 @@
       {
         "name": "I should be able to see the driver info form",
         "aggregatedDurations": {
-          "median": 0.0041568,
-          "average": 0.0041568
+          "median": 0.0039719,
+          "average": 0.0039719
         },
         "durations": [
           {
-            "duration": 0.0041568,
+            "duration": 0.0039719,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:214"
           }
         ]
@@ -1727,12 +1585,12 @@
       {
         "name": "I click on Golf car",
         "aggregatedDurations": {
-          "median": 1.4930685,
-          "average": 1.4930685
+          "median": 1.8225347,
+          "average": 1.8225347
         },
         "durations": [
           {
-            "duration": 1.4930685,
+            "duration": 1.8225347,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:218"
           }
         ]
@@ -1740,18 +1598,36 @@
     ]
   },
   {
-    "source": "I should be able to see  driver info form",
+    "source": "I click on Trailer",
     "steps": [
       {
-        "name": "I should be able to see  driver info form",
+        "name": "I click on Trailer",
         "aggregatedDurations": {
-          "median": 0.0095015,
-          "average": 0.0095015
+          "median": 1.702385,
+          "average": 1.702385
         },
         "durations": [
           {
-            "duration": 0.0095015,
-            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:221"
+            "duration": 1.702385,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:225"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see all the Trailer lists",
+    "steps": [
+      {
+        "name": "I should be able to see all the Trailer lists",
+        "aggregatedDurations": {
+          "median": 0.0117404,
+          "average": 0.0117404
+        },
+        "durations": [
+          {
+            "duration": 0.0117404,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:228"
           }
         ]
       }
@@ -1763,12 +1639,12 @@
       {
         "name": "I click on Segway",
         "aggregatedDurations": {
-          "median": 1.5754758,
-          "average": 1.5754758
+          "median": 1.7290437,
+          "average": 1.7290437
         },
         "durations": [
           {
-            "duration": 1.5754758,
+            "duration": 1.7290437,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:232"
           }
         ]
@@ -1781,12 +1657,12 @@
       {
         "name": "I should be able to see drivers info form",
         "aggregatedDurations": {
-          "median": 0.004008,
-          "average": 0.004008
+          "median": 0.0039869,
+          "average": 0.0039869
         },
         "durations": [
           {
-            "duration": 0.004008,
+            "duration": 0.0039869,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:235"
           }
         ]
@@ -1799,12 +1675,12 @@
       {
         "name": "I click on Auto and property",
         "aggregatedDurations": {
-          "median": 1.5530339,
-          "average": 1.5530339
+          "median": 1.621167,
+          "average": 1.621167
         },
         "durations": [
           {
-            "duration": 1.5530339,
+            "duration": 1.621167,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:239"
           }
         ]
@@ -1817,12 +1693,12 @@
       {
         "name": "I enter \"48091\" on the  bundle zipcode search bar",
         "aggregatedDurations": {
-          "median": 0.1001073,
-          "average": 0.1001073
+          "median": 0.1049527,
+          "average": 0.1049527
         },
         "durations": [
           {
-            "duration": 0.1001073,
+            "duration": 0.1049527,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:240"
           }
         ]
@@ -1835,12 +1711,12 @@
       {
         "name": "I should be able to see drivers inf. form",
         "aggregatedDurations": {
-          "median": 0.0039992,
-          "average": 0.0039992
+          "median": 0.0050096,
+          "average": 0.0050096
         },
         "durations": [
           {
-            "duration": 0.0039992,
+            "duration": 0.0050096,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:242"
           }
         ]
@@ -1853,12 +1729,12 @@
       {
         "name": "I click on home security",
         "aggregatedDurations": {
-          "median": 1.569594,
-          "average": 1.569594
+          "median": 1.6217884,
+          "average": 1.6217884
         },
         "durations": [
           {
-            "duration": 1.569594,
+            "duration": 1.6217884,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:246"
           }
         ]
@@ -1871,12 +1747,12 @@
       {
         "name": "I click on buy online",
         "aggregatedDurations": {
-          "median": 0.1047209,
-          "average": 0.1047209
+          "median": 0.1295418,
+          "average": 0.1295418
         },
         "durations": [
           {
-            "duration": 0.1047209,
+            "duration": 0.1295418,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:247"
           }
         ]
@@ -1889,12 +1765,12 @@
       {
         "name": "I click on house",
         "aggregatedDurations": {
-          "median": 3.6370349,
-          "average": 3.6370349
+          "median": 3.4609595,
+          "average": 3.4609595
         },
         "durations": [
           {
-            "duration": 3.6370349,
+            "duration": 3.4609595,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:248"
           }
         ]
@@ -1907,12 +1783,12 @@
       {
         "name": "I click on small",
         "aggregatedDurations": {
-          "median": 0.4488206,
-          "average": 0.4488206
+          "median": 0.4473051,
+          "average": 0.4473051
         },
         "durations": [
           {
-            "duration": 0.4488206,
+            "duration": 0.4473051,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:249"
           }
         ]
@@ -1925,12 +1801,12 @@
       {
         "name": "I click on two doors",
         "aggregatedDurations": {
-          "median": 0.8136259,
-          "average": 0.8136259
+          "median": 0.8256654,
+          "average": 0.8256654
         },
         "durations": [
           {
-            "duration": 0.8136259,
+            "duration": 0.8256654,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:250"
           }
         ]
@@ -1943,12 +1819,12 @@
       {
         "name": "I should be able to see submit email page",
         "aggregatedDurations": {
-          "median": 0.0069774,
-          "average": 0.0069774
+          "median": 0.0082207,
+          "average": 0.0082207
         },
         "durations": [
           {
-            "duration": 0.0069774,
+            "duration": 0.0082207,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:251"
           }
         ]
@@ -1961,12 +1837,12 @@
       {
         "name": "I click on PWC",
         "aggregatedDurations": {
-          "median": 1.4665426,
-          "average": 1.4665426
+          "median": 1.4787433,
+          "average": 1.4787433
         },
         "durations": [
           {
-            "duration": 1.4665426,
+            "duration": 1.4787433,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:255"
           }
         ]
@@ -1979,13 +1855,49 @@
       {
         "name": "I enter \"48091\" on the PWC insurance zipcode search bar",
         "aggregatedDurations": {
-          "median": 0.125837,
-          "average": 0.125837
+          "median": 0.0946246,
+          "average": 0.0946246
         },
         "durations": [
           {
-            "duration": 0.125837,
+            "duration": 0.0946246,
             "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:256"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Get a quotes",
+    "steps": [
+      {
+        "name": "I click on Get a quotes",
+        "aggregatedDurations": {
+          "median": 0.1341543,
+          "average": 0.1341543
+        },
+        "durations": [
+          {
+            "duration": 0.1341543,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:257"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should be able to see drivers info forms",
+    "steps": [
+      {
+        "name": "I should be able to see drivers info forms",
+        "aggregatedDurations": {
+          "median": 0.0045576,
+          "average": 0.0045576
+        },
+        "durations": [
+          {
+            "duration": 0.0045576,
+            "location": "file:///C:/Users/farha/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/ExploreProducts.feature:258"
           }
         ]
       }

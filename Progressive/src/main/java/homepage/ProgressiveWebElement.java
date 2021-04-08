@@ -5,7 +5,7 @@ public class ProgressiveWebElement {
     public static final String autoLocator="//*[@id=\"ExploreProductsNavigation\"]/div[1]/div[1]/ul/li[2]/a";
     public static final String autoDropDownLocator="//div[contains(text(),'Auto')]";
     public static final String zipcodeSearchBoxLocator="//input[@id='zipCode_mma']";
-    public static final String getQuoteLocator="//input[@id='qsButton_mma']";
+    public static final String getQuoteLocator="//*[@id=\"qsButton_mma\"]";
     public static final String claimsLocator="//button[@id='TabTwo']";
     public static final String claimsOverviewLocator="//a[contains(text(),'Claims Overview')]";
     public static final String reportClaimLocator="//a[@id='claims_link']";
@@ -52,12 +52,15 @@ public class ProgressiveWebElement {
     public static final String teacherRadioButtonLocator="//span[contains(text(),'Teachers')]";
     public static final String whatDoYouDoContinueLocator="//*[@id=\"undefined\"]";
     public static final String bundleZipcodeLocator="//input[@id='zipCode_mma']";
-    public static final String buyOnlineButton="//input[@id='qsButton_mma_nozip']";
+    public static final String buyOnlineButton="//*[@id=\"qsButton_mma_nozip\"]";
     public static final String houseLocator="//span[contains(text(),'House')]";
     public static final String houseSizeLocator="//span[contains(text(),'Small')]";
     public static final String numberOfDoorsLocator="//body[1]/div[7]/div[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[2]/div[1]/div[3]/div[2]/div[1]/span[1]";
     public static final String pwcZipcodeLocator="//input[@id='zipCode']";
     public static final String pwcGetQuoteLocator="//input[@id='qsButton']";
+    public static final String segwayGetQuoteLocator="//*[@id=\"qsButton_mma\"]";
+    //public static final String
+    //public static final String
     //public static final String
 
 

@@ -32,7 +32,7 @@ import org.junit.runner.RunWith;
 )
 
 
-public class HealthCareTestRunner {
+public class ProgressiveTestRunner {
 
 
 }

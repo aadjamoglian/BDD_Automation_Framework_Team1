@@ -1,2 +1,192 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" time="0.12"/>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="15" time="345.804">
+    <testcase classname="Baggage functionality under Travel info" name="Checked bag fees functionality" time="16.219">
+        <failure message="Link is not working as expected expected [Baggage Policy and Fees | Delta Air Lines] but found [Airline Tickets &amp; Flights: Book Direct with Delta Air Lines - Official Site]" type="java.lang.AssertionError">
+            <![CDATA[Given I am at delta homepage................................................passed
+And I click on travel info..................................................passed
+When I click on Baggage.....................................................passed
+Then I should see baggage and travel fees...................................failed
+
+StackTrace:
+java.lang.AssertionError: Link is not working as expected expected [Baggage Policy and Fees | Delta Air Lines] but found [Airline Tickets & Flights: Book Direct with Delta Air Lines - Official Site]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homepage.HomePage.verifyBaggageAndTravelFees(HomePage.java:170)
+	at stepDefinitions.DataTableExampleStepDefinition.i_should_see_baggage_and_travel_fees(DataTableExampleStepDefinition.java:206)
+	at ✽.I should see baggage and travel fees(file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/Baggage.feature:8)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Book functionality on Delta header" name="Round trip functionality under Book" time="19.218">
+        <system-out>
+            <![CDATA[Given I am at delta homepage................................................passed
+And I click on Book.........................................................passed
+And I click on From.........................................................passed
+And I enter "San Antonio" on from search box................................passed
+And I click on To...........................................................passed
+And I enter "JFK" on the To search box......................................passed
+And I click on calender.....................................................passed
+And I select April 20th for departure.......................................passed
+And I select  April 23rd for returning......................................passed
+And I click on done button..................................................passed
+When I click on aero button.................................................passed
+Then I should see all the available flight..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Book functionality on Delta header" name="One way trip functionality" time="21.535">
+        <system-out>
+            <![CDATA[Given I am at delta homepage................................................passed
+And I click on Book.........................................................passed
+And I click on From.........................................................passed
+And I enter "DTW" on from search box........................................passed
+And I click on To...........................................................passed
+And I enter "MCO" on the To search box......................................passed
+And I select one way........................................................passed
+And I click on calender.....................................................passed
+And I select April 20th for departure.......................................passed
+And I click on done button..................................................passed
+When I click on aero button.................................................passed
+Then I should see all the available flight..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Book functionality on Delta header" name="Passenger select option functionality" time="19.918">
+        <system-out>
+            <![CDATA[Given I am at delta homepage................................................passed
+And I click on Book.........................................................passed
+And I click on From.........................................................passed
+And I enter "ATL" on from search box........................................passed
+And I click on To...........................................................passed
+And I enter "Lax" on the To search box......................................passed
+And I select one way........................................................passed
+And I click on calender.....................................................passed
+And I select April 20th for departure.......................................passed
+And I click on done button..................................................passed
+And I select two passengers.................................................passed
+When I click on aero button.................................................passed
+Then I should see all the available flight..................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta header functionality" name="Travel planning center functionality on delta header" time="11.403">
+        <system-out>
+            <![CDATA[Given I am at delta homepage................................................passed
+And I click on travel info..................................................passed
+When I click on travel planning center......................................passed
+Then I should see Travel Planning Center....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta header functionality" name="Safer Travel under Travel info" time="12.919">
+        <system-out>
+            <![CDATA[Given I am at delta homepage................................................passed
+And I click on travel info..................................................passed
+And I click on safer travel.................................................passed
+When I click on mask requirement............................................passed
+Then I should see face masks................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta header functionality" name="Airline partner functionality" time="35.087">
+        <system-out>
+            <![CDATA[Given I am at delta homepage................................................passed
+And I click on travel info..................................................passed
+And I click on travel info..................................................passed
+And I click on airline partners.............................................passed
+When I click on air france..................................................passed
+Then I should see Air France................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta header functionality" name="KLM functionality" time="54.987">
+        <system-out>
+            <![CDATA[Given I am at delta homepage................................................passed
+And I click on travel info..................................................passed
+And I click on travel info..................................................passed
+And I click on airline partners.............................................passed
+When I click on KLM.........................................................passed
+Then I should see KLM.......................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta header functionality" name="Virgin Atlantic functionality" time="12.042">
+        <system-out>
+            <![CDATA[Given I am at delta homepage................................................passed
+And I click on travel info..................................................passed
+And I click on travel info..................................................passed
+And I click on airline partners.............................................passed
+When I click on virgin atlantic.............................................passed
+Then I should see Virgin Atlantic...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta header functionality" name="China Eastern functionality" time="11.579">
+        <system-out>
+            <![CDATA[Given I am at delta homepage................................................passed
+And I click on travel info..................................................passed
+And I click on travel info..................................................passed
+And I click on airline partners.............................................passed
+When I click on China Eastern...............................................passed
+Then I should see China Eastern.............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta header functionality" name="Korean Air functionality" time="35.292">
+        <system-out>
+            <![CDATA[Given I am at delta homepage................................................passed
+And I click on travel info..................................................passed
+And I click on travel info..................................................passed
+And I click on airline partners.............................................passed
+When I click on Korean Air..................................................passed
+Then I should see Korean Air................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta header functionality" name="Virgin Australia functionality" time="12.234">
+        <system-out>
+            <![CDATA[Given I am at delta homepage................................................passed
+And I click on travel info..................................................passed
+And I click on travel info..................................................passed
+And I click on airline partners.............................................passed
+When I click on Virgin Australia............................................passed
+Then I should see Virgin Australia..........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta header functionality" name="Aero Mexico functionality" time="34.874">
+        <system-out>
+            <![CDATA[Given I am at delta homepage................................................passed
+And I click on travel info..................................................passed
+And I click on travel info..................................................passed
+And I click on airline partners.............................................passed
+When I click on Aero Mexico.................................................passed
+Then I should see Aero Mexico...............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta header functionality" name="Latam functionality" time="11.497">
+        <system-out>
+            <![CDATA[Given I am at delta homepage................................................passed
+And I click on travel info..................................................passed
+And I click on travel info..................................................passed
+And I click on airline partners.............................................passed
+When I click on latam.......................................................passed
+Then I should see Latam.....................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Delta header functionality" name="West jet functionality" time="36.366">
+        <system-out>
+            <![CDATA[Given I am at delta homepage................................................passed
+And I click on travel info..................................................passed
+And I click on travel info..................................................passed
+And I click on airline partners.............................................passed
+When I click on West jet....................................................passed
+Then I should se West jet...................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

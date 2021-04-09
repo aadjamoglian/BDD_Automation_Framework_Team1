@@ -1,0 +1,152 @@
+
+@smokeTest
+Scenario: Claims over view functionality under claims # src/test/java/features/Products.feature:4
+  Given I am at progressive home page                 # stepDefinitions.HomePageStepDefinition.i_am_at_progressive_home_page()
+  And I click on claims                               # stepDefinitions.HomePageStepDefinition.i_click_on_claims()
+  And i click on claims over view                     # stepDefinitions.HomePageStepDefinition.i_click_on_claims_over_view()
+  When I click on Auto                                # stepDefinitions.HomePageStepDefinition.i_click_on_auto()
+  Then I should see repair                            # stepDefinitions.HomePageStepDefinition.i_should_see_repair()
+      java.lang.AssertionError: Link is not working as expected expected [Top-Rated Insurance Company for Auto & More | Progressive] but found [Progressive: Ranked One Of The Best Insurance Companies | Progressive]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homepage.HomePage.verifyRepair(HomePage.java:41)
+	at stepDefinitions.HomePageStepDefinition.i_should_see_repair(HomePageStepDefinition.java:65)
+	at ✽.I should see repair(file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:9)
+
+
+    Embedding demo1 [image/png 119987 bytes]
+
+
+@smokeTest
+Scenario: Explore products functionality # src/test/java/features/Products.feature:12
+  Given I am at progressive home page    # stepDefinitions.HomePageStepDefinition.i_am_at_progressive_home_page()
+  And I click on Explore Products        # stepDefinitions.HomePageStepDefinition.i_click_on_explore_products()
+  And I click on ATV                     # stepDefinitions.HomePageStepDefinition.i_click_on_atv()
+  When I enter zip code "48091"          # stepDefinitions.HomePageStepDefinition.i_enter_zip_code(java.lang.String)
+      org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-V2F090M9', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\istih\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dc9b7b0fb0a4918d99115c654ff10197
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.sendKeys(Unknown Source)
+	at homepage.HomePage.checkZipCodeLocation(HomePage.java:53)
+	at stepDefinitions.HomePageStepDefinition.i_enter_zip_code(HomePageStepDefinition.java:80)
+	at ✽.I enter zip code "48091"(file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:16)
+
+
+    Embedding demo1 [image/png 692977 bytes]
+
+  Then I should see get a quote          # stepDefinitions.HomePageStepDefinition.i_should_see_get_a_quote()
+
+@smokeTest
+Scenario: Auto functionality               # src/test/java/features/Products.feature:20
+  Given I am at progressive home page      # stepDefinitions.HomePageStepDefinition.i_am_at_progressive_home_page()
+  And I click on Explore Products          # stepDefinitions.HomePageStepDefinition.i_click_on_explore_products()
+  And I click on Auto1                     # stepDefinitions.HomePageStepDefinition.i_click_on_auto1()
+  And I enter zip code1 "48091"            # stepDefinitions.HomePageStepDefinition.i_enter_zip_code1(java.lang.String)
+  And I click on get a quote               # null
+  And I enter first name "Istihaque"       # stepDefinitions.HomePageStepDefinition.i_enter_first_name(java.lang.String)
+  And I enter last name "Chowdhury"        # stepDefinitions.HomePageStepDefinition.i_enter_last_name(java.lang.String)
+  When I enter date of birth "12/21/1991"  # stepDefinitions.HomePageStepDefinition.i_enter_date_of_birth(java.lang.String)
+  Then I should see mailing address option # stepDefinitions.HomePageStepDefinition.i_should_see_mailing_address_option()
+
+@smokeTest
+Scenario: Boat functionality          # src/test/java/features/Products.feature:32
+  Given I am at progressive home page # stepDefinitions.HomePageStepDefinition.i_am_at_progressive_home_page()
+  And I click on Explore Products     # stepDefinitions.HomePageStepDefinition.i_click_on_explore_products()
+  And I click on Boat                 # stepDefinitions.HomePageStepDefinition.i_click_on_boat()
+  When I click see more types         # stepDefinitions.HomePageStepDefinition.i_click_see_more_types()
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='expandingButton1']"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-V2F090M9', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\istih\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64086}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aa77f14fda143e82a5572c75bc18ba80
+*** Element info: {Using=xpath, value=//button[@id='expandingButton1']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickByXpath(WebAPI.java:321)
+	at homepage.HomePage.checkMoreTypes(HomePage.java:105)
+	at stepDefinitions.HomePageStepDefinition.i_click_see_more_types(HomePageStepDefinition.java:150)
+	at ✽.I click see more types(file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:37)
+
+
+    Embedding demo1 [image/png 680726 bytes]
+
+
+@smokeTest
+Scenario: MotorCycle functionality        # src/test/java/features/Products.feature:41
+  Given I am at progressive home page     # stepDefinitions.HomePageStepDefinition.i_am_at_progressive_home_page()
+  And I click on Explore Products         # stepDefinitions.HomePageStepDefinition.i_click_on_explore_products()
+  And I click on motorcycle               # stepDefinitions.HomePageStepDefinition.i_click_on_motorcycle()
+  When I click find agent                 # stepDefinitions.HomePageStepDefinition.i_click_find_agent()
+  Then I should see local insurance agent # stepDefinitions.HomePageStepDefinition.i_should_see_local_insurance_agent()
+
+@smokeTest
+Scenario: HomeOwners functionality          # src/test/java/features/Products.feature:49
+  Given I am at progressive home page       # stepDefinitions.HomePageStepDefinition.i_am_at_progressive_home_page()
+  And I click on Explore Products           # stepDefinitions.HomePageStepDefinition.i_click_on_explore_products()
+  And I click on homeOwners                 # stepDefinitions.HomePageStepDefinition.i_click_on_home_owners()
+  And I click Compare home insurance quotes # stepDefinitions.HomePageStepDefinition.i_click_compare_home_insurance_quotes()
+      org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (907, 1038)
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-V2F090M9', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\istih\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64192}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 643b8b6374db4bc1f2e8f7af889ef1f2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at common.WebAPI.clickByXpath(WebAPI.java:321)
+	at homepage.HomePage.checkHomeInsurance(HomePage.java:127)
+	at stepDefinitions.HomePageStepDefinition.i_click_compare_home_insurance_quotes(HomePageStepDefinition.java:180)
+	at ✽.I click Compare home insurance quotes(file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:53)
+
+
+    Embedding demo1 [image/png 743541 bytes]
+

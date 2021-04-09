@@ -1,0 +1,272 @@
+[
+  {
+    "source": "I am at progressive home page",
+    "steps": [
+      {
+        "name": "I am at progressive home page",
+        "aggregatedDurations": {
+          "median": 4.80921025,
+          "average": 4.9860224
+        },
+        "durations": [
+          {
+            "duration": 4.9980516,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:5"
+          },
+          {
+            "duration": 4.4335701,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:13"
+          },
+          {
+            "duration": 6.5125482,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:21"
+          },
+          {
+            "duration": 4.941814,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:33"
+          },
+          {
+            "duration": 4.6766065,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:42"
+          },
+          {
+            "duration": 4.353544,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on claims",
+    "steps": [
+      {
+        "name": "I click on claims",
+        "aggregatedDurations": {
+          "median": 0.0805391,
+          "average": 0.0805391
+        },
+        "durations": [
+          {
+            "duration": 0.0805391,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "i click on claims over view",
+    "steps": [
+      {
+        "name": "i click on claims over view",
+        "aggregatedDurations": {
+          "median": 0.0686532,
+          "average": 0.0686532
+        },
+        "durations": [
+          {
+            "duration": 0.0686532,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Auto",
+    "steps": [
+      {
+        "name": "I click on Auto",
+        "aggregatedDurations": {
+          "median": 20.3234667,
+          "average": 20.3234667
+        },
+        "durations": [
+          {
+            "duration": 20.3234667,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Explore Products",
+    "steps": [
+      {
+        "name": "I click on Explore Products",
+        "aggregatedDurations": {
+          "median": 0.2055268,
+          "average": 0.20586918
+        },
+        "durations": [
+          {
+            "duration": 0.1506684,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:14"
+          },
+          {
+            "duration": 0.1943896,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:22"
+          },
+          {
+            "duration": 0.2480525,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:34"
+          },
+          {
+            "duration": 0.2307086,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:43"
+          },
+          {
+            "duration": 0.2055268,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on ATV",
+    "steps": [
+      {
+        "name": "I click on ATV",
+        "aggregatedDurations": {
+          "median": 2.2302465,
+          "average": 2.2302465
+        },
+        "durations": [
+          {
+            "duration": 2.2302465,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Auto1",
+    "steps": [
+      {
+        "name": "I click on Auto1",
+        "aggregatedDurations": {
+          "median": 1.7148912,
+          "average": 1.7148912
+        },
+        "durations": [
+          {
+            "duration": 1.7148912,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter zip code1 {string}",
+    "steps": [
+      {
+        "name": "I enter zip code1 \"48091\"",
+        "aggregatedDurations": {
+          "median": 0.1936188,
+          "average": 0.1936188
+        },
+        "durations": [
+          {
+            "duration": 0.1936188,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Boat",
+    "steps": [
+      {
+        "name": "I click on Boat",
+        "aggregatedDurations": {
+          "median": 1.5383106,
+          "average": 1.5383106
+        },
+        "durations": [
+          {
+            "duration": 1.5383106,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:35"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on motorcycle",
+    "steps": [
+      {
+        "name": "I click on motorcycle",
+        "aggregatedDurations": {
+          "median": 1.5289479,
+          "average": 1.5289479
+        },
+        "durations": [
+          {
+            "duration": 1.5289479,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click find agent",
+    "steps": [
+      {
+        "name": "I click find agent",
+        "aggregatedDurations": {
+          "median": 0.1968552,
+          "average": 0.1968552
+        },
+        "durations": [
+          {
+            "duration": 0.1968552,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see local insurance agent",
+    "steps": [
+      {
+        "name": "I should see local insurance agent",
+        "aggregatedDurations": {
+          "median": 0.0805155,
+          "average": 0.0805155
+        },
+        "durations": [
+          {
+            "duration": 0.0805155,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on homeOwners",
+    "steps": [
+      {
+        "name": "I click on homeOwners",
+        "aggregatedDurations": {
+          "median": 1.6240389,
+          "average": 1.6240389
+        },
+        "durations": [
+          {
+            "duration": 1.6240389,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:52"
+          }
+        ]
+      }
+    ]
+  }
+]

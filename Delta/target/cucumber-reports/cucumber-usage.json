@@ -1,1 +1,1010 @@
-[]
+[
+  {
+    "source": "I am at delta homepage",
+    "steps": [
+      {
+        "name": "I am at delta homepage",
+        "aggregatedDurations": {
+          "median": 6.7848085,
+          "average": 7.063545453
+        },
+        "durations": [
+          {
+            "duration": 8.2737223,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/Baggage.feature:5"
+          },
+          {
+            "duration": 6.8658233,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:5"
+          },
+          {
+            "duration": 8.9133876,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:20"
+          },
+          {
+            "duration": 6.7848085,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:35"
+          },
+          {
+            "duration": 9.1775679,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:4"
+          },
+          {
+            "duration": 6.4609778,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:4"
+          },
+          {
+            "duration": 6.1528248,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:4"
+          },
+          {
+            "duration": 6.3683118,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:4"
+          },
+          {
+            "duration": 6.4667557,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:4"
+          },
+          {
+            "duration": 6.556427,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:4"
+          },
+          {
+            "duration": 6.9004701,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:4"
+          },
+          {
+            "duration": 6.849505,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:4"
+          },
+          {
+            "duration": 6.6373921,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:4"
+          },
+          {
+            "duration": 6.5162406,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:4"
+          },
+          {
+            "duration": 7.0289673,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on travel info",
+    "steps": [
+      {
+        "name": "I click on travel info",
+        "aggregatedDurations": {
+          "median": 0.4997195,
+          "average": 0.494011047
+        },
+        "durations": [
+          {
+            "duration": 0.4997195,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/Baggage.feature:6"
+          },
+          {
+            "duration": 0.6011169,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:5"
+          },
+          {
+            "duration": 0.4888571,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:5"
+          },
+          {
+            "duration": 0.5299883,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:5"
+          },
+          {
+            "duration": 0.3373415,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:20"
+          },
+          {
+            "duration": 0.6166435,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:5"
+          },
+          {
+            "duration": 0.3677634,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:27"
+          },
+          {
+            "duration": 0.8004812,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:5"
+          },
+          {
+            "duration": 0.2856668,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:34"
+          },
+          {
+            "duration": 0.5189422,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:5"
+          },
+          {
+            "duration": 0.3037859,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:41"
+          },
+          {
+            "duration": 0.9087714,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:5"
+          },
+          {
+            "duration": 0.2696494,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:48"
+          },
+          {
+            "duration": 0.7560625,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:5"
+          },
+          {
+            "duration": 0.2882366,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:55"
+          },
+          {
+            "duration": 0.6400191,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:5"
+          },
+          {
+            "duration": 0.3771611,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:62"
+          },
+          {
+            "duration": 0.6236407,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:5"
+          },
+          {
+            "duration": 0.3019652,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:69"
+          },
+          {
+            "duration": 0.5287023,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:5"
+          },
+          {
+            "duration": 0.3297174,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:76"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Baggage",
+    "steps": [
+      {
+        "name": "I click on Baggage",
+        "aggregatedDurations": {
+          "median": 3.8412674,
+          "average": 3.8412674
+        },
+        "durations": [
+          {
+            "duration": 3.8412674,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/Baggage.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Book",
+    "steps": [
+      {
+        "name": "I click on Book",
+        "aggregatedDurations": {
+          "median": 0.7019698,
+          "average": 0.693731333
+        },
+        "durations": [
+          {
+            "duration": 0.5879352,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:6"
+          },
+          {
+            "duration": 0.7019698,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:21"
+          },
+          {
+            "duration": 0.791289,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on From",
+    "steps": [
+      {
+        "name": "I click on From",
+        "aggregatedDurations": {
+          "median": 0.3508219,
+          "average": 0.320108833
+        },
+        "durations": [
+          {
+            "duration": 0.3508219,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:7"
+          },
+          {
+            "duration": 0.3763181,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:22"
+          },
+          {
+            "duration": 0.2331865,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on from search box",
+    "steps": [
+      {
+        "name": "I enter \"San Antonio\" on from search box",
+        "aggregatedDurations": {
+          "median": 4.4740553,
+          "average": 4.4740553
+        },
+        "durations": [
+          {
+            "duration": 4.4740553,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:8"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"DTW\" on from search box",
+        "aggregatedDurations": {
+          "median": 4.3771043,
+          "average": 4.3771043
+        },
+        "durations": [
+          {
+            "duration": 4.3771043,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:23"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"ATL\" on from search box",
+        "aggregatedDurations": {
+          "median": 4.3739502,
+          "average": 4.3739502
+        },
+        "durations": [
+          {
+            "duration": 4.3739502,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on To",
+    "steps": [
+      {
+        "name": "I click on To",
+        "aggregatedDurations": {
+          "median": 0.3254544,
+          "average": 0.3100208
+        },
+        "durations": [
+          {
+            "duration": 0.3459798,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:9"
+          },
+          {
+            "duration": 0.2586282,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:24"
+          },
+          {
+            "duration": 0.3254544,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter {string} on the To search box",
+    "steps": [
+      {
+        "name": "I enter \"JFK\" on the To search box",
+        "aggregatedDurations": {
+          "median": 4.3346786,
+          "average": 4.3346786
+        },
+        "durations": [
+          {
+            "duration": 4.3346786,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:10"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"MCO\" on the To search box",
+        "aggregatedDurations": {
+          "median": 4.3703799,
+          "average": 4.3703799
+        },
+        "durations": [
+          {
+            "duration": 4.3703799,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:25"
+          }
+        ]
+      },
+      {
+        "name": "I enter \"Lax\" on the To search box",
+        "aggregatedDurations": {
+          "median": 4.3292259,
+          "average": 4.3292259
+        },
+        "durations": [
+          {
+            "duration": 4.3292259,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on calender",
+    "steps": [
+      {
+        "name": "I click on calender",
+        "aggregatedDurations": {
+          "median": 0.2750778,
+          "average": 0.272434233
+        },
+        "durations": [
+          {
+            "duration": 0.2951461,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:11"
+          },
+          {
+            "duration": 0.2750778,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:27"
+          },
+          {
+            "duration": 0.2470788,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:42"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select April 20th for departure",
+    "steps": [
+      {
+        "name": "I select April 20th for departure",
+        "aggregatedDurations": {
+          "median": 0.2328925,
+          "average": 0.232146
+        },
+        "durations": [
+          {
+            "duration": 0.2328925,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:12"
+          },
+          {
+            "duration": 0.24113,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:28"
+          },
+          {
+            "duration": 0.2224155,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:43"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select  April 23rd for returning",
+    "steps": [
+      {
+        "name": "I select  April 23rd for returning",
+        "aggregatedDurations": {
+          "median": 0.2082203,
+          "average": 0.2082203
+        },
+        "durations": [
+          {
+            "duration": 0.2082203,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on done button",
+    "steps": [
+      {
+        "name": "I click on done button",
+        "aggregatedDurations": {
+          "median": 0.2180266,
+          "average": 0.228434133
+        },
+        "durations": [
+          {
+            "duration": 0.2120667,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:14"
+          },
+          {
+            "duration": 0.2180266,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:29"
+          },
+          {
+            "duration": 0.2552091,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on aero button",
+    "steps": [
+      {
+        "name": "I click on aero button",
+        "aggregatedDurations": {
+          "median": 0.229204,
+          "average": 0.219751933
+        },
+        "durations": [
+          {
+            "duration": 0.2344644,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:15"
+          },
+          {
+            "duration": 0.1955874,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:30"
+          },
+          {
+            "duration": 0.229204,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:46"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see all the available flight",
+    "steps": [
+      {
+        "name": "I should see all the available flight",
+        "aggregatedDurations": {
+          "median": 0.0179212,
+          "average": 0.017422333
+        },
+        "durations": [
+          {
+            "duration": 0.0135686,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:16"
+          },
+          {
+            "duration": 0.0207772,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:31"
+          },
+          {
+            "duration": 0.0179212,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:47"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select one way",
+    "steps": [
+      {
+        "name": "I select one way",
+        "aggregatedDurations": {
+          "median": 0.49652905,
+          "average": 0.49652905
+        },
+        "durations": [
+          {
+            "duration": 0.4831966,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:26"
+          },
+          {
+            "duration": 0.5098615,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select two passengers",
+    "steps": [
+      {
+        "name": "I select two passengers",
+        "aggregatedDurations": {
+          "median": 0.4227481,
+          "average": 0.4227481
+        },
+        "durations": [
+          {
+            "duration": 0.4227481,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/FlightBooking.feature:45"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on travel planning center",
+    "steps": [
+      {
+        "name": "I click on travel planning center",
+        "aggregatedDurations": {
+          "median": 0.4597311,
+          "average": 0.4597311
+        },
+        "durations": [
+          {
+            "duration": 0.4597311,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see Travel Planning Center",
+    "steps": [
+      {
+        "name": "I should see Travel Planning Center",
+        "aggregatedDurations": {
+          "median": 0.0115171,
+          "average": 0.0115171
+        },
+        "durations": [
+          {
+            "duration": 0.0115171,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on safer travel",
+    "steps": [
+      {
+        "name": "I click on safer travel",
+        "aggregatedDurations": {
+          "median": 4.274795,
+          "average": 4.274795
+        },
+        "durations": [
+          {
+            "duration": 4.274795,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on mask requirement",
+    "steps": [
+      {
+        "name": "I click on mask requirement",
+        "aggregatedDurations": {
+          "median": 0.0783335,
+          "average": 0.0783335
+        },
+        "durations": [
+          {
+            "duration": 0.0783335,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see face masks",
+    "steps": [
+      {
+        "name": "I should see face masks",
+        "aggregatedDurations": {
+          "median": 0.0265412,
+          "average": 0.0265412
+        },
+        "durations": [
+          {
+            "duration": 0.0265412,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on airline partners",
+    "steps": [
+      {
+        "name": "I click on airline partners",
+        "aggregatedDurations": {
+          "median": 3.1130419,
+          "average": 3.1411685
+        },
+        "durations": [
+          {
+            "duration": 3.2978037,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:21"
+          },
+          {
+            "duration": 3.1130419,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:28"
+          },
+          {
+            "duration": 3.2268745,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:35"
+          },
+          {
+            "duration": 2.9815935,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:42"
+          },
+          {
+            "duration": 3.1967913,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:49"
+          },
+          {
+            "duration": 3.0504062,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:56"
+          },
+          {
+            "duration": 3.0288013,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:63"
+          },
+          {
+            "duration": 2.9313115,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:70"
+          },
+          {
+            "duration": 3.4438926,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:77"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on air france",
+    "steps": [
+      {
+        "name": "I click on air france",
+        "aggregatedDurations": {
+          "median": 23.6324884,
+          "average": 23.6324884
+        },
+        "durations": [
+          {
+            "duration": 23.6324884,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see Air France",
+    "steps": [
+      {
+        "name": "I should see Air France",
+        "aggregatedDurations": {
+          "median": 0.0107036,
+          "average": 0.0107036
+        },
+        "durations": [
+          {
+            "duration": 0.0107036,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on KLM",
+    "steps": [
+      {
+        "name": "I click on KLM",
+        "aggregatedDurations": {
+          "median": 23.1298249,
+          "average": 23.1298249
+        },
+        "durations": [
+          {
+            "duration": 23.1298249,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see KLM",
+    "steps": [
+      {
+        "name": "I should see KLM",
+        "aggregatedDurations": {
+          "median": 20.2938159,
+          "average": 20.2938159
+        },
+        "durations": [
+          {
+            "duration": 20.2938159,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on virgin atlantic",
+    "steps": [
+      {
+        "name": "I click on virgin atlantic",
+        "aggregatedDurations": {
+          "median": 0.0454671,
+          "average": 0.0454671
+        },
+        "durations": [
+          {
+            "duration": 0.0454671,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see Virgin Atlantic",
+    "steps": [
+      {
+        "name": "I should see Virgin Atlantic",
+        "aggregatedDurations": {
+          "median": 0.0103548,
+          "average": 0.0103548
+        },
+        "durations": [
+          {
+            "duration": 0.0103548,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on China Eastern",
+    "steps": [
+      {
+        "name": "I click on China Eastern",
+        "aggregatedDurations": {
+          "median": 0.0756183,
+          "average": 0.0756183
+        },
+        "durations": [
+          {
+            "duration": 0.0756183,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:43"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see China Eastern",
+    "steps": [
+      {
+        "name": "I should see China Eastern",
+        "aggregatedDurations": {
+          "median": 0.0079198,
+          "average": 0.0079198
+        },
+        "durations": [
+          {
+            "duration": 0.0079198,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Korean Air",
+    "steps": [
+      {
+        "name": "I click on Korean Air",
+        "aggregatedDurations": {
+          "median": 22.8945394,
+          "average": 22.8945394
+        },
+        "durations": [
+          {
+            "duration": 22.8945394,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see Korean Air",
+    "steps": [
+      {
+        "name": "I should see Korean Air",
+        "aggregatedDurations": {
+          "median": 0.0133825,
+          "average": 0.0133825
+        },
+        "durations": [
+          {
+            "duration": 0.0133825,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Virgin Australia",
+    "steps": [
+      {
+        "name": "I click on Virgin Australia",
+        "aggregatedDurations": {
+          "median": 0.0849862,
+          "average": 0.0849862
+        },
+        "durations": [
+          {
+            "duration": 0.0849862,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:57"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see Virgin Australia",
+    "steps": [
+      {
+        "name": "I should see Virgin Australia",
+        "aggregatedDurations": {
+          "median": 0.0159937,
+          "average": 0.0159937
+        },
+        "durations": [
+          {
+            "duration": 0.0159937,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:58"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Aero Mexico",
+    "steps": [
+      {
+        "name": "I click on Aero Mexico",
+        "aggregatedDurations": {
+          "median": 23.058887,
+          "average": 23.058887
+        },
+        "durations": [
+          {
+            "duration": 23.058887,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:64"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see Aero Mexico",
+    "steps": [
+      {
+        "name": "I should see Aero Mexico",
+        "aggregatedDurations": {
+          "median": 0.014308,
+          "average": 0.014308
+        },
+        "durations": [
+          {
+            "duration": 0.014308,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:65"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on latam",
+    "steps": [
+      {
+        "name": "I click on latam",
+        "aggregatedDurations": {
+          "median": 0.0902181,
+          "average": 0.0902181
+        },
+        "durations": [
+          {
+            "duration": 0.0902181,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:71"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see Latam",
+    "steps": [
+      {
+        "name": "I should see Latam",
+        "aggregatedDurations": {
+          "median": 0.0160308,
+          "average": 0.0160308
+        },
+        "durations": [
+          {
+            "duration": 0.0160308,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:72"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on West jet",
+    "steps": [
+      {
+        "name": "I click on West jet",
+        "aggregatedDurations": {
+          "median": 23.9007848,
+          "average": 23.9007848
+        },
+        "durations": [
+          {
+            "duration": 23.9007848,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:78"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should se West jet",
+    "steps": [
+      {
+        "name": "I should se West jet",
+        "aggregatedDurations": {
+          "median": 0.0255,
+          "average": 0.0255
+        },
+        "durations": [
+          {
+            "duration": 0.0255,
+            "location": "file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/TravelPlanningCenter.feature:79"
+          }
+        ]
+      }
+    ]
+  }
+]

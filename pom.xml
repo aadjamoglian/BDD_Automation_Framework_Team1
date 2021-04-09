@@ -17,6 +17,7 @@
         <module>Delta</module>
         <module>Progressive</module>
         <module>Hotels</module>
+        <module>ATT</module>
 
     </modules>
     <properties>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="5" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="92.203">
+    <testcase classname="Progressive homepage functionality" name="Claims over view functionality under claims" time="27.319">
+        <failure message="Link is not working as expected expected [Top-Rated Insurance Company for Auto &amp; More | Progressive] but found [Progressive: Ranked One Of The Best Insurance Companies | Progressive]" type="java.lang.AssertionError">
+            <![CDATA[Given I am at progressive home page.........................................passed
+And I click on claims.......................................................passed
+And i click on claims over view.............................................passed
+When I click on Auto........................................................passed
+Then I should see repair....................................................failed
+
+StackTrace:
+java.lang.AssertionError: Link is not working as expected expected [Top-Rated Insurance Company for Auto & More | Progressive] but found [Progressive: Ranked One Of The Best Insurance Companies | Progressive]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homepage.HomePage.verifyRepair(HomePage.java:41)
+	at stepDefinitions.HomePageStepDefinition.i_should_see_repair(HomePageStepDefinition.java:65)
+	at ✽.I should see repair(file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:9)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Progressive homepage functionality" name="Explore products functionality" time="8.859">
+        <failure message="element not interactable&#10;  (Session info: chrome=89.0.4389.114)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-V2F090M9', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\istih\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: dc9b7b0fb0a4918d99115c654ff10197" type="org.openqa.selenium.ElementNotInteractableException">
+            <![CDATA[Given I am at progressive home page.........................................passed
+And I click on Explore Products.............................................passed
+And I click on ATV..........................................................passed
+When I enter zip code "48091"...............................................failed
+Then I should see get a quote...............................................skipped
+
+StackTrace:
+org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-V2F090M9', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\istih\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:63977}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dc9b7b0fb0a4918d99115c654ff10197
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:106)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy25.sendKeys(Unknown Source)
+	at homepage.HomePage.checkZipCodeLocation(HomePage.java:53)
+	at stepDefinitions.HomePageStepDefinition.i_enter_zip_code(HomePageStepDefinition.java:80)
+	at ✽.I enter zip code "48091"(file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:16)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Progressive homepage functionality" name="Auto functionality" time="9.697">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am at progressive home page.........................................passed
+And I click on Explore Products.............................................passed
+And I click on Auto1........................................................passed
+And I enter zip code1 "48091"...............................................passed
+And I click on get a quote..................................................undefined
+And I enter first name "Istihaque"..........................................skipped
+And I enter last name "Chowdhury"...........................................skipped
+When I enter date of birth "12/21/1991".....................................skipped
+Then I should see mailing address option....................................skipped
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Progressive homepage functionality" name="Boat functionality" time="28.614">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[@id='expandingButton1']&quot;}&#10;  (Session info: chrome=89.0.4389.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-V2F090M9', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\istih\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64086}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: aa77f14fda143e82a5572c75bc18ba80&#10;*** Element info: {Using=xpath, value=//button[@id='expandingButton1']}" type="org.openqa.selenium.NoSuchElementException">
+            <![CDATA[Given I am at progressive home page.........................................passed
+And I click on Explore Products.............................................passed
+And I click on Boat.........................................................passed
+When I click see more types.................................................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[@id='expandingButton1']"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-V2F090M9', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\istih\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64086}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: aa77f14fda143e82a5572c75bc18ba80
+*** Element info: {Using=xpath, value=//button[@id='expandingButton1']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at common.WebAPI.clickByXpath(WebAPI.java:321)
+	at homepage.HomePage.checkMoreTypes(HomePage.java:105)
+	at stepDefinitions.HomePageStepDefinition.i_click_see_more_types(HomePageStepDefinition.java:150)
+	at ✽.I click see more types(file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:37)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Progressive homepage functionality" name="MotorCycle functionality" time="8.052">
+        <system-out>
+            <![CDATA[Given I am at progressive home page.........................................passed
+And I click on Explore Products.............................................passed
+And I click on motorcycle...................................................passed
+When I click find agent.....................................................passed
+Then I should see local insurance agent.....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Progressive homepage functionality" name="HomeOwners functionality" time="9.128">
+        <failure message="element click intercepted: Element is not clickable at point (907, 1038)&#10;  (Session info: chrome=89.0.4389.114)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-V2F090M9', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\istih\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64192}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 643b8b6374db4bc1f2e8f7af889ef1f2" type="org.openqa.selenium.ElementClickInterceptedException">
+            <![CDATA[Given I am at progressive home page.........................................passed
+And I click on Explore Products.............................................passed
+And I click on homeOwners...................................................passed
+And I click Compare home insurance quotes...................................failed
+
+StackTrace:
+org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (907, 1038)
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-V2F090M9', ip: '192.168.222.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\istih\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64192}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 643b8b6374db4bc1f2e8f7af889ef1f2
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at common.WebAPI.clickByXpath(WebAPI.java:321)
+	at homepage.HomePage.checkHomeInsurance(HomePage.java:127)
+	at stepDefinitions.HomePageStepDefinition.i_click_compare_home_insurance_quotes(HomePageStepDefinition.java:180)
+	at ✽.I click Compare home insurance quotes(file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Progressive/src/test/java/features/Products.feature:53)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

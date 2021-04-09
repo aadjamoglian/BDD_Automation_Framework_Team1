@@ -1,0 +1,164 @@
+
+@smokeTest
+Scenario: Checked bag fees functionality    # src/test/java/features/Baggage.feature:4
+  Given I am at delta homepage              # stepDefinitions.DataTableExampleStepDefinition.i_am_at_delta_homepage()
+  And I click on travel info                # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  When I click on Baggage                   # stepDefinitions.DataTableExampleStepDefinition.i_click_on_baggage()
+  Then I should see baggage and travel fees # stepDefinitions.DataTableExampleStepDefinition.i_should_see_baggage_and_travel_fees()
+      java.lang.AssertionError: Link is not working as expected expected [Baggage Policy and Fees | Delta Air Lines] but found [Airline Tickets & Flights: Book Direct with Delta Air Lines - Official Site]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:575)
+	at homepage.HomePage.verifyBaggageAndTravelFees(HomePage.java:170)
+	at stepDefinitions.DataTableExampleStepDefinition.i_should_see_baggage_and_travel_fees(DataTableExampleStepDefinition.java:206)
+	at ✽.I should see baggage and travel fees(file:///C:/Users/istih/IdeaProjects/BDD_Automation_Framework_Team1/Delta/src/test/java/features/Baggage.feature:8)
+
+
+    Embedding demo1 [image/png 928567 bytes]
+
+
+    Embedding demo1 [image/png 933730 bytes]
+
+
+@smokeTest
+Scenario: Round trip functionality under Book  # src/test/java/features/FlightBooking.feature:4
+  Given I am at delta homepage                 # stepDefinitions.DataTableExampleStepDefinition.i_am_at_delta_homepage()
+  And I click on Book                          # stepDefinitions.DataTableExampleStepDefinition.i_click_on_book()
+  And I click on From                          # stepDefinitions.DataTableExampleStepDefinition.i_click_on_from()
+  And I enter "San Antonio" on from search box # stepDefinitions.DataTableExampleStepDefinition.i_enter_on_from_search_box(java.lang.String)
+  And I click on To                            # stepDefinitions.DataTableExampleStepDefinition.i_click_on_to()
+  And I enter "JFK" on the To search box       # stepDefinitions.DataTableExampleStepDefinition.i_enter_on_the_to_search_box(java.lang.String)
+  And I click on calender                      # stepDefinitions.DataTableExampleStepDefinition.i_click_on_calender()
+  And I select April 20th for departure        # stepDefinitions.DataTableExampleStepDefinition.i_select_april_20th_for_departure()
+  And I select  April 23rd for returning       # stepDefinitions.DataTableExampleStepDefinition.i_select_april_23rd_for_returning()
+  And I click on done button                   # stepDefinitions.DataTableExampleStepDefinition.I_click_on_done_button()
+  When I click on aero button                  # stepDefinitions.DataTableExampleStepDefinition.i_click_on_aero_button()
+  Then I should see all the available flight   # stepDefinitions.DataTableExampleStepDefinition.i_should_see_all_the_available_flight()
+
+@smokeTest
+Scenario: One way trip functionality         # src/test/java/features/FlightBooking.feature:19
+  Given I am at delta homepage               # stepDefinitions.DataTableExampleStepDefinition.i_am_at_delta_homepage()
+  And I click on Book                        # stepDefinitions.DataTableExampleStepDefinition.i_click_on_book()
+  And I click on From                        # stepDefinitions.DataTableExampleStepDefinition.i_click_on_from()
+  And I enter "DTW" on from search box       # stepDefinitions.DataTableExampleStepDefinition.i_enter_on_from_search_box(java.lang.String)
+  And I click on To                          # stepDefinitions.DataTableExampleStepDefinition.i_click_on_to()
+  And I enter "MCO" on the To search box     # stepDefinitions.DataTableExampleStepDefinition.i_enter_on_the_to_search_box(java.lang.String)
+  And I select one way                       # stepDefinitions.DataTableExampleStepDefinition.i_select_one_way()
+  And I click on calender                    # stepDefinitions.DataTableExampleStepDefinition.i_click_on_calender()
+  And I select April 20th for departure      # stepDefinitions.DataTableExampleStepDefinition.i_select_april_20th_for_departure()
+  And I click on done button                 # stepDefinitions.DataTableExampleStepDefinition.I_click_on_done_button()
+  When I click on aero button                # stepDefinitions.DataTableExampleStepDefinition.i_click_on_aero_button()
+  Then I should see all the available flight # stepDefinitions.DataTableExampleStepDefinition.i_should_see_all_the_available_flight()
+
+@smokeTest
+Scenario: Passenger select option functionality # src/test/java/features/FlightBooking.feature:34
+  Given I am at delta homepage                  # stepDefinitions.DataTableExampleStepDefinition.i_am_at_delta_homepage()
+  And I click on Book                           # stepDefinitions.DataTableExampleStepDefinition.i_click_on_book()
+  And I click on From                           # stepDefinitions.DataTableExampleStepDefinition.i_click_on_from()
+  And I enter "ATL" on from search box          # stepDefinitions.DataTableExampleStepDefinition.i_enter_on_from_search_box(java.lang.String)
+  And I click on To                             # stepDefinitions.DataTableExampleStepDefinition.i_click_on_to()
+  And I enter "Lax" on the To search box        # stepDefinitions.DataTableExampleStepDefinition.i_enter_on_the_to_search_box(java.lang.String)
+  And I select one way                          # stepDefinitions.DataTableExampleStepDefinition.i_select_one_way()
+  And I click on calender                       # stepDefinitions.DataTableExampleStepDefinition.i_click_on_calender()
+  And I select April 20th for departure         # stepDefinitions.DataTableExampleStepDefinition.i_select_april_20th_for_departure()
+  And I click on done button                    # stepDefinitions.DataTableExampleStepDefinition.I_click_on_done_button()
+  And I select two passengers                   # stepDefinitions.DataTableExampleStepDefinition.i_select_two_passengers()
+  When I click on aero button                   # stepDefinitions.DataTableExampleStepDefinition.i_click_on_aero_button()
+  Then I should see all the available flight    # stepDefinitions.DataTableExampleStepDefinition.i_should_see_all_the_available_flight()
+
+@smokeTest
+Scenario: Travel planning center functionality on delta header # src/test/java/features/TravelPlanningCenter.feature:8
+  Given I am at delta homepage                                 # stepDefinitions.DataTableExampleStepDefinition.i_am_at_delta_homepage()
+  And I click on travel info                                   # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  When I click on travel planning center                       # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_planning_center()
+  Then I should see Travel Planning Center                     # stepDefinitions.DataTableExampleStepDefinition.i_should_see_travel_planning_center()
+
+@smokeTest
+Scenario: Safer Travel under Travel info # src/test/java/features/TravelPlanningCenter.feature:13
+  Given I am at delta homepage           # stepDefinitions.DataTableExampleStepDefinition.i_am_at_delta_homepage()
+  And I click on travel info             # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  And I click on safer travel            # stepDefinitions.DataTableExampleStepDefinition.i_click_on_safer_travel()
+  When I click on mask requirement       # stepDefinitions.DataTableExampleStepDefinition.i_click_on_mask_requirement()
+  Then I should see face masks           # stepDefinitions.DataTableExampleStepDefinition.i_should_see_face_masks()
+
+@smokeTest
+Scenario: Airline partner functionality # src/test/java/features/TravelPlanningCenter.feature:19
+  Given I am at delta homepage          # stepDefinitions.DataTableExampleStepDefinition.i_am_at_delta_homepage()
+  And I click on travel info            # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  And I click on travel info            # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  And I click on airline partners       # stepDefinitions.DataTableExampleStepDefinition.i_click_on_airline_partners()
+  When I click on air france            # stepDefinitions.DataTableExampleStepDefinition.i_click_on_air_france()
+  Then I should see Air France          # stepDefinitions.DataTableExampleStepDefinition.i_should_see_air_france()
+
+@smokeTest
+Scenario: KLM functionality       # src/test/java/features/TravelPlanningCenter.feature:26
+  Given I am at delta homepage    # stepDefinitions.DataTableExampleStepDefinition.i_am_at_delta_homepage()
+  And I click on travel info      # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  And I click on travel info      # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  And I click on airline partners # stepDefinitions.DataTableExampleStepDefinition.i_click_on_airline_partners()
+  When I click on KLM             # stepDefinitions.DataTableExampleStepDefinition.i_click_on_klm()
+  Then I should see KLM           # stepDefinitions.DataTableExampleStepDefinition.i_should_see_klm()
+
+@smokeTest
+Scenario: Virgin Atlantic functionality # src/test/java/features/TravelPlanningCenter.feature:33
+  Given I am at delta homepage          # stepDefinitions.DataTableExampleStepDefinition.i_am_at_delta_homepage()
+  And I click on travel info            # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  And I click on travel info            # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  And I click on airline partners       # stepDefinitions.DataTableExampleStepDefinition.i_click_on_airline_partners()
+  When I click on virgin atlantic       # stepDefinitions.DataTableExampleStepDefinition.i_click_on_virgin_atlantic()
+  Then I should see Virgin Atlantic     # stepDefinitions.DataTableExampleStepDefinition.i_should_see_virgin_atlantic()
+
+@smokeTest
+Scenario: China Eastern functionality # src/test/java/features/TravelPlanningCenter.feature:40
+  Given I am at delta homepage        # stepDefinitions.DataTableExampleStepDefinition.i_am_at_delta_homepage()
+  And I click on travel info          # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  And I click on travel info          # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  And I click on airline partners     # stepDefinitions.DataTableExampleStepDefinition.i_click_on_airline_partners()
+  When I click on China Eastern       # stepDefinitions.DataTableExampleStepDefinition.i_click_on_china_eastern()
+  Then I should see China Eastern     # stepDefinitions.DataTableExampleStepDefinition.i_should_see_china_eastern()
+
+@smokeTest
+Scenario: Korean Air functionality # src/test/java/features/TravelPlanningCenter.feature:47
+  Given I am at delta homepage     # stepDefinitions.DataTableExampleStepDefinition.i_am_at_delta_homepage()
+  And I click on travel info       # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  And I click on travel info       # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  And I click on airline partners  # stepDefinitions.DataTableExampleStepDefinition.i_click_on_airline_partners()
+  When I click on Korean Air       # stepDefinitions.DataTableExampleStepDefinition.i_click_on_korean_air()
+  Then I should see Korean Air     # stepDefinitions.DataTableExampleStepDefinition.i_should_see_korean_air()
+
+@smokeTest
+Scenario: Virgin Australia functionality # src/test/java/features/TravelPlanningCenter.feature:54
+  Given I am at delta homepage           # stepDefinitions.DataTableExampleStepDefinition.i_am_at_delta_homepage()
+  And I click on travel info             # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  And I click on travel info             # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  And I click on airline partners        # stepDefinitions.DataTableExampleStepDefinition.i_click_on_airline_partners()
+  When I click on Virgin Australia       # stepDefinitions.DataTableExampleStepDefinition.i_click_on_virgin_australia()
+  Then I should see Virgin Australia     # stepDefinitions.DataTableExampleStepDefinition.i_should_see_virgin_australia()
+
+@smokeTest
+Scenario: Aero Mexico functionality # src/test/java/features/TravelPlanningCenter.feature:61
+  Given I am at delta homepage      # stepDefinitions.DataTableExampleStepDefinition.i_am_at_delta_homepage()
+  And I click on travel info        # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  And I click on travel info        # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  And I click on airline partners   # stepDefinitions.DataTableExampleStepDefinition.i_click_on_airline_partners()
+  When I click on Aero Mexico       # stepDefinitions.DataTableExampleStepDefinition.i_click_on_aero_mexico()
+  Then I should see Aero Mexico     # stepDefinitions.DataTableExampleStepDefinition.i_should_see_aero_mexico()
+
+@smokeTest
+Scenario: Latam functionality     # src/test/java/features/TravelPlanningCenter.feature:68
+  Given I am at delta homepage    # stepDefinitions.DataTableExampleStepDefinition.i_am_at_delta_homepage()
+  And I click on travel info      # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  And I click on travel info      # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  And I click on airline partners # stepDefinitions.DataTableExampleStepDefinition.i_click_on_airline_partners()
+  When I click on latam           # stepDefinitions.DataTableExampleStepDefinition.i_click_on_latam()
+  Then I should see Latam         # stepDefinitions.DataTableExampleStepDefinition.i_should_see_latam()
+
+@smokeTest
+Scenario: West jet functionality  # src/test/java/features/TravelPlanningCenter.feature:75
+  Given I am at delta homepage    # stepDefinitions.DataTableExampleStepDefinition.i_am_at_delta_homepage()
+  And I click on travel info      # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  And I click on travel info      # stepDefinitions.DataTableExampleStepDefinition.i_click_on_travel_info()
+  And I click on airline partners # stepDefinitions.DataTableExampleStepDefinition.i_click_on_airline_partners()
+  When I click on West jet        # stepDefinitions.DataTableExampleStepDefinition.i_click_on_west_jet()
+  Then I should se West jet       # stepDefinitions.DataTableExampleStepDefinition.i_should_se_west_jet()

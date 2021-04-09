@@ -28,10 +28,10 @@ Feature: Explore Products functionality on progressive homepage header
     And I enter "23817 Curie St" on the address search box
     And I click on Let's go button
     And I enter the homeowners information
-      | First name    |  | Farhana    |
-      | MI            |  | A          |
-      | Last name     |  | Chowdhury  |
-      | Date of birth |  | 12/21/2000 |
+      | First name    |   Farhana    |
+      | MI            |   A          |
+      | Last name     |   Chowdhury  |
+      | Date of birth |   12/21/2000 |
     And I select NO for do you have progressive auto insurance
     And I select April20th from the homeowners insurance calender
     When I click on next

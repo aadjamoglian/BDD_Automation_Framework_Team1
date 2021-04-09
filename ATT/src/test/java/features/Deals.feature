@@ -4,17 +4,6 @@ Feature: AT&T Deals on AT&T header
     Given I am on AT&T homepage
     And I click on deals
 
-@smokeTest
-  Scenario: Deals in AT&T header
-    When I click on wireless
-    Then I should be able to see all the wireless items
-
-  @smokeTest
-  Scenario: Wireless under Deals in AT&T header
-    When I click on wireless
-    And I click on explore wireless
-    Then I should be able to see all the Explore wireless items
-
   @smokeTest
   Scenario: Low cost phones under phones & devices deal
     And I click on wireless
@@ -79,4 +68,15 @@ Feature: AT&T Deals on AT&T header
   Scenario: Accessories  under deals
     When I click on Accessories
     Then I should see all the accessories deals
+
+  @smokeTest
+  Scenario: Deals in AT&T header
+    When I click on wireless
+    Then I should be able to see all the wireless items
+
+  @smokeTest
+  Scenario: Wireless under Deals in AT&T header
+    When I click on wireless
+    And I click on explore wireless
+    Then I should be able to see all the Explore wireless items
 

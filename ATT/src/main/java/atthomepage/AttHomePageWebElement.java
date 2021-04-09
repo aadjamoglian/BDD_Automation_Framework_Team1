@@ -39,18 +39,6 @@ public class AttHomePageWebElement {
     public static final String channelSearchBoxLocator="//*[@id=\"__next\"]/main/div[3]/div[2]/div[1]/div/div[2]/div/div/div/div/div[1]/div/input";
     public static final String samsungphoneLocator="//body/div[@id='__next']/div[2]/div[2]/div[2]/div[3]/div[1]/div[1]/div[1]/div[3]/div[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/div[1]/div[1]/div[1]/div[1]";
     public static final String completeYourPurchaseLocator="//*[@id=\"main-content\"]/div/div/div/div[2]/div/div/div/div[2]/div/div/div[1]/a";
-//    public static final String
-//    public static final String
-//    public static final String
-//    public static final String
-//    public static final String
-//    public static final String
-//    public static final String
-//    public static final String
-//    public static final String
-//    public static final String
-//    public static final String
-//    public static final String
-//    public static final String
+
 
 }

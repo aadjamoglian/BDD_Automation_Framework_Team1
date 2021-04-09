@@ -97,3 +97,34 @@ Feature: Travel info functionality on Delta header
     And I click on Delta one
     When I click on Delta one book now
     Then I should see the flight booking page
+
+  @smokeTest
+  Scenario: Prohibited and restricted item functionality under travel info
+    And I click travel info
+    And I click on baggage
+    When I click on prohibited and restricted items
+    And I click on Tobacco, E-Cigarettes or Marijuana
+    Then I should see travel guidelines for Tobacco, E-Cigarettes or Marijuana
+
+  @smokeTest
+  Scenario: Delayed, Lost or Damaged bags functionality under travel info
+    And I click travel info
+    And I click on baggage
+    When I click on Delayed, Lost or Damaged bags
+    And I click on submit a claim link
+    Then I should be able to see baggage claim form
+
+  @smokeTest
+  Scenario: Track checked baggage functionality under travel info
+    And I click travel info
+    And I click on baggage
+    When I click on track checked baggage
+    And I click on Twenty minute bag guarantee
+    Then I should see bags on time form
+
+  @smokeTest
+  Scenario: Special item functionality under travel info
+    And I click travel info
+    And I click on baggage
+    When I click on special item
+    Then I should be able to see special item info page

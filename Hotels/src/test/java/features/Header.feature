@@ -7,10 +7,10 @@ Feature: Hotels.com header Functionality
     And I enter "Miami" on the search Bar
     And I select April 20th for check in date
     And I select April 25th for checkout date
-##    And I select 3 people from the Adult drop down
-##    And I select 2 rooms from the Rooms drop down
-##    When I click on check availability
-##    Then I should be able see all the deals.
+    And I select 3 people from the Adult drop down
+    And I select 2 rooms from the Rooms drop down
+    When I click on check availability
+    Then I should be able see all the deals.
 
   @smokeTest
   Scenario: Flight packages functionality on hotels header

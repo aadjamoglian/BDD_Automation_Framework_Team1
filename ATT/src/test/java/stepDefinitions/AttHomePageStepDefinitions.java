@@ -40,7 +40,6 @@ public class AttHomePageStepDefinitions extends WebAPI {
         cleanUp();
     }
 
-
     @Given("I am on AT&T homepage")
     public void i_am_on_at_t_homepage() throws IOException {
         openBrowser("https://www.att.com/");
@@ -54,10 +53,12 @@ public class AttHomePageStepDefinitions extends WebAPI {
     public void i_click_on_search_button() {
         homePage.searchButton();
     }
+
     @Then("I should see {string}\" is appearing")
     public void i_should_see_is_appearing(String expectedText) {
         homePage.verifySearchResult(expectedText);
     }
+
     @Then("I verify {string} in product title.")
     public void i_verify_in_product_title(String expectedText) {
         homePage.verifyPageTitle(expectedText);
@@ -67,14 +68,17 @@ public class AttHomePageStepDefinitions extends WebAPI {
     public void i_click_on_deals() {
         homePage.checkDeals();
     }
+
     @When("I click on wireless")
     public void i_click_on_wireless() {
         homePage.checkWireless();
     }
+
     @When("I click on explore wireless")
     public void i_click_on_explore_wireless() {
         homePage.checkExploreWireless();
     }
+
     @Then("I should be able to see all the wireless items")
     public void i_should_be_able_to_see_all_the_wireless_items() {
         homePage.checkWirelessRelatedItems();
@@ -89,19 +93,20 @@ public class AttHomePageStepDefinitions extends WebAPI {
     public void i_click_on_phones_devices() {
         homePage.checkPhonesAndDevices();
     }
+
     @When("I click on Low cost phone")
     public void i_click_on_low_cost_phone() {
-
     }
+
     @Then("I should be able to see all the low cost phones")
     public void i_should_be_able_to_see_all_the_low_cost_phones() {
-
     }
 
     @When("I click on compare device")
     public void i_click_on_compare_device() {
         homePage.checkCompareDevices();
     }
+
     @Then("I should be able to compare devices")
     public void i_should_be_able_to_compare_devices() {
         homePage.verifyCompareDevices();
@@ -112,11 +117,11 @@ public class AttHomePageStepDefinitions extends WebAPI {
        homePage.verifyPageTitle(verifyTitle);
     }
 
-
     @When("I click on Apple")
     public void i_click_on_apple() {
         homePage.checkApple();
     }
+
     @Then("I should be able to see all the Apple phones")
     public void i_should_be_able_to_see_all_the_apple_phones() {
         homePage.verifyApplePhones();
@@ -139,21 +144,22 @@ public class AttHomePageStepDefinitions extends WebAPI {
 
     @When("I enter the {string} on the zipcode field")
     public void i_enter_the_on_the_zipcode_field(String string) {
-
     }
+
     @When("I click on update button")
     public void i_click_on_update_button() {
-
     }
 
     @When("I should be able to see all the available store pick=up items.")
     public void i_should_be_able_to_see_all_the_available_store_pick_up_items() {
         homePage.verifyStorePickUpItems();
     }
+
     @When("I click on Tablet and PC")
     public void i_click_on_tablet_and_pc() {
         homePage.checkTableAndPC();
     }
+
     @Then("I should be able to see all the Tablets and pcs")
     public void i_should_be_able_to_see_all_the_tablets_and_pcs() {
         homePage.verifyTabletAndPC();
@@ -167,17 +173,18 @@ public class AttHomePageStepDefinitions extends WebAPI {
     @When("I click on AT&T & prepaid")
     public void i_click_on_at_t_prepaid() {
         homePage.checkAttAndPrepaid();
-
     }
+
     @Then("I should see all the AT&T & prepaid deals")
     public void i_should_see_all_the_at_t_prepaid_deals() {
         homePage.checkAttAndPrepaidProducts();
-
     }
+
     @When("I click on Internet & TV")
     public void i_click_on_internet_tv() {
         homePage.checkInternetAndTV();
     }
+
     @Then("I should see all theInternet & TV deals")
     public void i_should_see_all_the_internet_tv_deals() {
         homePage.verifyInternetAndTVproducts();
@@ -192,16 +199,16 @@ public class AttHomePageStepDefinitions extends WebAPI {
         homePage.verifyAccessories();
     }
 
-
-
     @Given("I click on Business")
     public void i_click_on_business() {
         homePage.checkBusiness();
     }
+
     @Given("I click on bundles")
     public void i_click_on_bundles() {
         homePage.checkBundles();
     }
+
     @Given("I enter {string} on the service address search box")
     public void i_enter_on_the_service_address_search_box(String serviceAddress) {
         homePage.checkAddressSerachBox(serviceAddress);
@@ -210,10 +217,12 @@ public class AttHomePageStepDefinitions extends WebAPI {
     public void i_enter_on_the_zip_code_field(String zipcode) {
         homePage.checkAddressZipcode(zipcode);
     }
+
     @When("I click on check availability")
     public void i_click_on_check_availability() {
         homePage.checkAvailability();
     }
+
     @Then("I should be able to see all the bundles")
     public void i_should_be_able_to_see_all_the_bundles() {
         homePage.verifyBundle();
@@ -221,9 +230,7 @@ public class AttHomePageStepDefinitions extends WebAPI {
 
     @Then("I should be able to see all the Internet Deals")
     public void i_should_be_able_to_see_all_the_internet_deals() {
-
     }
-
 
     @Given("I click on Internet")
     public void i_click_on_internet() {
@@ -239,22 +246,24 @@ public class AttHomePageStepDefinitions extends WebAPI {
     public void i_click_on_voice() {
         homePage.checkVoice();
     }
+
     @Then("I should be able to see all voice deals")
     public void i_should_be_able_to_see_all_voice_deals() {
         homePage.verifyVoiceDeals();
     }
-
 
     @When("I select internet speed 25")
     public void i_select_internet_speed25() throws InterruptedException {
         sleepFor(2);
        homePage.checkInternetSpeed();
     }
+
     @When("I select checkbox for heavy traffic on optional internet ehancement section")
     public void i_select_checkbox_for_heavy_traffic_on_optional_internet_ehancement_section() throws InterruptedException {
         sleepFor(2);
         homePage.checkHeavyTrafficCheckBox();
     }
+
     @When("I select AT&T phone for business under bundle options")
     public void i_select_at_t_phone_for_business_under_bundle_options() {
         homePage.checkPhoneforBusinessCheckBox();
@@ -270,7 +279,6 @@ public class AttHomePageStepDefinitions extends WebAPI {
         System.out.println(mapTable.get("Last name"));
         System.out.println(mapTable.get("email"));
         System.out.println(mapTable.get("phone number"));
-
     }
 
     public static synchronized Map<String, String> tableDictionaryConverter(List<List<String>> data){
@@ -286,10 +294,12 @@ public class AttHomePageStepDefinitions extends WebAPI {
     public void i_click_on_internet_check_box() {
         homePage.checkInterestedProductCheckBox();
     }
+
     @When("I click on submit button")
     public void i_click_on_submit_button() {
         homePage.checkCustomerFormSubmitButton();
     }
+
     @Then("I should see your request has been submitted message")
     public void i_should_see_your_request_has_been_submitted_message() {
         homePage.verifySubmitMessage();
@@ -299,16 +309,19 @@ public class AttHomePageStepDefinitions extends WebAPI {
     public void i_click_on_tv() {
         homePage.checkTVLink();
     }
+
     @Given("I click on Channel Lineup")
     public void i_click_on_channel_lineup() {
         homePage.checkChannelLineup();
     }
+
     @When("I enter the channel names on the channel search bar")
     public void i_enter_the_channel_names_on_the_channel_search_bar() throws SQLException, IOException, ClassNotFoundException, InterruptedException {
         homePage.channelSearchBox();
         sleepFor(3);
         //readUserProfileFromSqlTable();
     }
+
     @Then("I should be able to see all the channel deals and shop now option")
     public void i_should_be_able_to_see_all_the_channel_deals_and_shop_now_option() {
 

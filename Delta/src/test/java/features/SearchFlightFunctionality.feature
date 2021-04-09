@@ -1,4 +1,4 @@
-Feature: Delta Homepage Functionality
+Feature: Delta search flight functionality
 
   Background:
     Given I am on Delta HomePage
@@ -43,8 +43,8 @@ Feature: Delta Homepage Functionality
     And I click on return calender
     And I select April 28th from the return calender
     When I click on search button
-#    And I drag the price range button from $399 to $600
-##    Then i should be able to see all the deals from $399 to $600
+    And I drag the price range button from $399 to $600
+    Then i should be able to see all the deals from $399 to $600
 
 
 

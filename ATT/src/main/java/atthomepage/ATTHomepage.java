@@ -45,7 +45,6 @@ public class ATTHomepage extends WebAPI {
     public void checkInternetAccessories(){
        clickByXpath1(internetAccessoriesLocator);
         //clickOnLink("Internet accessories");
-
     }
 
     public void verifyRelatedProducts(String expectedText){

@@ -44,10 +44,10 @@ Feature: Gift card functionality on Hotel header
     And I click on choose photo
     And I click on choose a local file
     And I click on done
-#      And I click on I like it
-#      And I click on Hundred for amount
-#      And I click on add to cart
-#      Then I should see review your card page
+    And I click on I like it
+    And I click on Hundred for amount
+    And I click on add to cart
+    Then I should see review your card page
 
   @smokeTest
   Scenario: Friend Gift card functionality under gift card

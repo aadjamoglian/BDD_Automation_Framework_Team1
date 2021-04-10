@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="78.414">
+    <testcase classname="Progressive Product search" name="Explore product on Progressive website" time="9.104">
+        <system-out><![CDATA[Given I am on the Progressive Homepage......................................passed
+When I click on Explore product.............................................passed
+Then I should see "Vehicle" product.........................................passed
+And I verify "Explore Products" title is present on that page...............passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Progressive Product search" name="Enter Personal Information to get the Auto Code" time="16.632">
+        <system-out><![CDATA[Given I am on the Progressive Homepage......................................passed
+When I click on Auto Link...................................................passed
+Then I should see "AUTO" Text...............................................passed
+Then I enter ZipCode........................................................passed
+Then I click on Get a quote link............................................passed
+Then I verify "Name & Birthdate" on that page...............................passed
+Then I enter First Name.....................................................passed
+Then I enter Last Name......................................................passed
+Then I click suffix and select Sr...........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Progressive Product search" name="Login to My Progressive Account" time="14.82">
+        <system-out><![CDATA[Given I am on the Progressive Homepage......................................passed
+When I click on login Button................................................passed
+Then I should see "Welcome" on that page....................................passed
+Then I enter user ID........................................................passed
+And I enter Password........................................................passed
+Then I click on login link..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Progressive Product search" name="Enter claim to get the Claim Information" time="14.424">
+        <system-out><![CDATA[Given I am on the Progressive Homepage......................................passed
+When I click on Claim button................................................passed
+Then I should see  "Claims" Text............................................passed
+And I click on Claim overview...............................................passed
+Then I verify "Progressive claims" appears on the page......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Progressive Product search" name="Review customers Answers" time="23.027">
+        <system-out><![CDATA[Given I am on the Progressive Homepage......................................passed
+When I am click on the Answer button........................................passed
+Then I will see "Progressive Answers".......................................passed
+And I click on see all topic button.........................................passed
+Then I click Am i covered...................................................passed
+Then I click how renters insurance cover theft image........................passed
+Then i verify "Does renters insurance cover theft?" appears on the page.....passed
+]]></system-out>
+    </testcase>
+</testsuite>

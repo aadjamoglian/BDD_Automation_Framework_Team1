@@ -1,0 +1,48 @@
+
+@smokeTest1
+Scenario: Thinks to do                                        # src/test/java/features/hotelHomePage.feature:26
+  Given I am on the Hotels.com Home Page                      # stepDefinitions.hotelHomePageStepDefinition.i_am_on_the_hotels_com_home_page()
+  When I click on the Thinks to do button                     # stepDefinitions.hotelHomePageStepDefinition.i_click_on_the_thinks_to_do_button()
+  And I should see "Search Things To Do" text                 # stepDefinitions.hotelHomePageStepDefinition.i_should_see_text(java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h1[normalize-space()='Search Things To Do']"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TAPAN-PC3', ip: '192.168.1.247', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\kumar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64740}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b5e3972078fcdec6e5d3e6698fb66bbb
+*** Element info: {Using=xpath, value=//h1[normalize-space()='Search Things To Do']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at homepage.hotelHomePage.GettingSearchThinksToDoLocatorText(hotelHomePage.java:82)
+	at stepDefinitions.hotelHomePageStepDefinition.i_should_see_text(hotelHomePageStepDefinition.java:126)
+	at ✽.I should see "Search Things To Do" text(file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/hotelHomePage.feature:29)
+
+
+    Embedding demo1 [image/png 3508463 bytes]
+
+
+    Embedding demo1 [image/png 3508463 bytes]
+
+  Then I search destination and enter                         # stepDefinitions.hotelHomePageStepDefinition.i_search_destination_and_enter()
+  Then I click From Button to select the date                 # stepDefinitions.hotelHomePageStepDefinition.i_click_from_button_to_select_the_date()
+  Then I click  to button to select the date                  # stepDefinitions.hotelHomePageStepDefinition.i_click_to_button_to_select_the_date()
+  Then I select search button                                 # stepDefinitions.hotelHomePageStepDefinition.i_select_search_button()
+  And I verify "Recommendations" text will appear on the page # stepDefinitions.hotelHomePageStepDefinition.i_verify_text_will_appear_on_the_page(java.lang.String)

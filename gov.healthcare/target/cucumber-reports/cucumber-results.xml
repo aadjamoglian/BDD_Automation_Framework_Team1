@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="30.797">
+    <testcase classname="HealthCare.com  Product search" name="Explore product on HealthCare.Com Organization" time="30.394">
+        <system-out><![CDATA[Given I am on HealthCare.Com Website........................................passed
+Then I hover on my Mouse On Health Insurance................................passed
+When The Mouse Hover Then Click on Get Short Time Insurance.................passed
+Then I Click The radio Button less than One year coverage...................passed
+Then I click Next...........................................................passed
+And I select Female Button..................................................passed
+Then I click Next again.....................................................passed
+Then I select for no I do not Radio Button In Tabacco Page..................passed
+Then I click Next Button....................................................passed
+Then I select The date Of Birth.............................................passed
+And I click Next Button again...............................................passed
+Then I Enter My Income......................................................passed
+Then I enter again Next Button..............................................passed
+Then Click The Radio Button yes Additional Family...........................passed
+Then Click next Button......................................................passed
+Then verify "Who are you looking to insure" Text............................passed
+Then I send the Email Address...............................................passed
+Then Click the next Box To go the Next Page.................................passed
+And Verify A text "Your Progress:" In the page..............................passed
+Then I add my First Name....................................................passed
+And Last name...............................................................passed
+Then I give my Email........................................................passed
+And My street Address.......................................................passed
+Then I add Also my Phone Number.............................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

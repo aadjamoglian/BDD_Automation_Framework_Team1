@@ -1,0 +1,46 @@
+
+@smokeTest
+Scenario: Explore product on Progressive website                 # src/test/java/features/ProgressiveHomePage.feature:6
+  Given I am on the Progressive Homepage                         # stepDefinitions.proHomePageStepDefinition.i_am_on_the_progressive_homepage()
+  When I click on Explore product                                # stepDefinitions.proHomePageStepDefinition.i_click_on_explore_product()
+  Then I should see "Vehicle" product                            # stepDefinitions.proHomePageStepDefinition.i_should_see_vehical_product(java.lang.String)
+  And I verify "Explore Products" title is present on that page. # stepDefinitions.proHomePageStepDefinition.i_verify_explore_product_title_is_present_on_that_page(java.lang.String)
+
+@anindya
+Scenario: Enter Personal Information to get the Auto Code # src/test/java/features/ProgressiveHomePage.feature:22
+  Given I am on the Progressive Homepage                  # stepDefinitions.proHomePageStepDefinition.i_am_on_the_progressive_homepage()
+  When I click on Auto Link                               # stepDefinitions.proHomePageStepDefinition.i_click_on_auto_link()
+  Then I should see "AUTO" Text                           # stepDefinitions.proHomePageStepDefinition.i_should_see_auto_text(java.lang.String)
+  Then I enter ZipCode                                    # stepDefinitions.proHomePageStepDefinition.i_enter_zip_code()
+  Then I click on Get a quote link                        # stepDefinitions.proHomePageStepDefinition.i_click_on_get_a_quote_link()
+  Then I verify "Name & Birthdate" on that page           # stepDefinitions.proHomePageStepDefinition.i_verify_name_birthdate_on_that_page(java.lang.String)
+  Then I enter First Name                                 # stepDefinitions.proHomePageStepDefinition.i_enter_first_name()
+  Then I enter Last Name                                  # stepDefinitions.proHomePageStepDefinition.i_enter_last_name()
+  Then I click suffix and select Sr                       # stepDefinitions.proHomePageStepDefinition.i_click_suffix_and_select_sr()
+
+@RegressionTest
+Scenario: Login to My Progressive Account  # src/test/java/features/ProgressiveHomePage.feature:35
+  Given I am on the Progressive Homepage   # stepDefinitions.proHomePageStepDefinition.i_am_on_the_progressive_homepage()
+  When I click on login Button             # stepDefinitions.proHomePageStepDefinition.i_click_on_login_button()
+  Then I should see "Welcome" on that page # stepDefinitions.proHomePageStepDefinition.i_should_see_on_that_page(java.lang.String)
+  Then I enter user ID                     # stepDefinitions.proHomePageStepDefinition.i_enter_user_id()
+  And I enter Password                     # stepDefinitions.proHomePageStepDefinition.i_enter_password()
+  Then I click on login link               # stepDefinitions.proHomePageStepDefinition.i_click_on_login_link()
+
+@RegressionTest1
+Scenario: Enter claim to get the Claim Information       # src/test/java/features/ProgressiveHomePage.feature:44
+  Given I am on the Progressive Homepage                 # stepDefinitions.proHomePageStepDefinition.i_am_on_the_progressive_homepage()
+  When I click on Claim button                           # stepDefinitions.proHomePageStepDefinition.i_click_on_claim_button()
+  Then I should see  "Claims" Text                       # stepDefinitions.proHomePageStepDefinition.i_should_see_text(java.lang.String)
+  And I click on Claim overview                          # stepDefinitions.proHomePageStepDefinition.i_click_on_claim_overview()
+  Then I verify "Progressive claims" appears on the page # stepDefinitions.proHomePageStepDefinition.i_verify_progressive_claims_appears_on_the_page(java.lang.String)
+
+@RegressionTest2
+Scenario: Review customers Answers                                        # src/test/java/features/ProgressiveHomePage.feature:52
+  Given I am on the Progressive Homepage                                  # stepDefinitions.proHomePageStepDefinition.i_am_on_the_progressive_homepage()
+  When I am click on the Answer button                                    # stepDefinitions.proHomePageStepDefinition.i_am_click_on_the_answer_button()
+  Then I will see "Progressive Answers"                                   # stepDefinitions.proHomePageStepDefinition.i_will_see(java.lang.String)
+  And I click on see all topic button                                     # stepDefinitions.proHomePageStepDefinition.i_click_on_see_all_topic_button()
+  Then I click Am i covered                                               # stepDefinitions.proHomePageStepDefinition.i_click_am_i_covered()
+  Then I click how renters insurance cover theft image                    # stepDefinitions.proHomePageStepDefinition.i_click_how_renters_insurance_cover_theft_image()
+  Then i verify "Does renters insurance cover theft?" appears on the page # stepDefinitions.proHomePageStepDefinition.i_verify_appears_on_the_page(java.lang.String)

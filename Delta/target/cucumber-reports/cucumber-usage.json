@@ -1,0 +1,616 @@
+[
+  {
+    "source": "I am On Delta Home Page",
+    "steps": [
+      {
+        "name": "I am On Delta Home Page",
+        "aggregatedDurations": {
+          "median": 4.32398015,
+          "average": 4.353375433
+        },
+        "durations": [
+          {
+            "duration": 4.772152,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:5"
+          },
+          {
+            "duration": 4.0639399,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:14"
+          },
+          {
+            "duration": 4.2140426,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:27"
+          },
+          {
+            "duration": 4.2750719,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:38"
+          },
+          {
+            "duration": 4.3728884,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:46"
+          },
+          {
+            "duration": 4.4221578,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:57"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Login Button",
+    "steps": [
+      {
+        "name": "I click on Login Button",
+        "aggregatedDurations": {
+          "median": 3.0911816,
+          "average": 3.0911816
+        },
+        "durations": [
+          {
+            "duration": 3.0911816,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click on  Login Button  I should see {string}",
+    "steps": [
+      {
+        "name": "I Click on  Login Button  I should see \"Log In To Delta\"",
+        "aggregatedDurations": {
+          "median": 2.031575,
+          "average": 2.031575
+        },
+        "durations": [
+          {
+            "duration": 2.031575,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on user name and send Key",
+    "steps": [
+      {
+        "name": "I click on user name and send Key",
+        "aggregatedDurations": {
+          "median": 2.118872,
+          "average": 2.118872
+        },
+        "durations": [
+          {
+            "duration": 2.118872,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I  click on Password and send the key",
+    "steps": [
+      {
+        "name": "I  click on Password and send the key",
+        "aggregatedDurations": {
+          "median": 2.1014887,
+          "average": 2.1014887
+        },
+        "durations": [
+          {
+            "duration": 2.1014887,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Verify {string} Text",
+    "steps": [
+      {
+        "name": "I Verify \"All fields are required\" Text",
+        "aggregatedDurations": {
+          "median": 2.0323082,
+          "average": 2.0323082
+        },
+        "durations": [
+          {
+            "duration": 2.0323082,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Mouse hover in Travel info",
+    "steps": [
+      {
+        "name": "Mouse hover in Travel info",
+        "aggregatedDurations": {
+          "median": 0.3379601,
+          "average": 0.3379601
+        },
+        "durations": [
+          {
+            "duration": 0.3379601,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Mouse hover I select the Baggage and click",
+    "steps": [
+      {
+        "name": "Mouse hover I select the Baggage and click",
+        "aggregatedDurations": {
+          "median": 4.4511666,
+          "average": 4.4511666
+        },
+        "durations": [
+          {
+            "duration": 4.4511666,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should See {string}",
+    "steps": [
+      {
+        "name": "I should See \"Baggage \u0026 Travel Fees\"",
+        "aggregatedDurations": {
+          "median": 2.0408271,
+          "average": 2.0408271
+        },
+        "durations": [
+          {
+            "duration": 2.0408271,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Track check on baggage",
+    "steps": [
+      {
+        "name": "I click on Track check on baggage",
+        "aggregatedDurations": {
+          "median": 3.9985733,
+          "average": 3.9985733
+        },
+        "durations": [
+          {
+            "duration": 3.9985733,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string}",
+    "steps": [
+      {
+        "name": "I verify \"Check Bag Status\"",
+        "aggregatedDurations": {
+          "median": 2.0390285,
+          "average": 2.0390285
+        },
+        "durations": [
+          {
+            "duration": 2.0390285,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click The Arrow Button To Know the bag Confarmation num num",
+    "steps": [
+      {
+        "name": "I click The Arrow Button To Know the bag Confarmation num num",
+        "aggregatedDurations": {
+          "median": 2.3716079,
+          "average": 2.3716079
+        },
+        "durations": [
+          {
+            "duration": 2.3716079,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click The confirmation number",
+    "steps": [
+      {
+        "name": "I click The confirmation number",
+        "aggregatedDurations": {
+          "median": 2.1761032,
+          "average": 2.1761032
+        },
+        "durations": [
+          {
+            "duration": 2.1761032,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The Last Name I click",
+    "steps": [
+      {
+        "name": "The Last Name I click",
+        "aggregatedDurations": {
+          "median": 2.1409581,
+          "average": 2.1409581
+        },
+        "durations": [
+          {
+            "duration": 2.1409581,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on from your origin",
+    "steps": [
+      {
+        "name": "I click on from your origin",
+        "aggregatedDurations": {
+          "median": 0.4693565,
+          "average": 0.4693565
+        },
+        "durations": [
+          {
+            "duration": 0.4693565,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Type Jfk on the box",
+    "steps": [
+      {
+        "name": "I Type Jfk on the box",
+        "aggregatedDurations": {
+          "median": 2.1304137,
+          "average": 2.1304137
+        },
+        "durations": [
+          {
+            "duration": 2.1304137,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "From Drop down  I select JFK New York Kennedy, Ny",
+    "steps": [
+      {
+        "name": "From Drop down  I select JFK New York Kennedy, Ny",
+        "aggregatedDurations": {
+          "median": 2.1940954,
+          "average": 2.1940954
+        },
+        "durations": [
+          {
+            "duration": 2.1940954,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on from your destination",
+    "steps": [
+      {
+        "name": "I click on from your destination",
+        "aggregatedDurations": {
+          "median": 2.1498051,
+          "average": 2.1498051
+        },
+        "durations": [
+          {
+            "duration": 2.1498051,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:31"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I type BHM on the From box",
+    "steps": [
+      {
+        "name": "I type BHM on the From box",
+        "aggregatedDurations": {
+          "median": 2.1100398,
+          "average": 2.1100398
+        },
+        "durations": [
+          {
+            "duration": 2.1100398,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:32"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select BHM Birmingham Alabama",
+    "steps": [
+      {
+        "name": "I select BHM Birmingham Alabama",
+        "aggregatedDurations": {
+          "median": 2.1674597,
+          "average": 2.1674597
+        },
+        "durations": [
+          {
+            "duration": 2.1674597,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify\"SEARCH OPTIONS\" Text",
+    "steps": [
+      {
+        "name": "I verify\"SEARCH OPTIONS\" Text",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:34"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I am Click on round trip drop down button",
+    "steps": [
+      {
+        "name": "I am Click on round trip drop down button",
+        "aggregatedDurations": {
+          "median": 2.2040676,
+          "average": 2.2040676
+        },
+        "durations": [
+          {
+            "duration": 2.2040676,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:39"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select One way",
+    "steps": [
+      {
+        "name": "I select One way",
+        "aggregatedDurations": {
+          "median": 2.1605376,
+          "average": 2.1605376
+        },
+        "durations": [
+          {
+            "duration": 2.1605376,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I verify {string} on that page",
+    "steps": [
+      {
+        "name": "I verify \"THE DELTA CUSTOMER EXPERIENCE\" on that page",
+        "aggregatedDurations": {
+          "median": 3.0273415,
+          "average": 3.0273415
+        },
+        "durations": [
+          {
+            "duration": 3.0273415,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:41"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Select Departure Locator",
+    "steps": [
+      {
+        "name": "Select Departure Locator",
+        "aggregatedDurations": {
+          "median": 2.3579332,
+          "average": 2.3579332
+        },
+        "durations": [
+          {
+            "duration": 2.3579332,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:47"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Select the Departure  Date",
+    "steps": [
+      {
+        "name": "Select the Departure  Date",
+        "aggregatedDurations": {
+          "median": 2.1837442,
+          "average": 2.1837442
+        },
+        "durations": [
+          {
+            "duration": 2.1837442,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:48"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "select the Date click on departure done button",
+    "steps": [
+      {
+        "name": "select the Date click on departure done button",
+        "aggregatedDurations": {
+          "median": 2.1222256,
+          "average": 2.1222256
+        },
+        "durations": [
+          {
+            "duration": 2.1222256,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:49"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "select the Return Locator",
+    "steps": [
+      {
+        "name": "select the Return Locator",
+        "aggregatedDurations": {
+          "median": 2.1605867,
+          "average": 2.1605867
+        },
+        "durations": [
+          {
+            "duration": 2.1605867,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:50"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Select the Return Date",
+    "steps": [
+      {
+        "name": "Select the Return Date",
+        "aggregatedDurations": {
+          "median": 2.1629402,
+          "average": 2.1629402
+        },
+        "durations": [
+          {
+            "duration": 2.1629402,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:51"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Select the Return Done Button",
+    "steps": [
+      {
+        "name": "Select the Return Done Button",
+        "aggregatedDurations": {
+          "median": 2.1431726,
+          "average": 2.1431726
+        },
+        "durations": [
+          {
+            "duration": 2.1431726,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:52"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Passenger DropDown Arrow",
+    "steps": [
+      {
+        "name": "I click Passenger DropDown Arrow",
+        "aggregatedDurations": {
+          "median": 2.263497,
+          "average": 2.263497
+        },
+        "durations": [
+          {
+            "duration": 2.263497,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:58"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Select The Passenger {int}",
+    "steps": [
+      {
+        "name": "Select The Passenger 4",
+        "aggregatedDurations": {
+          "median": 2.1878484,
+          "average": 2.1878484
+        },
+        "durations": [
+          {
+            "duration": 2.1878484,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:59"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click The Arrow to go to the next page",
+    "steps": [
+      {
+        "name": "I click The Arrow to go to the next page",
+        "aggregatedDurations": {
+          "median": 2.1372969,
+          "average": 2.1372969
+        },
+        "durations": [
+          {
+            "duration": 2.1372969,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:60"
+          }
+        ]
+      }
+    ]
+  }
+]

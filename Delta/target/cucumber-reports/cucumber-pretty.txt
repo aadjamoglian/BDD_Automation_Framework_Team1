@@ -1,0 +1,94 @@
+
+@smokeTest
+Scenario: Delta LogIn                                           # src/test/java/features/DeltaHomePage.feature:4
+  Given I am On Delta Home Page                                 # stepDefinitions.DeltaHomePageStepDefination.i_am_on_delta_home_page()
+  Then I click on Login Button                                  # stepDefinitions.DeltaHomePageStepDefination.i_click_on_login_button()
+  When I Click on  Login Button  I should see "Log In To Delta" # stepDefinitions.DeltaHomePageStepDefination.i_click_on_login_button_i_should_see(java.lang.String)
+  Then I click on user name and send Key                        # stepDefinitions.DeltaHomePageStepDefination.i_click_on_user_name_and_send_key()
+  Then I  click on Password and send the key                    # stepDefinitions.DeltaHomePageStepDefination.i_click_on_password_and_send_the_key()
+  And I Verify "All fields are required" Text                   # stepDefinitions.DeltaHomePageStepDefination.i_verify_text(java.lang.String)
+
+@smokeTest1
+Scenario: Delta Travel Info                                         # src/test/java/features/DeltaHomePage.feature:13
+  Given I am On Delta Home Page                                     # stepDefinitions.DeltaHomePageStepDefination.i_am_on_delta_home_page()
+  Then Mouse hover in Travel info                                   # stepDefinitions.DeltaHomePageStepDefination.mouse_hover_in_travel_info()
+  When Mouse hover I select the Baggage and click                   # stepDefinitions.DeltaHomePageStepDefination.mouse_hover_i_select_the_baggage_and_click()
+  Then I should See "Baggage & Travel Fees"                         # stepDefinitions.DeltaHomePageStepDefination.i_should_see(java.lang.String)
+  Then I click on Track check on baggage                            # stepDefinitions.DeltaHomePageStepDefination.i_click_on_track_check_on_baggage()
+  Then I verify "Check Bag Status"                                  # stepDefinitions.DeltaHomePageStepDefination.i_verify(java.lang.String)
+  And I click The Arrow Button To Know the bag Confarmation num num # stepDefinitions.DeltaHomePageStepDefination.i_click_the_arrow_button_to_know_the_bag_confarmation_num_num()
+  Then I click The confirmation number                              # stepDefinitions.DeltaHomePageStepDefination.i_click_the_confirmation_number()
+  And The Last Name I click                                         # stepDefinitions.DeltaHomePageStepDefination.the_last_name_i_click()
+
+@smokeTest2
+Scenario: flight status checking                         # src/test/java/features/DeltaHomePage.feature:26
+  Given I am On Delta Home Page                          # stepDefinitions.DeltaHomePageStepDefination.i_am_on_delta_home_page()
+  Then I click on from your origin                       # stepDefinitions.DeltaHomePageStepDefination.i_click_on_from_your_origin()
+  And I Type Jfk on the box                              # stepDefinitions.DeltaHomePageStepDefination.i_type_jfk_on_the_box()
+  Then From Drop down  I select JFK New York Kennedy, Ny # stepDefinitions.DeltaHomePageStepDefination.from_drop_down_i_select_jfk_new_york_kennedy_ny()
+  Then I click on from your destination                  # stepDefinitions.DeltaHomePageStepDefination.i_click_on_from_your_destination()
+  And I type BHM on the From box                         # stepDefinitions.DeltaHomePageStepDefination.i_type_bhm_on_the_from_box()
+  Then I select BHM Birmingham Alabama                   # stepDefinitions.DeltaHomePageStepDefination.i_select_bhm_birmingham_alabama()
+  Then I verify"SEARCH OPTIONS" Text                     # stepDefinitions.DeltaHomePageStepDefination.i_verify_search_options_text()
+
+@smokeTest3
+Scenario: Flight Status Checking One                         # src/test/java/features/DeltaHomePage.feature:37
+  Given I am On Delta Home Page                              # stepDefinitions.DeltaHomePageStepDefination.i_am_on_delta_home_page()
+  Then I am Click on round trip drop down button             # stepDefinitions.DeltaHomePageStepDefination.i_am_click_on_round_trip_drop_down_button()
+  And I select One way                                       # stepDefinitions.DeltaHomePageStepDefination.i_select_one_way()
+  Then I verify "THE DELTA CUSTOMER EXPERIENCE" on that page # stepDefinitions.DeltaHomePageStepDefination.i_verify_on_that_page(java.lang.String)
+
+@smokeTest4
+Scenario: Flight Departure and Return Date            # src/test/java/features/DeltaHomePage.feature:45
+  Given I am On Delta Home Page                       # stepDefinitions.DeltaHomePageStepDefination.i_am_on_delta_home_page()
+  Then Select Departure Locator                       # stepDefinitions.DeltaHomePageStepDefination.select_departure_locator()
+  And Select the Departure  Date                      # stepDefinitions.DeltaHomePageStepDefination.select_the_departure_date()
+  When select the Date click on departure done button # stepDefinitions.DeltaHomePageStepDefination.select_the_date_click_on_departure_done_button()
+  Then select the Return Locator                      # stepDefinitions.DeltaHomePageStepDefination.select_the_return_locator()
+  And Select the Return Date                          # stepDefinitions.DeltaHomePageStepDefination.select_the_return_date()
+  Then Select the Return Done Button                  # stepDefinitions.DeltaHomePageStepDefination.select_the_return_done_button()
+
+@smokeTest5
+Scenario: Select passenger Status               # src/test/java/features/DeltaHomePage.feature:56
+  Given I am On Delta Home Page                 # stepDefinitions.DeltaHomePageStepDefination.i_am_on_delta_home_page()
+  Then I click Passenger DropDown Arrow         # stepDefinitions.DeltaHomePageStepDefination.i_click_passenger_drop_down_arrow()
+  Then Select The Passenger 4                   # stepDefinitions.DeltaHomePageStepDefination.select_the_passenger(java.lang.Integer)
+  Then I click The Arrow to go to the next page # stepDefinitions.DeltaHomePageStepDefination.i_click_the_arrow_to_go_to_the_next_page()
+  Then I verify "Show price In" On  Page        # stepDefinitions.DeltaHomePageStepDefination.i_verify_on_page(java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='compoTitle']"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TAPAN-PC3', ip: '192.168.1.247', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\kumar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52922}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 23e9b9f9aa38bdb53290b228cd5f7bae
+*** Element info: {Using=xpath, value=//div[@class='compoTitle']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at homepage.DeltaHomePage.ShowPriceInLocatorVerifyOnThatPage(DeltaHomePage.java:269)
+	at stepDefinitions.DeltaHomePageStepDefination.i_verify_on_page(DeltaHomePageStepDefination.java:221)
+	at ✽.I verify "Show price In" On  Page(file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:61)
+
+
+    Embedding demo1 [image/png 3170638 bytes]
+
+
+    Embedding demo1 [image/png 3170638 bytes]
+

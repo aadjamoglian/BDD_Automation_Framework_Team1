@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="126.877">
+    <testcase classname="Delta Product search" name="Delta LogIn" time="16.978">
+        <system-out><![CDATA[Given I am On Delta Home Page...............................................passed
+Then I click on Login Button................................................passed
+When I Click on  Login Button  I should see "Log In To Delta"...............passed
+Then I click on user name and send Key......................................passed
+Then I  click on Password and send the key..................................passed
+And I Verify "All fields are required" Text.................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Delta Product search" name="Delta Travel Info" time="24.332">
+        <system-out><![CDATA[Given I am On Delta Home Page...............................................passed
+Then Mouse hover in Travel info.............................................passed
+When Mouse hover I select the Baggage and click.............................passed
+Then I should See "Baggage & Travel Fees"...................................passed
+Then I click on Track check on baggage......................................passed
+Then I verify "Check Bag Status"............................................passed
+And I click The Arrow Button To Know the bag Confarmation num num...........passed
+Then I click The confirmation number........................................passed
+And The Last Name I click...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Delta Product search" name="flight status checking" time="16.15">
+        <system-out><![CDATA[Given I am On Delta Home Page...............................................passed
+Then I click on from your origin............................................passed
+And I Type Jfk on the box...................................................passed
+Then From Drop down  I select JFK New York Kennedy, Ny......................passed
+Then I click on from your destination.......................................passed
+And I type BHM on the From box..............................................passed
+Then I select BHM Birmingham Alabama........................................passed
+Then I verify"SEARCH OPTIONS" Text..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Delta Product search" name="Flight Status Checking One" time="12.346">
+        <system-out><![CDATA[Given I am On Delta Home Page...............................................passed
+Then I am Click on round trip drop down button..............................passed
+And I select One way........................................................passed
+Then I verify "THE DELTA CUSTOMER EXPERIENCE" on that page..................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Delta Product search" name="Flight Departure and Return Date" time="18.217">
+        <system-out><![CDATA[Given I am On Delta Home Page...............................................passed
+Then Select Departure Locator...............................................passed
+And Select the Departure  Date..............................................passed
+When select the Date click on departure done button.........................passed
+Then select the Return Locator..............................................passed
+And Select the Return Date..................................................passed
+Then Select the Return Done Button..........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Delta Product search" name="Select passenger Status" time="38.372">
+        <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class='compoTitle']&quot;}&#10;  (Session info: chrome=89.0.4389.114)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'TAPAN-PC3', ip: '192.168.1.247', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\kumar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52922}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 23e9b9f9aa38bdb53290b228cd5f7bae&#10;*** Element info: {Using=xpath, value=//div[@class='compoTitle']}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[Given I am On Delta Home Page...............................................passed
+Then I click Passenger DropDown Arrow.......................................passed
+Then Select The Passenger 4.................................................passed
+Then I click The Arrow to go to the next page...............................passed
+Then I verify "Show price In" On  Page......................................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='compoTitle']"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'TAPAN-PC3', ip: '192.168.1.247', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\kumar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:52922}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 23e9b9f9aa38bdb53290b228cd5f7bae
+*** Element info: {Using=xpath, value=//div[@class='compoTitle']}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy25.getText(Unknown Source)
+	at homepage.DeltaHomePage.ShowPriceInLocatorVerifyOnThatPage(DeltaHomePage.java:269)
+	at stepDefinitions.DeltaHomePageStepDefination.i_verify_on_page(DeltaHomePageStepDefination.java:221)
+	at ✽.I verify "Show price In" On  Page(file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Delta/src/test/java/features/DeltaHomePage.feature:61)
+]]></failure>
+    </testcase>
+</testsuite>

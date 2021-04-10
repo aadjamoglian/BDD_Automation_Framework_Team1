@@ -1,0 +1,38 @@
+[
+  {
+    "source": "I am on the Hotels.com Home Page",
+    "steps": [
+      {
+        "name": "I am on the Hotels.com Home Page",
+        "aggregatedDurations": {
+          "median": 4.0261326,
+          "average": 4.0261326
+        },
+        "durations": [
+          {
+            "duration": 4.0261326,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/hotelHomePage.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on the Thinks to do button",
+    "steps": [
+      {
+        "name": "I click on the Thinks to do button",
+        "aggregatedDurations": {
+          "median": 0.7979738,
+          "average": 0.7979738
+        },
+        "durations": [
+          {
+            "duration": 0.7979738,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/Hotels/src/test/java/features/hotelHomePage.feature:28"
+          }
+        ]
+      }
+    ]
+  }
+]

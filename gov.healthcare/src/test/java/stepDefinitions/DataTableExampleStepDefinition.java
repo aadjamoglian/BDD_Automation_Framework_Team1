@@ -1,19 +1,22 @@
 package stepDefinitions;
 
+
 import common.WebAPI;
-import homepage.HomePage;
+import homepage.healthCareHomePage;
+import homepage.healthCareHomePage;
 import io.cucumber.java.BeforeStep;
 import org.openqa.selenium.support.PageFactory;
 
 public class DataTableExampleStepDefinition extends WebAPI {
-    static HomePage homePage;
+    static healthCareHomePage homePage;
 
     @BeforeStep
     public static void getInit() {
-        homePage = PageFactory.initElements(driver, HomePage.class);
+        homePage = PageFactory.initElements(driver, healthCareHomePage.class);
     }
 
 }
+
 
 
 

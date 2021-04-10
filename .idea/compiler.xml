@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Hotels" />
+        <module name="Progressive" />
         <module name="CNN" />
         <module name="gov.healthcare" />
         <module name="Cigna" />

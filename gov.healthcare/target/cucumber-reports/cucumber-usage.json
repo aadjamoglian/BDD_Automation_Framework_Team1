@@ -1,0 +1,434 @@
+[
+  {
+    "source": "I am on HealthCare.Com Website",
+    "steps": [
+      {
+        "name": "I am on HealthCare.Com Website",
+        "aggregatedDurations": {
+          "median": 4.7150412,
+          "average": 4.7150412
+        },
+        "durations": [
+          {
+            "duration": 4.7150412,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I hover on my Mouse On Health Insurance",
+    "steps": [
+      {
+        "name": "I hover on my Mouse On Health Insurance",
+        "aggregatedDurations": {
+          "median": 0.1520016,
+          "average": 0.1520016
+        },
+        "durations": [
+          {
+            "duration": 0.1520016,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "The Mouse Hover Then Click on Get Short Time Insurance",
+    "steps": [
+      {
+        "name": "The Mouse Hover Then Click on Get Short Time Insurance",
+        "aggregatedDurations": {
+          "median": 0.4600648,
+          "average": 0.4600648
+        },
+        "durations": [
+          {
+            "duration": 0.4600648,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Click The radio Button less than One year coverage",
+    "steps": [
+      {
+        "name": "I Click The radio Button less than One year coverage",
+        "aggregatedDurations": {
+          "median": 1.2609246,
+          "average": 1.2609246
+        },
+        "durations": [
+          {
+            "duration": 1.2609246,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Next",
+    "steps": [
+      {
+        "name": "I click Next",
+        "aggregatedDurations": {
+          "median": 1.1918635,
+          "average": 1.1918635
+        },
+        "durations": [
+          {
+            "duration": 1.1918635,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select Female Button",
+    "steps": [
+      {
+        "name": "I select Female Button",
+        "aggregatedDurations": {
+          "median": 1.0528005,
+          "average": 1.0528005
+        },
+        "durations": [
+          {
+            "duration": 1.0528005,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Next again",
+    "steps": [
+      {
+        "name": "I click Next again",
+        "aggregatedDurations": {
+          "median": 1.0691498,
+          "average": 1.0691498
+        },
+        "durations": [
+          {
+            "duration": 1.0691498,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select for no I do not Radio Button In Tabacco Page",
+    "steps": [
+      {
+        "name": "I select for no I do not Radio Button In Tabacco Page",
+        "aggregatedDurations": {
+          "median": 1.048399,
+          "average": 1.048399
+        },
+        "durations": [
+          {
+            "duration": 1.048399,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Next Button",
+    "steps": [
+      {
+        "name": "I click Next Button",
+        "aggregatedDurations": {
+          "median": 1.0715048,
+          "average": 1.0715048
+        },
+        "durations": [
+          {
+            "duration": 1.0715048,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I select The date Of Birth",
+    "steps": [
+      {
+        "name": "I select The date Of Birth",
+        "aggregatedDurations": {
+          "median": 2.0949793,
+          "average": 2.0949793
+        },
+        "durations": [
+          {
+            "duration": 2.0949793,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click Next Button again",
+    "steps": [
+      {
+        "name": "I click Next Button again",
+        "aggregatedDurations": {
+          "median": 1.0782718,
+          "average": 1.0782718
+        },
+        "durations": [
+          {
+            "duration": 1.0782718,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I Enter My Income",
+    "steps": [
+      {
+        "name": "I Enter My Income",
+        "aggregatedDurations": {
+          "median": 1.0580183,
+          "average": 1.0580183
+        },
+        "durations": [
+          {
+            "duration": 1.0580183,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter again Next Button",
+    "steps": [
+      {
+        "name": "I enter again Next Button",
+        "aggregatedDurations": {
+          "median": 1.0650607,
+          "average": 1.0650607
+        },
+        "durations": [
+          {
+            "duration": 1.0650607,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Click The Radio Button yes Additional Family",
+    "steps": [
+      {
+        "name": "Click The Radio Button yes Additional Family",
+        "aggregatedDurations": {
+          "median": 1.0657789,
+          "average": 1.0657789
+        },
+        "durations": [
+          {
+            "duration": 1.0657789,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Click next Button",
+    "steps": [
+      {
+        "name": "Click next Button",
+        "aggregatedDurations": {
+          "median": 1.0733796,
+          "average": 1.0733796
+        },
+        "durations": [
+          {
+            "duration": 1.0733796,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "verify {string} Text",
+    "steps": [
+      {
+        "name": "verify \"Who are you looking to insure\" Text",
+        "aggregatedDurations": {
+          "median": 9.984E-4,
+          "average": 9.984E-4
+        },
+        "durations": [
+          {
+            "duration": 9.984E-4,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I send the Email Address",
+    "steps": [
+      {
+        "name": "I send the Email Address",
+        "aggregatedDurations": {
+          "median": 1.0803677,
+          "average": 1.0803677
+        },
+        "durations": [
+          {
+            "duration": 1.0803677,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Click the next Box To go the Next Page",
+    "steps": [
+      {
+        "name": "Click the next Box To go the Next Page",
+        "aggregatedDurations": {
+          "median": 2.080631,
+          "average": 2.080631
+        },
+        "durations": [
+          {
+            "duration": 2.080631,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Verify A text {string} In the page",
+    "steps": [
+      {
+        "name": "Verify A text \"Your Progress:\" In the page",
+        "aggregatedDurations": {
+          "median": 2.0253699,
+          "average": 2.0253699
+        },
+        "durations": [
+          {
+            "duration": 2.0253699,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:24"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I add my First Name",
+    "steps": [
+      {
+        "name": "I add my First Name",
+        "aggregatedDurations": {
+          "median": 0.383743,
+          "average": 0.383743
+        },
+        "durations": [
+          {
+            "duration": 0.383743,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "Last name",
+    "steps": [
+      {
+        "name": "Last name",
+        "aggregatedDurations": {
+          "median": 1.1644798,
+          "average": 1.1644798
+        },
+        "durations": [
+          {
+            "duration": 1.1644798,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I give my Email",
+    "steps": [
+      {
+        "name": "I give my Email",
+        "aggregatedDurations": {
+          "median": 1.115709,
+          "average": 1.115709
+        },
+        "durations": [
+          {
+            "duration": 1.115709,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:27"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "My street Address",
+    "steps": [
+      {
+        "name": "My street Address",
+        "aggregatedDurations": {
+          "median": 1.1506033,
+          "average": 1.1506033
+        },
+        "durations": [
+          {
+            "duration": 1.1506033,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:28"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I add Also my Phone Number",
+    "steps": [
+      {
+        "name": "I add Also my Phone Number",
+        "aggregatedDurations": {
+          "median": 1.1001593,
+          "average": 1.1001593
+        },
+        "durations": [
+          {
+            "duration": 1.1001593,
+            "location": "file:///F:/PNTSelenium/SeleniumRepo/BDD_Automation_Framework_Team1/gov.healthcare/src/test/java/features/HomePage.feature:29"
+          }
+        ]
+      }
+    ]
+  }
+]

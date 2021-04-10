@@ -1,0 +1,1468 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-01T22:15:14.760Z",
+        "line": 6,
+        "name": "Explore product on Progressive website",
+        "description": "",
+        "id": "progressive-product-search;explore-product-on-progressive-website",
+        "after": [
+          {
+            "result": {
+              "duration": 1087866400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3719166400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 26625100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 3000800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I am on the Progressive Homepage",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_am_on_the_progressive_homepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118238400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1998100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1150600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I click on Explore product",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_click_on_explore_product()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1996700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2029166200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 989400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1997300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I should see \"Vehicle\" product",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vehicle\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.proHomePageStepDefinition.i_should_see_vehical_product(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2020779500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 15624600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I verify \"Explore Products\" title is present on that page.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Explore Products\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.proHomePageStepDefinition.i_verify_explore_product_title_is_present_on_that_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-01T22:15:23.881Z",
+        "line": 22,
+        "name": "Enter Personal Information to get the Auto Code",
+        "description": "",
+        "id": "progressive-product-search;enter-personal-information-to-get-the-auto-code",
+        "after": [
+          {
+            "result": {
+              "duration": 690141800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3246282600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": "I am on the Progressive Homepage",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_am_on_the_progressive_homepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 532400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 100534300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1002600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 24,
+            "name": "I click on Auto Link",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_click_on_auto_link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2012560600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 25,
+            "name": "I should see \"AUTO\" Text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AUTO\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.proHomePageStepDefinition.i_should_see_auto_text(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2066983700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 26,
+            "name": "I enter ZipCode",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_enter_zip_code()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1009500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 67158200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 27,
+            "name": "I click on Get a quote link",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_click_on_get_a_quote_link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2943312900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 28,
+            "name": "I verify \"Name \u0026 Birthdate\" on that page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Name \u0026 Birthdate\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.proHomePageStepDefinition.i_verify_name_birthdate_on_that_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 193000000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 29,
+            "name": "I enter First Name",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_enter_first_name()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2098342900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 993800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 30,
+            "name": "I enter Last Name",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_enter_last_name()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3188389300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1003300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 31,
+            "name": "I click suffix and select Sr",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_click_suffix_and_select_sr()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@anindya"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-01T22:15:40.513Z",
+        "line": 35,
+        "name": "Login to My Progressive Account",
+        "description": "",
+        "id": "progressive-product-search;login-to-my-progressive-account",
+        "after": [
+          {
+            "result": {
+              "duration": 687515200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4649503100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 36,
+            "name": "I am on the Progressive Homepage",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_am_on_the_progressive_homepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 184759100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 37,
+            "name": "I click on login Button",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_click_on_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2920453700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 995500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 38,
+            "name": "I should see \"Welcome\" on that page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.proHomePageStepDefinition.i_should_see_on_that_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2074957700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 977800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 39,
+            "name": "I enter user ID",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_enter_user_id()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2184706200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 40,
+            "name": "I enter Password",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_enter_password()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2110531400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 41,
+            "name": "I click on login link",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_click_on_login_link()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-01T22:15:55.333Z",
+        "line": 44,
+        "name": "Enter claim to get the Claim Information",
+        "description": "",
+        "id": "progressive-product-search;enter-claim-to-get-the-claim-information",
+        "after": [
+          {
+            "result": {
+              "duration": 685501500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4331655000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 15254400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 45,
+            "name": "I am on the Progressive Homepage",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_am_on_the_progressive_homepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2092084500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 46,
+            "name": "I click on Claim button",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_click_on_claim_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2026541900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 47,
+            "name": "I should see  \"Claims\" Text",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Claims\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.proHomePageStepDefinition.i_should_see_text(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3242462000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 48,
+            "name": "I click on Claim overview",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_click_on_claim_overview()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2026853300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 49,
+            "name": "I verify \"Progressive claims\" appears on the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Progressive claims\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.proHomePageStepDefinition.i_verify_progressive_claims_appears_on_the_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-01T22:16:09.764Z",
+        "line": 52,
+        "name": "Review customers Answers",
+        "description": "",
+        "id": "progressive-product-search;review-customers-answers",
+        "after": [
+          {
+            "result": {
+              "duration": 752995700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4726239400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 53,
+            "name": "I am on the Progressive Homepage",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_am_on_the_progressive_homepage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2086886700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 54,
+            "name": "I am click on the Answer button",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_am_click_on_the_answer_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2025031500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 55,
+            "name": "I will see \"Progressive Answers\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Progressive Answers\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepDefinitions.proHomePageStepDefinition.i_will_see(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6949139700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 56,
+            "name": "I click on see all topic button",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_click_on_see_all_topic_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2229014700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 57,
+            "name": "I click Am i covered",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_click_am_i_covered()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2074043800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 993900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 58,
+            "name": "I click how renters insurance cover theft image",
+            "match": {
+              "location": "stepDefinitions.proHomePageStepDefinition.i_click_how_renters_insurance_cover_theft_image()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2176214700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1002500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proDataTableExampleStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 59,
+            "name": "i verify \"Does renters insurance cover theft?\" appears on the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Does renters insurance cover theft?\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.proHomePageStepDefinition.i_verify_appears_on_the_page(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.proHomePageStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@RegressionTest2"
+          }
+        ]
+      }
+    ],
+    "name": "Progressive Product search",
+    "description": "",
+    "id": "progressive-product-search",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/ProgressiveHomePage.feature",
+    "tags": []
+  }
+]

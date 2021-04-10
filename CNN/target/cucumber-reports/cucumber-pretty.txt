@@ -1,0 +1,672 @@
+
+@test
+Scenario: CNN searchBox functionality check with valid product                               # src/test/java/features/HomePage.feature:4
+  Given I am on CNN homePage                                                                 # stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()
+      org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:50940}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: c6fb1b4e38e8f30fa8e766499a7b54b0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at common.WebAPI.setUp(WebAPI.java:148)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)
+	at ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:5)
+
+  And I click on search place                                                                # stepDefinitions.HomePageStepDefinitions2.iClickOnSearchPlace()
+  And I enter "Asian" in searchBox                                                           # stepDefinitions.HomePageStepDefinitions2.iEnterInSearchBox(java.lang.String)
+  When I click on search button                                                              # stepDefinitions.HomePageStepDefinitions2.iClickOnSearchButton()
+  Then I should see asian news is properly appearing                                         # stepDefinitions.HomePageStepDefinitions2.iShouldSeeAsianNewsIsProperlyAppearing()
+  But I should not see European news is appeared                                             # stepDefinitions.HomePageStepDefinitions2.iShouldNotSeeEuropeanNewsIsAppeared()
+  And I verify CNN Official Site | CNN - Breaking News, Latest News and Videos in page title # stepDefinitions.HomePageStepDefinitions2.iVerifyCNNOfficialSiteCNNBreakingNewsLatestNewsAndVideosInPageTitle(java.lang.String)
+
+@test
+Scenario: Verify the Sign in using invalid entries         # src/test/java/features/HomePage.feature:35
+  Given I am on CNN homePage                               # stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()
+  And I click on user icon in the main navigation bar      # stepDefinitions.HomePageStepDefinitions2.iClickOnUserIconInTheMainNavigationBar()
+  And I enter user details as                              # stepDefinitions.HomePageStepDefinitions2.i_enter_user_details_as(io.cucumber.datatable.DataTable)
+  When I click On Login in                                 # stepDefinitions.HomePageStepDefinitions2.iClickOnLoginIn()
+  Then I should see an error message appears on the screen # stepDefinitions.HomePageStepDefinitions2.iShouldSeeAnErrorMessageAppearsOnTheScreen()
+
+@test
+Scenario: Verify that user is able to search for news by relevance                # src/test/java/features/HomePage.feature:57
+  Given I am on CNN homePage                                                      # stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()
+      org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000102e2eb59 chromedriver + 2595673
+1   chromedriver                        0x00000001034e2b33 chromedriver + 9624371
+2   chromedriver                        0x0000000102bde773 chromedriver + 169843
+3   chromedriver                        0x0000000102bff77d chromedriver + 305021
+4   chromedriver                        0x0000000102bfc032 chromedriver + 290866
+5   chromedriver                        0x0000000102c2f234 chromedriver + 500276
+6   chromedriver                        0x0000000102c2a4f3 chromedriver + 480499
+7   chromedriver                        0x0000000102c04cd6 chromedriver + 326870
+8   chromedriver                        0x0000000102c05ba7 chromedriver + 330663
+9   chromedriver                        0x0000000102dfcb09 chromedriver + 2390793
+10  chromedriver                        0x0000000102e09bcc chromedriver + 2444236
+11  chromedriver                        0x0000000102e096ee chromedriver + 2442990
+12  chromedriver                        0x0000000102de3832 chromedriver + 2287666
+13  chromedriver                        0x0000000102e0a63f chromedriver + 2446911
+14  chromedriver                        0x0000000102df2299 chromedriver + 2347673
+15  chromedriver                        0x0000000102e218b9 chromedriver + 2541753
+16  chromedriver                        0x0000000102e34008 chromedriver + 2617352
+17  libsystem_pthread.dylib             0x00007fff20329950 _pthread_start + 224
+18  libsystem_pthread.dylib             0x00007fff2032547b thread_start + 15
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at common.WebAPI.getLocalDriver(WebAPI.java:159)
+	at common.WebAPI.setUp(WebAPI.java:143)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)
+	at ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:58)
+
+  And I click on search icon in the main navbar                                   # stepDefinitions.HomePageStepDefinitions2.iClickOnSearchIconInTheMainNavbar()
+  And I search for "Coronavirus"                                                  # stepDefinitions.HomePageStepDefinitions2.iSearchFor(java.lang.String)
+  And I click on US radio button                                                  # stepDefinitions.HomePageStepDefinitions2.iClickOnNewsRadioButton()
+  And I click on plus icon in the sub navigation bar to extend the dropdown       # stepDefinitions.HomePageStepDefinitions2.iClickOnPlusIconInTheSubNavigationBarToExtendTheDropdown()
+  When I click on Relevance from the dropdown                                     # stepDefinitions.HomePageStepDefinitions2.iClickOnRelevanceFromTheDropdown()
+  Then I should see all the news related to "Coronavirus" displayed on the screen # stepDefinitions.HomePageStepDefinitions2.iShouldSeeAllTheNewsRelatedToDisplayedOnTheScreen(java.lang.String)
+
+@test
+Scenario: Verify that user is able to search for local weather                                       # src/test/java/features/HomePage.feature:67
+  Given I am on CNN homePage                                                                         # stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()
+      org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010663bb59 chromedriver + 2595673
+1   chromedriver                        0x0000000106cefb33 chromedriver + 9624371
+2   chromedriver                        0x00000001063eb773 chromedriver + 169843
+3   chromedriver                        0x000000010640c77d chromedriver + 305021
+4   chromedriver                        0x0000000106409032 chromedriver + 290866
+5   chromedriver                        0x000000010643c234 chromedriver + 500276
+6   chromedriver                        0x00000001064374f3 chromedriver + 480499
+7   chromedriver                        0x0000000106411cd6 chromedriver + 326870
+8   chromedriver                        0x0000000106412ba7 chromedriver + 330663
+9   chromedriver                        0x0000000106609b09 chromedriver + 2390793
+10  chromedriver                        0x0000000106616bcc chromedriver + 2444236
+11  chromedriver                        0x00000001066166ee chromedriver + 2442990
+12  chromedriver                        0x00000001065f0832 chromedriver + 2287666
+13  chromedriver                        0x000000010661763f chromedriver + 2446911
+14  chromedriver                        0x00000001065ff299 chromedriver + 2347673
+15  chromedriver                        0x000000010662e8b9 chromedriver + 2541753
+16  chromedriver                        0x0000000106641008 chromedriver + 2617352
+17  libsystem_pthread.dylib             0x00007fff20329950 _pthread_start + 224
+18  libsystem_pthread.dylib             0x00007fff2032547b thread_start + 15
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at common.WebAPI.getLocalDriver(WebAPI.java:159)
+	at common.WebAPI.setUp(WebAPI.java:143)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)
+	at ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:68)
+
+  And I click on HAMBURGER_MENU in the navbar                                                        # stepDefinitions.HomePageStepDefinitions2.iClickOnHAMBURGER_MENUInTheNavbar()
+  And I scroll down and click on WEATHER LINK                                                        # stepDefinitions.HomePageStepDefinitions2.iScrollDownAndClickOnWEATHERLINK()
+  And I enter "LA,CA" in the search box                                                              # stepDefinitions.HomePageStepDefinitions2.iEnterInTheSearchBox(java.lang.String)
+  When I click on Get ForeCast                                                                       # stepDefinitions.HomePageStepDefinitions2.iClickOnGetForeCast()
+  Then I should see all "Los Angeles, California" displayed as current selected location on the page # stepDefinitions.HomePageStepDefinitions2.iShouldSeeAllDisplayedAsCurrentSelectedLocationOnThePage(java.lang.String)
+
+@test
+Scenario: Verify that user is able to access US link from the main navbar                                     # src/test/java/features/HomePage.feature:76
+  Given I am on CNN homePage                                                                                  # stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()
+      org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x0000000104f84b59 chromedriver + 2595673
+1   chromedriver                        0x0000000105638b33 chromedriver + 9624371
+2   chromedriver                        0x0000000104d34773 chromedriver + 169843
+3   chromedriver                        0x0000000104d5577d chromedriver + 305021
+4   chromedriver                        0x0000000104d52032 chromedriver + 290866
+5   chromedriver                        0x0000000104d85234 chromedriver + 500276
+6   chromedriver                        0x0000000104d804f3 chromedriver + 480499
+7   chromedriver                        0x0000000104d5acd6 chromedriver + 326870
+8   chromedriver                        0x0000000104d5bba7 chromedriver + 330663
+9   chromedriver                        0x0000000104f52b09 chromedriver + 2390793
+10  chromedriver                        0x0000000104f5fbcc chromedriver + 2444236
+11  chromedriver                        0x0000000104f5f6ee chromedriver + 2442990
+12  chromedriver                        0x0000000104f39832 chromedriver + 2287666
+13  chromedriver                        0x0000000104f6063f chromedriver + 2446911
+14  chromedriver                        0x0000000104f48299 chromedriver + 2347673
+15  chromedriver                        0x0000000104f778b9 chromedriver + 2541753
+16  chromedriver                        0x0000000104f8a008 chromedriver + 2617352
+17  libsystem_pthread.dylib             0x00007fff20329950 _pthread_start + 224
+18  libsystem_pthread.dylib             0x00007fff2032547b thread_start + 15
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at common.WebAPI.getLocalDriver(WebAPI.java:159)
+	at common.WebAPI.setUp(WebAPI.java:143)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)
+	at ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:77)
+
+  When I click on US text link in the navbar items                                                            # stepDefinitions.HomePageStepDefinitions2.i_click_on_us_text_link_in_the_navbar_items()
+  Then I should see "US News – Top national stories and latest headlines - CNN" appears as current page title # stepDefinitions.HomePageStepDefinitions2.i_should_see_appears_as_current_page_title(java.lang.String)
+
+@test
+Scenario: Verify that user is able to visit World news page from the main navbar                           # src/test/java/features/HomePage.feature:82
+  Given I am on CNN homePage                                                                               # stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()
+      org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010f7bab59 chromedriver + 2595673
+1   chromedriver                        0x000000010fe6eb33 chromedriver + 9624371
+2   chromedriver                        0x000000010f56a773 chromedriver + 169843
+3   chromedriver                        0x000000010f58b77d chromedriver + 305021
+4   chromedriver                        0x000000010f588032 chromedriver + 290866
+5   chromedriver                        0x000000010f5bb234 chromedriver + 500276
+6   chromedriver                        0x000000010f5b64f3 chromedriver + 480499
+7   chromedriver                        0x000000010f590cd6 chromedriver + 326870
+8   chromedriver                        0x000000010f591ba7 chromedriver + 330663
+9   chromedriver                        0x000000010f788b09 chromedriver + 2390793
+10  chromedriver                        0x000000010f795bcc chromedriver + 2444236
+11  chromedriver                        0x000000010f7956ee chromedriver + 2442990
+12  chromedriver                        0x000000010f76f832 chromedriver + 2287666
+13  chromedriver                        0x000000010f79663f chromedriver + 2446911
+14  chromedriver                        0x000000010f77e299 chromedriver + 2347673
+15  chromedriver                        0x000000010f7ad8b9 chromedriver + 2541753
+16  chromedriver                        0x000000010f7c0008 chromedriver + 2617352
+17  libsystem_pthread.dylib             0x00007fff20329950 _pthread_start + 224
+18  libsystem_pthread.dylib             0x00007fff2032547b thread_start + 15
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at common.WebAPI.getLocalDriver(WebAPI.java:159)
+	at common.WebAPI.setUp(WebAPI.java:143)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)
+	at ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:83)
+
+  When I click on World in the navbar items                                                                # stepDefinitions.HomePageStepDefinitions2.iClickOnWorldInTheNavbarItems()
+  Then I should see "World news – breaking news, videos and headlines - CNN" appears as current page title # stepDefinitions.HomePageStepDefinitions2.i_should_see_appears_as_current_page_title(java.lang.String)
+
+@test
+Scenario: Verify that user is able to access Health news page from the main navbar # src/test/java/features/HomePage.feature:88
+  Given I am on CNN homePage                                                       # stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()
+      org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: 0   chromedriver                        0x000000010ee2db59 chromedriver + 2595673
+1   chromedriver                        0x000000010f4e1b33 chromedriver + 9624371
+2   chromedriver                        0x000000010ebdd773 chromedriver + 169843
+3   chromedriver                        0x000000010ebfe77d chromedriver + 305021
+4   chromedriver                        0x000000010ebfb032 chromedriver + 290866
+5   chromedriver                        0x000000010ec2e234 chromedriver + 500276
+6   chromedriver                        0x000000010ec294f3 chromedriver + 480499
+7   chromedriver                        0x000000010ec03cd6 chromedriver + 326870
+8   chromedriver                        0x000000010ec04ba7 chromedriver + 330663
+9   chromedriver                        0x000000010edfbb09 chromedriver + 2390793
+10  chromedriver                        0x000000010ee08bcc chromedriver + 2444236
+11  chromedriver                        0x000000010ee086ee chromedriver + 2442990
+12  chromedriver                        0x000000010ede2832 chromedriver + 2287666
+13  chromedriver                        0x000000010ee0963f chromedriver + 2446911
+14  chromedriver                        0x000000010edf1299 chromedriver + 2347673
+15  chromedriver                        0x000000010ee208b9 chromedriver + 2541753
+16  chromedriver                        0x000000010ee33008 chromedriver + 2617352
+17  libsystem_pthread.dylib             0x00007fff20329950 _pthread_start + 224
+18  libsystem_pthread.dylib             0x00007fff2032547b thread_start + 15
+
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at common.WebAPI.getLocalDriver(WebAPI.java:159)
+	at common.WebAPI.setUp(WebAPI.java:143)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)
+	at ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:89)
+
+  When I click on Health text link in the navbar items                             # stepDefinitions.HomePageStepDefinitions2.iClickOnHealthTextLinkInTheNavbarItems()
+  Then I should see "Health News - CNN" appears as current page title              # stepDefinitions.HomePageStepDefinitions2.i_should_see_appears_as_current_page_title(java.lang.String)
+
+@test
+Scenario: Verify that user is able to visit Entertainment page from the main navbar                           # src/test/java/features/HomePage.feature:94
+  Given I am on CNN homePage                                                                                  # stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()
+  When I click on Entertainment link in the navbar items                                                      # stepDefinitions.HomePageStepDefinitions2.iClickOnEntertainmentLinkInTheNavbarItems()
+  Then I should see "Entertainment News - Celebrities, Movies, TV, Music - CNN" appears as current page title # stepDefinitions.HomePageStepDefinitions2.i_should_see_appears_as_current_page_title(java.lang.String)
+
+@test
+Scenario: Verify that user is able to access Style news page from the main navbar                                     # src/test/java/features/HomePage.feature:100
+  Given I am on CNN homePage                                                                                          # stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()
+      org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:51815}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 961cff4790ffe7b802ff233cc17a8203
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at common.WebAPI.setUp(WebAPI.java:148)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)
+	at ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:101)
+
+  When I click on Style text link in the navbar items                                                                 # stepDefinitions.HomePageStepDefinitions2.iClickOnStyleTextLinkInTheNavbarItems()
+  Then I should see "CNN Style - Fashion, beauty, design, art, architecture and luxury" appears as current page title # stepDefinitions.HomePageStepDefinitions2.i_should_see_appears_as_current_page_title(java.lang.String)
+
+@test
+Scenario: Verify that user is able to visit Travel webpage from the main navbar                    # src/test/java/features/HomePage.feature:106
+  Given I am on CNN homePage                                                                       # stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()
+      org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:52049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3250352956151106c65107b8b5d937b0
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at common.WebAPI.setUp(WebAPI.java:149)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)
+	at ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:107)
+
+  When I click on Travel link in the navbar items                                                  # stepDefinitions.HomePageStepDefinitions2.iClickOnTravelLinkInTheNavbarItems()
+  Then I should see "CNN Travel | Global Destinations, Tips & Video" appears as current page title # stepDefinitions.HomePageStepDefinitions2.i_should_see_appears_as_current_page_title(java.lang.String)
+
+@test
+Scenario: Verify that user is able to access Sports section from the main navbar                     # src/test/java/features/HomePage.feature:112
+  Given I am on CNN homePage                                                                         # stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()
+  When I click on Sports in the navbar items                                                         # stepDefinitions.HomePageStepDefinitions2.iClickOnSportsInTheNavbarItems()
+  Then I should see "Bleacher Report | Sports. Highlights. News. Now." appears as current page title # stepDefinitions.HomePageStepDefinitions2.i_should_see_appears_as_current_page_title(java.lang.String)
+
+@test
+Scenario: Verify that user is able to visit Videos page in the main navbar # src/test/java/features/HomePage.feature:118
+  Given I am on CNN homePage                                               # stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()
+      org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:52511}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 64546e1e17d5734cd75e98625b5efb61
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at common.WebAPI.setUp(WebAPI.java:148)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)
+	at ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:119)
+
+  When I click on Video in the navbar items                                # stepDefinitions.HomePageStepDefinitions2.iClickOnVideoInTheNavbarItems()
+  Then I should see "Video News - CNN" appears as current page title       # stepDefinitions.HomePageStepDefinitions2.i_should_see_appears_as_current_page_title(java.lang.String)
+
+@test
+Scenario: Verify that user is able to watch live stream # src/test/java/features/HomePage.feature:124
+  Given I am on CNN homePage                            # stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()
+      org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:52687}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3d12d31731fe77e401b47bda28958f18
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)
+	at common.WebAPI.setUp(WebAPI.java:149)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)
+	at ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:125)
+
+  And I click LIVE TV                                   # stepDefinitions.HomePageStepDefinitions2.iClickLIVETV()
+  When I click on play icon                             # stepDefinitions.HomePageStepDefinitions2.iClickOnPlayIcon()
+  Then I should be able to watch live content           # stepDefinitions.HomePageStepDefinitions2.iShouldBeAbleToWatchLiveContent()
+
+@test
+Scenario: Verify that user is able to switch to international edition                                                # src/test/java/features/HomePage.feature:131
+  Given I am on CNN homePage                                                                                         # stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()
+      org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:52717}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: adabc27b91c310fd6507ef819d59ada5
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at common.WebAPI.setUp(WebAPI.java:148)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)
+	at ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:132)
+
+  And I click on Edition dropdown from the navbar items                                                              # stepDefinitions.HomePageStepDefinitions2.iClickOnEditionDropdownFromTheNavbarItems()
+  When I click on International from the dropdown                                                                    # stepDefinitions.HomePageStepDefinitions2.iClickOnInternationalFromTheDropdown()
+  Then I should see "CNN International - Breaking News, US News, World News and Video" appears as current page title # stepDefinitions.HomePageStepDefinitions2.i_should_see_appears_as_current_page_title(java.lang.String)
+
+@test
+Scenario: Verify that user is able to change temperature                   # src/test/java/features/HomePage.feature:138
+  Given I am on CNN homePage                                               # stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()
+      org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:52803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 30c64f0d314cbb1851f737a2bf1e320a
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at common.WebAPI.setUp(WebAPI.java:148)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)
+	at ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:139)
+
+  And I click on HAMBURGER_MENU in the navbar                              # stepDefinitions.HomePageStepDefinitions2.iClickOnHAMBURGER_MENUInTheNavbar()
+  And I scroll down and click on WEATHER LINK                              # stepDefinitions.HomePageStepDefinitions2.iScrollDownAndClickOnWEATHERLINK()
+  And I enter "LA,CA" in the search box                                    # stepDefinitions.HomePageStepDefinitions2.iEnterInTheSearchBox(java.lang.String)
+  And I click on Get ForeCast                                              # stepDefinitions.HomePageStepDefinitions2.iClickOnGetForeCast()
+  When I click on °C to change temperature to celsius                      # stepDefinitions.HomePageStepDefinitions2.iClickOnCToChangeTemperatureToCelsius()
+  Then I should be able to see temperature changed to celsius in my screen # stepDefinitions.HomePageStepDefinitions2.iShouldBeAbleToSeeTemperatureChangedToCelsiusInMyScreen()
+
+@test
+Scenario: Verify that user is able to visit cnn facebook Page                        # src/test/java/features/HomePage.feature:148
+  Given I am on CNN homePage                                                         # stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()
+      org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:52884}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 276e3a55e6084fb1491855661ad37d6b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at common.WebAPI.setUp(WebAPI.java:148)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)
+	at ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:149)
+
+  And I click on HAMBURGER_MENU in the navbar                                        # stepDefinitions.HomePageStepDefinitions2.iClickOnHAMBURGER_MENUInTheNavbar()
+  And I scroll down to the footer                                                    # stepDefinitions.HomePageStepDefinitions2.iScrollDownToTheFooter()
+  When I click on facebook icon in the footer                                        # stepDefinitions.HomePageStepDefinitions2.iClickOnFacebookIconInTheFooter()
+  Then I should be able to see "CNN - Home | Facebook" appears as current page title # stepDefinitions.HomePageStepDefinitions2.iShouldBeAbleToSeeAppearsAsCurrentPageTitle(java.lang.String)
+
+@test
+Scenario: Verify that user is able to filter dropdown menu under market page        # src/test/java/features/HomePage.feature:156
+  Given I am on CNN homePage                                                        # stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()
+      org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: not connected to DevTools
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:53024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 329abded923f0c6ddaf06c72024a5fbb
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at common.WebAPI.setUp(WebAPI.java:148)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)
+	at ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:157)
+
+  And I click on BUSINESS in the navbar                                             # stepDefinitions.HomePageStepDefinitions2.iClickOnBUSINESSInTheNavbar()
+  And I See all link under Markets text link                                        # stepDefinitions.HomePageStepDefinitions2.iSeeAllLinkUnderMarketsTextLink()
+  And I click on most popular stocks                                                # stepDefinitions.HomePageStepDefinitions2.iClickOnMostPopularStocks()
+  When I select "3 month" from the dropdown under Quote in the Macy's Inc Container # stepDefinitions.HomePageStepDefinitions2.iSelectFromTheDropdownUnderQuoteInTheMacySIncContainer(java.lang.String)
+  Then I should be able to see the graph changed to show "3 month" market change    # stepDefinitions.HomePageStepDefinitions2.iShouldBeAbleToSeeMonthChange(java.lang.String)
+
+@test
+Scenario: Verify that user is able to hover over elements from the NFL collapsible menu # src/test/java/features/HomePage.feature:165
+  Given I am on CNN homePage                                                            # stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()
+      org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash
+from unknown error: cannot determine loading status
+from tab crashed
+  (Session info: chrome=89.0.4389.114)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Tashfias-iMac.lan', ip: '192.168.1.230', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '11.0.9'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:53143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6361c9c40c8a04a832f72f2d5f0b714b
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at common.WebAPI.setUp(WebAPI.java:148)
+	at common.WebAPI.openBrowser(WebAPI.java:128)
+	at stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)
+	at ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:166)
+
+  And I click on Sports in the navbar items                                             # stepDefinitions.HomePageStepDefinitions2.iClickOnSportsInTheNavbarItems()
+  When I hover over the NFL link                                                        # stepDefinitions.HomePageStepDefinitions2.iHoverOverTheNFLLink()
+  Then I should be able to hover over all the links under the collapsible menu          # stepDefinitions.HomePageStepDefinitions2.iShouldBeAbleToHoverOverAllTheLinksUnderTheCollapsibleMenu()

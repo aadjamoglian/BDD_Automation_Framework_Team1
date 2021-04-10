@@ -1,6 +1,7 @@
 package homepage;
 
 import common.WebAPI;
+import io.cucumber.java.en.And;
 import org.junit.Assert;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -207,6 +208,22 @@ public class HomePage extends WebAPI {
         clickByXpath(leadershipTeamLocator);
         sleepFor(3);
     }
+//public void aboutUs() throws InterruptedException {
+//        clickByXpath(aboutUsLocator);
+//        sleepFor(3);
+//}
+//    public void companyProfile() throws InterruptedException {
+//        clickByXpath(companyProfileLocator);
+//        sleepFor(3);
+//    }
+//    public void leadershipTeam() throws InterruptedException {
+//        clickByXpath(leadershipTeamLocator);
+//        sleepFor(3);
+//    }
+
+
+
+
     public void newsroom() throws InterruptedException {
         clickByXpath(newsroomLocator);
         sleepFor(3);

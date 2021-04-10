@@ -1,0 +1,74 @@
+[
+  {
+    "source": "I am on AT\u0026T homePage",
+    "steps": [
+      {
+        "name": "I am on AT\u0026T homePage",
+        "aggregatedDurations": {
+          "median": 3.481666,
+          "average": 3.481666
+        },
+        "durations": [
+          {
+            "duration": 3.481666,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Att/src/test/java/features/HomePage.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click in searchBox",
+    "steps": [
+      {
+        "name": "I click in searchBox",
+        "aggregatedDurations": {
+          "median": 3.098473,
+          "average": 3.098473
+        },
+        "durations": [
+          {
+            "duration": 3.098473,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Att/src/test/java/features/HomePage.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I input {string} in searchBox",
+    "steps": [
+      {
+        "name": "I input \"SamSung Phones\" in searchBox",
+        "aggregatedDurations": {
+          "median": 3.218752,
+          "average": 3.218752
+        },
+        "durations": [
+          {
+            "duration": 3.218752,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Att/src/test/java/features/HomePage.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on search box Button",
+    "steps": [
+      {
+        "name": "I click on search box Button",
+        "aggregatedDurations": {
+          "median": 5.82316,
+          "average": 5.82316
+        },
+        "durations": [
+          {
+            "duration": 5.82316,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/Att/src/test/java/features/HomePage.feature:8"
+          }
+        ]
+      }
+    ]
+  }
+]

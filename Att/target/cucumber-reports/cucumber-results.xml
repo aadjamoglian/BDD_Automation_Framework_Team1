@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="16.631">
+    <testcase classname="SearchBox Functionality check" name="AT&amp;T searchBox functionality check with valid product" time="16.298">
+        <failure message="Step [I must see {string} is properly appear] is defined with 0 parameters at 'stepDefinitions.HomePageStepDefinition.iMustSeeIsProperlyAppear()'.&#10;However, the gherkin step has 1 arguments:&#10; * &quot;SamSung Phones&quot;&#10;Step text: I must see &quot;SamSung Phones&quot; is properly appear" type="io.cucumber.core.exception.CucumberException">
+            <![CDATA[Given I am on AT&T homePage.................................................passed
+And I click in searchBox....................................................passed
+And I input "SamSung Phones" in searchBox...................................passed
+When I click on search box Button...........................................passed
+Then I must see "SamSung Phones" is properly appear.........................failed
+But I must not see "Apple Phones" is appear.................................skipped
+And I do verify "Samsung Phones - Buy the Newest Galaxy Phones from AT&T" in product title.skipped
+
+StackTrace:
+io.cucumber.core.exception.CucumberException: Step [I must see {string} is properly appear] is defined with 0 parameters at 'stepDefinitions.HomePageStepDefinition.iMustSeeIsProperlyAppear()'.
+However, the gherkin step has 1 arguments:
+ * "SamSung Phones"
+Step text: I must see "SamSung Phones" is properly appear
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:64)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:104)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:73)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:200)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:235)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)
+]]>
+        </failure>
+    </testcase>
+    <testcase classname="Amazon HomePage Header" name="Amazon searchBox functionality check with valid product" time="0.008">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception">
+            <![CDATA[Given I am on amazon homePage...............................................undefined
+And I enter "Hand Sanitizer" in searchBox...................................skipped
+When I click on search Button...............................................skipped
+Then I should see "Hand Sanitizer" is properly appear.......................skipped
+But I should not see "mobile" is appear.....................................skipped
+And I verify "Amazon.com : Hand Sanitizer" in product title.................skipped
+]]>
+        </failure>
+    </testcase>
+</testsuite>

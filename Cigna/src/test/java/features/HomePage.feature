@@ -8,6 +8,7 @@ Feature: SearchBox Functionality Check
     But I should not see mobile is appeared
     And I verify Cigna Official Site | Global Health Service Company in page title
 
+
 #  @pending
 #  Scenario: Cigna searchBox functionality check with valid product
 #    Given I am on Cigna homePage

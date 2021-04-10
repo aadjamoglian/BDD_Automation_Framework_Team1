@@ -1,0 +1,167 @@
+[
+  {
+    "source": "I am on CNN homePage",
+    "steps": [
+      {
+        "name": "I am on CNN homePage",
+        "aggregatedDurations": {
+          "median": 15.425029,
+          "average": 15.514545
+        },
+        "durations": [
+          {
+            "duration": 15.776748,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:36"
+          },
+          {
+            "duration": 15.425029,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:95"
+          },
+          {
+            "duration": 15.341858,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:113"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on user icon in the main navigation bar",
+    "steps": [
+      {
+        "name": "I click on user icon in the main navigation bar",
+        "aggregatedDurations": {
+          "median": 0.244139,
+          "average": 0.244139
+        },
+        "durations": [
+          {
+            "duration": 0.244139,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter user details as",
+    "steps": [
+      {
+        "name": "I enter user details as",
+        "aggregatedDurations": {
+          "median": 0.321229,
+          "average": 0.321229
+        },
+        "durations": [
+          {
+            "duration": 0.321229,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:38"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click On Login in",
+    "steps": [
+      {
+        "name": "I click On Login in",
+        "aggregatedDurations": {
+          "median": 0.10509,
+          "average": 0.10509
+        },
+        "durations": [
+          {
+            "duration": 0.10509,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:43"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see an error message appears on the screen",
+    "steps": [
+      {
+        "name": "I should see an error message appears on the screen",
+        "aggregatedDurations": {
+          "median": 2.36E-4,
+          "average": 2.36E-4
+        },
+        "durations": [
+          {
+            "duration": 2.36E-4,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:44"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Entertainment link in the navbar items",
+    "steps": [
+      {
+        "name": "I click on Entertainment link in the navbar items",
+        "aggregatedDurations": {
+          "median": 0.139181,
+          "average": 0.139181
+        },
+        "durations": [
+          {
+            "duration": 0.139181,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:96"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see {string} appears as current page title",
+    "steps": [
+      {
+        "name": "I should see \"Entertainment News - Celebrities, Movies, TV, Music - CNN\" appears as current page title",
+        "aggregatedDurations": {
+          "median": 5.6E-4,
+          "average": 5.6E-4
+        },
+        "durations": [
+          {
+            "duration": 5.6E-4,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:97"
+          }
+        ]
+      },
+      {
+        "name": "I should see \"Bleacher Report | Sports. Highlights. News. Now.\" appears as current page title",
+        "aggregatedDurations": {
+          "median": 1.49E-4,
+          "average": 1.49E-4
+        },
+        "durations": [
+          {
+            "duration": 1.49E-4,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:115"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on Sports in the navbar items",
+    "steps": [
+      {
+        "name": "I click on Sports in the navbar items",
+        "aggregatedDurations": {
+          "median": 0.184149,
+          "average": 0.184149
+        },
+        "durations": [
+          {
+            "duration": 0.184149,
+            "location": "file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:114"
+          }
+        ]
+      }
+    ]
+  }
+]

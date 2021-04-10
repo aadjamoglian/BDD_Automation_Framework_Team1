@@ -1,0 +1,2972 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-08T06:51:35.263Z",
+        "line": 4,
+        "name": "CNN searchBox functionality check with valid product",
+        "description": "",
+        "id": "searchbox-functionalities;cnn-searchbox-functionality-check-with-valid-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash\nfrom unknown error: cannot determine loading status\nfrom tab crashed\n  (Session info: chrome\u003d89.0.4389.114)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Tashfias-iMac.lan\u0027, ip: \u0027192.168.1.230\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:50940}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: c6fb1b4e38e8f30fa8e766499a7b54b0\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat common.WebAPI.setUp(WebAPI.java:148)\n\tat common.WebAPI.openBrowser(WebAPI.java:128)\n\tat stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)\n\tat ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:5)\n",
+              "duration": 9247957000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 18961000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1215000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": "I am on CNN homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 223000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 502000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 165000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "I click on search place",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnSearchPlace()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 176000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 106000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 463000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "I enter \"Asian\" in searchBox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Asian\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions2.iEnterInSearchBox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 115000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 117000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": "I click on search button",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnSearchButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 148000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 164000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": "I should see asian news is properly appearing",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iShouldSeeAsianNewsIsProperlyAppearing()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 91000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 87000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 83000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "I should not see European news is appeared",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iShouldNotSeeEuropeanNewsIsAppeared()"
+            },
+            "keyword": "But "
+          },
+          {
+            "result": {
+              "duration": 97000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 116000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 101000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "I verify CNN Official Site | CNN - Breaking News, Latest News and Videos in page title",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iVerifyCNNOfficialSiteCNNBreakingNewsLatestNewsAndVideosInPageTitle(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T06:51:44.714Z",
+        "line": 35,
+        "name": "Verify the Sign in using invalid entries",
+        "description": "",
+        "id": "searchbox-functionalities;verify-the-sign-in-using-invalid-entries",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15776748000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1350000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 995000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 36,
+            "name": "I am on CNN homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 244139000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1022000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1056000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 37,
+            "name": "I click on user icon in the main navigation bar",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnUserIconInTheMainNavigationBar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 321229000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 908000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 700000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 38,
+            "name": "I enter user details as",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.i_enter_user_details_as(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "email",
+                  "password"
+                ]
+              },
+              {
+                "cells": [
+                  "trial@email.com",
+                  "invalidpassword"
+                ]
+              },
+              {
+                "cells": [
+                  "invalid@email.com",
+                  "wrongPassword!@#"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105090000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 787000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 550000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 43,
+            "name": "I click On Login in",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnLoginIn()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 236000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1455000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 784000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 44,
+            "name": "I should see an error message appears on the screen",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iShouldSeeAnErrorMessageAppearsOnTheScreen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T06:52:01.203Z",
+        "line": 57,
+        "name": "Verify that user is able to search for news by relevance",
+        "description": "",
+        "id": "searchbox-functionalities;verify-that-user-is-able-to-search-for-news-by-relevance",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn\u0027t exist)\n  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Tashfias-iMac.lan\u0027, ip: \u0027192.168.1.230\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002711.0.9\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: 0   chromedriver                        0x0000000102e2eb59 chromedriver + 2595673\n1   chromedriver                        0x00000001034e2b33 chromedriver + 9624371\n2   chromedriver                        0x0000000102bde773 chromedriver + 169843\n3   chromedriver                        0x0000000102bff77d chromedriver + 305021\n4   chromedriver                        0x0000000102bfc032 chromedriver + 290866\n5   chromedriver                        0x0000000102c2f234 chromedriver + 500276\n6   chromedriver                        0x0000000102c2a4f3 chromedriver + 480499\n7   chromedriver                        0x0000000102c04cd6 chromedriver + 326870\n8   chromedriver                        0x0000000102c05ba7 chromedriver + 330663\n9   chromedriver                        0x0000000102dfcb09 chromedriver + 2390793\n10  chromedriver                        0x0000000102e09bcc chromedriver + 2444236\n11  chromedriver                        0x0000000102e096ee chromedriver + 2442990\n12  chromedriver                        0x0000000102de3832 chromedriver + 2287666\n13  chromedriver                        0x0000000102e0a63f chromedriver + 2446911\n14  chromedriver                        0x0000000102df2299 chromedriver + 2347673\n15  chromedriver                        0x0000000102e218b9 chromedriver + 2541753\n16  chromedriver                        0x0000000102e34008 chromedriver + 2617352\n17  libsystem_pthread.dylib             0x00007fff20329950 _pthread_start + 224\n18  libsystem_pthread.dylib             0x00007fff2032547b thread_start + 15\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\n\tat common.WebAPI.getLocalDriver(WebAPI.java:159)\n\tat common.WebAPI.setUp(WebAPI.java:143)\n\tat common.WebAPI.openBrowser(WebAPI.java:128)\n\tat stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)\n\tat ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:58)\n",
+              "duration": 1055010000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 792000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 502000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 58,
+            "name": "I am on CNN homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 74000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 85000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 62000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 59,
+            "name": "I click on search icon in the main navbar",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnSearchIconInTheMainNavbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 65000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 62000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 60,
+            "name": "I search for \"Coronavirus\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Coronavirus\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions2.iSearchFor(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 76000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 59000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 61,
+            "name": "I click on US radio button",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnNewsRadioButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 60000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 55000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 62,
+            "name": "I click on plus icon in the sub navigation bar to extend the dropdown",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnPlusIconInTheSubNavigationBarToExtendTheDropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 59000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 57000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 63,
+            "name": "I click on Relevance from the dropdown",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnRelevanceFromTheDropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 61000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 56000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 64,
+            "name": "I should see all the news related to \"Coronavirus\" displayed on the screen",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Coronavirus\"",
+                  "offset": 37
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions2.iShouldSeeAllTheNewsRelatedToDisplayedOnTheScreen(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T06:52:02.280Z",
+        "line": 67,
+        "name": "Verify that user is able to search for local weather",
+        "description": "",
+        "id": "searchbox-functionalities;verify-that-user-is-able-to-search-for-local-weather",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn\u0027t exist)\n  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Tashfias-iMac.lan\u0027, ip: \u0027192.168.1.230\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002711.0.9\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: 0   chromedriver                        0x000000010663bb59 chromedriver + 2595673\n1   chromedriver                        0x0000000106cefb33 chromedriver + 9624371\n2   chromedriver                        0x00000001063eb773 chromedriver + 169843\n3   chromedriver                        0x000000010640c77d chromedriver + 305021\n4   chromedriver                        0x0000000106409032 chromedriver + 290866\n5   chromedriver                        0x000000010643c234 chromedriver + 500276\n6   chromedriver                        0x00000001064374f3 chromedriver + 480499\n7   chromedriver                        0x0000000106411cd6 chromedriver + 326870\n8   chromedriver                        0x0000000106412ba7 chromedriver + 330663\n9   chromedriver                        0x0000000106609b09 chromedriver + 2390793\n10  chromedriver                        0x0000000106616bcc chromedriver + 2444236\n11  chromedriver                        0x00000001066166ee chromedriver + 2442990\n12  chromedriver                        0x00000001065f0832 chromedriver + 2287666\n13  chromedriver                        0x000000010661763f chromedriver + 2446911\n14  chromedriver                        0x00000001065ff299 chromedriver + 2347673\n15  chromedriver                        0x000000010662e8b9 chromedriver + 2541753\n16  chromedriver                        0x0000000106641008 chromedriver + 2617352\n17  libsystem_pthread.dylib             0x00007fff20329950 _pthread_start + 224\n18  libsystem_pthread.dylib             0x00007fff2032547b thread_start + 15\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\n\tat common.WebAPI.getLocalDriver(WebAPI.java:159)\n\tat common.WebAPI.setUp(WebAPI.java:143)\n\tat common.WebAPI.openBrowser(WebAPI.java:128)\n\tat stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)\n\tat ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:68)\n",
+              "duration": 613719000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 459000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 608000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 68,
+            "name": "I am on CNN homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 66000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 56000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 69,
+            "name": "I click on HAMBURGER_MENU in the navbar",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnHAMBURGER_MENUInTheNavbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 52000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 48000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 70,
+            "name": "I scroll down and click on WEATHER LINK",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iScrollDownAndClickOnWEATHERLINK()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 49000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 75000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 71,
+            "name": "I enter \"LA,CA\" in the search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LA,CA\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions2.iEnterInTheSearchBox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 48000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 46000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 72,
+            "name": "I click on Get ForeCast",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnGetForeCast()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 68000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 45000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 73,
+            "name": "I should see all \"Los Angeles, California\" displayed as current selected location on the page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Los Angeles, California\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions2.iShouldSeeAllDisplayedAsCurrentSelectedLocationOnThePage(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T06:52:02.916Z",
+        "line": 76,
+        "name": "Verify that user is able to access US link from the main navbar",
+        "description": "",
+        "id": "searchbox-functionalities;verify-that-user-is-able-to-access-us-link-from-the-main-navbar",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn\u0027t exist)\n  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Tashfias-iMac.lan\u0027, ip: \u0027192.168.1.230\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002711.0.9\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: 0   chromedriver                        0x0000000104f84b59 chromedriver + 2595673\n1   chromedriver                        0x0000000105638b33 chromedriver + 9624371\n2   chromedriver                        0x0000000104d34773 chromedriver + 169843\n3   chromedriver                        0x0000000104d5577d chromedriver + 305021\n4   chromedriver                        0x0000000104d52032 chromedriver + 290866\n5   chromedriver                        0x0000000104d85234 chromedriver + 500276\n6   chromedriver                        0x0000000104d804f3 chromedriver + 480499\n7   chromedriver                        0x0000000104d5acd6 chromedriver + 326870\n8   chromedriver                        0x0000000104d5bba7 chromedriver + 330663\n9   chromedriver                        0x0000000104f52b09 chromedriver + 2390793\n10  chromedriver                        0x0000000104f5fbcc chromedriver + 2444236\n11  chromedriver                        0x0000000104f5f6ee chromedriver + 2442990\n12  chromedriver                        0x0000000104f39832 chromedriver + 2287666\n13  chromedriver                        0x0000000104f6063f chromedriver + 2446911\n14  chromedriver                        0x0000000104f48299 chromedriver + 2347673\n15  chromedriver                        0x0000000104f778b9 chromedriver + 2541753\n16  chromedriver                        0x0000000104f8a008 chromedriver + 2617352\n17  libsystem_pthread.dylib             0x00007fff20329950 _pthread_start + 224\n18  libsystem_pthread.dylib             0x00007fff2032547b thread_start + 15\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\n\tat common.WebAPI.getLocalDriver(WebAPI.java:159)\n\tat common.WebAPI.setUp(WebAPI.java:143)\n\tat common.WebAPI.openBrowser(WebAPI.java:128)\n\tat stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)\n\tat ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:77)\n",
+              "duration": 623219000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 451000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 454000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 77,
+            "name": "I am on CNN homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 67000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 77000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 59000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 78,
+            "name": "I click on US text link in the navbar items",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.i_click_on_us_text_link_in_the_navbar_items()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 64000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 42000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 79,
+            "name": "I should see \"US News – Top national stories and latest headlines - CNN\" appears as current page title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"US News – Top national stories and latest headlines - CNN\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions2.i_should_see_appears_as_current_page_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T06:52:03.556Z",
+        "line": 82,
+        "name": "Verify that user is able to visit World news page from the main navbar",
+        "description": "",
+        "id": "searchbox-functionalities;verify-that-user-is-able-to-visit-world-news-page-from-the-main-navbar",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn\u0027t exist)\n  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Tashfias-iMac.lan\u0027, ip: \u0027192.168.1.230\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002711.0.9\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: 0   chromedriver                        0x000000010f7bab59 chromedriver + 2595673\n1   chromedriver                        0x000000010fe6eb33 chromedriver + 9624371\n2   chromedriver                        0x000000010f56a773 chromedriver + 169843\n3   chromedriver                        0x000000010f58b77d chromedriver + 305021\n4   chromedriver                        0x000000010f588032 chromedriver + 290866\n5   chromedriver                        0x000000010f5bb234 chromedriver + 500276\n6   chromedriver                        0x000000010f5b64f3 chromedriver + 480499\n7   chromedriver                        0x000000010f590cd6 chromedriver + 326870\n8   chromedriver                        0x000000010f591ba7 chromedriver + 330663\n9   chromedriver                        0x000000010f788b09 chromedriver + 2390793\n10  chromedriver                        0x000000010f795bcc chromedriver + 2444236\n11  chromedriver                        0x000000010f7956ee chromedriver + 2442990\n12  chromedriver                        0x000000010f76f832 chromedriver + 2287666\n13  chromedriver                        0x000000010f79663f chromedriver + 2446911\n14  chromedriver                        0x000000010f77e299 chromedriver + 2347673\n15  chromedriver                        0x000000010f7ad8b9 chromedriver + 2541753\n16  chromedriver                        0x000000010f7c0008 chromedriver + 2617352\n17  libsystem_pthread.dylib             0x00007fff20329950 _pthread_start + 224\n18  libsystem_pthread.dylib             0x00007fff2032547b thread_start + 15\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\n\tat common.WebAPI.getLocalDriver(WebAPI.java:159)\n\tat common.WebAPI.setUp(WebAPI.java:143)\n\tat common.WebAPI.openBrowser(WebAPI.java:128)\n\tat stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)\n\tat ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:83)\n",
+              "duration": 611805000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 442000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 369000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 83,
+            "name": "I am on CNN homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 88000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 72000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 84,
+            "name": "I click on World in the navbar items",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnWorldInTheNavbarItems()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 68000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 57000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 85,
+            "name": "I should see \"World news – breaking news, videos and headlines - CNN\" appears as current page title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"World news – breaking news, videos and headlines - CNN\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions2.i_should_see_appears_as_current_page_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T06:52:04.185Z",
+        "line": 88,
+        "name": "Verify that user is able to access Health news page from the main navbar",
+        "description": "",
+        "id": "searchbox-functionalities;verify-that-user-is-able-to-access-health-news-page-from-the-main-navbar",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: Chrome failed to start: crashed.\n  (unknown error: DevToolsActivePort file doesn\u0027t exist)\n  (The process started from chrome location /Applications/Google Chrome.app/Contents/MacOS/Google Chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Tashfias-iMac.lan\u0027, ip: \u0027192.168.1.230\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002711.0.9\u0027\nDriver info: driver.version: ChromeDriver\nremote stacktrace: 0   chromedriver                        0x000000010ee2db59 chromedriver + 2595673\n1   chromedriver                        0x000000010f4e1b33 chromedriver + 9624371\n2   chromedriver                        0x000000010ebdd773 chromedriver + 169843\n3   chromedriver                        0x000000010ebfe77d chromedriver + 305021\n4   chromedriver                        0x000000010ebfb032 chromedriver + 290866\n5   chromedriver                        0x000000010ec2e234 chromedriver + 500276\n6   chromedriver                        0x000000010ec294f3 chromedriver + 480499\n7   chromedriver                        0x000000010ec03cd6 chromedriver + 326870\n8   chromedriver                        0x000000010ec04ba7 chromedriver + 330663\n9   chromedriver                        0x000000010edfbb09 chromedriver + 2390793\n10  chromedriver                        0x000000010ee08bcc chromedriver + 2444236\n11  chromedriver                        0x000000010ee086ee chromedriver + 2442990\n12  chromedriver                        0x000000010ede2832 chromedriver + 2287666\n13  chromedriver                        0x000000010ee0963f chromedriver + 2446911\n14  chromedriver                        0x000000010edf1299 chromedriver + 2347673\n15  chromedriver                        0x000000010ee208b9 chromedriver + 2541753\n16  chromedriver                        0x000000010ee33008 chromedriver + 2617352\n17  libsystem_pthread.dylib             0x00007fff20329950 _pthread_start + 224\n18  libsystem_pthread.dylib             0x00007fff2032547b thread_start + 15\n\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)\n\tat org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)\n\tat org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)\n\tat java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)\n\tat java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)\n\tat java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)\n\tat java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)\n\tat java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)\n\tat java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)\n\tat java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)\n\tat java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)\n\tat java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:131)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:181)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:168)\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\n\tat common.WebAPI.getLocalDriver(WebAPI.java:159)\n\tat common.WebAPI.setUp(WebAPI.java:143)\n\tat common.WebAPI.openBrowser(WebAPI.java:128)\n\tat stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)\n\tat ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:89)\n",
+              "duration": 554610000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 488000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 402000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 89,
+            "name": "I am on CNN homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 115000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 73000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 90,
+            "name": "I click on Health text link in the navbar items",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnHealthTextLinkInTheNavbarItems()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 53000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 69000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 39000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 91,
+            "name": "I should see \"Health News - CNN\" appears as current page title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Health News - CNN\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions2.i_should_see_appears_as_current_page_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T06:52:04.759Z",
+        "line": 94,
+        "name": "Verify that user is able to visit Entertainment page from the main navbar",
+        "description": "",
+        "id": "searchbox-functionalities;verify-that-user-is-able-to-visit-entertainment-page-from-the-main-navbar",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15425029000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 538000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 379000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 95,
+            "name": "I am on CNN homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 139181000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 459000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 325000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 96,
+            "name": "I click on Entertainment link in the navbar items",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnEntertainmentLinkInTheNavbarItems()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 560000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 443000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 327000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 97,
+            "name": "I should see \"Entertainment News - Celebrities, Movies, TV, Music - CNN\" appears as current page title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Entertainment News - Celebrities, Movies, TV, Music - CNN\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions2.i_should_see_appears_as_current_page_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T06:52:20.343Z",
+        "line": 100,
+        "name": "Verify that user is able to access Style news page from the main navbar",
+        "description": "",
+        "id": "searchbox-functionalities;verify-that-user-is-able-to-access-style-news-page-from-the-main-navbar",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash\nfrom unknown error: cannot determine loading status\nfrom tab crashed\n  (Session info: chrome\u003d89.0.4389.114)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Tashfias-iMac.lan\u0027, ip: \u0027192.168.1.230\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:51815}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 961cff4790ffe7b802ff233cc17a8203\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat common.WebAPI.setUp(WebAPI.java:148)\n\tat common.WebAPI.openBrowser(WebAPI.java:128)\n\tat stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)\n\tat ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:101)\n",
+              "duration": 5086697000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 391000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 311000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 101,
+            "name": "I am on CNN homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 199000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 57000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 102,
+            "name": "I click on Style text link in the navbar items",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnStyleTextLinkInTheNavbarItems()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 59000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 48000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 61000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 103,
+            "name": "I should see \"CNN Style - Fashion, beauty, design, art, architecture and luxury\" appears as current page title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CNN Style - Fashion, beauty, design, art, architecture and luxury\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions2.i_should_see_appears_as_current_page_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T06:52:25.466Z",
+        "line": 106,
+        "name": "Verify that user is able to visit Travel webpage from the main navbar",
+        "description": "",
+        "id": "searchbox-functionalities;verify-that-user-is-able-to-visit-travel-webpage-from-the-main-navbar",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash\nfrom unknown error: cannot determine loading status\nfrom tab crashed\n  (Session info: chrome\u003d89.0.4389.114)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Tashfias-iMac.lan\u0027, ip: \u0027192.168.1.230\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:52049}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3250352956151106c65107b8b5d937b0\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\n\tat common.WebAPI.setUp(WebAPI.java:149)\n\tat common.WebAPI.openBrowser(WebAPI.java:128)\n\tat stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)\n\tat ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:107)\n",
+              "duration": 4008102000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1416000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 630000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 107,
+            "name": "I am on CNN homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 94000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 70000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 49000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 108,
+            "name": "I click on Travel link in the navbar items",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnTravelLinkInTheNavbarItems()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 62000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 55000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 109,
+            "name": "I should see \"CNN Travel | Global Destinations, Tips \u0026 Video\" appears as current page title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CNN Travel | Global Destinations, Tips \u0026 Video\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions2.i_should_see_appears_as_current_page_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T06:52:29.494Z",
+        "line": 112,
+        "name": "Verify that user is able to access Sports section from the main navbar",
+        "description": "",
+        "id": "searchbox-functionalities;verify-that-user-is-able-to-access-sports-section-from-the-main-navbar",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15341858000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 539000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 350000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 113,
+            "name": "I am on CNN homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 184149000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 469000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 386000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 114,
+            "name": "I click on Sports in the navbar items",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnSportsInTheNavbarItems()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 149000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 552000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 468000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 115,
+            "name": "I should see \"Bleacher Report | Sports. Highlights. News. Now.\" appears as current page title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bleacher Report | Sports. Highlights. News. Now.\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions2.i_should_see_appears_as_current_page_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T06:52:45.037Z",
+        "line": 118,
+        "name": "Verify that user is able to visit Videos page in the main navbar",
+        "description": "",
+        "id": "searchbox-functionalities;verify-that-user-is-able-to-visit-videos-page-in-the-main-navbar",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash\nfrom unknown error: cannot determine loading status\nfrom tab crashed\n  (Session info: chrome\u003d89.0.4389.114)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Tashfias-iMac.lan\u0027, ip: \u0027192.168.1.230\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:52511}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 64546e1e17d5734cd75e98625b5efb61\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat common.WebAPI.setUp(WebAPI.java:148)\n\tat common.WebAPI.openBrowser(WebAPI.java:128)\n\tat stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)\n\tat ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:119)\n",
+              "duration": 4242512000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 391000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 342000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 119,
+            "name": "I am on CNN homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 60000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 87000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 53000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 120,
+            "name": "I click on Video in the navbar items",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnVideoInTheNavbarItems()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 56000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 42000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 48000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 121,
+            "name": "I should see \"Video News - CNN\" appears as current page title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Video News - CNN\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions2.i_should_see_appears_as_current_page_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T06:52:49.294Z",
+        "line": 124,
+        "name": "Verify that user is able to watch live stream",
+        "description": "",
+        "id": "searchbox-functionalities;verify-that-user-is-able-to-watch-live-stream",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: chrome not reachable\n  (Session info: chrome\u003d89.0.4389.114)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Tashfias-iMac.lan\u0027, ip: \u0027192.168.1.230\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:52687}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 3d12d31731fe77e401b47bda28958f18\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:837)\n\tat common.WebAPI.setUp(WebAPI.java:149)\n\tat common.WebAPI.openBrowser(WebAPI.java:128)\n\tat stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)\n\tat ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:125)\n",
+              "duration": 1397465000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 469000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 455000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 125,
+            "name": "I am on CNN homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 80000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 44000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 126,
+            "name": "I click LIVE TV",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickLIVETV()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 80000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 46000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 127,
+            "name": "I click on play icon",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnPlayIcon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 61000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 53000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 49000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 128,
+            "name": "I should be able to watch live content",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iShouldBeAbleToWatchLiveContent()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T06:52:50.706Z",
+        "line": 131,
+        "name": "Verify that user is able to switch to international edition",
+        "description": "",
+        "id": "searchbox-functionalities;verify-that-user-is-able-to-switch-to-international-edition",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom disconnected: Unable to receive message from renderer\n  (Session info: chrome\u003d89.0.4389.114)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Tashfias-iMac.lan\u0027, ip: \u0027192.168.1.230\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:52717}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: adabc27b91c310fd6507ef819d59ada5\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat common.WebAPI.setUp(WebAPI.java:148)\n\tat common.WebAPI.openBrowser(WebAPI.java:128)\n\tat stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)\n\tat ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:132)\n",
+              "duration": 3014854000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 382000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 410000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 132,
+            "name": "I am on CNN homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 88000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 116000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 260000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 133,
+            "name": "I click on Edition dropdown from the navbar items",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnEditionDropdownFromTheNavbarItems()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1439000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 65000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 53000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 134,
+            "name": "I click on International from the dropdown",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnInternationalFromTheDropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 112000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 41000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 135,
+            "name": "I should see \"CNN International - Breaking News, US News, World News and Video\" appears as current page title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CNN International - Breaking News, US News, World News and Video\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions2.i_should_see_appears_as_current_page_title(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T06:52:53.743Z",
+        "line": 138,
+        "name": "Verify that user is able to change temperature",
+        "description": "",
+        "id": "searchbox-functionalities;verify-that-user-is-able-to-change-temperature",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash\nfrom unknown error: cannot determine loading status\nfrom tab crashed\n  (Session info: chrome\u003d89.0.4389.114)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Tashfias-iMac.lan\u0027, ip: \u0027192.168.1.230\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:52803}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 30c64f0d314cbb1851f737a2bf1e320a\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat common.WebAPI.setUp(WebAPI.java:148)\n\tat common.WebAPI.openBrowser(WebAPI.java:128)\n\tat stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)\n\tat ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:139)\n",
+              "duration": 2982063000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 469000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 384000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 139,
+            "name": "I am on CNN homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 68000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 50000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 140,
+            "name": "I click on HAMBURGER_MENU in the navbar",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnHAMBURGER_MENUInTheNavbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 51000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 60000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 141,
+            "name": "I scroll down and click on WEATHER LINK",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iScrollDownAndClickOnWEATHERLINK()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 37000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 35000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 142,
+            "name": "I enter \"LA,CA\" in the search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"LA,CA\"",
+                  "offset": 8
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions2.iEnterInTheSearchBox(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 79000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 42000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 143,
+            "name": "I click on Get ForeCast",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnGetForeCast()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 47000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 46000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 144,
+            "name": "I click on °C to change temperature to celsius",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnCToChangeTemperatureToCelsius()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 66000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 46000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 37000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 145,
+            "name": "I should be able to see temperature changed to celsius in my screen",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iShouldBeAbleToSeeTemperatureChangedToCelsiusInMyScreen()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T06:52:56.742Z",
+        "line": 148,
+        "name": "Verify that user is able to visit cnn facebook Page",
+        "description": "",
+        "id": "searchbox-functionalities;verify-that-user-is-able-to-visit-cnn-facebook-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash\nfrom unknown error: cannot determine loading status\nfrom tab crashed\n  (Session info: chrome\u003d89.0.4389.114)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Tashfias-iMac.lan\u0027, ip: \u0027192.168.1.230\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:52884}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 276e3a55e6084fb1491855661ad37d6b\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat common.WebAPI.setUp(WebAPI.java:148)\n\tat common.WebAPI.openBrowser(WebAPI.java:128)\n\tat stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)\n\tat ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:149)\n",
+              "duration": 3858913000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 510000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 355000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 149,
+            "name": "I am on CNN homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 56000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 63000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 45000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 150,
+            "name": "I click on HAMBURGER_MENU in the navbar",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnHAMBURGER_MENUInTheNavbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 56000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 48000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 151,
+            "name": "I scroll down to the footer",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iScrollDownToTheFooter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 71000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 44000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 42000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 152,
+            "name": "I click on facebook icon in the footer",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnFacebookIconInTheFooter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 94000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 36000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 153,
+            "name": "I should be able to see \"CNN - Home | Facebook\" appears as current page title",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CNN - Home | Facebook\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions2.iShouldBeAbleToSeeAppearsAsCurrentPageTitle(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T06:53:00.615Z",
+        "line": 156,
+        "name": "Verify that user is able to filter dropdown menu under market page",
+        "description": "",
+        "id": "searchbox-functionalities;verify-that-user-is-able-to-filter-dropdown-menu-under-market-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status\nfrom unknown error: cannot determine loading status\nfrom disconnected: not connected to DevTools\n  (Session info: chrome\u003d89.0.4389.114)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Tashfias-iMac.lan\u0027, ip: \u0027192.168.1.230\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:53024}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 329abded923f0c6ddaf06c72024a5fbb\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat common.WebAPI.setUp(WebAPI.java:148)\n\tat common.WebAPI.openBrowser(WebAPI.java:128)\n\tat stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)\n\tat ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:157)\n",
+              "duration": 3429512000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 462000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 368000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 157,
+            "name": "I am on CNN homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 66000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 185000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 74000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 158,
+            "name": "I click on BUSINESS in the navbar",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnBUSINESSInTheNavbar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 53000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 57000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 159,
+            "name": "I See all link under Markets text link",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iSeeAllLinkUnderMarketsTextLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 52000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 43000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 160,
+            "name": "I click on most popular stocks",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnMostPopularStocks()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 53000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 51000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 45000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 161,
+            "name": "I select \"3 month\" from the dropdown under Quote in the Macy\u0027s Inc Container",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3 month\"",
+                  "offset": 9
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions2.iSelectFromTheDropdownUnderQuoteInTheMacySIncContainer(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 195000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 96000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 56000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 162,
+            "name": "I should be able to see the graph changed to show \"3 month\" market change",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3 month\"",
+                  "offset": 50
+                }
+              ],
+              "location": "stepDefinitions.HomePageStepDefinitions2.iShouldBeAbleToSeeMonthChange(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-04-08T06:53:04.059Z",
+        "line": 165,
+        "name": "Verify that user is able to hover over elements from the NFL collapsible menu",
+        "description": "",
+        "id": "searchbox-functionalities;verify-that-user-is-able-to-hover-over-elements-from-the-nfl-collapsible-menu",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.WebDriverException: unknown error: session deleted because of page crash\nfrom unknown error: cannot determine loading status\nfrom tab crashed\n  (Session info: chrome\u003d89.0.4389.114)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Tashfias-iMac.lan\u0027, ip: \u0027192.168.1.230\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.16\u0027, java.version: \u002711.0.9\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: /var/folders/gn/hrl8dzsn3_g...}, goog:chromeOptions: {debuggerAddress: localhost:53143}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 6361c9c40c8a04a832f72f2d5f0b714b\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)\n\tat common.WebAPI.setUp(WebAPI.java:148)\n\tat common.WebAPI.openBrowser(WebAPI.java:128)\n\tat stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage(HomePageStepDefinitions2.java:29)\n\tat ✽.I am on CNN homePage(file:///Users/abunabi/IdeaProjects/BDD_Automation_Framework_Team1/CNN/src/test/java/features/HomePage.feature:166)\n",
+              "duration": 3127126000,
+              "status": "failed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 471000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 285000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 166,
+            "name": "I am on CNN homePage",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iAmOnCNNHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 85000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 54000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 40000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 167,
+            "name": "I click on Sports in the navbar items",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iClickOnSportsInTheNavbarItems()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 41000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 40000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 41000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 168,
+            "name": "I hover over the NFL link",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iHoverOverTheNFLLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42000,
+              "status": "skipped"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 52000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageStepDefinitions2.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 38000,
+                  "status": "skipped"
+                },
+                "match": {
+                  "location": "stepDefinitions.DataTableExampleStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 169,
+            "name": "I should be able to hover over all the links under the collapsible menu",
+            "match": {
+              "location": "stepDefinitions.HomePageStepDefinitions2.iShouldBeAbleToHoverOverAllTheLinksUnderTheCollapsibleMenu()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "SearchBox Functionalities",
+    "description": "",
+    "id": "searchbox-functionalities",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/HomePage.feature",
+    "tags": []
+  }
+]

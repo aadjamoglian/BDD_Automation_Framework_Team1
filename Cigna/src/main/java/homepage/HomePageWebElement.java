@@ -69,6 +69,11 @@ public class HomePageWebElement {
     public static final String companyProfileLocator="//button[@id='company-profile-tab']";
     public static final String leadershipTeamLocator="//a[.='Leadership Team']";
 
+//    public static final String aboutUsLocator="//a[@id='about-us-level-one-link']";
+//    //public static final String companyProfileLocator="//*[@id=\"company-profile-tab\"]";
+//    public static final String companyProfileLocator="//button[@id='company-profile-tab']";
+//    public static final String leadershipTeamLocator="//a[contains(text(),'Leadership Team')]";
+
     public static final String newsroomLocator="//button[@id='newsroom-tab']";
     public static final String studiesAndReportsLocator="//a[.='Studies and Reports']";
 

@@ -323,4 +323,20 @@ public class HomePageStepDefinition  extends WebAPI {
     public void iClickAriba() throws InterruptedException {
         homePage.ariba();
     }
+
+//    @And("I hover on About Us")
+//    public void iHoverOnAboutUs() throws InterruptedException {
+//        homePage.aboutUs();
+//
+//    }
+//
+//    @And("I click on Company Profile")
+//    public void iClickOnCompanyProfile() throws InterruptedException {
+//        homePage.companyProfile();
+//    }
+//
+//    @When("I click Leadership Team")
+//    public void iClickLeadershipTeam() throws InterruptedException {
+//        homePage.leadershipTeam();
+//    }
 }

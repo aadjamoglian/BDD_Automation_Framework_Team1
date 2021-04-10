@@ -100,6 +100,16 @@ public class HomePageStepDefinition  extends WebAPI {
         homePage.hpDeals();
     }
 
+    @And("I click on See more Best Sellers in Toys & Games")
+    public void iClickOnSeeMoreBestSellersInToysGames() {
+        
+    }
+
+    @Then("I verify Best Sellers in Toys & Games is exist")
+    public void iVerifyBestSellersInToysGamesIsExist() {
+
+    }
+
 
 //
 //    @Given("I am on amazon homePage")

@@ -83,11 +83,6 @@ public class HomePageStepDefinitions2 extends WebAPI {
 
         static Actions actions;
 
-//        @Given("I am on Cnn home page")
-//        public void i_am_on_cnn_home_page() throws IOException, InterruptedException {
-//            openBrowser("https://www.cnn.com/");
-//
-//        }
 
         @When("I click on US text link in the navbar items")
         public void i_click_on_us_text_link_in_the_navbar_items() {

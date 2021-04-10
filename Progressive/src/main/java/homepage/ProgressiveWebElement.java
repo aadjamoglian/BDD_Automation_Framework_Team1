@@ -59,9 +59,7 @@ public class ProgressiveWebElement {
     public static final String pwcZipcodeLocator="//input[@id='zipCode']";
     public static final String pwcGetQuoteLocator="//input[@id='qsButton']";
     public static final String segwayGetQuoteLocator="//*[@id=\"qsButton_mma\"]";
-    //public static final String
-    //public static final String
-    //public static final String
+
 
 
 }

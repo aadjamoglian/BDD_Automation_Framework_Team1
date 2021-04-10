@@ -11,7 +11,6 @@ import org.junit.After;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.support.PageFactory;
-
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
@@ -378,11 +377,5 @@ public class HotelsHomePageTestDefinitions extends WebAPI {
     public void i_should_see_create_account_page() {
         homePage.verifyCreateAccount();
     }
-
-
-
-
-
-
 
 }
